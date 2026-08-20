@@ -224,7 +224,7 @@
 }
 
 .need-card > span,
-.related-grid a > span {
+.related-grid .related-icon {
   font-size: 1.5rem;
 }
 
@@ -236,6 +236,17 @@
 .need-card small,
 .related-grid small {
   color: var(--eszkoz-muted);
+}
+
+.related-text {
+  display: flex;
+  flex-direction: column;
+  gap: .2rem;
+}
+
+.related-text strong,
+.related-text small {
+  display: block;
 }
 
 .article-meta {
@@ -258,7 +269,7 @@
 .step-stack {
   display: grid;
   gap: .7rem;
-  margin: 1rem 0 1.4rem;
+  margin: 1rem 0 .7rem;
 }
 
 .step-card {
@@ -295,6 +306,44 @@
   background: var(--eszkoz-blue);
   color: #fff;
   font-weight: 800;
+}
+
+.tool-figure {
+  margin: .7rem auto 1.45rem;
+  padding: .65rem;
+  border: 1px solid #dce6eb;
+  border-radius: 16px;
+  background: #fff;
+  box-shadow: 0 8px 20px rgba(49,95,120,.06);
+}
+
+.tool-figure--wide {
+  max-width: 760px;
+}
+
+.tool-figure--medium {
+  max-width: 620px;
+}
+
+.tool-figure a {
+  display: block;
+  line-height: 0;
+}
+
+.tool-figure img {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin: 0;
+  border-radius: 11px;
+}
+
+.tool-figure figcaption {
+  padding: .65rem .35rem .15rem;
+  color: var(--eszkoz-muted);
+  font-size: .82rem;
+  line-height: 1.45;
+  text-align: center;
 }
 
 .section-lead,
@@ -350,13 +399,20 @@
 }
 
 .check-panel label {
-  display: flex;
-  align-items: flex-start;
+  display: grid;
+  grid-template-columns: auto 1fr;
+  align-items: start;
   gap: .65rem;
   padding: .7rem .8rem;
   border-radius: 10px;
   background: #fff;
   cursor: pointer;
+}
+
+.check-panel label span {
+  display: block;
+  min-width: 0;
+  line-height: 1.45;
 }
 
 .check-panel input {
@@ -413,5 +469,14 @@
   .toolkit-flow span {
     width: 100%;
     text-align: center;
+  }
+
+  .tool-figure {
+    padding: .45rem;
+    border-radius: 13px;
+  }
+
+  .tool-figure img {
+    border-radius: 9px;
   }
 }
