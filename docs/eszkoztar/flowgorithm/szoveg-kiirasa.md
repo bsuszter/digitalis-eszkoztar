@@ -25,7 +25,7 @@
 Kattints arra a piros vonalra, ahová az új lépést szeretnéd tenni, majd válaszd a **Kiírás** elemet!
 
 <figure class="tool-figure tool-figure--wide">
-  <img src="../../../images/eszkoztar/flowgorithm/flowgorithm-szoveg-kiirasa-01-elem-kivalasztasa.png" alt="A Kiírás elem kiválasztása a Flowgorithmban">
+  <img src="../../images/eszkoztar/flowgorithm/flowgorithm-szoveg-kiirasa-01-elem-kivalasztasa.png" alt="A Kiírás elem kiválasztása a Flowgorithmban">
   <figcaption>Válaszd a Kiírás elemet!</figcaption>
 </figure>
 
@@ -40,7 +40,7 @@ Például:
 ```
 
 <figure class="tool-figure tool-figure--wide">
-  <img src="../../../images/eszkoztar/flowgorithm/flowgorithm-szoveg-kiirasa-02-szoveg-beirasa.png" alt="Szöveg beírása a Kiírás elembe Flowgorithmban">
+  <img src="../../images/eszkoztar/flowgorithm/flowgorithm-szoveg-kiirasa-02-szoveg-beirasa.png" alt="Szöveg beírása a Kiírás elembe Flowgorithmban">
   <figcaption>A megjelenítendő szöveg megadása.</figcaption>
 </figure>
 
@@ -52,7 +52,7 @@ Például:
 Indítsd el a programot, és figyeld meg az eredményt!
 
 <figure class="tool-figure tool-figure--medium">
-  <img src="../../../images/eszkoztar/flowgorithm/flowgorithm-szoveg-kiirasa-03-futtatas.png" alt="Flowgorithm program futtatása">
+  <img src="../../images/eszkoztar/flowgorithm/flowgorithm-szoveg-kiirasa-03-futtatas.png" alt="Flowgorithm program futtatása">
   <figcaption>Futtasd le a folyamatábrát!</figcaption>
 </figure>
 
@@ -61,7 +61,7 @@ Indítsd el a programot, és figyeld meg az eredményt!
 Ha mindent jól adtál meg, a beírt szöveg megjelenik a program kimenetében.
 
 <figure class="tool-figure tool-figure--medium">
-  <img src="../../../images/eszkoztar/flowgorithm/flowgorithm-szoveg-kiirasa-04-kesz-pelda.png" alt="A kiírt szöveg a Flowgorithm kimenetében">
+  <img src="../../images/eszkoztar/flowgorithm/flowgorithm-szoveg-kiirasa-04-kesz-pelda.png" alt="A kiírt szöveg a Flowgorithm kimenetében">
   <figcaption>A kész eredmény.</figcaption>
 </figure>
 
