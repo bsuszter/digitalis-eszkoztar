@@ -1,0 +1,27 @@
+/* Fő Digitális eszköztár-témák vizuális kiemelése a bal oldali navigációban. */
+
+.md-nav__item--nested:has(a[href$="/eszkoztar/flowgorithm/"]) > .md-nav__link {
+  margin-top: .45rem;
+  padding: .48rem .62rem;
+  border-left: 4px solid #376f93;
+  border-radius: 9px;
+  background: #eef7fb;
+  color: #285a77;
+  font-weight: 800;
+}
+
+.md-nav__item--nested:has(a[href$="/eszkoztar/tinkercad/"]) > .md-nav__link {
+  margin-top: .45rem;
+  padding: .48rem .62rem;
+  border-left: 4px solid #735c9a;
+  border-radius: 9px;
+  background: #faf7fc;
+  color: #604d80;
+  font-weight: 800;
+}
+
+/* A fő témák alatt a belső pontok maradjanak visszafogottabbak. */
+.md-nav__item--nested:has(a[href$="/eszkoztar/flowgorithm/"]) .md-nav__nav,
+.md-nav__item--nested:has(a[href$="/eszkoztar/tinkercad/"]) .md-nav__nav {
+  margin-top: .15rem;
+}
