@@ -96,6 +96,10 @@ nav:
           - Adatok és változók:
               - Deklarálás (változó): eszkoztar/flowgorithm/deklaralas.md
               - Adat beolvasása és felhasználása: eszkoztar/flowgorithm/beolvasas.md
+          - Döntések és feltételek:
+              - Elágazás: eszkoztar/flowgorithm/elagazas.md
+          - Ciklusok:
+              - Végtelen ciklus: eszkoztar/flowgorithm/vegtelen-ciklus.md
       - Tinkercad:
           - Áttekintés: eszkoztar/tinkercad/index.md
           - Alapműveletek:

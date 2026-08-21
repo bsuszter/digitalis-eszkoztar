@@ -65,9 +65,45 @@
   </a>
 </div>
 
-## Hamarosan
+<div class="mini-grid">
+  <div class="mini-card"><span class="mini-icon">✏️</span><strong>Értékadás</strong><span>Hogyan kap egy változó új értéket? <em>Hamarosan.</em></span></div>
+</div>
+
+## Döntések és feltételek
+
+<div class="tool-grid">
+  <a class="tool-card" href="elagazas/">
+    <span class="tool-icon">🔀</span>
+    <span class="tool-tag">DÖNTÉS</span>
+    <strong>Elágazás</strong>
+    <span>Vizsgálj meg egy feltételt, és folytasd a programot az igaz vagy a hamis ágon.</span>
+    <span class="tool-link">Megnyitás →</span>
+  </a>
+</div>
 
 <div class="mini-grid">
-  <div class="mini-card"><span class="mini-icon">🔀</span><strong>Elágazás</strong><span>Döntés feltétel alapján.</span></div>
-  <div class="mini-card"><span class="mini-icon">🔁</span><strong>Ciklusok</strong><span>Ismétlődő műveletek.</span></div>
+  <div class="mini-card"><span class="mini-icon">🧮</span><strong>Feltételek és operátorok</strong><span>Összehasonlítások, logikai feltételek és gyakori jelek. <em>Hamarosan.</em></span></div>
+</div>
+
+## Ciklusok
+
+<div class="tool-grid">
+  <a class="tool-card" href="vegtelen-ciklus/">
+    <span class="tool-icon">🔁</span>
+    <span class="tool-tag">FOLYAMATOS MŰKÖDÉS</span>
+    <strong>Végtelen ciklus</strong>
+    <span>Ismételj folyamatosan, ha a programnak állandóan figyelnie vagy reagálnia kell.</span>
+    <span class="tool-link">Megnyitás →</span>
+  </a>
+</div>
+
+<div class="mini-grid">
+  <div class="mini-card"><span class="mini-icon">🔂</span><strong>Ciklusok</strong><span>Ismétlések megadott feltétellel vagy darabszámmal. <em>Hamarosan.</em></span></div>
+</div>
+
+## Program ellenőrzése
+
+<div class="mini-grid">
+  <div class="mini-card"><span class="mini-icon">⏯️</span><strong>Futtatás és léptetés</strong><span>A program működésének megfigyelése lépésenként. <em>Hamarosan.</em></span></div>
+  <div class="mini-card"><span class="mini-icon">🛠️</span><strong>Hibakeresés</strong><span>Hogyan keresd meg, hol tér el a program a tervezett működéstől? <em>Hamarosan.</em></span></div>
 </div>
