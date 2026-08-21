@@ -5,7 +5,10 @@ use_directory_urls: false
 
 theme:
   features:
+    - navigation.tabs
+    - navigation.tabs.sticky
     - navigation.sections
+    - navigation.path
     - navigation.top
     - search.suggest
     - search.highlight
