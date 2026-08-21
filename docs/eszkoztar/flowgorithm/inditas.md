@@ -25,7 +25,7 @@
 Keresd meg a **Flowgorithm** alkalmazást, majd indítsd el!
 
 <figure class="tool-figure tool-figure--medium">
-  <img src="../../../images/eszkoztar/flowgorithm/flowgorithm-inditas-01-ikon.png" alt="A Flowgorithm alkalmazás ikonja">
+  <img src="../../images/eszkoztar/flowgorithm/flowgorithm-inditas-01-ikon.png" alt="A Flowgorithm alkalmazás ikonja">
   <figcaption>A Flowgorithm alkalmazás.</figcaption>
 </figure>
 
@@ -38,7 +38,7 @@ Az új program egy nagyon egyszerű folyamatábrával indul:
 - a kettő közötti vonalra kerülnek majd az utasítások.
 
 <figure class="tool-figure tool-figure--medium">
-  <img src="../../../images/eszkoztar/flowgorithm/flowgorithm-inditas-02-ures-folyamatabra.png" alt="A Flowgorithm üres folyamatábrája Főprogram és Vége elemmel">
+  <img src="../../images/eszkoztar/flowgorithm/flowgorithm-inditas-02-ures-folyamatabra.png" alt="A Flowgorithm üres folyamatábrája Főprogram és Vége elemmel">
   <figcaption>Az üres folyamatábra: Főprogram → Vége.</figcaption>
 </figure>
 
