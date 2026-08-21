@@ -87,11 +87,27 @@
     <span>Domború, bevésett vagy kivágott felirat készítése.</span>
     <span class="tool-link">Vázlat megnyitása →</span>
   </a>
+
+  <a class="tool-card" href="szabadkezi-rajzolas/">
+    <span class="tool-icon">✏️</span>
+    <span class="tool-tag">TERVEZETT</span>
+    <strong>Szabadkézi rajzolás – Scribble</strong>
+    <span>Egyedi, szabad kézzel rajzolt forma létrehozása.</span>
+    <span class="tool-link">Vázlat megnyitása →</span>
+  </a>
 </div>
 
-## Külső elemek és 3D nyomtatás
+## Kész és külső elemek
 
 <div class="tool-grid">
+  <a class="tool-card" href="kesz-modellek/">
+    <span class="tool-icon">🔎</span>
+    <span class="tool-tag">TERVEZETT</span>
+    <strong>Kész modellek keresése és beillesztése</strong>
+    <span>Kész elem keresése és tudatos beépítése a saját tervbe.</span>
+    <span class="tool-link">Vázlat megnyitása →</span>
+  </a>
+
   <a class="tool-card" href="importalas/">
     <span class="tool-icon">📥</span>
     <span class="tool-tag">TERVEZETT</span>
@@ -99,7 +115,23 @@
     <span>SVG- vagy STL-fájl beépítése a saját modelledbe.</span>
     <span class="tool-link">Vázlat megnyitása →</span>
   </a>
+</div>
 
+## Együttműködés
+
+<div class="tool-grid">
+  <a class="tool-card" href="kollaboracio/">
+    <span class="tool-icon">🤝</span>
+    <span class="tool-tag">TERVEZETT</span>
+    <strong>Kollaboráció</strong>
+    <span>Közös modell szerkesztése párban vagy csoportban.</span>
+    <span class="tool-link">Vázlat megnyitása →</span>
+  </a>
+</div>
+
+## 3D nyomtatás
+
+<div class="tool-grid">
   <a class="tool-card" href="nyomtatas-elokeszites/">
     <span class="tool-icon">🖨️</span>
     <span class="tool-tag">TERVEZETT</span>
@@ -135,10 +167,25 @@
     <strong>Nem látom jól a modellem</strong>
     <small>Navigáció és nézetek</small>
   </a>
+  <a class="need-card" href="szabadkezi-rajzolas/">
+    <span>✏️</span>
+    <strong>Saját formát szeretnék rajzolni</strong>
+    <small>Szabadkézi rajzolás – Scribble</small>
+  </a>
+  <a class="need-card" href="kesz-modellek/">
+    <span>🔎</span>
+    <strong>Kész elemet keresek</strong>
+    <small>Kész modellek keresése és beillesztése</small>
+  </a>
   <a class="need-card" href="csoportositas/">
     <span>🧩</span>
     <strong>Több elemet szeretnék összeépíteni</strong>
     <small>Csoportosítás és szétbontás</small>
+  </a>
+  <a class="need-card" href="kollaboracio/">
+    <span>🤝</span>
+    <strong>Közösen szeretnénk dolgozni</strong>
+    <small>Kollaboráció</small>
   </a>
   <a class="need-card" href="exportalas-stl/">
     <span>📤</span>
@@ -148,4 +195,4 @@
 </div>
 
 !!! info "A szerkezet már kész, a tartalom fokozatosan bővül"
-    A **KÉSZ** jelzésű cikkek már használhatók. A **TERVEZETT** oldalak most azért vannak a helyükön, hogy a tananyagokból már stabil, végleges linkekkel tudjunk rájuk hivatkozni. A részletes leírásokat és képeket később készítjük el.
+    A **KÉSZ** jelzésű cikkek már használhatók. A **TERVEZETT** oldalak most azért vannak a helyükön, hogy a tananyagokból már stabil hivatkozásokkal tudjunk rájuk linkelni. A részletes leírásokat és képeket később készítjük el. A Tinkercad további területei – például áramkörök, micro:bit vagy más szimulációk – később külön bővíthetők, amikor valóban használjuk őket.
