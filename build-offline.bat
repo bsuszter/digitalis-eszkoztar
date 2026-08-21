@@ -3,34 +3,39 @@ setlocal
 cd /d "%~dp0"
 
 echo.
-echo Digitális tananyagtár - offline változat készítése
+echo Digitalis tananyagtar - offline valtozat keszitese
 echo ================================================
 echo.
 
 where python >nul 2>nul
 if errorlevel 1 (
-  echo HIBA: A Python nem található ezen a gépen.
-  echo Telepítsd a Pythont, majd futtasd újra ezt a fájlt.
+  echo HIBA: A Python nem talalhato ezen a gepen.
+  echo Telepitsd a Pythont, majd futtasd ujra ezt a fajlt.
   pause
   exit /b 1
 )
 
-echo [1/3] Szükséges csomagok ellenőrzése...
+echo [1/4] Szugseges csomagok ellenorzese...
 python -m pip install -r requirements.txt
 if errorlevel 1 goto :error
 
 echo.
-echo [2/3] Offline weboldal elkészítése...
+echo [2/4] Offline weboldal elkeszitese...
 python -m mkdocs build -f mkdocs-offline.yml -d offline-site --clean
 if errorlevel 1 goto :error
 
 echo.
-echo [3/3] Kész.
-echo Az offline oldal itt található:
+echo [3/4] Offline belso hivatkozasok javitasa...
+python fix-offline-links.py
+if errorlevel 1 goto :error
+
+echo.
+echo [4/4] Kesz.
+echo Az offline oldal itt talalhato:
 echo %CD%\offline-site\index.html
 echo.
-echo Ezt az egész offline-site mappát átmásolhatod külső meghajtóra.
-echo Az index.html fájlt dupla kattintással nyithatod meg.
+echo Ezt az egesz offline-site mappat atmasolhatod kulso meghajtora.
+echo Az index.html fajlt dupla kattintassal nyithatod meg.
 echo.
 start "" "%CD%\offline-site\index.html"
 pause
@@ -38,7 +43,7 @@ exit /b 0
 
 :error
 echo.
-echo HIBA: Az offline oldal elkészítése nem sikerült.
-echo A fenti hibaüzenet segít megkeresni az okát.
+echo HIBA: Az offline oldal elkeszitese nem sikerult.
+echo A fenti hibaUzenet segit megkeresni az okat.
 pause
 exit /b 1
