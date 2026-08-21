@@ -8,10 +8,11 @@
   transition: background-color .15s ease, color .15s ease, border-color .15s ease;
 }
 
-/* -----------------------
-   Digitális eszköztár
-   ----------------------- */
+/* A JavaScript cím alapján is megjelöli a fő témákat. Ez azért kell,
+   hogy ugyanaz a dizájn működjön a GitHub Pages könyvtár-URL-jeivel és
+   az offline .html fájlokkal is. */
 
+.md-sidebar--primary .nav-topic--flowgorithm > .md-nav__link,
 .md-sidebar--primary .md-nav__item--nested:has(> nav a[href$="/eszkoztar/flowgorithm/"]) > .md-nav__link {
   margin-top: .45rem;
   padding: .48rem .62rem;
@@ -22,6 +23,7 @@
   font-weight: 800;
 }
 
+.md-sidebar--primary .nav-topic--tinkercad > .md-nav__link,
 .md-sidebar--primary .md-nav__item--nested:has(> nav a[href$="/eszkoztar/tinkercad/"]) > .md-nav__link {
   margin-top: .45rem;
   padding: .48rem .62rem;
@@ -32,10 +34,7 @@
   font-weight: 800;
 }
 
-/* -----------------------
-   Tananyagok – tantárgyak
-   ----------------------- */
-
+.md-sidebar--primary .nav-topic--digitalis-kultura > .md-nav__link,
 .md-sidebar--primary .md-nav__item--nested:has(> nav a[href$="/tananyagok/digitalis-kultura/"]) > .md-nav__link {
   margin-top: .45rem;
   padding: .48rem .62rem;
@@ -46,6 +45,7 @@
   font-weight: 800;
 }
 
+.md-sidebar--primary .nav-topic--nyelvtan > .md-nav__link,
 .md-sidebar--primary .md-nav__item--nested:has(> nav a[href$="/tananyagok/nyelvtan/"]) > .md-nav__link {
   margin-top: .45rem;
   padding: .48rem .62rem;
@@ -56,6 +56,7 @@
   font-weight: 800;
 }
 
+.md-sidebar--primary .nav-topic--irodalom > .md-nav__link,
 .md-sidebar--primary .md-nav__item--nested:has(> nav a[href$="/tananyagok/irodalom/"]) > .md-nav__link {
   margin-top: .45rem;
   padding: .48rem .62rem;
@@ -66,6 +67,7 @@
   font-weight: 800;
 }
 
+.md-sidebar--primary .nav-topic--szakkorok > .md-nav__link,
 .md-sidebar--primary a.md-nav__link[href$="/tananyagok/szakkorok/"] {
   margin-top: .45rem;
   padding: .48rem .62rem;
