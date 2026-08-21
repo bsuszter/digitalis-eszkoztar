@@ -32,6 +32,14 @@
     <span>Az első ötletből készíts méretezett, megvalósítható tervet, és gondold végig az illeszkedést, a szerkezetet és a saját tervezési feladatodat.</span>
     <span class="tool-link">Mérföldkő megnyitása →</span>
   </a>
+
+  <a class="tool-card" href="03-modellezd-meg/">
+    <span class="tool-icon">🧱</span>
+    <span class="tool-tag">3 / 5</span>
+    <strong>Modellezd meg!</strong>
+    <span>Készítsd el Tinkercadben a saját, méretezett 3D modelledet, és csak azokat az eszközöket használd, amelyekre a saját megoldásodhoz szükséged van.</span>
+    <span class="tool-link">Mérföldkő megnyitása →</span>
+  </a>
 </div>
 
 <div class="section-lead">
