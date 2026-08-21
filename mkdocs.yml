@@ -7,7 +7,10 @@ theme:
   language: hu
   features:
     - navigation.instant
+    - navigation.tabs
+    - navigation.tabs.sticky
     - navigation.sections
+    - navigation.path
     - navigation.top
     - search.suggest
     - search.highlight
@@ -61,23 +64,23 @@ nav:
   - Digitális eszköztár:
       - Áttekintés: eszkoztar/index.md
       - Tinkercad:
-          - Áttekintés: tinkercad/index.md
+          - Áttekintés: eszkoztar/tinkercad/index.md
           - Alapműveletek:
-              - Navigáció: tinkercad/navigacio.md
-              - Alakzatok és munkasík: tinkercad/alakzatok-munkasik.md
-              - Mozgatás, forgatás és emelés: tinkercad/mozgas-forgatas-emeles.md
-              - Méretezés és igazítás: tinkercad/meretezes.md
+              - Navigáció: eszkoztar/tinkercad/navigacio.md
+              - Alakzatok és munkasík: eszkoztar/tinkercad/alakzatok-munkasik.md
+              - Mozgatás, forgatás és emelés: eszkoztar/tinkercad/mozgas-forgatas-emeles.md
+              - Méretezés és igazítás: eszkoztar/tinkercad/meretezes.md
           - Alakítás és szerkesztés:
-              - Furat készítése: tinkercad/furat.md
-              - Csoportosítás és szétbontás: tinkercad/csoportositas.md
-              - Másolás és ismétlés: tinkercad/masolas-ismetles.md
-              - Szöveg és felirat: tinkercad/szoveg.md
-              - Szabadkézi rajzolás – Scribble: tinkercad/szabadkezi-rajzolas.md
+              - Furat készítése: eszkoztar/tinkercad/furat.md
+              - Csoportosítás és szétbontás: eszkoztar/tinkercad/csoportositas.md
+              - Másolás és ismétlés: eszkoztar/tinkercad/masolas-ismetles.md
+              - Szöveg és felirat: eszkoztar/tinkercad/szoveg.md
+              - Szabadkézi rajzolás – Scribble: eszkoztar/tinkercad/szabadkezi-rajzolas.md
           - Kész és külső elemek:
-              - Kész modellek keresése és beillesztése: tinkercad/kesz-modellek.md
-              - Importálás: tinkercad/importalas.md
+              - Kész modellek keresése és beillesztése: eszkoztar/tinkercad/kesz-modellek.md
+              - Importálás: eszkoztar/tinkercad/importalas.md
           - Együttműködés:
-              - Kollaboráció: tinkercad/kollaboracio.md
+              - Kollaboráció: eszkoztar/tinkercad/kollaboracio.md
           - 3D nyomtatás:
-              - 3D nyomtatásra előkészítés: tinkercad/nyomtatas-elokeszites.md
-              - Exportálás STL-be: tinkercad/exportalas-stl.md
+              - 3D nyomtatásra előkészítés: eszkoztar/tinkercad/nyomtatas-elokeszites.md
+              - Exportálás STL-be: eszkoztar/tinkercad/exportalas-stl.md
