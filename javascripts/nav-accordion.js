@@ -37,11 +37,31 @@
     }
   }
 
+  function markTopicItems() {
+    const classByTitle = {
+      'Flowgorithm': 'nav-topic--flowgorithm',
+      'Tinkercad': 'nav-topic--tinkercad',
+      'Digitális kultúra': 'nav-topic--digitalis-kultura',
+      'Nyelvtan': 'nav-topic--nyelvtan',
+      'Irodalom': 'nav-topic--irodalom',
+      'Szakkörök': 'nav-topic--szakkorok'
+    };
+
+    document.querySelectorAll('.md-sidebar--primary li.md-nav__item').forEach(function (item) {
+      const link = item.querySelector(':scope > .md-nav__link');
+      if (!link) return;
+      const title = link.textContent.trim();
+      const className = classByTitle[title];
+      if (className) item.classList.add(className);
+    });
+  }
+
   function normalizeSidebar() {
     document.querySelectorAll('.md-sidebar--primary ul.md-nav__list').forEach(normalizeLevel);
   }
 
   function bindAccordion() {
+    markTopicItems();
     normalizeSidebar();
 
     if (document.documentElement.dataset.navAccordionBound === '1') return;
