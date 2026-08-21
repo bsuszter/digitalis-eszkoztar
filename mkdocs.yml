@@ -72,7 +72,12 @@ nav:
               - Csoportosítás és szétbontás: tinkercad/csoportositas.md
               - Másolás és ismétlés: tinkercad/masolas-ismetles.md
               - Szöveg és felirat: tinkercad/szoveg.md
-          - Külső elemek és 3D nyomtatás:
+              - Szabadkézi rajzolás – Scribble: tinkercad/szabadkezi-rajzolas.md
+          - Kész és külső elemek:
+              - Kész modellek keresése és beillesztése: tinkercad/kesz-modellek.md
               - Importálás: tinkercad/importalas.md
+          - Együttműködés:
+              - Kollaboráció: tinkercad/kollaboracio.md
+          - 3D nyomtatás:
               - 3D nyomtatásra előkészítés: tinkercad/nyomtatas-elokeszites.md
               - Exportálás STL-be: tinkercad/exportalas-stl.md
