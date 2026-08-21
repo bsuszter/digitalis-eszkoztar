@@ -23,6 +23,23 @@ theme:
 plugins:
   - search:
       lang: hu
+  - redirects:
+      redirect_maps:
+        tinkercad/index.md: eszkoztar/tinkercad/index.md
+        tinkercad/navigacio.md: eszkoztar/tinkercad/navigacio.md
+        tinkercad/alakzatok-munkasik.md: eszkoztar/tinkercad/alakzatok-munkasik.md
+        tinkercad/mozgas-forgatas-emeles.md: eszkoztar/tinkercad/mozgas-forgatas-emeles.md
+        tinkercad/meretezes.md: eszkoztar/tinkercad/meretezes.md
+        tinkercad/furat.md: eszkoztar/tinkercad/furat.md
+        tinkercad/csoportositas.md: eszkoztar/tinkercad/csoportositas.md
+        tinkercad/masolas-ismetles.md: eszkoztar/tinkercad/masolas-ismetles.md
+        tinkercad/szoveg.md: eszkoztar/tinkercad/szoveg.md
+        tinkercad/szabadkezi-rajzolas.md: eszkoztar/tinkercad/szabadkezi-rajzolas.md
+        tinkercad/kesz-modellek.md: eszkoztar/tinkercad/kesz-modellek.md
+        tinkercad/importalas.md: eszkoztar/tinkercad/importalas.md
+        tinkercad/kollaboracio.md: eszkoztar/tinkercad/kollaboracio.md
+        tinkercad/nyomtatas-elokeszites.md: eszkoztar/tinkercad/nyomtatas-elokeszites.md
+        tinkercad/exportalas-stl.md: eszkoztar/tinkercad/exportalas-stl.md
 
 markdown_extensions:
   - admonition
