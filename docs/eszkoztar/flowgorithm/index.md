@@ -45,11 +45,22 @@
   </a>
 </div>
 
+## Adatok és változók
+
+<div class="tool-grid">
+  <a class="tool-card" href="deklaralas/">
+    <span class="tool-icon">📦</span>
+    <span class="tool-tag">VÁLTOZÓ</span>
+    <strong>Deklarálás (változó)</strong>
+    <span>Hozz létre egy változót, adj neki nevet, és válaszd ki a megfelelő típust.</span>
+    <span class="tool-link">Megnyitás →</span>
+  </a>
+</div>
+
 ## Hamarosan
 
 <div class="mini-grid">
   <div class="mini-card"><span class="mini-icon">⌨️</span><strong>Adat beolvasása</strong><span>A felhasználó adatot ad meg.</span></div>
-  <div class="mini-card"><span class="mini-icon">📦</span><strong>Deklarálás és változók</strong><span>Adatok tárolása és használata.</span></div>
   <div class="mini-card"><span class="mini-icon">🔀</span><strong>Elágazás</strong><span>Döntés feltétel alapján.</span></div>
   <div class="mini-card"><span class="mini-icon">🔁</span><strong>Ciklusok</strong><span>Ismétlődő műveletek.</span></div>
 </div>
