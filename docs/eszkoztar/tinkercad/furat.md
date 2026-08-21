@@ -22,8 +22,8 @@
 </div>
 
 <figure class="tool-figure tool-figure--wide">
-  <a href="../../images/tinkercad/furat/01-alaptest-meretezes.png" target="_blank">
-    <img src="../../images/tinkercad/furat/01-alaptest-meretezes.png" alt="Az alaptest hosszúságának és szélességének beállítása Tinkercadben">
+  <a href="../../../images/tinkercad/furat/01-alaptest-meretezes.png" target="_blank">
+    <img src="../../../images/tinkercad/furat/01-alaptest-meretezes.png" alt="Az alaptest hosszúságának és szélességének beállítása Tinkercadben">
   </a>
   <figcaption>Az alaptest hosszúságának és szélességének beállítása. A képre kattintva nagyobb méretben is megnyithatod.</figcaption>
 </figure>
@@ -33,8 +33,8 @@
 </div>
 
 <figure class="tool-figure tool-figure--medium">
-  <a href="../../images/tinkercad/furat/02-alaptest-meretezes2.png" target="_blank">
-    <img src="../../images/tinkercad/furat/02-alaptest-meretezes2.png" alt="Az alaptest vastagságának beállítása Tinkercadben">
+  <a href="../../../images/tinkercad/furat/02-alaptest-meretezes2.png" target="_blank">
+    <img src="../../../images/tinkercad/furat/02-alaptest-meretezes2.png" alt="Az alaptest vastagságának beállítása Tinkercadben">
   </a>
   <figcaption>Az alaptest vastagságának beállítása.</figcaption>
 </figure>
@@ -44,8 +44,8 @@
 </div>
 
 <figure class="tool-figure tool-figure--wide">
-  <a href="../../images/tinkercad/furat/03-furat-tipus.png" target="_blank">
-    <img src="../../images/tinkercad/furat/03-furat-tipus.png" alt="Egy alakzat Furat típusúra állítása Tinkercadben">
+  <a href="../../../images/tinkercad/furat/03-furat-tipus.png" target="_blank">
+    <img src="../../../images/tinkercad/furat/03-furat-tipus.png" alt="Egy alakzat Furat típusúra állítása Tinkercadben">
   </a>
   <figcaption>Jelöld ki a kivágó alakzatot, majd válaszd a <strong>Furat</strong> típust.</figcaption>
 </figure>
@@ -55,8 +55,8 @@
 </div>
 
 <figure class="tool-figure tool-figure--wide">
-  <a href="../../images/tinkercad/furat/04-kijeloles.png" target="_blank">
-    <img src="../../images/tinkercad/furat/04-kijeloles.png" alt="Az alaptest és a furatként használt alakzat együttes kijelölése Tinkercadben">
+  <a href="../../../images/tinkercad/furat/04-kijeloles.png" target="_blank">
+    <img src="../../../images/tinkercad/furat/04-kijeloles.png" alt="Az alaptest és a furatként használt alakzat együttes kijelölése Tinkercadben">
   </a>
   <figcaption>Húzz kijelölőkeretet úgy, hogy mindkét alakzat belekerüljön.</figcaption>
 </figure>
@@ -66,8 +66,8 @@
 </div>
 
 <figure class="tool-figure tool-figure--wide">
-  <a href="../../images/tinkercad/furat/05-csoportositas.png" target="_blank">
-    <img src="../../images/tinkercad/furat/05-csoportositas.png" alt="A Csoportosítás gomb használata Tinkercadben">
+  <a href="../../../images/tinkercad/furat/05-csoportositas.png" target="_blank">
+    <img src="../../../images/tinkercad/furat/05-csoportositas.png" alt="A Csoportosítás gomb használata Tinkercadben">
   </a>
   <figcaption>Kattints a <strong>Csoportosítás</strong> gombra, vagy használd a <strong>Ctrl + G</strong> billentyűkombinációt.</figcaption>
 </figure>
@@ -77,8 +77,8 @@
 </div>
 
 <figure class="tool-figure tool-figure--medium">
-  <a href="../../images/tinkercad/furat/06-kesz-furat.png" target="_blank">
-    <img src="../../images/tinkercad/furat/06-kesz-furat.png" alt="Elkészült kör alakú furat egy Tinkercad modellben">
+  <a href="../../../images/tinkercad/furat/06-kesz-furat.png" target="_blank">
+    <img src="../../../images/tinkercad/furat/06-kesz-furat.png" alt="Elkészült kör alakú furat egy Tinkercad modellben">
   </a>
   <figcaption>A csoportosítás után elkészült furat.</figcaption>
 </figure>
