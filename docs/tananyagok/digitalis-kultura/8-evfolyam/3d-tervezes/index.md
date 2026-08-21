@@ -24,6 +24,14 @@
     <span>Keress egy hétköznapi problémát vagy igényt, amelyre saját 3D nyomtatható tárgy lehet a megoldás.</span>
     <span class="tool-link">Mérföldkő megnyitása →</span>
   </a>
+
+  <a class="tool-card" href="02-keszits-pontos-tervet/">
+    <span class="tool-icon">✏️</span>
+    <span class="tool-tag">2 / 5</span>
+    <strong>Készíts pontos tervet!</strong>
+    <span>Az első ötletből készíts méretezett, megvalósítható tervet, és gondold végig az illeszkedést, a szerkezetet és a saját tervezési feladatodat.</span>
+    <span class="tool-link">Mérföldkő megnyitása →</span>
+  </a>
 </div>
 
 <div class="section-lead">
