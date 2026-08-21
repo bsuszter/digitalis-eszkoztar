@@ -1,71 +1,86 @@
 (function () {
-  function directToggle(item) {
+  function getToggle(item) {
     if (!item) return null;
-    for (const child of item.children) {
-      if (child.matches && child.matches('input.md-nav__toggle')) return child;
-    }
-    return null;
+    return item.querySelector(':scope > input.md-nav__toggle');
   }
 
-  function closeSiblingBranches(toggle) {
-    if (!toggle || !toggle.checked) return;
+  function closeSiblingBranches(item) {
+    if (!item || !item.parentElement) return;
 
-    const item = toggle.closest('li.md-nav__item--nested');
-    const list = item ? item.parentElement : null;
-    if (!item || !list) return;
-
-    for (const sibling of list.children) {
+    for (const sibling of item.parentElement.children) {
       if (sibling === item || !sibling.matches('li.md-nav__item--nested')) continue;
-      const siblingToggle = directToggle(sibling);
-      if (siblingToggle) siblingToggle.checked = false;
+      const toggle = getToggle(sibling);
+      if (toggle && toggle.checked) toggle.checked = false;
     }
   }
 
-  function normalizeOpenBranches(sidebar) {
-    const lists = sidebar.querySelectorAll('ul.md-nav__list');
+  function normalizeLevel(list) {
+    if (!list) return;
 
-    for (const list of lists) {
-      const openItems = Array.from(list.children).filter((item) => {
-        if (!item.matches('li.md-nav__item--nested')) return false;
-        const toggle = directToggle(item);
-        return toggle && toggle.checked;
-      });
+    const openItems = Array.from(list.children).filter((item) => {
+      if (!item.matches('li.md-nav__item--nested')) return false;
+      const toggle = getToggle(item);
+      return toggle && toggle.checked;
+    });
 
-      if (openItems.length <= 1) continue;
+    if (openItems.length <= 1) return;
 
-      const activeItem = openItems.find((item) =>
-        item.querySelector('.md-nav__link--active')
-      );
-      const keep = activeItem || openItems[0];
+    const activeItem = openItems.find((item) =>
+      item.querySelector('.md-nav__link--active')
+    );
+    const keep = activeItem || openItems[0];
 
-      for (const item of openItems) {
-        if (item === keep) continue;
-        const toggle = directToggle(item);
-        if (toggle) toggle.checked = false;
-      }
+    for (const item of openItems) {
+      if (item === keep) continue;
+      const toggle = getToggle(item);
+      if (toggle) toggle.checked = false;
     }
   }
 
-  function initAccordionNavigation() {
-    const sidebar = document.querySelector('.md-sidebar--primary');
-    if (!sidebar) return;
+  function normalizeSidebar() {
+    document.querySelectorAll('.md-sidebar--primary ul.md-nav__list').forEach(normalizeLevel);
+  }
 
-    normalizeOpenBranches(sidebar);
+  function bindAccordion() {
+    normalizeSidebar();
 
-    if (sidebar.dataset.accordionBound === '1') return;
-    sidebar.dataset.accordionBound = '1';
+    if (document.documentElement.dataset.navAccordionBound === '1') return;
+    document.documentElement.dataset.navAccordionBound = '1';
 
-    sidebar.addEventListener('change', function (event) {
+    document.addEventListener('click', function (event) {
+      const label = event.target.closest('.md-sidebar--primary label.md-nav__link[for]');
+      if (!label) return;
+
+      const id = label.getAttribute('for');
+      if (!id) return;
+
+      const toggle = document.getElementById(id);
+      if (!toggle || !toggle.matches('input.md-nav__toggle')) return;
+
+      const item = toggle.closest('li.md-nav__item--nested');
+      if (!item) return;
+
+      // A Material témakezelője a kattintás után váltja át a checkboxot,
+      // ezért a testvérágakat a következő eseménykörben zárjuk össze.
+      window.setTimeout(function () {
+        if (toggle.checked) closeSiblingBranches(item);
+      }, 0);
+    }, true);
+
+    document.addEventListener('change', function (event) {
       const toggle = event.target;
       if (!(toggle instanceof HTMLInputElement)) return;
-      if (!toggle.matches('input.md-nav__toggle')) return;
-      closeSiblingBranches(toggle);
-    });
+      if (!toggle.matches('.md-sidebar--primary input.md-nav__toggle')) return;
+      if (!toggle.checked) return;
+
+      const item = toggle.closest('li.md-nav__item--nested');
+      closeSiblingBranches(item);
+    }, true);
   }
 
   if (typeof document$ !== 'undefined' && document$.subscribe) {
-    document$.subscribe(initAccordionNavigation);
+    document$.subscribe(bindAccordion);
   } else {
-    document.addEventListener('DOMContentLoaded', initAccordionNavigation);
+    document.addEventListener('DOMContentLoaded', bindAccordion);
   }
 })();
