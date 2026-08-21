@@ -33,6 +33,11 @@ extra_css:
 
 nav:
   - Kezdőlap: index.md
+  - Tananyagok:
+      - Áttekintés: tananyagok/index.md
+      - 8. évfolyam – 3D tervezés:
+          - Projekt áttekintés: tananyagok/8-evfolyam/3d-tervezes/index.md
+          - 1. Találj egy problémát!: tananyagok/8-evfolyam/3d-tervezes/01-talalj-egy-problemat.md
   - 3D tervezés:
       - Tinkercad: tinkercad/index.md
       - Navigáció: tinkercad/navigacio.md
