@@ -59,7 +59,20 @@ nav:
           - 8. évfolyam: tananyagok/irodalom/8-evfolyam/index.md
       - Szakkörök: tananyagok/szakkorok/index.md
   - Digitális eszköztár:
-      - Tinkercad: tinkercad/index.md
-      - Navigáció: tinkercad/navigacio.md
-      - Méretezés és igazítás: tinkercad/meretezes.md
-      - Furat készítése: tinkercad/furat.md
+      - Áttekintés: eszkoztar/index.md
+      - Tinkercad:
+          - Áttekintés: tinkercad/index.md
+          - Alapműveletek:
+              - Navigáció: tinkercad/navigacio.md
+              - Alakzatok és munkasík: tinkercad/alakzatok-munkasik.md
+              - Mozgatás, forgatás és emelés: tinkercad/mozgas-forgatas-emeles.md
+              - Méretezés és igazítás: tinkercad/meretezes.md
+          - Alakítás és szerkesztés:
+              - Furat készítése: tinkercad/furat.md
+              - Csoportosítás és szétbontás: tinkercad/csoportositas.md
+              - Másolás és ismétlés: tinkercad/masolas-ismetles.md
+              - Szöveg és felirat: tinkercad/szoveg.md
+          - Külső elemek és 3D nyomtatás:
+              - Importálás: tinkercad/importalas.md
+              - 3D nyomtatásra előkészítés: tinkercad/nyomtatas-elokeszites.md
+              - Exportálás STL-be: tinkercad/exportalas-stl.md
