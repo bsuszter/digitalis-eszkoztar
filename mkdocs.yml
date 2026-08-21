@@ -50,6 +50,7 @@ markdown_extensions:
 
 extra_css:
   - stylesheets/extra.css
+  - stylesheets/nav-highlight.css
 
 nav:
   - Kezdőlap: index.md
