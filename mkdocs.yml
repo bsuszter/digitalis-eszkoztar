@@ -84,6 +84,11 @@ nav:
       - Szakkörök: tananyagok/szakkorok/index.md
   - Digitális eszköztár:
       - Áttekintés: eszkoztar/index.md
+      - Flowgorithm:
+          - Áttekintés: eszkoztar/flowgorithm/index.md
+          - Flowgorithm indítása: eszkoztar/flowgorithm/inditas.md
+          - Választható elemek: eszkoztar/flowgorithm/valaszthato-elemek.md
+          - Szöveg kiírása: eszkoztar/flowgorithm/szoveg-kiirasa.md
       - Tinkercad:
           - Áttekintés: eszkoztar/tinkercad/index.md
           - Alapműveletek:
