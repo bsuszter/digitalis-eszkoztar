@@ -24,11 +24,11 @@
 
 Kattints arra a piros vonalra, ahová az új lépést szeretnéd tenni, majd válaszd a **Kiírás** elemet!
 
-<figure class="tool-figure tool-figure--wide" markdown="1">
-
-![A Kiírás elem kiválasztása a Flowgorithmban](../../images/eszkoztar/flowgorithm/flowgorithm-szoveg-kiirasa-01-elem-kivalasztasa.png)
-
-<figcaption>Válaszd a Kiírás elemet!</figcaption>
+<figure class="tool-figure tool-figure--wide">
+  <a href="../../../images/eszkoztar/flowgorithm/flowgorithm-szoveg-kiirasa-01-elem-kivalasztasa.png" target="_blank">
+    <img src="../../../images/eszkoztar/flowgorithm/flowgorithm-szoveg-kiirasa-01-elem-kivalasztasa.png" alt="A Kiírás elem kiválasztása a Flowgorithmban">
+  </a>
+  <figcaption>Válaszd a Kiírás elemet!</figcaption>
 </figure>
 
 ## 2. Írd be a megjelenítendő szöveget!
@@ -41,11 +41,11 @@ Például:
 "Szia!"
 ```
 
-<figure class="tool-figure tool-figure--wide" markdown="1">
-
-![Szöveg beírása a Kiírás elembe Flowgorithmban](../../images/eszkoztar/flowgorithm/flowgorithm-szoveg-kiirasa-02-szoveg-beirasa.png)
-
-<figcaption>A megjelenítendő szöveg megadása.</figcaption>
+<figure class="tool-figure tool-figure--wide">
+  <a href="../../../images/eszkoztar/flowgorithm/flowgorithm-szoveg-kiirasa-02-szoveg-beirasa.png" target="_blank">
+    <img src="../../../images/eszkoztar/flowgorithm/flowgorithm-szoveg-kiirasa-02-szoveg-beirasa.png" alt="Szöveg beírása a Kiírás elembe Flowgorithmban">
+  </a>
+  <figcaption>A megjelenítendő szöveg megadása.</figcaption>
 </figure>
 
 !!! warning "Fontos"
@@ -55,22 +55,22 @@ Például:
 
 Indítsd el a programot, és figyeld meg az eredményt!
 
-<figure class="tool-figure tool-figure--medium" markdown="1">
-
-![Flowgorithm program futtatása](../../images/eszkoztar/flowgorithm/flowgorithm-szoveg-kiirasa-03-futtatas.png)
-
-<figcaption>Futtasd le a folyamatábrát!</figcaption>
+<figure class="tool-figure tool-figure--medium">
+  <a href="../../../images/eszkoztar/flowgorithm/flowgorithm-szoveg-kiirasa-03-futtatas.png" target="_blank">
+    <img src="../../../images/eszkoztar/flowgorithm/flowgorithm-szoveg-kiirasa-03-futtatas.png" alt="Flowgorithm program futtatása">
+  </a>
+  <figcaption>Futtasd le a folyamatábrát!</figcaption>
 </figure>
 
 ## 4. Ellenőrizd az eredményt!
 
 Ha mindent jól adtál meg, a beírt szöveg megjelenik a program kimenetében.
 
-<figure class="tool-figure tool-figure--medium" markdown="1">
-
-![A kiírt szöveg a Flowgorithm kimenetében](../../images/eszkoztar/flowgorithm/flowgorithm-szoveg-kiirasa-04-kesz-pelda.png)
-
-<figcaption>A kész eredmény.</figcaption>
+<figure class="tool-figure tool-figure--medium">
+  <a href="../../../images/eszkoztar/flowgorithm/flowgorithm-szoveg-kiirasa-04-kesz-pelda.png" target="_blank">
+    <img src="../../../images/eszkoztar/flowgorithm/flowgorithm-szoveg-kiirasa-04-kesz-pelda.png" alt="A kiírt szöveg a Flowgorithm kimenetében">
+  </a>
+  <figcaption>A kész eredmény.</figcaption>
 </figure>
 
 !!! tip "Ezt figyeld meg!"
