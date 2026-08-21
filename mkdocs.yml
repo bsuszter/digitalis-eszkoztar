@@ -35,10 +35,30 @@ nav:
   - Kezdőlap: index.md
   - Tananyagok:
       - Áttekintés: tananyagok/index.md
-      - 8. évfolyam – 3D tervezés:
-          - Projekt áttekintés: tananyagok/8-evfolyam/3d-tervezes/index.md
-          - 1. Találj egy problémát!: tananyagok/8-evfolyam/3d-tervezes/01-talalj-egy-problemat.md
-  - 3D tervezés:
+      - Digitális kultúra:
+          - Áttekintés: tananyagok/digitalis-kultura/index.md
+          - 5. évfolyam: tananyagok/digitalis-kultura/5-evfolyam/index.md
+          - 6. évfolyam: tananyagok/digitalis-kultura/6-evfolyam/index.md
+          - 7. évfolyam: tananyagok/digitalis-kultura/7-evfolyam/index.md
+          - 8. évfolyam:
+              - Áttekintés: tananyagok/digitalis-kultura/8-evfolyam/index.md
+              - 3D tervezés és nyomtatás:
+                  - Projekt áttekintés: tananyagok/digitalis-kultura/8-evfolyam/3d-tervezes/index.md
+                  - 1. Találj egy problémát!: tananyagok/digitalis-kultura/8-evfolyam/3d-tervezes/01-talalj-egy-problemat.md
+      - Nyelvtan:
+          - Áttekintés: tananyagok/nyelvtan/index.md
+          - 5. évfolyam: tananyagok/nyelvtan/5-evfolyam/index.md
+          - 6. évfolyam: tananyagok/nyelvtan/6-evfolyam/index.md
+          - 7. évfolyam: tananyagok/nyelvtan/7-evfolyam/index.md
+          - 8. évfolyam: tananyagok/nyelvtan/8-evfolyam/index.md
+      - Irodalom:
+          - Áttekintés: tananyagok/irodalom/index.md
+          - 5. évfolyam: tananyagok/irodalom/5-evfolyam/index.md
+          - 6. évfolyam: tananyagok/irodalom/6-evfolyam/index.md
+          - 7. évfolyam: tananyagok/irodalom/7-evfolyam/index.md
+          - 8. évfolyam: tananyagok/irodalom/8-evfolyam/index.md
+      - Szakkörök: tananyagok/szakkorok/index.md
+  - Digitális eszköztár:
       - Tinkercad: tinkercad/index.md
       - Navigáció: tinkercad/navigacio.md
       - Méretezés és igazítás: tinkercad/meretezes.md
