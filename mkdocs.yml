@@ -95,6 +95,7 @@ nav:
               - Szöveg kiírása: eszkoztar/flowgorithm/szoveg-kiirasa.md
           - Adatok és változók:
               - Deklarálás (változó): eszkoztar/flowgorithm/deklaralas.md
+              - Adat beolvasása és felhasználása: eszkoztar/flowgorithm/beolvasas.md
       - Tinkercad:
           - Áttekintés: eszkoztar/tinkercad/index.md
           - Alapműveletek:
