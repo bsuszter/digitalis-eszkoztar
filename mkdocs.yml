@@ -51,6 +51,9 @@ extra_css:
   - stylesheets/extra.css
   - stylesheets/nav-highlight.css
 
+extra_javascript:
+  - javascripts/nav-accordion.js
+
 nav:
   - Kezdőlap: index.md
   - Tananyagok:
