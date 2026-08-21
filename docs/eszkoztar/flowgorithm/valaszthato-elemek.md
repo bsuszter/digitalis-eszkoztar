@@ -25,7 +25,7 @@
 A folyamatábrában az új elem helyét a **piros vonal** jelzi. Kattints arra a vonalra, ahová az új utasítást szeretnéd beszúrni!
 
 <figure class="tool-figure tool-figure--medium">
-  <img src="../../../images/eszkoztar/flowgorithm/flowgorithm-valaszthato-elemek-01-piros-vonal.png" alt="Piros beszúrási vonal a Flowgorithm folyamatábrájában">
+  <img src="../../images/eszkoztar/flowgorithm/flowgorithm-valaszthato-elemek-01-piros-vonal.png" alt="Piros beszúrási vonal a Flowgorithm folyamatábrájában">
   <figcaption>A piros vonal mutatja, hová kerül az új elem.</figcaption>
 </figure>
 
@@ -34,7 +34,7 @@ A folyamatábrában az új elem helyét a **piros vonal** jelzi. Kattints arra a
 A kattintás után megjelenik az elemválasztó ablak. Itt több csoportból választhatsz.
 
 <figure class="tool-figure tool-figure--wide">
-  <img src="../../../images/eszkoztar/flowgorithm/flowgorithm-valaszthato-elemek-02-panel.png" alt="A Flowgorithm választható elemei kategóriákba rendezve">
+  <img src="../../images/eszkoztar/flowgorithm/flowgorithm-valaszthato-elemek-02-panel.png" alt="A Flowgorithm választható elemei kategóriákba rendezve">
   <figcaption>Az elemválasztó ablak fő csoportjai.</figcaption>
 </figure>
 
