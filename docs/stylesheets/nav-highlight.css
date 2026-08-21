@@ -1,6 +1,18 @@
-/* Fő Digitális eszköztár-témák vizuális kiemelése a bal oldali navigációban. */
+/* =====================================================
+   BAL OLDALI NAVIGÁCIÓ – FŐ TÉMÁK VIZUÁLIS KIEMELÉSE
+   ===================================================== */
 
-.md-nav__item--nested:has(a[href$="/eszkoztar/flowgorithm/"]) > .md-nav__link {
+/* Közös forma a fő témacímekhez. A címek alatt a belső pontok
+   visszafogottak maradnak, így a hierarchia gyorsabban áttekinthető. */
+.md-sidebar--primary .md-nav__item--nested > .md-nav__link {
+  transition: background-color .15s ease, color .15s ease, border-color .15s ease;
+}
+
+/* -----------------------
+   Digitális eszköztár
+   ----------------------- */
+
+.md-sidebar--primary .md-nav__item--nested:has(> nav a[href$="/eszkoztar/flowgorithm/"]) > .md-nav__link {
   margin-top: .45rem;
   padding: .48rem .62rem;
   border-left: 4px solid #376f93;
@@ -10,7 +22,7 @@
   font-weight: 800;
 }
 
-.md-nav__item--nested:has(a[href$="/eszkoztar/tinkercad/"]) > .md-nav__link {
+.md-sidebar--primary .md-nav__item--nested:has(> nav a[href$="/eszkoztar/tinkercad/"]) > .md-nav__link {
   margin-top: .45rem;
   padding: .48rem .62rem;
   border-left: 4px solid #735c9a;
@@ -20,8 +32,51 @@
   font-weight: 800;
 }
 
-/* A fő témák alatt a belső pontok maradjanak visszafogottabbak. */
-.md-nav__item--nested:has(a[href$="/eszkoztar/flowgorithm/"]) .md-nav__nav,
-.md-nav__item--nested:has(a[href$="/eszkoztar/tinkercad/"]) .md-nav__nav {
-  margin-top: .15rem;
+/* -----------------------
+   Tananyagok – tantárgyak
+   ----------------------- */
+
+.md-sidebar--primary .md-nav__item--nested:has(> nav a[href$="/tananyagok/digitalis-kultura/"]) > .md-nav__link {
+  margin-top: .45rem;
+  padding: .48rem .62rem;
+  border-left: 4px solid #376f93;
+  border-radius: 9px;
+  background: #eef7fb;
+  color: #285a77;
+  font-weight: 800;
+}
+
+.md-sidebar--primary .md-nav__item--nested:has(> nav a[href$="/tananyagok/nyelvtan/"]) > .md-nav__link {
+  margin-top: .45rem;
+  padding: .48rem .62rem;
+  border-left: 4px solid #4f8768;
+  border-radius: 9px;
+  background: #f3f9f5;
+  color: #3f7055;
+  font-weight: 800;
+}
+
+.md-sidebar--primary .md-nav__item--nested:has(> nav a[href$="/tananyagok/irodalom/"]) > .md-nav__link {
+  margin-top: .45rem;
+  padding: .48rem .62rem;
+  border-left: 4px solid #735c9a;
+  border-radius: 9px;
+  background: #faf7fc;
+  color: #604d80;
+  font-weight: 800;
+}
+
+.md-sidebar--primary a.md-nav__link[href$="/tananyagok/szakkorok/"] {
+  margin-top: .45rem;
+  padding: .48rem .62rem;
+  border-left: 4px solid #a97920;
+  border-radius: 9px;
+  background: #fff9ed;
+  color: #8b611d;
+  font-weight: 800;
+}
+
+/* A fő témák alatti lista kapjon egy kevés levegőt. */
+.md-sidebar--primary .md-nav__item--nested > nav.md-nav {
+  margin-top: .12rem;
 }
