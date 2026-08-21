@@ -15,7 +15,7 @@
 ## Programok és területek
 
 <div class="tool-grid">
-  <a class="tool-card" href="../tinkercad/">
+  <a class="tool-card" href="tinkercad/">
     <span class="tool-icon">🧱</span>
     <span class="tool-tag">3D TERVEZÉS</span>
     <strong>Tinkercad</strong>
