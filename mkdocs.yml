@@ -93,6 +93,8 @@ nav:
               - Flowgorithm indítása: eszkoztar/flowgorithm/inditas.md
               - Választható elemek: eszkoztar/flowgorithm/valaszthato-elemek.md
               - Szöveg kiírása: eszkoztar/flowgorithm/szoveg-kiirasa.md
+          - Adatok és változók:
+              - Deklarálás (változó): eszkoztar/flowgorithm/deklaralas.md
       - Tinkercad:
           - Áttekintés: eszkoztar/tinkercad/index.md
           - Alapműveletek:
