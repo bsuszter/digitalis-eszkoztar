@@ -15,6 +15,14 @@
 ## Programok és területek
 
 <div class="tool-grid">
+  <a class="tool-card" href="flowgorithm/">
+    <span class="tool-icon">🧠</span>
+    <span class="tool-tag">ALGORITMUSOK</span>
+    <strong>Flowgorithm</strong>
+    <span>Folyamatábrák, változók, adatbeolvasás, kiírás, elágazások és ciklusok.</span>
+    <span class="tool-link">Eszköztár megnyitása →</span>
+  </a>
+
   <a class="tool-card" href="tinkercad/">
     <span class="tool-icon">🧱</span>
     <span class="tool-tag">3D TERVEZÉS</span>
