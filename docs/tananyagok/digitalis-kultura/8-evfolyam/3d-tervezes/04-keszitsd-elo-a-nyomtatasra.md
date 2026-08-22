@@ -22,10 +22,7 @@
   <div class="project-flow">MODELL → ELLENŐRZÉS → JAVÍTÁS → STL → TANÁRI ELŐKÉSZÍTÉS → NYOMTATÁS</div>
 </div>
 
-<div class="quick-note">
-  <strong>Hol ér véget a te feladatod?</strong>
-  <span>Te ellenőrzöd és szükség esetén javítod a modellt, majd elkészíted az STL-fájlt. A szeletelőprogram beállítása és a tényleges 3D nyomtatás külön technikai lépés, ezt ennél a projektnél a tanár végzi.</span>
-</div>
+<div class="quick-note"><strong>Hol ér véget a te feladatod?</strong><span>Te ellenőrzöd és szükség esetén javítod a modellt, majd elkészíted az STL-fájlt. A szeletelőprogram beállítása és a tényleges 3D nyomtatás külön technikai lépés, ezt ennél a projektnél a tanár végzi.</span></div>
 
 ## 📏 1. Ellenőrizd újra a méreteket!
 
@@ -64,26 +61,11 @@ A 3D nyomtató rétegenként építi fel a tárgyat. Emiatt érdemes néhány do
 <summary><strong>🧰 Segítség a Digitális eszköztárból</strong></summary>
 
 <div class="related-grid">
-  <a href="../../../../eszkoztar/tinkercad/nyomtatas-elokeszites/" target="_blank" rel="noopener">
-    <span class="related-icon">🖨️</span>
-    <span class="related-text"><strong>3D nyomtatásra előkészítés</strong><small>Végezd végig a nyomtathatóság utolsó ellenőrzését!</small></span>
-  </a>
-  <a href="../../../../eszkoztar/tinkercad/exportalas-stl/" target="_blank" rel="noopener">
-    <span class="related-icon">📤</span>
-    <span class="related-text"><strong>Exportálás STL-be</strong><small>Ha a modell készen áll, készítsd el a nyomtatásra átadható fájlt!</small></span>
-  </a>
-  <a href="../../../../eszkoztar/tinkercad/meretezes/" target="_blank" rel="noopener">
-    <span class="related-icon">📏</span>
-    <span class="related-text"><strong>Méretezés és igazítás</strong><small>Ha a végső ellenőrzésnél még pontosítani kell egy méretet vagy illeszkedést.</small></span>
-  </a>
-  <a href="../../../../eszkoztar/tinkercad/navigacio/" target="_blank" rel="noopener">
-    <span class="related-icon">🧭</span>
-    <span class="related-text"><strong>Navigáció</strong><small>Ha több irányból szeretnéd alaposan átnézni a modellt.</small></span>
-  </a>
-  <a href="../../../../eszkoztar/tinkercad/gyors-szerkesztes/" target="_blank" rel="noopener">
-    <span class="related-icon">↩️</span>
-    <span class="related-text"><strong>Visszavonás és gyors szerkesztés</strong><small>Ha javítás közben visszavonnál, törölnél vagy gyorsbillentyűt keresel.</small></span>
-  </a>
+  <a href="../../../../../eszkoztar/tinkercad/nyomtatas-elokeszites/" target="_blank" rel="noopener"><span class="related-icon">🖨️</span><span class="related-text"><strong>3D nyomtatásra előkészítés</strong><small>Végezd végig a nyomtathatóság utolsó ellenőrzését!</small></span></a>
+  <a href="../../../../../eszkoztar/tinkercad/exportalas-stl/" target="_blank" rel="noopener"><span class="related-icon">📤</span><span class="related-text"><strong>Exportálás STL-be</strong><small>Ha a modell készen áll, készítsd el a nyomtatásra átadható fájlt!</small></span></a>
+  <a href="../../../../../eszkoztar/tinkercad/meretezes/" target="_blank" rel="noopener"><span class="related-icon">📏</span><span class="related-text"><strong>Méretezés és igazítás</strong><small>Ha a végső ellenőrzésnél még pontosítani kell egy méretet vagy illeszkedést.</small></span></a>
+  <a href="../../../../../eszkoztar/tinkercad/navigacio/" target="_blank" rel="noopener"><span class="related-icon">🧭</span><span class="related-text"><strong>Navigáció</strong><small>Ha több irányból szeretnéd alaposan átnézni a modellt.</small></span></a>
+  <a href="../../../../../eszkoztar/tinkercad/gyors-szerkesztes/" target="_blank" rel="noopener"><span class="related-icon">↩️</span><span class="related-text"><strong>Visszavonás és gyors szerkesztés</strong><small>Ha javítás közben visszavonnál, törölnél vagy gyorsbillentyűt keresel.</small></span></a>
 </div>
 
 **Fontos:** az eszköztár segítség, nem külön feladatsor. Csak azt nyisd meg, amire éppen szükséged van, majd térj vissza a saját modelledhez!
@@ -100,10 +82,7 @@ Ha az ellenőrzés közben problémát találtál, térj vissza a modelledhez é
 
 Ha a modelled elkészült és ellenőrizted, exportáld <strong>STL formátumban</strong>!
 
-<div class="project-panel project-panel--gold">
-  <h2>Mi az STL?</h2>
-  <p>Olyan 3D modellfájl, amely a tárgy alakját adja át a nyomtatás következő lépéséhez. Ha később hibát találsz, a javítást az eredeti Tinkercad-tervben végezd el, majd exportálj új STL-fájlt!</p>
-</div>
+<div class="project-panel project-panel--gold"><h2>Mi az STL?</h2><p>Olyan 3D modellfájl, amely a tárgy alakját adja át a nyomtatás következő lépéséhez. Ha később hibát találsz, a javítást az eredeti Tinkercad-tervben végezd el, majd exportálj új STL-fájlt!</p></div>
 
 <div class="project-banner project-banner--gold">💾 Az STL-fájlt őrizd meg, és töltsd fel a beadási felületre!</div>
 
@@ -134,25 +113,9 @@ A jelölések csak ezen az oldalon látszanak, bezárás után nem mentődnek el
 
 <div class="project-banner project-banner--gold">📌 Nem jár kevesebb pont azért, mert nem kellett módosítanod. Az számít, hogy tudatosan ellenőrizted a modelledet.</div>
 
-<div class="project-submit">
-  <h2>📤 Mit adj be?</h2>
-  <p>Ennél a mérföldkőnél már a nyomtatásra szánt fájlt is kérem.</p>
-  <ul>
-    <li>📦 töltsd fel az exportált <strong>.stl fájlt</strong>;</li>
-    <li>✍️ az online szövegben jelezd, hogy elvégezted a nyomtatás előtti ellenőrzést;</li>
-    <li>🔧 ha módosítottál valamit, röviden írd le, mit és miért;</li>
-    <li>✅ ha nem kellett módosítani, elég ezt jelezned.</li>
-  </ul>
-  <p>A Tinkercadben lévő eredeti, szerkeszthető modelled továbbra is megmarad az osztályteremben.</p>
-</div>
+<div class="project-submit"><h2>📤 Mit adj be?</h2><p>Ennél a mérföldkőnél már a nyomtatásra szánt fájlt is kérem.</p><ul><li>📦 töltsd fel az exportált <strong>.stl fájlt</strong>;</li><li>✍️ az online szövegben jelezd, hogy elvégezted a nyomtatás előtti ellenőrzést;</li><li>🔧 ha módosítottál valamit, röviden írd le, mit és miért;</li><li>✅ ha nem kellett módosítani, elég ezt jelezned.</li></ul><p>A Tinkercadben lévő eredeti, szerkeszthető modelled továbbra is megmarad az osztályteremben.</p></div>
 
 <div class="related-grid">
-  <a href="../03-modellezd-meg/">
-    <span class="related-icon">←</span>
-    <span class="related-text"><strong>Előző: Modellezd meg!</strong><small>Ha még a 3D modellen kell dolgoznod.</small></span>
-  </a>
-  <a href="../05-probald-ki-es-javitsd/">
-    <span class="related-icon">➡️</span>
-    <span class="related-text"><strong>Következő: Próbáld ki és javítsd!</strong><small>Ha elkészült a nyomat, teszteld valódi használat közben.</small></span>
-  </a>
+  <a href="../03-modellezd-meg/"><span class="related-icon">←</span><span class="related-text"><strong>Előző: Modellezd meg!</strong><small>Ha még a 3D modellen kell dolgoznod.</small></span></a>
+  <a href="../05-probald-ki-es-javitsd/"><span class="related-icon">➡️</span><span class="related-text"><strong>Következő: Próbáld ki és javítsd!</strong><small>Ha elkészült a nyomat, teszteld valódi használat közben.</small></span></a>
 </div>
