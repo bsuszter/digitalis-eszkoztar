@@ -109,7 +109,13 @@ A jelölések csak ezen az oldalon látszanak, bezárás után nem mentődnek el
   <p>A következő mérföldkőben ebből az ötletből készítünk pontosabb, méretezett tervet.</p>
 </div>
 
-<div class="project-next">
-  <h2>➡️ Következő: készíts pontos tervet!</h2>
-  <p>A következő mérföldkőben megnézzük, milyen méretekre, illeszkedésekre és szerkezeti megoldásokra lesz szükség ahhoz, hogy az ötletből valóban elkészíthető tárgy legyen.</p>
+<div class="related-grid">
+  <a href="../">
+    <span class="related-icon">🧭</span>
+    <span class="related-text"><strong>Projekt áttekintés</strong><small>Ha újra szeretnéd látni az öt mérföldkő teljes útvonalát.</small></span>
+  </a>
+  <a href="../02-keszits-pontos-tervet/">
+    <span class="related-icon">➡️</span>
+    <span class="related-text"><strong>Következő: Készíts pontos tervet!</strong><small>Ha az ötlet és az első vázlat elkészült, pontosítsd a méreteket és a szerkezetet.</small></span>
+  </a>
 </div>
