@@ -154,18 +154,18 @@
 <div class="tool-grid">
   <a class="tool-card" href="nyomtatas-elokeszites/">
     <span class="tool-icon">🖨️</span>
-    <span class="tool-tag">TERVEZETT</span>
+    <span class="tool-tag">KÉSZ</span>
     <strong>3D nyomtatásra előkészítés</strong>
-    <span>Falvastagság, illeszkedés, stabilitás és nyomtathatóság ellenőrzése.</span>
-    <span class="tool-link">Vázlat megnyitása →</span>
+    <span>Méret, vastagság, stabilitás, illeszkedés és nyomtathatóság ellenőrzése exportálás előtt.</span>
+    <span class="tool-link">Megnézem →</span>
   </a>
 
   <a class="tool-card" href="exportalas-stl/">
     <span class="tool-icon">📤</span>
-    <span class="tool-tag">TERVEZETT</span>
+    <span class="tool-tag">KÉSZ</span>
     <strong>Exportálás STL-be</strong>
-    <span>A kész modell kimentése 3D nyomtatáshoz.</span>
-    <span class="tool-link">Vázlat megnyitása →</span>
+    <span>A kész modell kimentése és átadása a 3D nyomtatás következő lépéséhez.</span>
+    <span class="tool-link">Megnézem →</span>
   </a>
 </div>
 
@@ -222,12 +222,17 @@
     <strong>Közösen szeretnénk dolgozni</strong>
     <small>Kollaboráció</small>
   </a>
+  <a class="need-card" href="nyomtatas-elokeszites/">
+    <span>🖨️</span>
+    <strong>Nyomtatható-e a modellem?</strong>
+    <small>3D nyomtatásra előkészítés</small>
+  </a>
   <a class="need-card" href="exportalas-stl/">
     <span>📤</span>
-    <strong>Ki szeretném nyomtatni</strong>
-    <small>Előkészítés és STL-export</small>
+    <strong>Át szeretném adni nyomtatásra</strong>
+    <small>Exportálás STL-be</small>
   </a>
 </div>
 
-!!! info "A szerkezet már kész, a tartalom fokozatosan bővül"
-    A **KÉSZ** jelzésű cikkek már használhatók. A **TERVEZETT** oldalak most azért vannak a helyükön, hogy a tananyagokból már stabil hivatkozásokkal tudjunk rájuk linkelni. A részletes leírásokat és képeket később készítjük el. A Tinkercad további területei – például áramkörök, micro:bit vagy más szimulációk – később külön bővíthetők, amikor valóban használjuk őket.
+!!! info "A jelenlegi Tinkercad-eszköztár elkészült"
+    Az itt szereplő cikkek már használhatók a tervezéstől az STL-exportig. A Tinkercad további területei – például áramkörök vagy más szimulációk – később külön bővíthetők, amikor valóban szükség lesz rájuk.
