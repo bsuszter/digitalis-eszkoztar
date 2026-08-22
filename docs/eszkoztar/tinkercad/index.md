@@ -17,6 +17,13 @@
   <span>Nyisd meg a szükséges cikket, nézd meg a műveletet, majd térj vissza a saját Tinkercad-modelledhez! Mindig a saját feladatod utasítása az elsődleges.</span>
 </div>
 
+<div class="related-grid">
+  <a href="https://www.tinkercad.com/" target="_blank" rel="noopener">
+    <span class="related-icon">🧊</span>
+    <span class="related-text"><strong>Tinkercad megnyitása</strong><small>Nyisd meg magát a Tinkercadet új lapon! Ha Tinkercad-osztálytermet használsz, az aktuális osztálylinket a saját tananyagodban keresd.</small></span>
+  </a>
+</div>
+
 ## Kezdés
 
 <div class="tool-grid tool-grid--featured">
