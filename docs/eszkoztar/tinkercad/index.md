@@ -76,20 +76,20 @@
 ## Alakítás és szerkesztés
 
 <div class="tool-grid">
+  <a class="tool-card" href="csoportositas/">
+    <span class="tool-icon">🧩</span>
+    <span class="tool-tag">KÉSZ</span>
+    <strong>Csoportosítás és szétbontás</strong>
+    <span>Több elem közös kijelölése, csoportosítása és újbóli szétbontása.</span>
+    <span class="tool-link">Megnézem →</span>
+  </a>
+
   <a class="tool-card" href="furat/">
     <span class="tool-icon">🕳️</span>
     <span class="tool-tag">KÉSZ</span>
     <strong>Furat készítése</strong>
     <span>Kivágások, nyílások és egymásba illeszkedő formák.</span>
     <span class="tool-link">Megnézem →</span>
-  </a>
-
-  <a class="tool-card" href="csoportositas/">
-    <span class="tool-icon">🧩</span>
-    <span class="tool-tag">TERVEZETT</span>
-    <strong>Csoportosítás és szétbontás</strong>
-    <span>Több elemből összetett forma készítése és újraszerkesztése.</span>
-    <span class="tool-link">Vázlat megnyitása →</span>
   </a>
 
   <a class="tool-card" href="masolas-ismetles/">
