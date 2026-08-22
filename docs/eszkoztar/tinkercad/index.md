@@ -17,9 +17,24 @@
   <span>Nyisd meg a szükséges cikket, nézd meg a műveletet, majd térj vissza a saját Tinkercad-modelledhez! Mindig a saját feladatod utasítása az elsődleges.</span>
 </div>
 
-## Alapműveletek
+## Kezdés
 
 <div class="tool-grid tool-grid--featured">
+  <a class="tool-card" href="bejelentkezes/">
+    <span class="tool-icon">🔐</span>
+    <span class="tool-tag">KÉSZ</span>
+    <strong>Bejelentkezés és csatlakozás</strong>
+    <span>Csatlakozás a Tinkercad-osztályteremhez, belépés és kijelentkezés.</span>
+    <span class="tool-link">Megnézem →</span>
+  </a>
+
+  <div class="tool-card">
+    <span class="tool-icon">🆕</span>
+    <span class="tool-tag">HAMAROSAN</span>
+    <strong>Új 3D terv létrehozása</strong>
+    <span>Új terv indítása, átnevezése és visszatérés a műszerfalra.</span>
+  </div>
+
   <a class="tool-card" href="navigacio/">
     <span class="tool-icon">🧭</span>
     <span class="tool-tag">KÉSZ</span>
@@ -27,7 +42,11 @@
     <span>Mozgás a munkaterületen, nézetváltás és a modell körbeforgatása.</span>
     <span class="tool-link">Megnézem →</span>
   </a>
+</div>
 
+## Alapműveletek
+
+<div class="tool-grid tool-grid--featured">
   <a class="tool-card" href="alakzatok-munkasik/">
     <span class="tool-icon">🧱</span>
     <span class="tool-tag">TERVEZETT</span>
@@ -152,6 +171,11 @@
 ## Mire keresel megoldást?
 
 <div class="need-grid">
+  <a class="need-card" href="bejelentkezes/">
+    <span>🔐</span>
+    <strong>Nem tudok belépni</strong>
+    <small>Bejelentkezés és csatlakozás</small>
+  </a>
   <a class="need-card" href="meretezes/">
     <span>📐</span>
     <strong>Pontos méret kell</strong>
