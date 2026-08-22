@@ -17,12 +17,12 @@
 
 <div class="article-intro">
   <strong>Mire jó?</strong>
-  <span>Megmutatja az osztálytermi csatlakozás általános menetét. A saját osztályodhoz tartozó linket és a használandó belépési adatot mindig a Moodle-leckében keresd!</span>
+  <span>Megmutatja az osztálytermi csatlakozás általános menetét. A saját osztályodhoz tartozó linket és a használandó belépési adatot mindig az aktuális tananyagban keresd!</span>
 </div>
 
 ## 1. Nyisd meg az osztályod Tinkercad-linkjét!
 
-A Moodle-leckében kapott hivatkozás a megfelelő Tinkercad-osztályteremhez visz.
+Az aktuális tananyagban kapott hivatkozás a megfelelő Tinkercad-osztályteremhez visz.
 
 <div class="quick-note">
   <strong>🟢 Ezt keresd!</strong>
@@ -38,17 +38,17 @@ A Moodle-leckében kapott hivatkozás a megfelelő Tinkercad-osztályteremhez vi
 
 ## 2. Add meg a kért bejelentkezési adatot!
 
-Az osztálytermi belépésnél a tanárod által megadott becenevet vagy kódot használd. Ennek pontos formája osztályonként eltérhet, ezért ezt nem az eszköztárban, hanem az adott Moodle-leckében találod meg.
+Az osztálytermi belépésnél a tanárod által megadott becenevet vagy kódot használd. Ennek pontos formája osztályonként eltérhet, ezért ezt nem az eszköztárban, hanem az aktuális tananyagban találod meg.
 
 <figure class="tool-figure tool-figure--medium">
   <a href="../../../images/eszkoztar/tinkercad/bejelentkezes/02-bejelentkezesi-kod.png" target="_blank">
     <img src="../../../images/eszkoztar/tinkercad/bejelentkezes/02-bejelentkezesi-kod.png" alt="Tinkercad osztálytermi belépés a tanár által megadott bejelentkezési adattal">
   </a>
-  <figcaption>A belépéshez mindig az <strong>aktuális Moodle-leckében megadott</strong> adatot használd!</figcaption>
+  <figcaption>A belépéshez mindig az <strong>aktuális tananyagban megadott</strong> adatot használd!</figcaption>
 </figure>
 
 !!! warning "Ne találj ki új nevet vagy kódot!"
-    Ha nem tudsz belépni, először ellenőrizd a Moodle-leckében kapott információt. Ha az sem segít, szólj a tanárnak!
+    Ha nem tudsz belépni, először ellenőrizd a tananyagban kapott információt. Ha az sem segít, szólj a tanárnak!
 
 ## 3. Ellenőrizd, hogy a saját Tinkercad-felületedre jutottál!
 
@@ -75,9 +75,9 @@ Különösen közösen használt iskolai gépen fontos, hogy a munka végén ne 
 ## Gyors ellenőrzés
 
 <div class="check-panel">
-  <label><input type="checkbox"><span>Az aktuális Moodle-leckében kapott osztálytermi linket nyitottam meg.</span></label>
+  <label><input type="checkbox"><span>Az aktuális tananyagban kapott osztálytermi linket nyitottam meg.</span></label>
   <label><input type="checkbox"><span>A csatlakozásnál a <strong>zöld gombra</strong> kattintottam.</span></label>
-  <label><input type="checkbox"><span>A Moodle-ban megadott belépési adatot használtam.</span></label>
+  <label><input type="checkbox"><span>A megadott belépési adatot használtam.</span></label>
   <label><input type="checkbox"><span>Belépés után elérem a saját Tinkercad-felületemet.</span></label>
 </div>
 
@@ -86,6 +86,11 @@ Különösen közösen használt iskolai gépen fontos, hogy a munka végén ne 
 
 ## Következő lépés
 
-Ha már bejutottál, a következő lépés egy **új 3D terv létrehozása** lesz.
+<div class="related-grid">
+  <a href="../uj-terv/">
+    <span class="related-icon">🆕</span>
+    <span class="related-text"><strong>Új 3D terv létrehozása</strong><small>Ha már bejutottál, innen indulhat a saját modelled.</small></span>
+  </a>
+</div>
 
 <div class="back-link"><a href="../">← Vissza a Tinkercad eszköztárhoz</a></div>
