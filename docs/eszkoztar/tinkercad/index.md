@@ -122,10 +122,10 @@
 <div class="tool-grid">
   <a class="tool-card" href="kesz-modellek/">
     <span class="tool-icon">🔎</span>
-    <span class="tool-tag">TERVEZETT</span>
+    <span class="tool-tag">KÉSZ</span>
     <strong>Kész modellek keresése és beillesztése</strong>
-    <span>Kész elem keresése és tudatos beépítése a saját tervbe.</span>
-    <span class="tool-link">Vázlat megnyitása →</span>
+    <span>Kész alakzatok keresése, beillesztése és tudatos továbbalakítása.</span>
+    <span class="tool-link">Megnézem →</span>
   </a>
 
   <a class="tool-card" href="importalas/">
