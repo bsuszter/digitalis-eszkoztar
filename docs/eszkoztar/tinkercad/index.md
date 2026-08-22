@@ -50,10 +50,10 @@
 <div class="tool-grid tool-grid--featured">
   <a class="tool-card" href="alakzatok-munkasik/">
     <span class="tool-icon">🧱</span>
-    <span class="tool-tag">TERVEZETT</span>
+    <span class="tool-tag">KÉSZ</span>
     <strong>Alakzatok és munkasík</strong>
-    <span>Alapformák kiválasztása, elhelyezése és munkasík használata.</span>
-    <span class="tool-link">Vázlat megnyitása →</span>
+    <span>Alapformák kiválasztása, elhelyezése és a munkasík alapjainak megértése.</span>
+    <span class="tool-link">Megnézem →</span>
   </a>
 
   <a class="tool-card" href="mozgas-forgatas-emeles/">
