@@ -142,10 +142,10 @@
 <div class="tool-grid">
   <a class="tool-card" href="kollaboracio/">
     <span class="tool-icon">🤝</span>
-    <span class="tool-tag">TERVEZETT</span>
+    <span class="tool-tag">KÉSZ</span>
     <strong>Kollaboráció</strong>
-    <span>Közös modell szerkesztése párban vagy csoportban.</span>
-    <span class="tool-link">Vázlat megnyitása →</span>
+    <span>Meghívó hivatkozás létrehozása és tudatos közös szerkesztés párban vagy csoportban.</span>
+    <span class="tool-link">Megnézem →</span>
   </a>
 </div>
 
