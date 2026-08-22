@@ -10,8 +10,8 @@
 </div>
 
 <div class="article-meta">
-  <span>⏱️ 5–8 perc</span>
-  <span>🎯 Pontos méretezés</span>
+  <span>⏱️ 6–9 perc</span>
+  <span>🎯 Pontos és arányos méretezés</span>
   <span>🧩 Illeszkedő elemekhez különösen fontos</span>
 </div>
 
@@ -41,6 +41,28 @@
 
 !!! tip "Használd a tervet!"
     Tartsd magad mellett a méretezett vázlatodat, és a fontos méreteket abból vidd át a modellbe. A funkcionális részeknél ne szemre dolgozz!
+
+## Arányos méretezés
+
+Ha egy tárgyból egyszerűen **nagyobb vagy kisebb változatot** szeretnél, nem biztos, hogy jó ötlet külön-külön átírni a szélességet, mélységet és magasságot. Könnyen eltorzíthatod a formát.
+
+Arányos méretezéskor a három méret **együtt változik**, ezért az alakzat eredeti arányai megmaradnak.
+
+<div class="step-stack">
+  <div class="step-card"><span class="step-no">A</span><div><strong>Tartsd lenyomva a Shift billentyűt méretezés közben!</strong><span>Fogd meg az egyik sarok méretezőpontját, és húzd kifelé vagy befelé. A szélesség, a mélység és a magasság egyszerre, azonos arányban változik.</span></div></div>
+</div>
+
+<figure class="tool-figure tool-figure--wide">
+  <a href="../../../images/eszkoztar/tinkercad/meretezes/12-aranyos-meretezés.png" target="_blank">
+    <img src="../../../images/eszkoztar/tinkercad/meretezes/12-aranyos-meretezés.png" alt="Arányos méretezés Shift billentyűvel a Tinkercadben">
+  </a>
+  <figcaption>A Shift lenyomásával a tárgy mindhárom irányban arányosan növelhető vagy csökkenthető.</figcaption>
+</figure>
+
+<div class="quick-note">
+  <strong>Mikor melyiket?</strong>
+  <span>Ha egy konkrét méretet kell pontosan beállítanod, add meg számmal. Ha ugyanazt a formát szeretnéd nagyobb vagy kisebb változatban megtartani, használd az arányos méretezést.</span>
+</div>
 
 ## Igazítás – több lépésben
 
@@ -168,6 +190,7 @@ Az **Igazítás / Align** akkor hasznos, amikor több alakzatnak pontosan kell e
 <div class="check-panel">
   <label><input type="checkbox"><span>A fontos méreteket számmal adtam meg, nem csak szemre állítottam.</span></label>
   <label><input type="checkbox"><span>Ellenőriztem a szélességet, mélységet és magasságot.</span></label>
+  <label><input type="checkbox"><span>Ha a teljes alakzatot nagyítottam vagy kicsinyítettem, megtartottam az arányait.</span></label>
   <label><input type="checkbox"><span>Az igazítandó elemeket együtt jelöltem ki.</span></label>
   <label><input type="checkbox"><span>Átgondoltam, melyik irányban kell középre vagy szélre igazítani őket.</span></label>
   <label><input type="checkbox"><span>Ha több irányban is pontos helyzet kellett, az igazítást több lépésben végeztem el.</span></label>
