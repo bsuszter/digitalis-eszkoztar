@@ -15,6 +15,11 @@
   <span>📏 Pontos méretezéshez is használható</span>
 </div>
 
+<div class="quick-note">
+  <strong>Előtte ezt érdemes tudnod</strong>
+  <span>A furat elkészítéséhez a szilárd testet és a furatként beállított alakzatot csoportosítani kell. Ha ez a művelet még nem biztos, nézd meg előbb a <a href="../csoportositas/"><strong>Csoportosítás és szétbontás</strong></a> segítséget!</span>
+</div>
+
 ## Lépésről lépésre
 
 <div class="step-stack">
@@ -110,6 +115,10 @@
 ## Kapcsolódó segítség
 
 <div class="related-grid">
+  <a href="../csoportositas/">
+    <span class="related-icon">🧩</span>
+    <span class="related-text"><strong>Csoportosítás és szétbontás</strong><small>Ha a közös kijelölést, csoportosítást vagy szétbontást szeretnéd átismételni.</small></span>
+  </a>
   <a href="../meretezes/">
     <span class="related-icon">📏</span>
     <span class="related-text"><strong>Méretezés és igazítás</strong><small>Ha pontos helyre és méretre van szükséged.</small></span>
