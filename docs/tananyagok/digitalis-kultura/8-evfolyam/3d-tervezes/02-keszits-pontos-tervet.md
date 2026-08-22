@@ -100,13 +100,17 @@ Ezeket még nem kell tökéletesen tudnod. A modellezés és a nyomtatás során
 Most még **nem kell Tinkercadet megnyitnod**. Csak azt nézd meg, amelyik a saját terved átgondolásához valóban hasznos.
 
 <div class="related-grid">
-  <a href="../../../../../eszkoztar/tinkercad/kesz-modellek/" target="_blank" rel="noopener">
+  <a href="../../../../eszkoztar/tinkercad/kesz-modellek/" target="_blank" rel="noopener">
     <span class="related-icon">🔎</span>
     <span class="related-text"><strong>Kész modellek keresése és beillesztése</strong><small>Ha azt tervezed, hogy egy kész elemet a saját megoldásod részeként használsz.</small></span>
   </a>
-  <a href="../../../../../eszkoztar/tinkercad/nyomtatas-elokeszites/" target="_blank" rel="noopener">
+  <a href="../../../../eszkoztar/tinkercad/nyomtatas-elokeszites/" target="_blank" rel="noopener">
     <span class="related-icon">🖨️</span>
     <span class="related-text"><strong>3D nyomtatásra előkészítés</strong><small>Ha már a terv készítésekor szeretnél a nyomtathatóságra is figyelni.</small></span>
+  </a>
+  <a href="../../../../eszkoztar/tinkercad/meretezes/" target="_blank" rel="noopener">
+    <span class="related-icon">📏</span>
+    <span class="related-text"><strong>Méretezés és igazítás</strong><small>Előre megnézheted, hogyan fogod majd a méreteket pontosan átvinni a 3D modellbe.</small></span>
   </a>
 </div>
 
@@ -152,7 +156,13 @@ A jelölések csak ezen az oldalon látszanak, bezárás után nem mentődnek el
   </ul>
 </div>
 
-<div class="project-next">
-  <h2>➡️ Következő: modellezd meg!</h2>
-  <p>Most már tudod, <strong>mit</strong> és <strong>mekkorára</strong> szeretnél elkészíteni. A következő mérföldkőben végre megnyitjuk a Tinkercadet, és elkezded felépíteni a saját 3D modelledet.</p>
+<div class="related-grid">
+  <a href="../01-talalj-egy-problemat/">
+    <span class="related-icon">←</span>
+    <span class="related-text"><strong>Előző: Találj egy problémát!</strong><small>Ha vissza szeretnéd nézni az első ötletet és a problémát.</small></span>
+  </a>
+  <a href="../03-modellezd-meg/">
+    <span class="related-icon">➡️</span>
+    <span class="related-text"><strong>Következő: Modellezd meg!</strong><small>Ha a méretezett terv elkészült, kezdődhet a 3D modellezés.</small></span>
+  </a>
 </div>
