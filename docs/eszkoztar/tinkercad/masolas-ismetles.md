@@ -39,15 +39,23 @@ A duplikálás nemcsak arra jó, hogy sok egyforma elemet készíts. A Tinkercad
 <div class="step-stack">
   <div class="step-card"><span class="step-no">3</span><div><strong>Változtasd meg az első másolatot!</strong><span>Például mozdítsd el, forgasd el vagy méretezd át.</span></div></div>
   <div class="step-card"><span class="step-no">4</span><div><strong>Nyomd meg újra a Ctrl + D-t!</strong><span>Újabb másolat készül, és a Tinkercad megismétli az előző példányon végzett változtatást.</span></div></div>
-  <div class="step-card"><span class="step-no">5</span><div><strong>Ismételd tovább!</strong><span>Minden újabb Ctrl + D folytatja a mintát, így gyorsan készíthetsz szabályos sort vagy körkörös elrendezést.</span></div></div>
+  <div class="step-card"><span class="step-no">5</span><div><strong>Ismételd tovább!</strong><span>Minden újabb Ctrl + D folytatja ugyanazt a változtatási sort.</span></div></div>
+</div>
+
+<div class="quick-note">
+  <strong>Elsőként próbálj ki egy egyszerű sort!</strong>
+  <span>Duplikálj egy elemet, mozdítsd el például mindig ugyanannyival jobbra, majd nyomd meg többször a <strong>Ctrl + D</strong>-t! Így biztosan jól látszik az ismétlés működése.</span>
 </div>
 
 <figure class="tool-figure tool-figure--wide">
   <a href="../../../images/eszkoztar/tinkercad/masolas/02-ismetles.png" target="_blank">
     <img src="../../../images/eszkoztar/tinkercad/masolas/02-ismetles.png" alt="Duplikálás és forgatás ismétlésével készített virágminta sematikus ábrája">
   </a>
-  <figcaption>Egyetlen elem duplikálásával és azonos forgatás ismétlésével szabályos minta készíthető.</figcaption>
+  <figcaption>A kép egy körkörös ismétlés <strong>elvét</strong> mutatja. Ehhez a forgás középpontját külön is meg kell tervezni; egy önálló szirom egyszerű elforgatása csak a saját közepe körül fordítja el az elemet.</figcaption>
 </figure>
+
+!!! warning "A körkörös minta egy lépéssel összetettebb"
+    Ha például virágot vagy napocskát szeretnél készíteni, nem elég egyetlen szirmot duplikálni és elforgatni: az elem önmagában a **saját közepe körül** fordul el. Körkörös elrendezéshez olyan kijelölést vagy ideiglenes segédelemet kell kialakítanod, amelynek középpontja a kívánt forgásközéppontban van. Ezt inkább haladó mintakészítésnél használd!
 
 <div class="quick-note">
   <strong>A lényeg egy sorban</strong>
@@ -58,13 +66,13 @@ A duplikálás nemcsak arra jó, hogy sok egyforma elemet készíts. A Tinkercad
 
 <div class="mini-grid mini-grid--uses">
   <div class="mini-card"><span class="mini-icon">↔️</span><strong>Eltolást</strong><span>Egyenletes távolságú sorokhoz, például oszlopokhoz vagy bordákhoz.</span></div>
-  <div class="mini-card"><span class="mini-icon">🔄</span><strong>Forgatást</strong><span>Körkörös mintákhoz, például sugarakhoz vagy díszítőelemekhez.</span></div>
+  <div class="mini-card"><span class="mini-icon">🔄</span><strong>Forgatást</strong><span>Azonos szögelfordulás ismétléséhez. Körkörös elrendezéshez a forgás középpontját is megfelelően kell kialakítani.</span></div>
   <div class="mini-card"><span class="mini-icon">📐</span><strong>Méretezést</strong><span>Fokozatosan növekvő vagy csökkenő elemekhez.</span></div>
   <div class="mini-card"><span class="mini-icon">🧩</span><strong>Több változtatást együtt</strong><span>Összetettebb sorozatokhoz, ha az első másolaton több műveletet is végzel.</span></div>
 </div>
 
 !!! tip "Először csak az első másolatot állítsd be!"
-    Szabályos sorozatnál ne helyezgesd kézzel az összes példányt. Készíts egy másolatot, állítsd be pontosan a kívánt eltolást vagy forgatást, és csak ezután ismételd a Ctrl + D-t!
+    Szabályos sorozatnál ne helyezgesd kézzel az összes példányt. Készíts egy másolatot, állítsd be pontosan a kívánt eltolást vagy más változtatást, és csak ezután ismételd a Ctrl + D-t!
 
 !!! warning "Ha közben mást csinálsz"
     Az ismétlés az előző duplikáláshoz kapcsolódó változtatást követi. Ha megszakítod a műveletsort vagy más elemet kezdesz szerkeszteni, ne számíts arra, hogy később ugyanonnan automatikusan folytatja a mintát.
@@ -75,12 +83,17 @@ A duplikálás nemcsak arra jó, hogy sok egyforma elemet készíts. A Tinkercad
   <label><input type="checkbox"><span>Tudok másolatot készíteni a Duplikálás gombbal vagy Ctrl + D-vel.</span></label>
   <label><input type="checkbox"><span>Tudom, hogy az új másolat először az eredeti helyén jelenik meg.</span></label>
   <label><input type="checkbox"><span>Értem a duplikálás → változtatás → újabb duplikálás sorrendet.</span></label>
-  <label><input type="checkbox"><span>Tudok szabályos sort vagy mintázatot készíteni ismételt duplikálással.</span></label>
+  <label><input type="checkbox"><span>Tudok egyenletes sort készíteni ismételt duplikálással.</span></label>
+  <label><input type="checkbox"><span>Tudom, hogy a körkörös minta külön forgásközéppontot igényel.</span></label>
 </div>
 
 ## Kapcsolódó segítség
 
 <div class="related-grid">
+  <a href="../gyors-szerkesztes/">
+    <span class="related-icon">↩️</span>
+    <span class="related-text"><strong>Visszavonás és gyors szerkesztés</strong><small>Ha a másolás, kijelölés vagy gyorsbillentyűk alapjait keresed.</small></span>
+  </a>
   <a href="../mozgas-forgatas-emeles/">
     <span class="related-icon">🔄</span>
     <span class="related-text"><strong>Mozgatás, forgatás és emelés</strong><small>Az első másolat helyzetének pontos beállításához.</small></span>
