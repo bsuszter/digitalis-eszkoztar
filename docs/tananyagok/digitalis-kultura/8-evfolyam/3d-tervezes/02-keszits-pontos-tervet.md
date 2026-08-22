@@ -100,15 +100,15 @@ Ezeket még nem kell tökéletesen tudnod. A modellezés és a nyomtatás során
 Most még **nem kell Tinkercadet megnyitnod**. Csak azt nézd meg, amelyik a saját terved átgondolásához valóban hasznos.
 
 <div class="related-grid">
-  <a href="../../../../eszkoztar/tinkercad/kesz-modellek/" target="_blank" rel="noopener">
+  <a href="../../../../../eszkoztar/tinkercad/kesz-modellek/" target="_blank" rel="noopener">
     <span class="related-icon">🔎</span>
     <span class="related-text"><strong>Kész modellek keresése és beillesztése</strong><small>Ha azt tervezed, hogy egy kész elemet a saját megoldásod részeként használsz.</small></span>
   </a>
-  <a href="../../../../eszkoztar/tinkercad/nyomtatas-elokeszites/" target="_blank" rel="noopener">
+  <a href="../../../../../eszkoztar/tinkercad/nyomtatas-elokeszites/" target="_blank" rel="noopener">
     <span class="related-icon">🖨️</span>
     <span class="related-text"><strong>3D nyomtatásra előkészítés</strong><small>Ha már a terv készítésekor szeretnél a nyomtathatóságra is figyelni.</small></span>
   </a>
-  <a href="../../../../eszkoztar/tinkercad/meretezes/" target="_blank" rel="noopener">
+  <a href="../../../../../eszkoztar/tinkercad/meretezes/" target="_blank" rel="noopener">
     <span class="related-icon">📏</span>
     <span class="related-text"><strong>Méretezés és igazítás</strong><small>Előre megnézheted, hogyan fogod majd a méreteket pontosan átvinni a 3D modellbe.</small></span>
   </a>
