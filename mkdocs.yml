@@ -102,8 +102,10 @@ nav:
               - Végtelen ciklus: eszkoztar/flowgorithm/vegtelen-ciklus.md
       - Tinkercad:
           - Áttekintés: eszkoztar/tinkercad/index.md
-          - Alapműveletek:
+          - Kezdés:
+              - Bejelentkezés és csatlakozás: eszkoztar/tinkercad/bejelentkezes.md
               - Navigáció: eszkoztar/tinkercad/navigacio.md
+          - Alapműveletek:
               - Alakzatok és munkasík: eszkoztar/tinkercad/alakzatok-munkasik.md
               - Mozgatás, forgatás és emelés: eszkoztar/tinkercad/mozgas-forgatas-emeles.md
               - Méretezés és igazítás: eszkoztar/tinkercad/meretezes.md
