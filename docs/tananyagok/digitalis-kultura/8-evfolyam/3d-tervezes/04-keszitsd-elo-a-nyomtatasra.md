@@ -19,7 +19,12 @@
 <div class="project-highlight project-highlight--blue">
   <h2>🎯 A virtuális modellből valódi tárgy lesz</h2>
   <p>Ami a képernyőn jól néz ki, attól még nem biztos, hogy jól nyomtatható vagy használható. Most <strong>gyártás előtt ellenőrzöd a saját tervedet</strong>.</p>
-  <div class="project-flow">MODELL → ELLENŐRZÉS → JAVÍTÁS → EXPORT → NYOMTATÁS</div>
+  <div class="project-flow">MODELL → ELLENŐRZÉS → JAVÍTÁS → STL → TANÁRI ELŐKÉSZÍTÉS → NYOMTATÁS</div>
+</div>
+
+<div class="quick-note">
+  <strong>Hol ér véget a te feladatod?</strong>
+  <span>Te ellenőrzöd és szükség esetén javítod a modellt, majd elkészíted az STL-fájlt. A szeletelőprogram beállítása és a tényleges 3D nyomtatás külön technikai lépés, ezt ennél a projektnél a tanár végzi.</span>
 </div>
 
 ## 📏 1. Ellenőrizd újra a méreteket!
@@ -47,26 +52,43 @@ Forgasd körbe a modellt, és próbáld elképzelni valódi tárgyként!
 A 3D nyomtató rétegenként építi fel a tárgyat. Emiatt érdemes néhány dolgot már a tervezésnél figyelembe venni.
 
 <div class="idea-grid">
-  <div class="idea-card">⬇️ <strong>Van megfelelő alap?</strong><span>Gondold végig, hogyan áll majd a tárgy nyomtatás közben!</span></div>
-  <div class="idea-card">🌉 <strong>Van „levegőben lógó” rész?</strong><span>Nézd meg, van-e olyan rész, amely alatt nincs semmi!</span></div>
+  <div class="idea-card">⬇️ <strong>Van megfelelő alap?</strong><span>Gondold végig, hogyan állhat majd a tárgy nyomtatás közben!</span></div>
+  <div class="idea-card">🌉 <strong>Van „levegőben lógó” rész?</strong><span>Nézd meg, van-e nagyobb túlnyúlás vagy alátámasztás nélküli rész!</span></div>
   <div class="idea-card">🧱 <strong>Elég masszív?</strong><span>A nagyon vékony elemek könnyen problémát okozhatnak.</span></div>
   <div class="idea-card">📦 <strong>Nem túl nagy?</strong><span>Csak akkora legyen, amekkorára a funkcióhoz valóban szükség van.</span></div>
 </div>
 
-<div class="project-banner project-banner--orange">📌 Nem kell még 3D nyomtatási szakértőnek lenned. Most azt tanulod meg, hogy a gyártás lehetőségei a tervezésre is hatással vannak.</div>
+<div class="project-banner project-banner--orange">📌 Nem kell 3D nyomtatási szakértőnek lenned. A cél az, hogy felismerd: a gyártás lehetőségei és korlátai a tervezésre is hatással vannak.</div>
 
-??? info "🧰 Segítség a Digitális eszköztárból"
-    Ennél a mérföldkőnél már két segítség közvetlenül is kapcsolódik a feladatodhoz.
+<details open>
+<summary><strong>🧰 Segítség a Digitális eszköztárból</strong></summary>
 
-    - [🖨️ 3D nyomtatásra előkészítés](../../../../eszkoztar/tinkercad/nyomtatas-elokeszites.md){ target="_blank" rel="noopener" } – ellenőrizd, hogy a modelled alkalmas-e nyomtatásra.
-    - [📦 Exportálás STL-be](../../../../eszkoztar/tinkercad/exportalas-stl.md){ target="_blank" rel="noopener" } – nézd meg, hogyan készítsd el a nyomtatásra szánt STL fájlt.
+<div class="related-grid">
+  <a href="../../../../eszkoztar/tinkercad/nyomtatas-elokeszites/" target="_blank" rel="noopener">
+    <span class="related-icon">🖨️</span>
+    <span class="related-text"><strong>3D nyomtatásra előkészítés</strong><small>Végezd végig a nyomtathatóság utolsó ellenőrzését!</small></span>
+  </a>
+  <a href="../../../../eszkoztar/tinkercad/exportalas-stl/" target="_blank" rel="noopener">
+    <span class="related-icon">📤</span>
+    <span class="related-text"><strong>Exportálás STL-be</strong><small>Ha a modell készen áll, készítsd el a nyomtatásra átadható fájlt!</small></span>
+  </a>
+  <a href="../../../../eszkoztar/tinkercad/meretezes/" target="_blank" rel="noopener">
+    <span class="related-icon">📏</span>
+    <span class="related-text"><strong>Méretezés és igazítás</strong><small>Ha a végső ellenőrzésnél még pontosítani kell egy méretet vagy illeszkedést.</small></span>
+  </a>
+  <a href="../../../../eszkoztar/tinkercad/navigacio/" target="_blank" rel="noopener">
+    <span class="related-icon">🧭</span>
+    <span class="related-text"><strong>Navigáció</strong><small>Ha több irányból szeretnéd alaposan átnézni a modellt.</small></span>
+  </a>
+  <a href="../../../../eszkoztar/tinkercad/gyors-szerkesztes/" target="_blank" rel="noopener">
+    <span class="related-icon">↩️</span>
+    <span class="related-text"><strong>Visszavonás és gyors szerkesztés</strong><small>Ha javítás közben visszavonnál, törölnél vagy gyorsbillentyűt keresel.</small></span>
+  </a>
+</div>
 
-    Ha a méretek vagy a modell ellenőrzése közben szükséged van rá:
+**Fontos:** az eszköztár segítség, nem külön feladatsor. Csak azt nyisd meg, amire éppen szükséged van, majd térj vissza a saját modelledhez!
 
-    - [📏 Méretezés és igazítás](../../../../eszkoztar/tinkercad/meretezes.md){ target="_blank" rel="noopener" }
-    - [🧭 Navigáció](../../../../eszkoztar/tinkercad/navigacio.md){ target="_blank" rel="noopener" }
-
-    **Fontos:** az eszköztár segítség, nem külön feladatsor. Csak azt nyisd meg, amire éppen szükséged van, majd térj vissza a saját modelledhez!
+</details>
 
 ## 🔧 4. Most még javíthatsz
 
@@ -80,10 +102,10 @@ Ha a modelled elkészült és ellenőrizted, exportáld <strong>STL formátumban
 
 <div class="project-panel project-panel--gold">
   <h2>Mi az STL?</h2>
-  <p>Olyan 3D modellfájl, amelyet a 3D nyomtatás előkészítéséhez tudunk használni. Ez lesz a modelled gyártásra szánt változata.</p>
+  <p>Olyan 3D modellfájl, amely a tárgy alakját adja át a nyomtatás következő lépéséhez. Ha később hibát találsz, a javítást az eredeti Tinkercad-tervben végezd el, majd exportálj új STL-fájlt!</p>
 </div>
 
-<div class="project-banner project-banner--gold">💾 Az STL fájlt őrizd meg, és töltsd fel a beadási felületre!</div>
+<div class="project-banner project-banner--gold">💾 Az STL-fájlt őrizd meg, és töltsd fel a beadási felületre!</div>
 
 ## ✅ Nyomtatás előtti ellenőrzés
 
@@ -97,6 +119,7 @@ A jelölések csak ezen az oldalon látszanak, bezárás után nem mentődnek el
   <label><input type="checkbox"><span>Megnéztem, hogy a tárgy valóban csak akkora-e, amekkorára szükség van.</span></label>
   <label><input type="checkbox"><span>Ha problémát találtam, javítottam a modellen.</span></label>
   <label><input type="checkbox"><span>Exportáltam a végleges modellt STL formátumban.</span></label>
+  <label><input type="checkbox"><span>Az STL-fájl neve egyértelműen azonosítja a munkámat.</span></label>
 </div>
 
 ## ⭐ Mit értékelünk? – 7 pont
@@ -120,10 +143,16 @@ A jelölések csak ezen az oldalon látszanak, bezárás után nem mentődnek el
     <li>🔧 ha módosítottál valamit, röviden írd le, mit és miért;</li>
     <li>✅ ha nem kellett módosítani, elég ezt jelezned.</li>
   </ul>
-  <p>A Tinkercadben lévő eredeti modelled továbbra is megmarad az osztályteremben.</p>
+  <p>A Tinkercadben lévő eredeti, szerkeszthető modelled továbbra is megmarad az osztályteremben.</p>
 </div>
 
-<div class="project-next">
-  <h2>➡️ Következő: próbáld ki a valódi tárgyat!</h2>
-  <p>A következő mérföldkőhöz már nem elég a képernyőt nézni. <strong>A kinyomtatott tárgy fogja megmutatni, mennyire sikerült jól a tervezés.</strong></p>
+<div class="related-grid">
+  <a href="../03-modellezd-meg/">
+    <span class="related-icon">←</span>
+    <span class="related-text"><strong>Előző: Modellezd meg!</strong><small>Ha még a 3D modellen kell dolgoznod.</small></span>
+  </a>
+  <a href="../05-probald-ki-es-javitsd/">
+    <span class="related-icon">➡️</span>
+    <span class="related-text"><strong>Következő: Próbáld ki és javítsd!</strong><small>Ha elkészült a nyomat, teszteld valódi használat közben.</small></span>
+  </a>
 </div>
