@@ -77,7 +77,7 @@ Ha minden szükséges alakzat ki van jelölve, kattints a **Csoportosítás / Gr
 
 ## 3. Bontsd szét, ha újra szerkesztenéd!
 
-Ha a csoport egyik elemén külön szeretnél változtatni, jelöld ki a csoportot, majd válaszd a **Szétbontás / Ungroup** műveletet!
+Ha a csoport egyik elemén külön szeretnél változtatni, jelöld ki a csoportot, majd válaszd a **Szétbontás / Ungroup** műveletet! Gyorsbillentyűvel ugyanez: **Ctrl + Shift + G**.
 
 <figure class="tool-figure tool-figure--wide">
   <a href="../../../images/eszkoztar/tinkercad/csoportositas/05-csoport-bontasa.png" target="_blank">
@@ -123,6 +123,10 @@ A **Furat / Hole** önmagában még nem vág ki semmit. A kivágás akkor kész�
   <a href="../meretezes/">
     <span class="related-icon">📏</span>
     <span class="related-text"><strong>Méretezés és igazítás</strong><small>Ha az elemeknek pontosan kell egymáshoz illeszkedniük.</small></span>
+  </a>
+  <a href="../gyors-szerkesztes/">
+    <span class="related-icon">↩️</span>
+    <span class="related-text"><strong>Visszavonás és gyors szerkesztés</strong><small>Ha a kijelölés és a gyorsbillentyűk alapjait keresed.</small></span>
   </a>
 </div>
 
