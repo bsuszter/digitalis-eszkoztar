@@ -44,11 +44,11 @@ Mielőtt építeni kezdesz, nézd meg:
 <summary><strong>🔐 Ha most használod először a Tinkercadet</strong></summary>
 
 <div class="related-grid">
-  <a href="../../../../eszkoztar/tinkercad/bejelentkezes/" target="_blank" rel="noopener">
+  <a href="../../../../../eszkoztar/tinkercad/bejelentkezes/" target="_blank" rel="noopener">
     <span class="related-icon">🔐</span>
     <span class="related-text"><strong>Bejelentkezés és csatlakozás</strong><small>Ha még nem jutottál be az osztály Tinkercad-felületére.</small></span>
   </a>
-  <a href="../../../../eszkoztar/tinkercad/uj-terv/" target="_blank" rel="noopener">
+  <a href="../../../../../eszkoztar/tinkercad/uj-terv/" target="_blank" rel="noopener">
     <span class="related-icon">🆕</span>
     <span class="related-text"><strong>Új 3D terv létrehozása</strong><small>Ha még nincs saját projekted ehhez a feladathoz.</small></span>
   </a>
@@ -75,54 +75,18 @@ Ne a díszítéssel indulj. Először azt építsd meg, amitől a tárgy működ
 Nem kell minden Tinkercad-műveletet fejből tudnod. **Csak azt nyisd meg, amelyikre a saját modelled elkészítéséhez szükséged van**, majd térj vissza a feladatodhoz!
 
 <div class="related-grid">
-  <a href="../../../../eszkoztar/tinkercad/gyors-szerkesztes/" target="_blank" rel="noopener">
-    <span class="related-icon">↩️</span>
-    <span class="related-text"><strong>Visszavonás és gyors szerkesztés</strong><small>Ha elrontottál valamit, törölnél, kijelölnél vagy gyorsbillentyűt keresel.</small></span>
-  </a>
-  <a href="../../../../eszkoztar/tinkercad/navigacio/" target="_blank" rel="noopener">
-    <span class="related-icon">🧭</span>
-    <span class="related-text"><strong>Navigáció</strong><small>Ha több nézetből szeretnéd ellenőrizni a modellt.</small></span>
-  </a>
-  <a href="../../../../eszkoztar/tinkercad/alakzatok-munkasik/" target="_blank" rel="noopener">
-    <span class="related-icon">🧱</span>
-    <span class="related-text"><strong>Alakzatok és munkasík</strong><small>Ha alapformából indulsz ki.</small></span>
-  </a>
-  <a href="../../../../eszkoztar/tinkercad/mozgas-forgatas-emeles/" target="_blank" rel="noopener">
-    <span class="related-icon">🔄</span>
-    <span class="related-text"><strong>Mozgatás, forgatás és emelés</strong><small>Ha pontos térbeli helyzetet állítasz be.</small></span>
-  </a>
-  <a href="../../../../eszkoztar/tinkercad/meretezes/" target="_blank" rel="noopener">
-    <span class="related-icon">📏</span>
-    <span class="related-text"><strong>Méretezés és igazítás</strong><small>Ha pontos méret vagy illeszkedés kell.</small></span>
-  </a>
-  <a href="../../../../eszkoztar/tinkercad/csoportositas/" target="_blank" rel="noopener">
-    <span class="related-icon">🧩</span>
-    <span class="related-text"><strong>Csoportosítás és szétbontás</strong><small>Ha több elemből egy összetett részt építesz.</small></span>
-  </a>
-  <a href="../../../../eszkoztar/tinkercad/furat/" target="_blank" rel="noopener">
-    <span class="related-icon">🕳️</span>
-    <span class="related-text"><strong>Furat készítése</strong><small>Ha nyílásra, kivágásra vagy bemélyedésre van szükséged.</small></span>
-  </a>
-  <a href="../../../../eszkoztar/tinkercad/masolas-ismetles/" target="_blank" rel="noopener">
-    <span class="related-icon">📑</span>
-    <span class="related-text"><strong>Másolás és ismétlés</strong><small>Ha több azonos vagy szabályosan ismétlődő elem kell.</small></span>
-  </a>
-  <a href="../../../../eszkoztar/tinkercad/szoveg/" target="_blank" rel="noopener">
-    <span class="related-icon">🔤</span>
-    <span class="related-text"><strong>Szöveg és felirat</strong><small>Ha domború, bevésett vagy kivágott felirat kell.</small></span>
-  </a>
-  <a href="../../../../eszkoztar/tinkercad/szabadkezi-rajzolas/" target="_blank" rel="noopener">
-    <span class="related-icon">✏️</span>
-    <span class="related-text"><strong>Szabadkézi rajzolás – Scribble</strong><small>Ha egyedi, szabálytalan formára van szükséged.</small></span>
-  </a>
-  <a href="../../../../eszkoztar/tinkercad/kesz-modellek/" target="_blank" rel="noopener">
-    <span class="related-icon">🔎</span>
-    <span class="related-text"><strong>Kész modellek keresése és beillesztése</strong><small>Ha egy kész elemet a saját megoldásod részeként használnál.</small></span>
-  </a>
-  <a href="../../../../eszkoztar/tinkercad/importalas/" target="_blank" rel="noopener">
-    <span class="related-icon">📥</span>
-    <span class="related-text"><strong>Importálás</strong><small>Ha SVG-, STL- vagy OBJ-fájlt szeretnél beépíteni.</small></span>
-  </a>
+  <a href="../../../../../eszkoztar/tinkercad/gyors-szerkesztes/" target="_blank" rel="noopener"><span class="related-icon">↩️</span><span class="related-text"><strong>Visszavonás és gyors szerkesztés</strong><small>Ha elrontottál valamit, törölnél, kijelölnél vagy gyorsbillentyűt keresel.</small></span></a>
+  <a href="../../../../../eszkoztar/tinkercad/navigacio/" target="_blank" rel="noopener"><span class="related-icon">🧭</span><span class="related-text"><strong>Navigáció</strong><small>Ha több nézetből szeretnéd ellenőrizni a modellt.</small></span></a>
+  <a href="../../../../../eszkoztar/tinkercad/alakzatok-munkasik/" target="_blank" rel="noopener"><span class="related-icon">🧱</span><span class="related-text"><strong>Alakzatok és munkasík</strong><small>Ha alapformából indulsz ki.</small></span></a>
+  <a href="../../../../../eszkoztar/tinkercad/mozgas-forgatas-emeles/" target="_blank" rel="noopener"><span class="related-icon">🔄</span><span class="related-text"><strong>Mozgatás, forgatás és emelés</strong><small>Ha pontos térbeli helyzetet állítasz be.</small></span></a>
+  <a href="../../../../../eszkoztar/tinkercad/meretezes/" target="_blank" rel="noopener"><span class="related-icon">📏</span><span class="related-text"><strong>Méretezés és igazítás</strong><small>Ha pontos méret vagy illeszkedés kell.</small></span></a>
+  <a href="../../../../../eszkoztar/tinkercad/csoportositas/" target="_blank" rel="noopener"><span class="related-icon">🧩</span><span class="related-text"><strong>Csoportosítás és szétbontás</strong><small>Ha több elemből egy összetett részt építesz.</small></span></a>
+  <a href="../../../../../eszkoztar/tinkercad/furat/" target="_blank" rel="noopener"><span class="related-icon">🕳️</span><span class="related-text"><strong>Furat készítése</strong><small>Ha nyílásra, kivágásra vagy bemélyedésre van szükséged.</small></span></a>
+  <a href="../../../../../eszkoztar/tinkercad/masolas-ismetles/" target="_blank" rel="noopener"><span class="related-icon">📑</span><span class="related-text"><strong>Másolás és ismétlés</strong><small>Ha több azonos vagy szabályosan ismétlődő elem kell.</small></span></a>
+  <a href="../../../../../eszkoztar/tinkercad/szoveg/" target="_blank" rel="noopener"><span class="related-icon">🔤</span><span class="related-text"><strong>Szöveg és felirat</strong><small>Ha domború, bevésett vagy kivágott felirat kell.</small></span></a>
+  <a href="../../../../../eszkoztar/tinkercad/szabadkezi-rajzolas/" target="_blank" rel="noopener"><span class="related-icon">✏️</span><span class="related-text"><strong>Szabadkézi rajzolás – Scribble</strong><small>Ha egyedi, szabálytalan formára van szükséged.</small></span></a>
+  <a href="../../../../../eszkoztar/tinkercad/kesz-modellek/" target="_blank" rel="noopener"><span class="related-icon">🔎</span><span class="related-text"><strong>Kész modellek keresése és beillesztése</strong><small>Ha egy kész elemet a saját megoldásod részeként használnál.</small></span></a>
+  <a href="../../../../../eszkoztar/tinkercad/importalas/" target="_blank" rel="noopener"><span class="related-icon">📥</span><span class="related-text"><strong>Importálás</strong><small>Ha SVG-, STL- vagy OBJ-fájlt szeretnél beépíteni.</small></span></a>
 </div>
 
 **Fontos:** az eszköztár segítség, nem külön feladatsor.
@@ -195,12 +159,6 @@ A jelölések csak ezen az oldalon látszanak, bezárás után nem mentődnek el
 </div>
 
 <div class="related-grid">
-  <a href="../02-keszits-pontos-tervet/">
-    <span class="related-icon">←</span>
-    <span class="related-text"><strong>Előző: Készíts pontos tervet!</strong><small>Ha vissza szeretnéd nézni a méreteket és a vázlatot.</small></span>
-  </a>
-  <a href="../04-keszitsd-elo-a-nyomtatasra/">
-    <span class="related-icon">➡️</span>
-    <span class="related-text"><strong>Következő: Készítsd elő a nyomtatásra!</strong><small>Ha a modell elkészült, ellenőrizd a nyomtathatóságát és készíts STL-fájlt.</small></span>
-  </a>
+  <a href="../02-keszits-pontos-tervet/"><span class="related-icon">←</span><span class="related-text"><strong>Előző: Készíts pontos tervet!</strong><small>Ha vissza szeretnéd nézni a méreteket és a vázlatot.</small></span></a>
+  <a href="../04-keszitsd-elo-a-nyomtatasra/"><span class="related-icon">➡️</span><span class="related-text"><strong>Következő: Készítsd elő a nyomtatásra!</strong><small>Ha a modell elkészült, ellenőrizd a nyomtathatóságát és készíts STL-fájlt.</small></span></a>
 </div>
