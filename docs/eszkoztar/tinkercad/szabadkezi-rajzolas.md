@@ -99,6 +99,14 @@ A szabadkézi forma nem kell, hogy önmagában maradjon. Egyszerű alaptestekkel
 ## Kapcsolódó segítség
 
 <div class="related-grid">
+  <a href="../gyors-szerkesztes/">
+    <span class="related-icon">↩️</span>
+    <span class="related-text"><strong>Visszavonás és gyors szerkesztés</strong><small>Ha visszavonnál, törölnél vagy gyorsbillentyűket keresel.</small></span>
+  </a>
+  <a href="../importalas/">
+    <span class="related-icon">📥</span>
+    <span class="related-text"><strong>Importálás</strong><small>Ha nem közvetlenül a Tinkercadben rajzolnál, hanem külső SVG-ből készítenél 3D formát.</small></span>
+  </a>
   <a href="../csoportositas/">
     <span class="related-icon">🧩</span>
     <span class="related-text"><strong>Csoportosítás és szétbontás</strong><small>Ha a saját formádat más elemekkel szeretnéd összeépíteni.</small></span>
