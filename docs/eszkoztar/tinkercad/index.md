@@ -48,6 +48,14 @@
 ## Alapműveletek
 
 <div class="tool-grid tool-grid--featured">
+  <a class="tool-card" href="gyors-szerkesztes/">
+    <span class="tool-icon">↩️</span>
+    <span class="tool-tag">KÉSZ</span>
+    <strong>Visszavonás és gyors szerkesztés</strong>
+    <span>Visszavonás, törlés, kijelölés, másolás és a legfontosabb gyorsbillentyűk.</span>
+    <span class="tool-link">Megnézem →</span>
+  </a>
+
   <a class="tool-card" href="alakzatok-munkasik/">
     <span class="tool-icon">🧱</span>
     <span class="tool-tag">KÉSZ</span>
@@ -156,7 +164,7 @@
     <span class="tool-icon">🖨️</span>
     <span class="tool-tag">KÉSZ</span>
     <strong>3D nyomtatásra előkészítés</strong>
-    <span>Méret, vastagság, stabilitás, illeszkedés és nyomtathatóság ellenőrzése exportálás előtt.</span>
+    <span>Falvastagság, illeszkedés, stabilitás és nyomtathatóság ellenőrzése.</span>
     <span class="tool-link">Megnézem →</span>
   </a>
 
@@ -164,7 +172,7 @@
     <span class="tool-icon">📤</span>
     <span class="tool-tag">KÉSZ</span>
     <strong>Exportálás STL-be</strong>
-    <span>A kész modell kimentése és átadása a 3D nyomtatás következő lépéséhez.</span>
+    <span>A kész modell kimentése és átadása 3D nyomtatáshoz.</span>
     <span class="tool-link">Megnézem →</span>
   </a>
 </div>
@@ -181,6 +189,11 @@
     <span>🆕</span>
     <strong>Új munkát szeretnék kezdeni</strong>
     <small>Új 3D terv létrehozása</small>
+  </a>
+  <a class="need-card" href="gyors-szerkesztes/">
+    <span>↩️</span>
+    <strong>Elrontottam valamit</strong>
+    <small>Visszavonás és gyors szerkesztés</small>
   </a>
   <a class="need-card" href="meretezes/">
     <span>📐</span>
@@ -234,5 +247,5 @@
   </a>
 </div>
 
-!!! info "A jelenlegi Tinkercad-eszköztár elkészült"
-    Az itt szereplő cikkek már használhatók a tervezéstől az STL-exportig. A Tinkercad további területei – például áramkörök vagy más szimulációk – később külön bővíthetők, amikor valóban szükség lesz rájuk.
+!!! success "A jelenlegi Tinkercad-eszköztár elkészült"
+    Ezek a cikkek különböző évfolyamokon és projektekben is újra felhasználhatók. Nem kell őket sorban végigolvasnod: mindig azt a segítséget nyisd meg, amelyre a saját feladatodhoz éppen szükséged van!
