@@ -34,23 +34,11 @@ Az avatarod nem feltétlenül hasonlít rád. Képviselhet például:
 
 ## A projekt útvonala
 
-<div class="related-grid">
-  <a href="01-talald-ki-az-avatarod/">
-    <span class="related-icon">💡</span>
-    <span class="related-text"><strong>1. Találd ki az avatarodat!</strong><small>Ötlet, funkció és egyszerű vázlat.</small></span>
-  </a>
-  <a href="02-epitsd-fel/">
-    <span class="related-icon">🧱</span>
-    <span class="related-text"><strong>2. Építsd fel Tinkercadben!</strong><small>Alakzatokból készítsd el a saját figurádat.</small></span>
-  </a>
-  <a href="03-tedd-jatekra-kessze/">
-    <span class="related-icon">📐</span>
-    <span class="related-text"><strong>3. Tedd játékra késszé!</strong><small>Ellenőrizd a méretet, stabilitást és használhatóságot.</small></span>
-  </a>
-  <a href="04-keszitsd-elo-es-probald-ki/">
-    <span class="related-icon">🖨️</span>
-    <span class="related-text"><strong>4. Készítsd elő és próbáld ki!</strong><small>Készítsd elő nyomtatásra, majd nézd meg, hogyan működik valódi játékfiguraként.</small></span>
-  </a>
+<div class="idea-grid">
+  <div class="idea-card">💡 <strong>1. Találd ki az avatarodat!</strong><span>Ötlet, funkció és egyszerű vázlat.</span></div>
+  <div class="idea-card">🧱 <strong>2. Építsd fel Tinkercadben!</strong><span>Alakzatokból készítsd el a saját figurádat.</span></div>
+  <div class="idea-card">📐 <strong>3. Tedd játékra késszé!</strong><span>Ellenőrizd a méretet, stabilitást és használhatóságot.</span></div>
+  <div class="idea-card">🖨️ <strong>4. Készítsd elő és próbáld ki!</strong><span>Készítsd elő nyomtatásra, majd nézd meg, hogyan működik valódi játékfiguraként.</span></div>
 </div>
 
 ## Hol kapsz segítséget a Tinkercadhez?
