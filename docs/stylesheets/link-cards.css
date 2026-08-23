@@ -1,0 +1,62 @@
+/* =====================================================
+   KATTINTHATÓ KÁRTYÁK – egyértelmű vizuális jelölés
+   Az információs dobozoktól eltérően minden hivatkozáskártya
+   kap látható "Megnyitás →" jelzést és erősebb keretet.
+   ===================================================== */
+
+.md-typeset .tool-card,
+.md-typeset .need-card,
+.md-typeset .related-grid a {
+  cursor: pointer;
+  border-color: #b9cfdd;
+  box-shadow: 0 7px 18px rgba(49,95,120,.08);
+}
+
+.md-typeset .tool-card,
+.md-typeset .need-card,
+.md-typeset .related-grid a {
+  border-left: 5px solid var(--eszkoz-blue);
+}
+
+.md-typeset .tool-card:hover,
+.md-typeset .tool-card:focus-visible,
+.md-typeset .need-card:hover,
+.md-typeset .need-card:focus-visible,
+.md-typeset .related-grid a:hover,
+.md-typeset .related-grid a:focus-visible {
+  border-color: #8eb2c8;
+  border-left-color: var(--eszkoz-blue-dark);
+  box-shadow: 0 13px 27px rgba(49,95,120,.15);
+  transform: translateY(-2px);
+  outline: none;
+}
+
+.md-typeset .tool-link {
+  display: inline-block;
+  align-self: flex-start;
+  margin-top: auto;
+  padding: .28rem .58rem;
+  border-radius: 999px;
+  background: #eef5f8;
+  color: var(--eszkoz-blue-dark) !important;
+  font-weight: 800;
+}
+
+.md-typeset .need-card::after,
+.md-typeset .related-grid a::after {
+  content: "Megnyitás →";
+  display: inline-block;
+  align-self: flex-start;
+  margin-top: auto;
+  padding-top: .35rem;
+  color: var(--eszkoz-blue-dark);
+  font-size: .78rem;
+  font-weight: 800;
+  letter-spacing: .01em;
+}
+
+.md-typeset .need-card:focus-visible,
+.md-typeset .related-grid a:focus-visible,
+.md-typeset .tool-card:focus-visible {
+  box-shadow: 0 0 0 3px rgba(55,111,147,.22), 0 13px 27px rgba(49,95,120,.15);
+}
