@@ -4,7 +4,7 @@ type: "note"
 type_label: "Általános jegyzet"
 date: "2026-08-24"
 notebook: "EGYEBEK"
-section: "Promptok"
+section: "Moodle"
 tags: []
 app_id: "page_20260824_tananyagfejlesztesi_folyamat"
 ---
