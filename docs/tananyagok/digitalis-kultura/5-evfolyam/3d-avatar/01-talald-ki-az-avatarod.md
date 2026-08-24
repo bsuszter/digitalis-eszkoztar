@@ -112,4 +112,8 @@ A rajzod nem művészeti feladat. Az a cél, hogy később tudd, mit szeretnél 
     <span class="related-icon">🧭</span>
     <span class="related-text"><strong>Projekt áttekintés</strong><small>Ha újra szeretnéd látni a teljes projekt útvonalát.</small></span>
   </a>
+  <a href="../02-epitsd-fel/">
+    <span class="related-icon">➡️</span>
+    <span class="related-text"><strong>Következő: Építsd fel Tinkercadben!</strong><small>Ha a vázlat elkészült, kezdd el felépíteni a saját 3D játékfigurádat.</small></span>
+  </a>
 </div>
