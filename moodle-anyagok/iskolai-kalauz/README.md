@@ -14,5 +14,6 @@ Ez a mappa a Moodle-ba kézzel beilleszthető iskolai kalauz forrásainak munkat
 - `02-gyakorlati-kerdesek.html`: a gyakorlati kérdések személyes adatoktól megtisztított fejezete.
 - `03-ertekeles.html`: a szöveges értékelés és a pontrendszer áttekintése, frissítendő rendszeradatokkal.
 - `04-mindennapjaim.html`: munkaidő, szakmai együttműködés, szülői kapcsolattartás és tanári mindennapok.
+- `05-osztalyfonok-mentor.html`: osztálypénz, szülői kapcsolattartás és osztálykirándulás.
 
 A mintában nincs harmonika vagy JavaScript. A kérdések és válaszok a Moodle vizuális szerkesztőjében is láthatók maradnak.
