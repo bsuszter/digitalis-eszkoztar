@@ -15,5 +15,6 @@ Ez a mappa a Moodle-ba kézzel beilleszthető iskolai kalauz forrásainak munkat
 - `03-ertekeles.html`: a szöveges értékelés és a pontrendszer áttekintése, frissítendő rendszeradatokkal.
 - `04-mindennapjaim.html`: munkaidő, szakmai együttműködés, szülői kapcsolattartás és tanári mindennapok.
 - `05-osztalyfonok-mentor.html`: osztálypénz, szülői kapcsolattartás és osztálykirándulás.
+- `06-aktualis-tanev.html`: biankó, tanévenként frissíthető munkatársi és elérhetőségi oldal; a személyes adatokat csak a Moodle-ba másolt példányban szabad kitölteni.
 
 A mintában nincs harmonika vagy JavaScript. A kérdések és válaszok a Moodle vizuális szerkesztőjében is láthatók maradnak.
