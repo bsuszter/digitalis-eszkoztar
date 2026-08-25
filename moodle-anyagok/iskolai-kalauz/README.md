@@ -10,7 +10,7 @@ Ez a mappa a Moodle-ba kézzel beilleszthető iskolai kalauz forrásainak munkat
 ## Első mintaváltozat
 
 - `00-attekintes.html`: a kalauz központi nyitóoldala;
-- `01-altalanos-minta.html`: az első fejezet első nyolc kérdésének szerkeszthető mintája.
+- `01-altalanos.html`: az iskola működésével kapcsolatos 29 kérdés teljes fejezete.
 - `02-gyakorlati-kerdesek.html`: a gyakorlati kérdések személyes adatoktól megtisztított fejezete.
 - `03-ertekeles.html`: a szöveges értékelés és a pontrendszer áttekintése, frissítendő rendszeradatokkal.
 - `04-mindennapjaim.html`: munkaidő, szakmai együttműködés, szülői kapcsolattartás és tanári mindennapok.
