@@ -13,5 +13,6 @@ Ez a mappa a Moodle-ba kézzel beilleszthető iskolai kalauz forrásainak munkat
 - `01-altalanos-minta.html`: az első fejezet első nyolc kérdésének szerkeszthető mintája.
 - `02-gyakorlati-kerdesek.html`: a gyakorlati kérdések személyes adatoktól megtisztított fejezete.
 - `03-ertekeles.html`: a szöveges értékelés és a pontrendszer áttekintése, frissítendő rendszeradatokkal.
+- `04-mindennapjaim.html`: munkaidő, szakmai együttműködés, szülői kapcsolattartás és tanári mindennapok.
 
 A mintában nincs harmonika vagy JavaScript. A kérdések és válaszok a Moodle vizuális szerkesztőjében is láthatók maradnak.
