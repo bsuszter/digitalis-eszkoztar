@@ -138,4 +138,8 @@ A képernyőn sok minden működőképesnek tűnhet, ami valójában túl vékon
     <span class="related-icon">🧭</span>
     <span class="related-text"><strong>Projekt áttekintés</strong><small>Ha újra szeretnéd látni a teljes projekt útvonalát.</small></span>
   </a>
+  <a href="../02-epitsd-fel-az-alapmodellt/">
+    <span class="related-icon">➡️</span>
+    <span class="related-text"><strong>Következő: Építsd fel az alapmodellt!</strong><small>A vázlatból stabil, jól méretezett Tinkercad-modell készül.</small></span>
+  </a>
 </div>
