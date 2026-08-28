@@ -20,6 +20,11 @@
   <span>Ha egy 10 mm-es csapot pontosan 10 mm-es furatba tervezel, attól még nem biztos, hogy a kinyomtatott darabok összeilleszthetők. A valós alkatrészekhez általában kis <strong>illesztési hézag</strong> szükséges.</span>
 </div>
 
+<figure class="tool-figure">
+  <img src="../../images/eszkoztar/tinkercad/illesztes/01-illesztesi-hezagok-utmutato.png" alt="Illesztések és illesztési hézag szemléltető ábra: túl szoros, pontosan azonos méretű és megfelelő hézagú kapcsolat, valamint fix, cserélhető és mozgó illesztések.">
+  <figcaption>Az illesztésnél nemcsak a méret számít: azt is meg kell tervezni, milyen kapcsolatot szeretnél, és mekkora hely szükséges a működéshez.</figcaption>
+</figure>
+
 ## 1. Mi az illesztés?
 
 Illesztésről akkor beszélünk, amikor két külön alkatrészt úgy tervezel meg, hogy a valóságban kapcsolódjanak egymáshoz.
