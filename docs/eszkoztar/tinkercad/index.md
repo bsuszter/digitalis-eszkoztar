@@ -107,6 +107,14 @@
     <span class="tool-link">Megnézem →</span>
   </a>
 
+  <a class="tool-card" href="illesztesek/">
+    <span class="tool-icon">🧩</span>
+    <span class="tool-tag">KÉSZ</span>
+    <strong>Illesztések és illesztési hézag</strong>
+    <span>Egymáshoz kapcsolódó, cserélhető vagy mozgó alkatrészek méretezése és kipróbálása.</span>
+    <span class="tool-link">Megnézem →</span>
+  </a>
+
   <a class="tool-card" href="masolas-ismetles/">
     <span class="tool-icon">📑</span>
     <span class="tool-tag">KÉSZ</span>
@@ -211,6 +219,11 @@
     <span>🕳️</span>
     <strong>Ki szeretnék vágni valamit</strong>
     <small>Furat készítése</small>
+  </a>
+  <a class="need-card" href="illesztesek/">
+    <span>🧩</span>
+    <strong>Két alkatrésznek össze kell illenie</strong>
+    <small>Illesztések és illesztési hézag</small>
   </a>
   <a class="need-card" href="navigacio/">
     <span>🔄</span>
