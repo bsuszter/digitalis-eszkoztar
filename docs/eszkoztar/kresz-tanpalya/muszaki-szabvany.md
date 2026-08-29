@@ -9,6 +9,11 @@
   <div class="article-hero__icon">📐</div>
 </div>
 
+<figure class="tool-figure">
+  <img src="/digitalis-eszkoztar/images/eszkoztar/kresz-tanpalya/terepasztal.png" alt="KRESZ-tanpálya terepasztal illusztrációja cserélhető táblákkal, jelzőlámpával és útelemekkel">
+  <figcaption><strong>A közös cél.</strong> A kép csak szemlélteti a készülő tanpálya jellegét: a konkrét kialakítás a technikaórán és a digitális kultúrában készülő elemekből alakul ki.</figcaption>
+</figure>
+
 <div class="quick-note">
   <strong>Fontos különbség</strong>
   <span>Nem mindent méretarányosan kicsinyítünk. A járművek adják a pálya alapléptékét, a táblák és a jelzőlámpák pedig kissé hangsúlyosabbak lehetnek, hogy tanórai helyzetben jól láthatók és könnyen kezelhetők legyenek.</span>
@@ -58,7 +63,7 @@ A táblarendszer célja, hogy ugyanazokon a helyeken <strong>különböző jelz�
 </div>
 
 <figure class="tool-figure">
-  <img src="../../../images/eszkoztar/kresz-tanpalya/01-tablarendszer-meretek.svg" alt="Méretezett műszaki rajz a cserélhető közlekedési tábla oszlopáról, csatlakozócsapjáról és foglalatáról">
+  <img src="/digitalis-eszkoztar/images/eszkoztar/kresz-tanpalya/01-tablarendszer-meretek.svg" alt="Méretezett műszaki rajz a cserélhető közlekedési tábla oszlopáról, csatlakozócsapjáról és foglalatáról">
   <figcaption><strong>1. műszaki ábra.</strong> A cserélhető táblarendszer kötött méretei. A rajz arányosan mutatja a csatlakozó elemeket.</figcaption>
 </figure>
 
@@ -80,7 +85,7 @@ A különböző alakú táblák akkor mutatnak egységesen, ha nem a felső él�
 | téglalap | <strong>30 × 20 mm</strong> |
 
 <figure class="tool-figure">
-  <img src="../../../images/eszkoztar/kresz-tanpalya/02-tablaalakok-meretek.svg" alt="Méretezett műszaki rajz a szabványos kör, négyzet, háromszög, STOP és téglalap alakú táblalapokról">
+  <img src="/digitalis-eszkoztar/images/eszkoztar/kresz-tanpalya/02-tablaalakok-meretek.svg" alt="Méretezett műszaki rajz a szabványos kör, négyzet, háromszög, STOP és téglalap alakú táblalapokról">
   <figcaption><strong>2. műszaki ábra.</strong> A táblalapok egységes méretrendszere. A különböző alakok középpontja azonos magasságba kerül.</figcaption>
 </figure>
 
@@ -137,7 +142,7 @@ A pályán a lámpamodul helyzetét egységesítjük:
 - a vezeték számára lefelé vagy hátrafelé vezető, akadálymentes kivezetést kell hagyni.
 
 <figure class="tool-figure">
-  <img src="../../../images/eszkoztar/kresz-tanpalya/03-edubit-lampa-beepites.svg" alt="Méretezett műszaki rajz az EduBit közlekedési lámpa ismert beépítési méreteiről, magasságáról és kábelkivezetéséről">
+  <img src="/digitalis-eszkoztar/images/eszkoztar/kresz-tanpalya/03-edubit-lampa-beepites.svg" alt="Méretezett műszaki rajz az EduBit közlekedési lámpa ismert beépítési méreteiről, magasságáról és kábelkivezetéséről">
   <figcaption><strong>3. műszaki ábra.</strong> Az EduBit-lámpa ismert méretei és tervezett helyzete. A modul vastagságát a valódi alkatrészen kell lemérni.</figcaption>
 </figure>
 
