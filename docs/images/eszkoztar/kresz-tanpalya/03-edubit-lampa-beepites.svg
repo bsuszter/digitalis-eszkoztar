@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 980 500" role="img" aria-labelledby="title desc">
+  <title id="title">EduBit közlekedési lámpa beépítési méretei</title>
+  <desc id="desc">Elölnézeti és oldalnézeti műszaki rajz a 20×35 milliméteres lámpatestről, a 10 milliméteres csatlakozórészről és a 200 milliméter hosszú vezetékről.</desc>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10z" fill="#315f78"/></marker>
+    <style>.obj{fill:#eef3f6;stroke:#315f78;stroke-width:2.4}.dark{fill:#35434b;stroke:#263746;stroke-width:2}.connector{fill:#fff;stroke:#735c9a;stroke-width:2}.dim{stroke:#315f78;stroke-width:1.5;marker-start:url(#arrow);marker-end:url(#arrow)}.ext{stroke:#91a9b8;stroke-width:1}.txt{font:16px Arial,sans-serif;fill:#263746}.small{font:14px Arial,sans-serif;fill:#526773}.head{font:bold 19px Arial,sans-serif;fill:#285a77}.label{font:bold 16px Arial,sans-serif;fill:#604d80}</style>
+  </defs>
+  <rect x="1" y="1" width="978" height="498" rx="18" fill="#fff" stroke="#d8e2e8"/>
+  <text x="34" y="42" class="head">3. EduBit közlekedési lámpa – a tartóhoz szükséges ismert méretek</text>
+  <text x="34" y="68" class="small">Csak a megadott méreteket rögzítjük; a modul vastagságát és a csatlakozó pontos helyét a valódi alkatrészen kell lemérni.</text>
+
+  <!-- front view -->
+  <g transform="translate(95,110)">
+    <text x="62" y="0" class="label">elölnézet</text>
+    <rect x="70" y="35" width="80" height="140" rx="8" class="dark"/>
+    <circle cx="110" cy="66" r="14" fill="#d94a3a"/><circle cx="110" cy="105" r="14" fill="#e0b52d"/><circle cx="110" cy="144" r="14" fill="#5d9c5a"/>
+    <rect x="90" y="175" width="40" height="40" class="connector"/>
+    <line x1="70" y1="15" x2="150" y2="15" class="dim"/><line x1="70" y1="22" x2="70" y2="35" class="ext"/><line x1="150" y1="22" x2="150" y2="35" class="ext"/>
+    <text x="95" y="8" class="txt">20</text>
+    <line x1="45" y1="35" x2="45" y2="175" class="dim"/><line x1="53" y1="35" x2="70" y2="35" class="ext"/><line x1="53" y1="175" x2="70" y2="175" class="ext"/>
+    <text x="24" y="112" class="txt" transform="rotate(-90 24 112)">35 lámpatest</text>
+    <line x1="165" y1="175" x2="165" y2="215" class="dim"/><line x1="130" y1="175" x2="173" y2="175" class="ext"/><line x1="130" y1="215" x2="173" y2="215" class="ext"/>
+    <text x="177" y="200" class="txt">10 csatlakozórész</text>
+  </g>
+
+  <!-- placement -->
+  <g transform="translate(390,110)">
+    <text x="55" y="0" class="label">helyzete a pályán</text>
+    <line x1="20" y1="305" x2="245" y2="305" stroke="#263746" stroke-width="3"/>
+    <rect x="100" y="85" width="80" height="140" rx="8" class="dark"/>
+    <circle cx="140" cy="116" r="14" fill="#d94a3a"/><circle cx="140" cy="155" r="14" fill="#e0b52d"/><circle cx="140" cy="194" r="14" fill="#5d9c5a"/>
+    <rect x="120" y="225" width="40" height="40" class="connector"/>
+    <line x1="80" y1="225" x2="80" y2="305" class="dim"/><line x1="87" y1="225" x2="100" y2="225" class="ext"/><line x1="87" y1="305" x2="100" y2="305" class="ext"/>
+    <text x="58" y="270" class="txt" transform="rotate(-90 58 270)">55 alsó él</text>
+    <line x1="210" y1="85" x2="210" y2="305" class="dim"/><line x1="180" y1="85" x2="218" y2="85" class="ext"/><line x1="180" y1="305" x2="218" y2="305" class="ext"/>
+    <text x="222" y="201" class="txt">90 felső él</text>
+  </g>
+
+  <!-- side/unknown depth and cable -->
+  <g transform="translate(700,110)">
+    <text x="42" y="0" class="label">tartó és kábel</text>
+    <rect x="65" y="55" width="42" height="140" class="obj"/>
+    <rect x="75" y="195" width="22" height="40" class="connector"/>
+    <path d="M86 235 C86 275, 155 265, 155 315" fill="none" stroke="#315f78" stroke-width="4"/>
+    <line x1="45" y1="55" x2="45" y2="195" class="dim"/><line x1="53" y1="55" x2="65" y2="55" class="ext"/><line x1="53" y1="195" x2="65" y2="195" class="ext"/>
+    <text x="24" y="132" class="txt" transform="rotate(-90 24 132)">35</text>
+    <line x1="65" y1="35" x2="107" y2="35" class="dim"/><text x="74" y="26" class="small">vastagság:</text><text x="70" y="12" class="label">MÉRD MEG!</text>
+    <text x="128" y="222" class="small">szabad kábelkivezetés</text>
+    <text x="128" y="244" class="small">lefelé vagy hátrafelé</text>
+    <text x="35" y="348" class="txt">vezeték: 200 mm</text>
+  </g>
+
+  <rect x="34" y="430" width="912" height="44" rx="10" fill="#fff7ef" stroke="#efd2bf"/>
+  <text x="52" y="457" class="txt">A tartó végleges kivágását csak a valódi EduBit-modul vastagságának és csatlakozóhelyének lemérése után készítsd el.</text>
+</svg>
