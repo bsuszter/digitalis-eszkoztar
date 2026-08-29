@@ -23,6 +23,17 @@
   font-weight: 800;
 }
 
+.md-sidebar--primary .nav-topic--kresz > .md-nav__link,
+.md-sidebar--primary .md-nav__item--nested:has(> nav a[href$="/eszkoztar/kresz-tanpalya/muszaki-szabvany/"]) > .md-nav__link {
+  margin-top: .45rem;
+  padding: .48rem .62rem;
+  border-left: 4px solid #a97920;
+  border-radius: 9px;
+  background: #fff9ed;
+  color: #8b611d;
+  font-weight: 800;
+}
+
 .md-sidebar--primary .nav-topic--tinkercad > .md-nav__link,
 .md-sidebar--primary .md-nav__item--nested:has(> nav a[href$="/eszkoztar/tinkercad/"]) > .md-nav__link {
   margin-top: .45rem;
