@@ -18,7 +18,7 @@
 <div class="project-panel project-panel--gold">
   <h2>📐 Egy közös rendszerhez közös méretek kellenek</h2>
   <p>A pályán sok külön tanuló munkája kerül majd egymás mellé. Ezért bizonyos méretek – például a táblák csatlakozása, magassága és táblalapmérete – <strong>nem szabadon választhatók</strong>.</p>
-  <p><a href="../../../../../eszkoztar/kresz-tanpalya/muszaki-szabvany/" target="_blank" rel="noopener"><strong>Nyisd meg a KRESZ-tanpálya közös műszaki szabványát →</strong></a></p>
+  <p><a href="../../../../eszkoztar/kresz-tanpalya/muszaki-szabvany/" target="_blank" rel="noopener"><strong>Nyisd meg a KRESZ-tanpálya közös műszaki szabványát →</strong></a></p>
 </div>
 
 ## Milyen elemek készülhetnek?
@@ -80,7 +80,7 @@ Ha a jelzőlámpa-tartót választod, egy valódi elektronikai elem köré terve
 ## Hol kapsz segítséget?
 
 <div class="related-grid">
-  <a href="../../../../../eszkoztar/kresz-tanpalya/muszaki-szabvany/" target="_blank" rel="noopener">
+  <a href="../../../../eszkoztar/kresz-tanpalya/muszaki-szabvany/" target="_blank" rel="noopener">
     <span class="related-icon">📐</span>
     <span class="related-text"><strong>KRESZ-tanpálya – közös műszaki szabvány</strong><small>A kötelező közös méretek: táblák, foglalatok, gyalogosok és EduBit-lámpa.</small></span>
   </a>
