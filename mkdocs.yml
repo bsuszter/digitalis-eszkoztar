@@ -107,6 +107,8 @@ nav:
       - Szakkörök: tananyagok/szakkorok/index.md
   - Digitális eszköztár:
       - Áttekintés: eszkoztar/index.md
+      - KRESZ-tanpálya:
+          - Közös műszaki szabvány: eszkoztar/kresz-tanpalya/muszaki-szabvany.md
       - Flowgorithm:
           - Áttekintés: eszkoztar/flowgorithm/index.md
           - Kezdés:
