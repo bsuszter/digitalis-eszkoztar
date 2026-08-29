@@ -57,6 +57,11 @@ A táblarendszer célja, hogy ugyanazokon a helyeken <strong>különböző jelz�
   <span>A négyzetes csap megakadályozza, hogy a tábla a foglalatban elforduljon. A táblaoszlop ettől még felül hagyományos, hengeres formájú lehet.</span>
 </div>
 
+<figure class="tool-figure">
+  <img src="../../../images/eszkoztar/kresz-tanpalya/01-tablarendszer-meretek.svg" alt="Méretezett műszaki rajz a cserélhető közlekedési tábla oszlopáról, csatlakozócsapjáról és foglalatáról">
+  <figcaption><strong>1. műszaki ábra.</strong> A cserélhető táblarendszer kötött méretei. A rajz arányosan mutatja a csatlakozó elemeket.</figcaption>
+</figure>
+
 ### A tábla magassága
 
 A különböző alakú táblák akkor mutatnak egységesen, ha nem a felső élük, hanem a <strong>táblalap közepe kerül azonos magasságba</strong>.
@@ -74,6 +79,11 @@ A különböző alakú táblák akkor mutatnak egységesen, ha nem a felső él�
 | nyolcszög (STOP) | <strong>26 mm</strong> a szemközti oldalak között |
 | téglalap | <strong>30 × 20 mm</strong> |
 
+<figure class="tool-figure">
+  <img src="../../../images/eszkoztar/kresz-tanpalya/02-tablaalakok-meretek.svg" alt="Méretezett műszaki rajz a szabványos kör, négyzet, háromszög, STOP és téglalap alakú táblalapokról">
+  <figcaption><strong>2. műszaki ábra.</strong> A táblalapok egységes méretrendszere. A különböző alakok középpontja azonos magasságba kerül.</figcaption>
+</figure>
+
 <div class="project-panel project-panel--blue">
   <h2>🎨 Mi maradhat egyéni?</h2>
   <p>A csatlakozóméret, az oszlop átmérője, a táblalap mérete és magassága kötött. A <strong>talp külső formája, a táblajelzés elkészítésének módja és a részletek kialakítása</strong> viszont lehet saját tervezési döntés.</p>
@@ -81,11 +91,12 @@ A különböző alakú táblák akkor mutatnak egységesen, ha nem a felső él�
 
 ### Ha különálló talpat készítesz
 
-A talp legyen kicsi, de stabil:
+A talp legyen kicsi, de stabil. A 9 mm mély foglalat miatt a talpnak a foglalat körül magasított részt kell tartalmaznia.
 
 - legnagyobb alapterület: <strong>25 × 25 mm</strong>;
-- legnagyobb vastagság: <strong>5 mm</strong>;
-- tartalmazza a szabványos <strong>5,5 × 5,5 mm-es, 9 mm mély foglalatot</strong>, vagy olyan megoldást, amely ugyanezt a csatlakozást biztosítja.
+- az alsó talplemez ajánlott vastagsága: <strong>3 mm</strong>;
+- a foglalat körül legyen legalább <strong>11 mm teljes magasságú</strong> megerősített rész;
+- ebben helyezkedjen el a szabványos <strong>5,5 × 5,5 mm-es, 9 mm mély foglalat</strong>.
 
 Ha a foglalat közvetlenül a terepasztalba kerül, külön talp nem szükséges.
 
@@ -124,6 +135,11 @@ A pályán a lámpamodul helyzetét egységesítjük:
 - a lámpatest alsó éle: <strong>55 mm-rel a pálya felszíne fölött</strong>;
 - a 35 mm magas lámpatest felső éle így: <strong>90 mm</strong> magasságban lesz;
 - a vezeték számára lefelé vagy hátrafelé vezető, akadálymentes kivezetést kell hagyni.
+
+<figure class="tool-figure">
+  <img src="../../../images/eszkoztar/kresz-tanpalya/03-edubit-lampa-beepites.svg" alt="Méretezett műszaki rajz az EduBit közlekedési lámpa ismert beépítési méreteiről, magasságáról és kábelkivezetéséről">
+  <figcaption><strong>3. műszaki ábra.</strong> Az EduBit-lámpa ismert méretei és tervezett helyzete. A modul vastagságát a valódi alkatrészen kell lemérni.</figcaption>
+</figure>
 
 A jelzőlámpa szándékosan hangsúlyosabb a kisautókhoz képest. Ez oktatási eszköznél előny: a jelzések messzebbről is jól láthatók.
 
