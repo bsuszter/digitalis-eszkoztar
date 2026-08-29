@@ -14,6 +14,7 @@
   <span>Nem mindent méretarányosan kicsinyítünk. A járművek adják a pálya alapléptékét, a táblák és a jelzőlámpák pedig kissé hangsúlyosabbak lehetnek, hogy tanórai helyzetben jól láthatók és könnyen kezelhetők legyenek.</span>
 </div>
 
+<a id="palya"></a>
 ## 1. A pálya két igazodási pontja
 
 <div class="mini-grid">
@@ -33,6 +34,7 @@
   <p>Ezeket a méreteket elsősorban a technikaórán készülő terepasztal használja. A digitális kultúrában készülő elemeknek ehhez a rendszerhez kell illeszkedniük.</p>
 </div>
 
+<a id="tablak"></a>
 ## 2. Közlekedési táblák – szabványos cserélhető rendszer
 
 A táblarendszer célja, hogy ugyanazokon a helyeken <strong>különböző jelzőtáblákat lehessen gyorsan kicserélni</strong>. Ezért a csatlakozás nem lehet egyéni méretű.
@@ -87,6 +89,7 @@ A talp legyen kicsi, de stabil:
 
 Ha a foglalat közvetlenül a terepasztalba kerül, külön talp nem szükséges.
 
+<a id="gyalogosok"></a>
 ## 3. Gyalogosok és más közlekedési szereplők
 
 A szereplők mérete elsősorban a 6–8 cm hosszú kisautókhoz igazodik. Nem cél a szigorú méretarány, de az egymás mellett használt figurák legyenek következetesek.
@@ -99,6 +102,7 @@ A szereplők mérete elsősorban a 6–8 cm hosszú kisautókhoz igazodik. Nem c
 
 A figura lehet egyszerűsített, stilizált vagy részletesebb. A legfontosabb, hogy <strong>felismerhető, stabil és 3D nyomtatható</strong> legyen.
 
+<a id="edubit"></a>
 ## 4. EduBit-jelzőlámpa – beépítési szabvány
 
 A jelzőlámpánál nem becsült méretből dolgozunk: a valódi elektronikai modul a kiindulópont.
@@ -148,11 +152,11 @@ A jelzőlámpa szándékosan hangsúlyosabb a kisautókhoz képest. Ez oktatási
 <div class="related-grid">
   <a href="../../tinkercad/meretezes/">
     <span class="related-icon">📏</span>
-    <span class="related-text"><strong>Méretezés és igazítás</strong><small>A szabványos méretek pontos beállításához.</small></span>
+    <span class="related-text"><strong>Méretezés és igazítás</strong><small>A szabványos méretek pontos beállításához.</small><span class="tool-link">Segítség megnyitása →</span></span>
   </a>
   <a href="../../tinkercad/illesztesek/">
     <span class="related-icon">🧩</span>
-    <span class="related-text"><strong>Illesztések és illesztési hézag</strong><small>A cserélhető alkatrészek működő kapcsolatának megtervezéséhez.</small></span>
+    <span class="related-text"><strong>Illesztések és illesztési hézag</strong><small>A cserélhető alkatrészek működő kapcsolatának megtervezéséhez.</small><span class="tool-link">Segítség megnyitása →</span></span>
   </a>
 </div>
 
