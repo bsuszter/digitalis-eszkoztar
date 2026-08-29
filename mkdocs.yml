@@ -51,9 +51,11 @@ extra_css:
   - stylesheets/extra.css
   - stylesheets/link-cards.css
   - stylesheets/nav-highlight.css
+  - stylesheets/image-lightbox.css
 
 extra_javascript:
   - javascripts/nav-accordion.js
+  - javascripts/image-lightbox.js
 
 nav:
   - Kezdőlap: index.md
