@@ -52,11 +52,23 @@ Nem kell bonyolult szerkezetet készítened. Olyan megoldást keress, amelynek <
 
 ## A projekt útvonala
 
-<div class="idea-grid">
-  <div class="idea-card">💡 <strong>1. Találd ki az avatarodat és a plusz funkciót!</strong><span>Ötlet, funkció, vázlat és egyszerű működési terv.</span></div>
-  <div class="idea-card">🧱 <strong>2. Építsd fel az alapmodellt!</strong><span>Az alapoktól indulva készítsd el a saját játékfigurádat.</span></div>
-  <div class="idea-card">⚙️ <strong>3. Tervezd meg a működő részt!</strong><span>Mozgatható, cserélhető vagy kétállapotú elem kialakítása és illesztése.</span></div>
-  <div class="idea-card">🖨️ <strong>4. Készítsd elő és próbáld ki!</strong><span>Nyomtatás, összeszerelés, működési próba és szükség esetén javítás.</span></div>
+<div class="related-grid">
+  <a href="01-talald-ki-az-avatarod-es-a-funkciot/">
+    <span class="related-icon">💡</span>
+    <span class="related-text"><strong>1. Találd ki az avatarodat és a plusz funkciót!</strong><small>Ötlet, funkció, vázlat és egyszerű működési terv.</small></span>
+  </a>
+  <a href="02-epitsd-fel-az-alapmodellt/">
+    <span class="related-icon">🧱</span>
+    <span class="related-text"><strong>2. Építsd fel az alapmodellt!</strong><small>Az alapoktól indulva készítsd el a saját játékfigurádat.</small></span>
+  </a>
+  <a href="03-tervezd-meg-a-mukodo-reszt/">
+    <span class="related-icon">⚙️</span>
+    <span class="related-text"><strong>3. Tervezd meg a működő részt!</strong><small>Mozgatható, cserélhető vagy kétállapotú elem kialakítása és illesztése.</small></span>
+  </a>
+  <a href="04-keszitsd-elo-es-probald-ki/">
+    <span class="related-icon">🖨️</span>
+    <span class="related-text"><strong>4. Készítsd elő és próbáld ki!</strong><small>Külön STL-ek, nyomtatás, összeszerelés, működési próba és szükség esetén javítás.</small></span>
+  </a>
 </div>
 
 ## Hol kapsz segítséget a Tinkercadhez?
