@@ -72,6 +72,11 @@ A táblarendszer célja, hogy ugyanazokon a helyeken <strong>különböző jelz�
   <figcaption><strong>1. műszaki ábra.</strong> A cserélhető táblarendszer kötött méretei. A rajz arányosan mutatja a csatlakozó elemeket.</figcaption>
 </figure>
 
+<figure class="tool-figure">
+  <img src="/digitalis-eszkoztar/images/eszkoztar/kresz-tanpalya/08-modularis-tinkercad.png" alt="Tinkercadben modellezett cserélhető közlekedési tábla oszloppal, négyzetes csatlakozócsappal és foglalatos talppal">
+  <figcaption><strong>Tinkercad-példa.</strong> A műszaki rajzon megadott csatlakozási elv így jelenhet meg modellezés közben. A kép szemléltető példa, nem lemásolandó kész modell.</figcaption>
+</figure>
+
 ### A tábla magassága
 
 A különböző alakú táblák akkor mutatnak egységesen, ha nem a felső élük, hanem a <strong>táblalap közepe kerül azonos magasságba</strong>.
