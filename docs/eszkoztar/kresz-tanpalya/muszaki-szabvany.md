@@ -1,0 +1,159 @@
+# 📐 KRESZ-tanpálya – közös műszaki szabvány
+
+<div class="article-hero">
+  <div>
+    <span class="article-kicker">KRESZ-TANPÁLYA · KÖZÖS MÉRETEK</span>
+    <h2>Azért szabványosítunk, hogy minden elkészült elem együtt használható legyen.</h2>
+    <p>A KRESZ-tanpálya nem szigorúan méretarányos makett, hanem <strong>oktatási célú, moduláris rendszer</strong>. A pálya méreteit a meglévő 6–8 cm-es kisautók, a kiemelt jelzőlámpa pedig a valódi EduBit-lámpamodul fizikai méreteihez igazodva határozza meg.</p>
+  </div>
+  <div class="article-hero__icon">📐</div>
+</div>
+
+<div class="quick-note">
+  <strong>Fontos különbség</strong>
+  <span>Nem mindent méretarányosan kicsinyítünk. A járművek adják a pálya alapléptékét, a táblák és a jelzőlámpák pedig kissé hangsúlyosabbak lehetnek, hogy tanórai helyzetben jól láthatók és könnyen kezelhetők legyenek.</span>
+</div>
+
+## 1. A pálya két igazodási pontja
+
+<div class="mini-grid">
+  <div class="mini-card"><span class="mini-icon">🚗</span><strong>6–8 cm-es kisautók</strong><span>Ehhez igazodik elsősorban az út, a sávok és a közlekedési szereplők léptéke.</span></div>
+  <div class="mini-card"><span class="mini-icon">🚦</span><strong>EduBit-jelzőlámpa</strong><span>A lámpamodul fizikai mérete adott, ezért a tartót és a környezetét ehhez kell tervezni.</span></div>
+</div>
+
+<div class="project-panel project-panel--green">
+  <h2>📏 Közös pályaméretek</h2>
+  <div class="project-rule project-rule--green">
+    <ul>
+      <li><strong>egy forgalmi sáv szélessége: 55 mm;</strong></li>
+      <li><strong>kétsávos, kétirányú úttest szélessége: 110 mm;</strong></li>
+      <li><strong>járda ajánlott szélessége: 30 mm.</strong></li>
+    </ul>
+  </div>
+  <p>Ezeket a méreteket elsősorban a technikaórán készülő terepasztal használja. A digitális kultúrában készülő elemeknek ehhez a rendszerhez kell illeszkedniük.</p>
+</div>
+
+## 2. Közlekedési táblák – szabványos cserélhető rendszer
+
+A táblarendszer célja, hogy ugyanazokon a helyeken <strong>különböző jelzőtáblákat lehessen gyorsan kicserélni</strong>. Ezért a csatlakozás nem lehet egyéni méretű.
+
+<div class="project-panel project-panel--gold">
+  <h2>🔩 Kötelező csatlakozóméretek</h2>
+  <div class="project-rule">
+    <ul>
+      <li>a látható táblaoszlop átmérője: <strong>3,5 mm</strong>;</li>
+      <li>az oszlop alsó végén lévő szabványos csatlakozócsap: <strong>5 × 5 mm</strong> négyzetes keresztmetszet;</li>
+      <li>a csatlakozócsap hossza: <strong>8 mm</strong>;</li>
+      <li>a talp vagy pályafoglalat nyílása: <strong>5,5 × 5,5 mm</strong>;</li>
+      <li>a foglalat mélysége: <strong>9 mm</strong>.</li>
+    </ul>
+  </div>
+</div>
+
+<div class="quick-note">
+  <strong>Miért négyzetes a csatlakozó?</strong>
+  <span>A négyzetes csap megakadályozza, hogy a tábla a foglalatban elforduljon. A táblaoszlop ettől még felül hagyományos, hengeres formájú lehet.</span>
+</div>
+
+### A tábla magassága
+
+A különböző alakú táblák akkor mutatnak egységesen, ha nem a felső élük, hanem a <strong>táblalap közepe kerül azonos magasságba</strong>.
+
+- a táblalap középpontja: <strong>58 mm-rel a pálya felszíne fölött</strong>;
+- a táblalap vastagsága: <strong>2 mm</strong>.
+
+### A táblalapok szabványos méretei
+
+| Tábla alakja | Modellméret |
+| --- | ---: |
+| kör | Ø <strong>24 mm</strong> |
+| négyzet | <strong>24 × 24 mm</strong> |
+| háromszög | <strong>28 mm</strong> oldalhossz |
+| nyolcszög (STOP) | <strong>26 mm</strong> a szemközti oldalak között |
+| téglalap | <strong>30 × 20 mm</strong> |
+
+<div class="project-panel project-panel--blue">
+  <h2>🎨 Mi maradhat egyéni?</h2>
+  <p>A csatlakozóméret, az oszlop átmérője, a táblalap mérete és magassága kötött. A <strong>talp külső formája, a táblajelzés elkészítésének módja és a részletek kialakítása</strong> viszont lehet saját tervezési döntés.</p>
+</div>
+
+### Ha különálló talpat készítesz
+
+A talp legyen kicsi, de stabil:
+
+- legnagyobb alapterület: <strong>25 × 25 mm</strong>;
+- legnagyobb vastagság: <strong>5 mm</strong>;
+- tartalmazza a szabványos <strong>5,5 × 5,5 mm-es, 9 mm mély foglalatot</strong>, vagy olyan megoldást, amely ugyanezt a csatlakozást biztosítja.
+
+Ha a foglalat közvetlenül a terepasztalba kerül, külön talp nem szükséges.
+
+## 3. Gyalogosok és más közlekedési szereplők
+
+A szereplők mérete elsősorban a 6–8 cm hosszú kisautókhoz igazodik. Nem cél a szigorú méretarány, de az egymás mellett használt figurák legyenek következetesek.
+
+<div class="mini-grid">
+  <div class="mini-card"><span class="mini-icon">🚶</span><strong>Felnőtt: 35 mm</strong><span>A figura teljes magassága talp nélkül.</span></div>
+  <div class="mini-card"><span class="mini-icon">🧒</span><strong>Gyerek: 30 mm</strong><span>A figura teljes magassága talp nélkül.</span></div>
+  <div class="mini-card"><span class="mini-icon">⭕</span><strong>Talp: legfeljebb 12 mm</strong><span>Kör vagy hasonló méretű, 2 mm vastag stabilizáló talp.</span></div>
+</div>
+
+A figura lehet egyszerűsített, stilizált vagy részletesebb. A legfontosabb, hogy <strong>felismerhető, stabil és 3D nyomtatható</strong> legyen.
+
+## 4. EduBit-jelzőlámpa – beépítési szabvány
+
+A jelzőlámpánál nem becsült méretből dolgozunk: a valódi elektronikai modul a kiindulópont.
+
+<div class="mini-grid">
+  <div class="mini-card"><span class="mini-icon">📐</span><strong>20 × 35 mm</strong><span>a lámpamodul megadott homlokmérete</span></div>
+  <div class="mini-card"><span class="mini-icon">🔌</span><strong>+ 10 mm</strong><span>a fehér csatlakozórész megadott helyigénye</span></div>
+  <div class="mini-card"><span class="mini-icon">💡</span><strong>15 mm</strong><span>a LED-ek megadott magassága</span></div>
+  <div class="mini-card"><span class="mini-icon">〰️</span><strong>200 mm vezeték</strong><span>ennek el kell érnie a központi egységig</span></div>
+</div>
+
+<div class="project-panel project-panel--orange">
+  <h2>⚠️ A harmadik méretet ne találd ki!</h2>
+  <p>A modul vastagsága és a csatlakozó pontos térbeli helyzete csak a valódi alkatrész lemérésével tervezhető meg. A lámpatartó végleges modelljét ezért mindig <strong>a tényleges EduBit-modul mellett, méréssel</strong> készítsd el.</p>
+</div>
+
+A pályán a lámpamodul helyzetét egységesítjük:
+
+- a lámpatest alsó éle: <strong>55 mm-rel a pálya felszíne fölött</strong>;
+- a 35 mm magas lámpatest felső éle így: <strong>90 mm</strong> magasságban lesz;
+- a vezeték számára lefelé vagy hátrafelé vezető, akadálymentes kivezetést kell hagyni.
+
+A jelzőlámpa szándékosan hangsúlyosabb a kisautókhoz képest. Ez oktatási eszköznél előny: a jelzések messzebbről is jól láthatók.
+
+## 5. Mi kötött és mi szabad?
+
+<div class="idea-grid">
+  <div class="idea-card">📏 <strong>Kötött</strong><span>Sávszélesség, táblacsatlakozás, oszlopátmérő, táblaméretek, táblaközép magassága, gyalogos alapmagasságok, EduBit-modul helyigénye.</span></div>
+  <div class="idea-card">🎨 <strong>Szabad</strong><span>A talp külső formája, a figurák stílusa, a részletek, a tartószerkezet esztétikája és minden olyan megoldás, amely nem rontja a kompatibilitást.</span></div>
+</div>
+
+<div class="project-panel project-panel--green">
+  <h2>🧠 A projekt egyik fő szabálya</h2>
+  <div class="project-rule project-rule--green"><strong>A saját ötlet addig szabad, amíg a közös csatlakozási és méretszabványokat megtartja.</strong></div>
+</div>
+
+## 6. Tervezés előtt ellenőrizd!
+
+<div class="check-panel">
+  <label><input type="checkbox"><span>Tudom, melyik méretek kötöttek az általam választott elemnél.</span></label>
+  <label><input type="checkbox"><span>Nem szemre választom meg a közös csatlakozások méretét.</span></label>
+  <label><input type="checkbox"><span>A táblám vagy szereplőm mérete illik a közös rendszerhez.</span></label>
+  <label><input type="checkbox"><span>Ha EduBit-elemet építek be, a valódi alkatrészt is lemérem.</span></label>
+  <label><input type="checkbox"><span>Tudom, mely részeknél használhatok saját tervezési megoldást.</span></label>
+</div>
+
+<div class="related-grid">
+  <a href="../tinkercad/meretezes/">
+    <span class="related-icon">📏</span>
+    <span class="related-text"><strong>Méretezés és igazítás</strong><small>A szabványos méretek pontos beállításához.</small></span>
+  </a>
+  <a href="../tinkercad/illesztesek/">
+    <span class="related-icon">🧩</span>
+    <span class="related-text"><strong>Illesztések és illesztési hézag</strong><small>A cserélhető alkatrészek működő kapcsolatának megtervezéséhez.</small></span>
+  </a>
+</div>
+
+<div class="back-link"><a href="../">← Vissza a Digitális eszköztárhoz</a></div>
