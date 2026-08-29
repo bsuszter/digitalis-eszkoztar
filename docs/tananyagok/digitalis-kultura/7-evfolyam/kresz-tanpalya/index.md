@@ -63,7 +63,7 @@ Ha a jelzőlámpa-tartót választod, egy valódi elektronikai elem köré terve
 ## A projekt útvonala
 
 <div class="idea-grid">
-  <a class="idea-card" href="../kresz-tanpalya/01-valassz-elemet-es-keszits-tervet/"><strong>💡 1. Válassz elemet és készíts műszaki tervet!</strong><span>Döntsd el, mit készítesz, mire szolgál, hogyan kapcsolódik a tanpályához és mely méretek lesznek fontosak.</span></a>
+  <a class="idea-card" href="01-valassz-elemet-es-keszits-tervet/"><strong>💡 1. Válassz elemet és készíts műszaki tervet!</strong><span>Döntsd el, mit készítesz, mire szolgál, hogyan kapcsolódik a tanpályához és mely méretek lesznek fontosak.</span></a>
   <div class="idea-card">🧱 <strong>2. Építsd fel Tinkercadben!</strong><span>Készíts pontos, jól méretezett első 3D modellt.</span></div>
   <div class="idea-card">🧩 <strong>3. Tedd rendszerbe illeszthetővé!</strong><span>Talp, foglalat, cserélhetőség, rögzítés vagy valódi alkatrész befogadása.</span></div>
   <div class="idea-card">🖨️ <strong>4. Készíts próbaváltozatot!</strong><span>Nyomtathatóság, próbadarab, illeszkedés és első fizikai teszt.</span></div>
