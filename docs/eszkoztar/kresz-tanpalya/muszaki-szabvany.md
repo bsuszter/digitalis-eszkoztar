@@ -121,7 +121,7 @@ A figura lehet egyszerűsített, stilizált vagy részletesebb. A legfontosabb, 
 <a id="edubit"></a>
 ## 4. EduBit-jelzőlámpa – beépítési szabvány
 
-A jelzőlámpánál nem becsült méretből dolgozunk: a valódi elektronikai modul a kiindulópont.
+A jelzőlámpánál nem becsült méretből dolgozunk: a valódi elektronikai modul a kiindulópont. A kész tanpályaelemhez azonban <strong>nemcsak a modult, hanem tartót, oszlopot és stabil talpat is tervezni kell</strong>.
 
 <div class="mini-grid">
   <div class="mini-card"><span class="mini-icon">📐</span><strong>20 × 35 mm</strong><span>a lámpamodul megadott homlokmérete</span></div>
@@ -132,18 +132,26 @@ A jelzőlámpánál nem becsült méretből dolgozunk: a valódi elektronikai mo
 
 <div class="project-panel project-panel--orange">
   <h2>⚠️ A harmadik méretet ne találd ki!</h2>
-  <p>A modul vastagsága és a csatlakozó pontos térbeli helyzete csak a valódi alkatrész lemérésével tervezhető meg. A lámpatartó végleges modelljét ezért mindig <strong>a tényleges EduBit-modul mellett, méréssel</strong> készítsd el.</p>
+  <p>A modul vastagsága és a csatlakozó pontos térbeli helyzete csak a valódi alkatrész lemérésével tervezhető meg. A lámpatartó végleges belső méretét ezért mindig <strong>a tényleges EduBit-modul mellett, méréssel</strong> készítsd el.</p>
 </div>
 
-A pályán a lámpamodul helyzetét egységesítjük:
+### A lámpa kötelező tartószerkezete
+
+A lámpát nem hagyjuk önmagában „lebegő” elektronikai elemként. A 3D modellnek olyan tartószerkezetet kell adnia, amely a pályán önállóan használható.
 
 - a lámpatest alsó éle: <strong>55 mm-rel a pálya felszíne fölött</strong>;
 - a 35 mm magas lámpatest felső éle így: <strong>90 mm</strong> magasságban lesz;
+- a tartó fogja körbe vagy támassza meg a modult úgy, hogy <strong>a LED-ek szabadon láthatók maradjanak</strong>;
+- a tartó alatt legyen stabil oszlop vagy nyakrész;
+- a talp legnagyobb alapterülete: <strong>30 × 30 mm</strong>;
+- az alsó talplemez vastagsága: <strong>3 mm</strong>;
 - a vezeték számára lefelé vagy hátrafelé vezető, akadálymentes kivezetést kell hagyni.
 
+A tartó külső formája és az oszlop kialakítása lehet saját tervezési döntés, de a modulnak stabilan kell benne maradnia, a LED-eket nem takarhatja, és a kábel nem törhet meg.
+
 <figure class="tool-figure">
-  <img src="/digitalis-eszkoztar/images/eszkoztar/kresz-tanpalya/03-edubit-lampa-beepites.svg" alt="Méretezett műszaki rajz az EduBit közlekedési lámpa ismert beépítési méreteiről, magasságáról és kábelkivezetéséről">
-  <figcaption><strong>3. műszaki ábra.</strong> Az EduBit-lámpa ismert méretei és tervezett helyzete. A modul vastagságát a valódi alkatrészen kell lemérni.</figcaption>
+  <img src="/digitalis-eszkoztar/images/eszkoztar/kresz-tanpalya/03-edubit-lampa-beepites.svg" alt="Méretezett műszaki rajz az EduBit közlekedési lámpa moduljáról, tartójáról, talpáról, magasságáról és kábelkivezetéséről">
+  <figcaption><strong>3. műszaki ábra.</strong> Az EduBit-lámpa nem önmagában kerül a pályára: a modellhez tartót, oszlopot és talpat is tervezünk. A modul vastagságát a valódi alkatrészen kell lemérni.</figcaption>
 </figure>
 
 A jelzőlámpa szándékosan hangsúlyosabb a kisautókhoz képest. Ez oktatási eszköznél előny: a jelzések messzebbről is jól láthatók.
@@ -151,8 +159,8 @@ A jelzőlámpa szándékosan hangsúlyosabb a kisautókhoz képest. Ez oktatási
 ## 5. Mi kötött és mi szabad?
 
 <div class="idea-grid">
-  <div class="idea-card">📏 <strong>Kötött</strong><span>Sávszélesség, táblacsatlakozás, oszlopátmérő, táblaméretek, táblaközép magassága, gyalogos alapmagasságok, EduBit-modul helyigénye.</span></div>
-  <div class="idea-card">🎨 <strong>Szabad</strong><span>A talp külső formája, a figurák stílusa, a részletek, a tartószerkezet esztétikája és minden olyan megoldás, amely nem rontja a kompatibilitást.</span></div>
+  <div class="idea-card">📏 <strong>Kötött</strong><span>Sávszélesség, táblacsatlakozás, oszlopátmérő, táblaméretek, táblaközép magassága, gyalogos alapmagasságok, EduBit-modul helyigénye, a lámpa magassága és talpának maximális mérete.</span></div>
+  <div class="idea-card">🎨 <strong>Szabad</strong><span>A táblatalp külső formája, a figurák stílusa, a lámpatartó és lámpaoszlop formája, a részletek és minden olyan megoldás, amely nem rontja a kompatibilitást.</span></div>
 </div>
 
 <div class="project-panel project-panel--green">
@@ -166,7 +174,7 @@ A jelzőlámpa szándékosan hangsúlyosabb a kisautókhoz képest. Ez oktatási
   <label><input type="checkbox"><span>Tudom, melyik méretek kötöttek az általam választott elemnél.</span></label>
   <label><input type="checkbox"><span>Nem szemre választom meg a közös csatlakozások méretét.</span></label>
   <label><input type="checkbox"><span>A táblám vagy szereplőm mérete illik a közös rendszerhez.</span></label>
-  <label><input type="checkbox"><span>Ha EduBit-elemet építek be, a valódi alkatrészt is lemérem.</span></label>
+  <label><input type="checkbox"><span>Ha EduBit-elemet építek be, a valódi alkatrészt is lemérem, és tartót, oszlopot, talpat is tervezek hozzá.</span></label>
   <label><input type="checkbox"><span>Tudom, mely részeknél használhatok saját tervezési megoldást.</span></label>
 </div>
 
