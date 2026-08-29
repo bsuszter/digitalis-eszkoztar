@@ -10,7 +10,7 @@
 </div>
 
 <div class="article-meta">
-  <span>⏱️ 1–2 perc</span>
+  <span>⏱️ 1–3 perc</span>
   <span>🎯 Kész modell átadása</span>
   <span>📁 STL-fájl</span>
 </div>
@@ -34,23 +34,42 @@ Az **STL** egy olyan 3D modellfájl, amely a tárgy alakját írja le. A 3D nyom
   <div class="step-card"><span class="step-no">2</span><div><strong>Ha csak bizonyos elemeket szeretnél exportálni, jelöld ki őket!</strong><span>Ha a teljes munkaterület a kész modelledet tartalmazza, erre nincs szükség.</span></div></div>
 </div>
 
-## 2. Nyisd meg az exportálást!
-
-<div class="step-stack">
-  <div class="step-card"><span class="step-no">3</span><div><strong>Kattints az Exportálás / Export gombra!</strong><span>A megjelenő lehetőségek közül válaszd ki a 3D nyomtatáshoz használható fájltípust.</span></div></div>
-  <div class="step-card"><span class="step-no">4</span><div><strong>Válaszd az STL formátumot!</strong><span>A Tinkercad elkészíti és letölti a modell STL-változatát.</span></div></div>
+<div class="project-panel project-panel--orange">
+  <h2>🧩 Több külön alkatrész? Ne exportáld őket véletlenül egyetlen darabként!</h2>
+  <p>Ha a tárgyad több külön nyomtatandó részből áll – például alaptestből és cserélhető vagy mozgó elemből –, akkor <strong>minden külön alkatrészt külön STL-fájlba</strong> ments!</p>
 </div>
 
-## 3. Ellenőrizd a letöltött fájlt!
+## 2. Külön alkatrészek exportálása
 
 <div class="step-stack">
-  <div class="step-card"><span class="step-no">5</span><div><strong>Keresd meg a letöltött fájlt!</strong><span>A böngésző általában a Letöltések mappába menti. A fájl neve <code>.stl</code> végződésű lesz.</span></div></div>
-  <div class="step-card"><span class="step-no">6</span><div><strong>Adj neki értelmes fájlnevet!</strong><span>Ha szükséges, nevezd át úgy, hogy később is egyértelmű legyen, kihez és melyik munkához tartozik.</span></div></div>
+  <div class="step-card"><span class="step-no">3</span><div><strong>Jelöld ki csak az első alkatrészt!</strong><span>Ne legyen kijelölve mellette a másik külön nyomtatandó rész.</span></div></div>
+  <div class="step-card"><span class="step-no">4</span><div><strong>Exportáld a kijelölt elemet STL-be!</strong><span>Az Exportálás / Export ablakban a kijelölt alakzatok exportálását válaszd, ha a Tinkercad ezt külön lehetőségként mutatja.</span></div></div>
+  <div class="step-card"><span class="step-no">5</span><div><strong>Adj egyértelmű nevet a fájlnak!</strong><span>Például <code>avatar_alap.stl</code> vagy <code>avatar_mozgo_resz.stl</code>.</span></div></div>
+  <div class="step-card"><span class="step-no">6</span><div><strong>Ismételd meg a többi külön alkatrésszel!</strong><span>A végén minden külön nyomtatandó részhez legyen saját STL-fájlod.</span></div></div>
+</div>
+
+<div class="quick-note">
+  <strong>Nem a munkaterület helye számít</strong>
+  <span>A külön alkatrészek lehetnek ugyanabban a Tinkercad-tervben. Exportáláskor az a fontos, hogy mindig csak azt a részt jelöld ki, amelyből éppen STL-fájlt szeretnél készíteni.</span>
+</div>
+
+## 3. Nyisd meg az exportálást!
+
+<div class="step-stack">
+  <div class="step-card"><span class="step-no">7</span><div><strong>Kattints az Exportálás / Export gombra!</strong><span>A megjelenő lehetőségek közül válaszd ki a 3D nyomtatáshoz használható fájltípust.</span></div></div>
+  <div class="step-card"><span class="step-no">8</span><div><strong>Válaszd az STL formátumot!</strong><span>A Tinkercad elkészíti és letölti a modell vagy a kijelölt alkatrész STL-változatát.</span></div></div>
+</div>
+
+## 4. Ellenőrizd a letöltött fájlt!
+
+<div class="step-stack">
+  <div class="step-card"><span class="step-no">9</span><div><strong>Keresd meg a letöltött fájlt!</strong><span>A böngésző általában a Letöltések mappába menti. A fájl neve <code>.stl</code> végződésű lesz.</span></div></div>
+  <div class="step-card"><span class="step-no">10</span><div><strong>Ellenőrizd, hogy minden szükséges alkatrészhez van fájl!</strong><span>Több részből álló modellnél könnyű véletlenül kihagyni egy elemet.</span></div></div>
 </div>
 
 <div class="quick-note">
   <strong>Jó fájlnév</strong>
-  <span>Használj rövid, egyértelmű nevet! Például: <code>kovacs_anna_telefontarto.stl</code>. Kerüld a csak „uj”, „kesz”, „modell1” típusú neveket!</span>
+  <span>Használj rövid, egyértelmű nevet! Például: <code>kovacs_anna_avatar_alap.stl</code> és <code>kovacs_anna_avatar_forgo_resz.stl</code>. Kerüld a csak „uj”, „kesz”, „modell1” típusú neveket!</span>
 </div>
 
 ## Mi történik ezután?
@@ -76,9 +95,10 @@ Ne próbáld az STL-fájlt „foltozgatni”!
 
 <div class="check-panel">
   <label><input type="checkbox"><span>Exportálás előtt ellenőriztem, hogy a megfelelő modell van előttem.</span></label>
+  <label><input type="checkbox"><span>Ha több külön alkatrészem van, mindegyiket külön exportáltam.</span></label>
   <label><input type="checkbox"><span>STL formátumban exportáltam.</span></label>
-  <label><input type="checkbox"><span>Megtaláltam a letöltött fájlt.</span></label>
-  <label><input type="checkbox"><span>A fájl neve egyértelműen azonosítja a munkámat.</span></label>
+  <label><input type="checkbox"><span>Megtaláltam az összes letöltött fájlt.</span></label>
+  <label><input type="checkbox"><span>A fájlnevek egyértelműen azonosítják az alkatrészeket.</span></label>
   <label><input type="checkbox"><span>Tudom, hogy javítás esetén a Tinkercad-tervhez kell visszatérnem.</span></label>
 </div>
 
@@ -89,9 +109,9 @@ Ne próbáld az STL-fájlt „foltozgatni”!
     <span class="related-icon">🖨️</span>
     <span class="related-text"><strong>3D nyomtatásra előkészítés</strong><small>Ha exportálás előtt még ellenőriznéd a modelledet.</small></span>
   </a>
-  <a href="../uj-terv/">
-    <span class="related-icon">🆕</span>
-    <span class="related-text"><strong>Új 3D terv létrehozása</strong><small>Ha vissza szeretnél térni a Tinkercad-projektek kezeléséhez.</small></span>
+  <a href="../illesztesek/">
+    <span class="related-icon">🧩</span>
+    <span class="related-text"><strong>Illesztések és illesztési hézag</strong><small>Ha külön alkatrészeknek nyomtatás után össze kell kapcsolódniuk.</small></span>
   </a>
 </div>
 
