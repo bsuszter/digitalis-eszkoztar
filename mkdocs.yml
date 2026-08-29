@@ -77,7 +77,11 @@ nav:
                   - 2. Építsd fel az alapmodellt!: tananyagok/digitalis-kultura/6-evfolyam/3d-avatar-plusz/02-epitsd-fel-az-alapmodellt.md
                   - 3. Tervezd meg a működő részt!: tananyagok/digitalis-kultura/6-evfolyam/3d-avatar-plusz/03-tervezd-meg-a-mukodo-reszt.md
                   - 4. Készítsd elő és próbáld ki!: tananyagok/digitalis-kultura/6-evfolyam/3d-avatar-plusz/04-keszitsd-elo-es-probald-ki.md
-          - 7. évfolyam: tananyagok/digitalis-kultura/7-evfolyam/index.md
+          - 7. évfolyam:
+              - Áttekintés: tananyagok/digitalis-kultura/7-evfolyam/index.md
+              - 3D tervezés – KRESZ-tanpálya:
+                  - Projekt áttekintés: tananyagok/digitalis-kultura/7-evfolyam/kresz-tanpalya/index.md
+                  - 1. Válassz elemet és készíts műszaki tervet!: tananyagok/digitalis-kultura/7-evfolyam/kresz-tanpalya/01-valassz-elemet-es-keszits-tervet.md
           - 8. évfolyam:
               - Áttekintés: tananyagok/digitalis-kultura/8-evfolyam/index.md
               - 3D tervezés és nyomtatás:
