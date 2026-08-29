@@ -15,6 +15,14 @@
 ## Programok és területek
 
 <div class="tool-grid">
+  <a class="tool-card" href="kresz-tanpalya/muszaki-szabvany/">
+    <span class="tool-icon">🚦</span>
+    <span class="tool-tag">KÖZÖS RENDSZER</span>
+    <strong>KRESZ-tanpálya – műszaki szabvány</strong>
+    <span>Közös méretek, cserélhető táblák, szereplők és az EduBit-jelzőlámpa beépítési szabályai.</span>
+    <span class="tool-link">Szabvány megnyitása →</span>
+  </a>
+
   <a class="tool-card" href="flowgorithm/">
     <span class="tool-icon">🧠</span>
     <span class="tool-tag">ALGORITMUSOK</span>
