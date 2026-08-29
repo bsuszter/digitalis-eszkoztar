@@ -15,6 +15,12 @@
   <div class="project-flow">VÁLASZTÁS → TERV → 3D MODELL → ILLESZKEDÉS → PRÓBA → JAVÍTÁS → KÖZÖS TANPÁLYA</div>
 </div>
 
+<div class="project-panel project-panel--gold">
+  <h2>📐 Egy közös rendszerhez közös méretek kellenek</h2>
+  <p>A pályán sok külön tanuló munkája kerül majd egymás mellé. Ezért bizonyos méretek – például a táblák csatlakozása, magassága és táblalapmérete – <strong>nem szabadon választhatók</strong>.</p>
+  <p><a href="../../../../../eszkoztar/kresz-tanpalya/muszaki-szabvany/" target="_blank" rel="noopener"><strong>Nyisd meg a KRESZ-tanpálya közös műszaki szabványát →</strong></a></p>
+</div>
+
 ## Milyen elemek készülhetnek?
 
 <div class="idea-grid">
@@ -34,6 +40,7 @@
   <div class="project-rule">
     <ul>
       <li>illeszkedjen a közös KRESZ-tanpálya léptékéhez;</li>
+      <li>tartsa be a választott elemre vonatkozó közös műszaki méreteket;</li>
       <li>legyen stabil vagy biztonságosan rögzíthető;</li>
       <li>legyen jól felismerhető és használható tanórai helyzetekben;</li>
       <li>a fontos méreteket számmal add meg, ne szemre dolgozz;</li>
@@ -46,18 +53,18 @@
 
 ## Különleges eset: EduBit-jelzőlámpa
 
-Ha a jelzőlámpa-tartót választod, egy valódi elektronikai elem köré tervezel. A jelenlegi lámpamodulnál a tervezés kiinduló adatai:
+Ha a jelzőlámpa-tartót választod, egy valódi elektronikai elem köré tervezel. A megadott kiinduló adatok:
 
 <div class="mini-grid">
-  <div class="mini-card"><span class="mini-icon">📐</span><strong>20 × 35 mm</strong><span>a lámpatest hozzávetőleges mérete</span></div>
-  <div class="mini-card"><span class="mini-icon">🔌</span><strong>+ kb. 10 mm</strong><span>a fehér csatlakozórész helyigénye</span></div>
-  <div class="mini-card"><span class="mini-icon">💡</span><strong>kb. 15 mm</strong><span>a LED-ek magassága</span></div>
-  <div class="mini-card"><span class="mini-icon">〰️</span><strong>20 cm vezeték</strong><span>ennek el kell jutnia a központi egységig</span></div>
+  <div class="mini-card"><span class="mini-icon">📐</span><strong>20 × 35 mm</strong><span>a lámpatest megadott homlokmérete</span></div>
+  <div class="mini-card"><span class="mini-icon">🔌</span><strong>+ 10 mm</strong><span>a fehér csatlakozórész megadott helyigénye</span></div>
+  <div class="mini-card"><span class="mini-icon">💡</span><strong>15 mm</strong><span>a LED-ek megadott magassága</span></div>
+  <div class="mini-card"><span class="mini-icon">〰️</span><strong>200 mm vezeték</strong><span>ennek el kell jutnia a központi egységig</span></div>
 </div>
 
 <div class="quick-note">
-  <strong>Oktatási tanpálya, nem méretarányos makett</strong>
-  <span>A pályán meglévő kisautókat is használhatunk, ezért nem ragaszkodunk egyetlen szigorú méretarányhoz. A cél az egységes, jól használható és jól látható taneszköz.</span>
+  <strong>Oktatási tanpálya, nem szigorú méretarányos makett</strong>
+  <span>A 6–8 cm-es kisautók adják a pálya alapléptékét. A táblák és az EduBit-jelzőlámpák szándékosan hangsúlyosabbak lehetnek, hogy tanórai használat közben jól láthatók és könnyen kezelhetők legyenek.</span>
 </div>
 
 ## A projekt útvonala
@@ -73,6 +80,10 @@ Ha a jelzőlámpa-tartót választod, egy valódi elektronikai elem köré terve
 ## Hol kapsz segítséget?
 
 <div class="related-grid">
+  <a href="../../../../../eszkoztar/kresz-tanpalya/muszaki-szabvany/" target="_blank" rel="noopener">
+    <span class="related-icon">📐</span>
+    <span class="related-text"><strong>KRESZ-tanpálya – közös műszaki szabvány</strong><small>A kötelező közös méretek: táblák, foglalatok, gyalogosok és EduBit-lámpa.</small></span>
+  </a>
   <a href="../../../../eszkoztar/tinkercad/" target="_blank" rel="noopener">
     <span class="related-icon">🧰</span>
     <span class="related-text"><strong>Tinkercad Digitális eszköztár</strong><small>Belépés, alapműveletek, méretezés, illesztés, nyomtathatóság és export.</small></span>
