@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 980 520" role="img" aria-labelledby="title desc">
+  <title id="title">Cserélhető KRESZ-tábla rendszer műszaki méretei</title>
+  <desc id="desc">Méretezett rajz a 3,5 milliméteres oszlopról, az 5×5×8 milliméteres csatlakozócsapról és az 5,5×5,5 milliméteres, 9 milliméter mély foglalatról.</desc>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#315f78"/></marker>
+    <style>
+      .obj{fill:#f4f9fb;stroke:#315f78;stroke-width:2.2}.solid{fill:#dbeaf2;stroke:#315f78;stroke-width:2.2}.hole{fill:#fff;stroke:#735c9a;stroke-width:2.2;stroke-dasharray:7 5}.dim{stroke:#315f78;stroke-width:1.5;marker-start:url(#arrow);marker-end:url(#arrow)}.ext{stroke:#8aa6b7;stroke-width:1}.txt{font:16px Arial,sans-serif;fill:#263746}.small{font:14px Arial,sans-serif;fill:#526773}.head{font:bold 19px Arial,sans-serif;fill:#285a77}.label{font:bold 15px Arial,sans-serif;fill:#604d80}
+    </style>
+  </defs>
+  <rect x="1" y="1" width="978" height="518" rx="18" fill="#fff" stroke="#d8e2e8"/>
+  <text x="34" y="42" class="head">1. Tábla + oszlop + csatlakozó + foglalat</text>
+  <text x="34" y="68" class="small">A rajz arányosan mutatja a kötött méreteket; minden méret mm-ben értendő.</text>
+
+  <!-- assembled sign -->
+  <g transform="translate(115,105)">
+    <circle cx="95" cy="62" r="48" class="solid"/>
+    <line x1="95" y1="110" x2="95" y2="326" stroke="#315f78" stroke-width="14" stroke-linecap="round"/>
+    <rect x="85" y="326" width="20" height="32" class="solid"/>
+    <line x1="35" y1="358" x2="155" y2="358" stroke="#263746" stroke-width="3"/>
+    <text x="47" y="391" class="label">összeállított tábla</text>
+
+    <!-- 58 center height -->
+    <line x1="15" y1="62" x2="15" y2="358" class="dim"/>
+    <line x1="22" y1="62" x2="95" y2="62" class="ext"/>
+    <line x1="22" y1="358" x2="85" y2="358" class="ext"/>
+    <text x="-5" y="215" class="txt" transform="rotate(-90 -5 215)">58 – táblaközép</text>
+
+    <!-- 24 diameter -->
+    <line x1="47" y1="0" x2="143" y2="0" class="dim"/>
+    <line x1="47" y1="8" x2="47" y2="25" class="ext"/>
+    <line x1="143" y1="8" x2="143" y2="25" class="ext"/>
+    <text x="74" y="-9" class="txt">Ø 24</text>
+  </g>
+
+  <!-- pole detail -->
+  <g transform="translate(405,112)">
+    <text x="0" y="0" class="label">oszlop és alsó csatlakozó</text>
+    <rect x="83" y="42" width="14" height="230" rx="7" class="solid"/>
+    <rect x="80" y="272" width="20" height="32" class="solid"/>
+    <line x1="60" y1="74" x2="120" y2="74" class="dim"/>
+    <text x="126" y="79" class="txt">Ø 3,5</text>
+    <line x1="80" y1="326" x2="100" y2="326" class="dim"/>
+    <line x1="80" y1="308" x2="80" y2="334" class="ext"/><line x1="100" y1="308" x2="100" y2="334" class="ext"/>
+    <text x="72" y="351" class="txt">5 × 5</text>
+    <line x1="128" y1="272" x2="128" y2="304" class="dim"/>
+    <line x1="103" y1="272" x2="136" y2="272" class="ext"/><line x1="103" y1="304" x2="136" y2="304" class="ext"/>
+    <text x="140" y="293" class="txt">8</text>
+    <text x="0" y="383" class="small">A négyzetes csap nem engedi elfordulni a táblát.</text>
+  </g>
+
+  <!-- socket/base detail -->
+  <g transform="translate(690,112)">
+    <text x="0" y="0" class="label">foglalat különálló talpban</text>
+    <rect x="15" y="210" width="220" height="50" class="solid"/>
+    <rect x="85" y="150" width="80" height="60" class="solid"/>
+    <rect x="114" y="150" width="22" height="54" class="hole"/>
+    <line x1="15" y1="282" x2="235" y2="282" class="dim"/>
+    <line x1="15" y1="262" x2="15" y2="290" class="ext"/><line x1="235" y1="262" x2="235" y2="290" class="ext"/>
+    <text x="96" y="307" class="txt">max. 25</text>
+    <line x1="114" y1="126" x2="136" y2="126" class="dim"/>
+    <line x1="114" y1="134" x2="114" y2="150" class="ext"/><line x1="136" y1="134" x2="136" y2="150" class="ext"/>
+    <text x="95" y="112" class="txt">5,5 × 5,5</text>
+    <line x1="184" y1="150" x2="184" y2="204" class="dim"/>
+    <line x1="141" y1="150" x2="192" y2="150" class="ext"/><line x1="141" y1="204" x2="192" y2="204" class="ext"/>
+    <text x="196" y="182" class="txt">9 mély</text>
+    <text x="15" y="338" class="small">Talplemez: 3 mm. A foglalat körül magasított rész készül,</text>
+    <text x="15" y="359" class="small">így a 9 mm mély nyílás biztonságosan kialakítható.</text>
+  </g>
+
+  <rect x="34" y="454" width="912" height="42" rx="10" fill="#fff9ed" stroke="#ead6a7"/>
+  <text x="52" y="480" class="txt">Kötött: Ø3,5 oszlop · 5×5×8 csap · 5,5×5,5×9 foglalat.  Szabad: a talp külső formája.</text>
+</svg>
