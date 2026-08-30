@@ -85,6 +85,7 @@ nav:
                   - Projekt áttekintés: tananyagok/digitalis-kultura/7-evfolyam/kresz-tanpalya/index.md
                   - 1. Válassz elemet és készíts műszaki tervet!: tananyagok/digitalis-kultura/7-evfolyam/kresz-tanpalya/01-valassz-elemet-es-keszits-tervet.md
                   - 2. Építsd fel Tinkercadben!: tananyagok/digitalis-kultura/7-evfolyam/kresz-tanpalya/02-epitsd-fel-tinkercadben.md
+                  - 3. Tedd rendszerbe illeszthetővé!: tananyagok/digitalis-kultura/7-evfolyam/kresz-tanpalya/03-tedd-rendszerbe-illeszthetove.md
           - 8. évfolyam:
               - Áttekintés: tananyagok/digitalis-kultura/8-evfolyam/index.md
               - 3D tervezés és nyomtatás:
@@ -116,7 +117,6 @@ nav:
           - Kezdés:
               - Flowgorithm indítása: eszkoztar/flowgorithm/inditas.md
               - Választható elemek: eszkoztar/flowgorithm/valaszthato-elemek.md
-              - Szöveg kiírása: eszkoztar/flowgorithm/szoveg-kiirasa.md
           - Adatok és változók:
               - Deklarálás (változó): eszkoztar/flowgorithm/deklaralas.md
               - Adat beolvasása és felhasználása: eszkoztar/flowgorithm/beolvasas.md
