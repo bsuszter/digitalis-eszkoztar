@@ -74,7 +74,12 @@ Ha a jelzőlámpa-tartót választod, egy valódi elektronikai elem köré terve
   <a class="idea-card" href="02-epitsd-fel-tinkercadben/"><strong>🧱 2. Építsd fel Tinkercadben!</strong><span>Készíts pontos, jól méretezett első 3D modellt.</span></a>
   <a class="idea-card" href="03-tedd-rendszerbe-illeszthetove/"><strong>🧩 3. Tedd rendszerbe illeszthetővé!</strong><span>Talp, foglalat, cserélhetőség, rögzítés vagy valódi alkatrész befogadása – pontos kapcsolódási méretekkel.</span></a>
   <a class="idea-card" href="04-keszits-probavaltozatot/"><strong>🖨️ 4. Készíts próbaváltozatot!</strong><span>Nyomtatásra előkészítés, STL-export, próbadarab, illeszkedés és első fizikai teszt.</span></a>
-  <div class="idea-card">🔁 <strong>5. Próbáld ki a tanpályán és javítsd!</strong><span>A saját elem a közös rendszerben bizonyít: használható, cserélhető és tanításra alkalmas legyen.</span></div>
+  <a class="idea-card" href="05-probald-ki-a-tanpalyan-es-javitsd/"><strong>🔁 5. Próbáld ki a tanpályán és javítsd!</strong><span>A saját elem a közös rendszerben bizonyít: használható, cserélhető és tanításra alkalmas legyen.</span></a>
+</div>
+
+<div class="project-panel project-panel--green">
+  <h2>⭐ A teljes projekt: 100 pont</h2>
+  <p><strong>15 + 25 + 25 + 15 + 20 pont.</strong> Nem csak a végső tárgy számít: a tervezés, a pontos modellezés, a kompatibilitás, a próba és a javítás is a projekt része.</p>
 </div>
 
 ## Hol kapsz segítséget?
@@ -82,14 +87,14 @@ Ha a jelzőlámpa-tartót választod, egy valódi elektronikai elem köré terve
 <div class="related-grid">
   <a href="../../../../eszkoztar/kresz-tanpalya/muszaki-szabvany/" target="_blank" rel="noopener">
     <span class="related-icon">📐</span>
-    <span class="related-text"><strong>KRESZ-tanpálya – közös műszaki szabvány</strong><small>A kötelező közös méretek: táblák, foglalatok, gyalogosok és EduBit-lámpa.</small></span>
+    <span class="related-text"><strong>KRESZ-tanpálya – közös műszaki szabvány</strong><small>A kötelező közös méretek: táblák, foglalatok, gyalogosok és EduBit-lámpa.</small><span class="tool-link">A szabvány megnyitása →</span></span>
   </a>
   <a href="../../../../eszkoztar/tinkercad/" target="_blank" rel="noopener">
     <span class="related-icon">🧰</span>
-    <span class="related-text"><strong>Tinkercad Digitális eszköztár</strong><small>Belépés, alapműveletek, méretezés, illesztés, nyomtathatóság és export.</small></span>
+    <span class="related-text"><strong>Tinkercad Digitális eszköztár</strong><small>Belépés, alapműveletek, méretezés, illesztés, nyomtathatóság és export.</small><span class="tool-link">Az eszköztár megnyitása →</span></span>
   </a>
   <a href="https://www.tinkercad.com/" target="_blank" rel="noopener">
     <span class="related-icon">🧊</span>
-    <span class="related-text"><strong>Tinkercad megnyitása</strong><small>A saját terveid és az osztályterem elérése.</small></span>
+    <span class="related-text"><strong>Tinkercad megnyitása</strong><small>A saját terveid és az osztályterem elérése.</small><span class="tool-link">A Tinkercad megnyitása →</span></span>
   </a>
 </div>
