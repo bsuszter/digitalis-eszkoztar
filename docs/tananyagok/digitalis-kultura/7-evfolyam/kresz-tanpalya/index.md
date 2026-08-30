@@ -73,7 +73,7 @@ Ha a jelzőlámpa-tartót választod, egy valódi elektronikai elem köré terve
   <a class="idea-card" href="01-valassz-elemet-es-keszits-tervet/"><strong>💡 1. Válassz elemet és készíts műszaki tervet!</strong><span>Döntsd el, mit készítesz, mire szolgál, hogyan kapcsolódik a tanpályához és mely méretek lesznek fontosak.</span></a>
   <a class="idea-card" href="02-epitsd-fel-tinkercadben/"><strong>🧱 2. Építsd fel Tinkercadben!</strong><span>Készíts pontos, jól méretezett első 3D modellt.</span></a>
   <a class="idea-card" href="03-tedd-rendszerbe-illeszthetove/"><strong>🧩 3. Tedd rendszerbe illeszthetővé!</strong><span>Talp, foglalat, cserélhetőség, rögzítés vagy valódi alkatrész befogadása – pontos kapcsolódási méretekkel.</span></a>
-  <div class="idea-card">🖨️ <strong>4. Készíts próbaváltozatot!</strong><span>Nyomtathatóság, próbadarab, illeszkedés és első fizikai teszt.</span></div>
+  <a class="idea-card" href="04-keszits-probavaltozatot/"><strong>🖨️ 4. Készíts próbaváltozatot!</strong><span>Nyomtatásra előkészítés, STL-export, próbadarab, illeszkedés és első fizikai teszt.</span></a>
   <div class="idea-card">🔁 <strong>5. Próbáld ki a tanpályán és javítsd!</strong><span>A saját elem a közös rendszerben bizonyít: használható, cserélhető és tanításra alkalmas legyen.</span></div>
 </div>
 
