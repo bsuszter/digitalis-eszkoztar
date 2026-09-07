@@ -24,16 +24,31 @@
 
 Nyisd meg a Fájlkezelőt a tálcáról vagy a <strong>Windows + E</strong> billentyűkombinációval!
 
+<figure class="tool-figure">
+  <img src="/digitalis-eszkoztar/images/eszkoztar/tanulasi-kornyezet/practical01.png" alt="A Windows Fájlkezelő ikonja">
+  <figcaption><strong>Fájlkezelő.</strong> Ha nem használod a billentyűkombinációt, ezt a sárga mappa ikont keresd!</figcaption>
+</figure>
+
 ## 2. Keresd meg a tanár által megadott helyet!
 
 A bal oldali listában válaszd az <strong>Ez a gép</strong> lehetőséget, majd keresd meg a kijelölt meghajtót vagy mappát!
 
 <div class="quick-note"><strong>Az iskolai gépeken többnyire az „Adat” meghajtót keressük.</strong><span>A betűjele gyakran <strong>D:</strong>, de ettől eltérhet. A meghajtó nevét figyeld!</span></div>
 
+<figure class="tool-figure">
+  <img src="/digitalis-eszkoztar/images/eszkoztar/tanulasi-kornyezet/practical02.png" alt="Az Ez a gép nézetben kijelölt Helyi lemez Adat meghajtó">
+  <figcaption><strong>Példa az Adat meghajtóra.</strong> A név a fontosabb; a meghajtó betűjele más gépen eltérhet.</figcaption>
+</figure>
+
 ## 3. Nyisd meg vagy hozd létre a saját mappádat!
 
 - Ha már van saját mappád, <strong>ne készíts másodikat</strong>! Nyisd meg a meglévőt!
 - Ha még nincs, készíts új mappát, és nevezd el a saját neveddel!
+
+<figure class="tool-figure">
+  <img src="/digitalis-eszkoztar/images/eszkoztar/tanulasi-kornyezet/practical03.png" alt="Új mappa létrehozása a Fájlkezelő Új menüjéből">
+  <figcaption><strong>Új mappa készítése.</strong> Az „Új” menüből válaszd a „Mappa” lehetőséget!</figcaption>
+</figure>
 
 ## 4. Ellenőrizd a tantárgyi almappákat!
 
@@ -47,6 +62,11 @@ Legalább ezek a mappák legyenek benne:
 </div>
 
 Ha valamelyik hiányzik, készítsd el! Ha hibás a neve, nevezd át!
+
+<figure class="tool-figure">
+  <img src="/digitalis-eszkoztar/images/eszkoztar/tanulasi-kornyezet/practical04.png" alt="Példa saját mappára négy tantárgyi almappával a Fájlkezelőben">
+  <figcaption><strong>Példa kész szerkezetre.</strong> A képen a „Digi” rövidítés szerepel; te a leckében megadott <strong>Digitális kultúra</strong> nevet használd!</figcaption>
+</figure>
 
 ## 5. Mutasd meg az útvonalat!
 
