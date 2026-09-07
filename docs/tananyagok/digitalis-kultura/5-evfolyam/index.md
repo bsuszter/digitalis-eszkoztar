@@ -7,8 +7,12 @@
 </div>
 
 <div class="related-grid">
+  <a href="tanulasi-kornyezet/">
+    <span class="related-icon">🧰</span>
+    <span class="related-text"><strong>Tanulási környezet</strong><small>Fájlkezelő, saját mappa, tantárgyi almappák és azok az alapok, amelyek minden későbbi digitális munkához kellenek.</small><span class="tool-link">Tananyag megnyitása →</span></span>
+  </a>
   <a href="3d-avatar/">
     <span class="related-icon">🎲</span>
-    <span class="related-text"><strong>Saját játékfigura – saját avatar</strong><small>Belépő 3D tervezési projekt Tinkercadben: saját, valóban használható társasjáték-figura megtervezése.</small></span>
+    <span class="related-text"><strong>Saját játékfigura – saját avatar</strong><small>Belépő 3D tervezési projekt Tinkercadben: saját, valóban használható társasjáték-figura megtervezése.</small><span class="tool-link">Projekt megnyitása →</span></span>
   </a>
 </div>
