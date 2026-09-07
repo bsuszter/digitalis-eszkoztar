@@ -26,6 +26,11 @@
   <div class="step-card"><span class="step-no">1</span><div><strong>Nyisd meg a Fájlkezelőt!</strong><span>Kattints a tálcán a sárga mappa ikonra, vagy használd a <strong>Windows + E</strong> billentyűkombinációt!</span></div></div>
 </div>
 
+<figure class="tool-figure">
+  <img src="/digitalis-eszkoztar/images/eszkoztar/tanulasi-kornyezet/practical01.png" alt="A Windows Fájlkezelő ikonja">
+  <figcaption><strong>Ezt keresd!</strong> A Fájlkezelő ikonja egy sárga mappa.</figcaption>
+</figure>
+
 <details>
 <summary>💡 Ha nem találod a Fájlkezelőt</summary>
 
@@ -40,6 +45,11 @@ Nyisd meg a Start menüt, és kezdd el begépelni: <strong>Fájlkezelő</strong>
 </div>
 
 <div class="quick-note"><strong>Az iskolai gépeken többnyire az „Adat” meghajtót keressük.</strong><span>A betűjele gyakran <strong>D:</strong>, de eltérhet. A meghajtó <strong>nevét</strong> figyeld, ne csak a betűjelét!</span></div>
+
+<figure class="tool-figure">
+  <img src="/digitalis-eszkoztar/images/eszkoztar/tanulasi-kornyezet/practical02.png" alt="Az Ez a gép nézetben kijelölt Helyi lemez Adat meghajtó">
+  <figcaption><strong>Az Adat meghajtó.</strong> A példán a neve „Helyi lemez (Adat)”, a betűjele pedig D:. Nálad a betűjel eltérhet.</figcaption>
+</figure>
 
 <details>
 <summary>💡 Ha nem találod az Adat meghajtót</summary>
@@ -59,6 +69,11 @@ Ne hozz létre találomra máshol mappát! Kérj segítséget, és csak a kijel�
 - a felső <strong>Új → Mappa</strong> paranccsal;
 - vagy az üres területen <strong>jobb egérgomb → Új → Mappa</strong> paranccsal.
 
+<figure class="tool-figure">
+  <img src="/digitalis-eszkoztar/images/eszkoztar/tanulasi-kornyezet/practical03.png" alt="Új mappa létrehozása a Fájlkezelő Új menüjéből">
+  <figcaption><strong>Új mappa készítése.</strong> Az „Új” menüben válaszd a „Mappa” lehetőséget!</figcaption>
+</figure>
+
 <div class="quick-note"><strong>Ha már van saját mappád, ne készíts még egyet!</strong><span>Nyisd meg a meglévőt, és abban folytasd a munkát!</span></div>
 
 ## 4. Készíts tantárgyi almappákat!
@@ -71,6 +86,11 @@ Nyisd meg a saját mappádat, majd készíts benne legalább ezt a négy mappát
   <div class="mini-card"><span class="mini-icon">💻</span><strong>Digitális kultúra</strong></div>
   <div class="mini-card"><span class="mini-icon">🔬</span><strong>Természettudomány</strong></div>
 </div>
+
+<figure class="tool-figure">
+  <img src="/digitalis-eszkoztar/images/eszkoztar/tanulasi-kornyezet/practical04.png" alt="Példa saját mappára négy tantárgyi almappával a Fájlkezelőben">
+  <figcaption><strong>Ilyen szerkezetet kell látnod.</strong> A saját mappádon belül külön tantárgyi almappák szerepelnek. A példában a „Digi” mappa a Digitális kultúra rövidített neve; te a leckében megadott teljes nevet használd!</figcaption>
+</figure>
 
 <div class="quick-note"><strong>Figyelj a nevekre!</strong><span>Mindegyik mappa külön készüljön. A szóközök és az ékezetek is legyenek helyesek!</span></div>
 
