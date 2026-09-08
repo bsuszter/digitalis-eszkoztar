@@ -25,7 +25,7 @@
       <h2 style="margin:5px 0 10px; color:#fff; font-size:27px;">Különös tárgyak kerültek elő</h2>
       <p style="margin:0 0 14px; font-size:17px; color:#f2f6f5;">A régészek több mint ezeréves, a 21. századból származó tárgyakat találtak. Eredeti nevük és használatuk már feledésbe merült. Senki sem tudja biztosan, mire szolgálhattak.</p>
       <figure class="tool-figure" style="margin:0;">
-        <img src="../../../../../images/eszkoztar/jovo-regeszei/01-kulonos-targyak-kerultek-elo.png" alt="Jövőbeli régészek 21. századi tárgyakat vizsgálnak" style="width:100%; border-radius:14px; display:block;">
+        <img src="../../../../images/eszkoztar/jovo-regeszei/01-kulonos-targyak-kerultek-elo.png" alt="Jövőbeli régészek 21. századi tárgyakat vizsgálnak" style="width:100%; border-radius:14px; display:block;">
       </figure>
     </div>
   </div>
