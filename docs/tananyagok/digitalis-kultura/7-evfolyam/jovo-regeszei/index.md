@@ -9,6 +9,16 @@
   <div class="project-hero__icon">🏺</div>
 </div>
 
+<div class="project-panel project-panel--green">
+  <h2>🔦 Különös tárgyak kerültek elő</h2>
+  <p>Próbáld úgy nézni őket, mintha még soha nem láttál volna hasonlót. Vajon mire következtetnél pusztán a formájukból, részeikből és anyagukból?</p>
+</div>
+
+<figure class="tool-figure">
+  <img src="../../../../images/eszkoztar/jovo-regeszei/01-kulonos-targyak-kerultek-elo.png" alt="Jövőbeli régészek 21. századi tárgyakat vizsgálnak egy régészeti laborban">
+  <figcaption>3125 régészei a 21. század tárgyait vizsgálják.</figcaption>
+</figure>
+
 <div class="project-highlight project-highlight--blue">
   <h2>🎯 Most csak egyetlen dolgod van</h2>
   <p><strong>Válassz ki egy leletet, és foglald le magadnak!</strong></p>
