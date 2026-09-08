@@ -51,5 +51,5 @@
 
 <div class="quick-note">
   <strong>Mi lesz később?</strong>
-  <span>A kiválasztott tárgyról régészeti hipotézist készítesz, majd Wordben olyan katalóguslapot állítasz össze, amely az osztály közös régészeti kiadványának része lesz.</span>
+  <span>A kiválasztott tárgyról saját régészeti magyarázatot készítesz arra, hogy mire használhatták, majd Wordben olyan katalóguslapot állítasz össze, amely az osztály közös régészeti kiadványának része lesz.</span>
 </div>
