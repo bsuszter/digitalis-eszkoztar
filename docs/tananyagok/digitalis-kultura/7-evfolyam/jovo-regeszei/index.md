@@ -47,6 +47,10 @@
     <span class="related-icon">👀</span>
     <span class="related-text"><strong>1. feladat – Válassz leletet!</strong><small>Nézd meg a tárgyakat, válassz egyet, ellenőrizd, hogy szabad-e, majd foglald le.</small></span>
   </a>
+  <a href="02-gondolkodj-regeszkent/">
+    <span class="related-icon">🧠</span>
+    <span class="related-text"><strong>2. feladat – Gondolkodj régészként!</strong><small>Figyeld meg a leletedet, következtess a részeiből, találj ki hozzá magyarázatot és új nevet.</small></span>
+  </a>
 </div>
 
 <div class="quick-note">
