@@ -14,7 +14,7 @@
       <span class="tool-video__hint"><strong>Mit figyelj?</strong> A sorok magasságát és az oszlopok szélességét húzással és pontos számértékkel is beállíthatod.</span>
     </div>
   </div>
-  <video controls preload="metadata" src="../../images/eszkoztar/word/03-tablazat-meretezes.mp4"></video>
+  <video controls preload="metadata" src="../../../images/eszkoztar/word/03-tablazat-meretezes.mp4"></video>
 </div>
 
 ## Pontos méret megadása
