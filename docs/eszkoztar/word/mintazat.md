@@ -13,6 +13,11 @@
 
 ## Gyors megoldás
 
+<figure class="tool-figure">
+  <img src="../../images/eszkoztar/word/07-mintazat.png" alt="Mintázat színválasztó a Word Bekezdés csoportjában" loading="lazy">
+  <figcaption>A mintázat színét a Kezdőlap → Bekezdés csoportban állíthatod be.</figcaption>
+</figure>
+
 <div class="step-stack">
   <div class="step-card"><span class="step-no">1</span><div><strong>Kattints a formázandó bekezdésbe!</strong><span>Ha több bekezdést szeretnél egyszerre módosítani, jelöld ki őket.</span></div></div>
   <div class="step-card"><span class="step-no">2</span><div><strong>Keresd meg a Kezdőlap → Bekezdés csoportot!</strong></div></div>
