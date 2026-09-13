@@ -6,11 +6,16 @@
   <p>A táblázat szegélyeinek színe, vastagsága és stílusa külön is beállítható.</p>
 </div>
 
-## 🎬 Rövid bemutató
-
-Figyeld meg, hogy előbb a vonal tulajdonságait, utána pedig azt választjuk ki, melyik szegélyre legyen érvényes!
-
-<video controls src="../../../images/eszkoztar/word/04-tablazat-szegelyek.mp4" style="width:100%;border-radius:14px;background:#17232b;"></video>
+<div class="tool-video">
+  <div class="tool-video__head">
+    <span class="tool-video__icon">🎬</span>
+    <div class="tool-video__text">
+      <strong class="tool-video__title">Nézd meg a műveletet!</strong>
+      <span class="tool-video__hint"><strong>Mit figyelj?</strong> Előbb állítsd be a vonal tulajdonságait, utána válaszd ki, melyik szegélyekre legyenek érvényesek!</span>
+    </div>
+  </div>
+  <video controls preload="metadata" src="../../images/eszkoztar/word/04-tablazat-szegelyek.mp4"></video>
+</div>
 
 <div class="step-stack">
   <div class="step-card"><span class="step-no">1</span><div><strong>Jelöld ki azt a táblázatrészt, amelynek a szegélyét módosítanád!</strong></div></div>
