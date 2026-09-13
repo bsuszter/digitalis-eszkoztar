@@ -38,6 +38,14 @@
     <span>Méretezés, alakítás, csoportosítás, importálás, exportálás és más gyakori műveletek.</span>
     <span class="tool-link">Eszköztár megnyitása →</span>
   </a>
+
+  <a class="tool-card" href="word/">
+    <span class="tool-icon">📝</span>
+    <span class="tool-tag">SZÖVEGSZERKESZTÉS</span>
+    <strong>Word</strong>
+    <span>Mentés, szöveg- és bekezdésformázás, képek, táblázatok és más gyakori műveletek.</span>
+    <span class="tool-link">Eszköztár megnyitása →</span>
+  </a>
 </div>
 
 <div class="quick-note">
