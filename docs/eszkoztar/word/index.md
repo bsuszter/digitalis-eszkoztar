@@ -9,7 +9,7 @@
   <div class="toolkit-hero__icon">📝</div>
 </div>
 
-## Gyors segítség
+## Dokumentum, szöveg és képek
 
 <div class="need-grid">
   <a class="need-card" href="mentes/"><strong>💾 El szeretném menteni a dokumentumot</strong><span>Első mentés, jó fájlnév és megfelelő hely.</span></a>
@@ -20,8 +20,18 @@
   <a class="need-card" href="szegely/"><strong>▭ Szegélyt szeretnék a bekezdéshez</strong><span>Teljes keret vagy csak kiválasztott oldalak.</span></a>
   <a class="need-card" href="kep-beszurasa/"><strong>🖼️ Képet szeretnék beszúrni</strong><span>Mentett fájlból vagy a vágólapról.</span></a>
   <a class="need-card" href="kep-elrendezese/"><strong>🧩 Nem tudom szabadon mozgatni a képet</strong><span>Kép elrendezése és körbefuttatása.</span></a>
-  <a class="need-card" href="tablazat-alapfogalmak/"><strong>▦ Meg szeretném érteni a táblázat részeit</strong><span>Interaktív gyakorlás: cella, sor és oszlop.</span></a>
-  <a class="need-card" href="tablazat-letrehozasa/"><strong>▦ Táblázatot szeretnék beszúrni</strong><span>Sorok és oszlopok megadása a Beszúrás menüből.</span></a>
 </div>
 
-<div class="quick-note"><strong>Ez az eszköztár folyamatosan bővül.</strong><span>A további táblázatműveletek és más gyakran használt Word-eszközök is ide kerülnek.</span></div>
+## Táblázatok
+
+<div class="need-grid">
+  <a class="need-card" href="tablazat-alapfogalmak/"><strong>▦ Meg szeretném érteni a táblázat részeit</strong><span>Interaktív gyakorlás: cella, sor és oszlop.</span></a>
+  <a class="need-card" href="tablazat-letrehozasa/"><strong>➕ Táblázatot szeretnék beszúrni</strong><span>Sorok és oszlopok megadása a Beszúrás menüből.</span></a>
+  <a class="need-card" href="tablazat-formazas/"><strong>✍️ Szöveget szeretnék formázni a táblázatban</strong><span>A cellákban lévő szöveg kijelölése és formázása.</span></a>
+  <a class="need-card" href="tablazat-cellamuveletek/"><strong>🧱 Sort, oszlopot vagy cellát szeretnék módosítani</strong><span>Beszúrás, törlés és alapvető cellaműveletek.</span></a>
+  <a class="need-card" href="tablazat-meretezes/"><strong>📐 Pontos sormagasságot vagy oszlopszélességet szeretnék</strong><span>Méretezés számszerűen vagy egérrel.</span></a>
+  <a class="need-card" href="tablazat-szegelyek/"><strong>▦ A táblázat vonalait szeretném beállítani</strong><span>Szegélyek, vonalstílus és vastagság.</span></a>
+  <a class="need-card" href="tablazat-egyesites/"><strong>🔗 Cellákat szeretnék egyesíteni</strong><span>Több cellából egy nagyobb cella.</span></a>
+</div>
+
+<div class="quick-note"><strong>Használd célzottan!</strong><span>Nem kell minden oldalt végigolvasnod. A saját feladatodhoz szükséges műveletet keresd meg, majd térj vissza a dokumentumodhoz!</span></div>
