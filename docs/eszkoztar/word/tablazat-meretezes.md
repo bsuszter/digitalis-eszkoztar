@@ -6,11 +6,16 @@
   <p>A táblázat sorainak magassága és oszlopainak szélessége is módosítható.</p>
 </div>
 
-## 🎬 Rövid bemutató
-
-Figyeld meg, hogyan változik a sorok magassága és az oszlopok szélessége!
-
-<video controls src="../../../images/eszkoztar/word/03-tablazat-meretezes.mp4" style="width:100%;border-radius:14px;background:#17232b;"></video>
+<div class="tool-video">
+  <div class="tool-video__head">
+    <span class="tool-video__icon">🎬</span>
+    <div class="tool-video__text">
+      <strong class="tool-video__title">Nézd meg a műveletet!</strong>
+      <span class="tool-video__hint"><strong>Mit figyelj?</strong> A sorok magasságát és az oszlopok szélességét húzással és pontos számértékkel is beállíthatod.</span>
+    </div>
+  </div>
+  <video controls preload="metadata" src="../../images/eszkoztar/word/03-tablazat-meretezes.mp4"></video>
+</div>
 
 ## Pontos méret megadása
 
