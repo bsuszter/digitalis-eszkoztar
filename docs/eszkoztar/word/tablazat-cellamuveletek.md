@@ -14,7 +14,7 @@
       <span class="tool-video__hint"><strong>Mit figyelj?</strong> Előbb jelöld ki a megfelelő táblázatrészt, utána válaszd ki a szükséges műveletet!</span>
     </div>
   </div>
-  <video controls preload="metadata" src="../../images/eszkoztar/word/02-cellamuveletek.mp4"></video>
+  <video controls preload="metadata" src="../../../images/eszkoztar/word/02-cellamuveletek.mp4"></video>
 </div>
 
 ## Sor vagy oszlop hozzáadása
