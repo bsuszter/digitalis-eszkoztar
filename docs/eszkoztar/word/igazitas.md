@@ -16,7 +16,7 @@
 A <strong>Kezdőlap</strong> szalag <strong>Bekezdés</strong> csoportjában közvetlenül elérhetők az igazítási gombok.
 
 <figure class="tool-figure">
-  <img src="../../images/eszkoztar/word/08-igazitas.png" alt="Bekezdés igazítási gombok a Word Kezdőlap szalagján" loading="lazy">
+  <img src="../../../images/eszkoztar/word/08-igazitas.png" alt="Bekezdés igazítási gombok a Word Kezdőlap szalagján" loading="lazy">
   <figcaption>Az igazítási gombokat a Kezdőlap → Bekezdés csoportban találod.</figcaption>
 </figure>
 
