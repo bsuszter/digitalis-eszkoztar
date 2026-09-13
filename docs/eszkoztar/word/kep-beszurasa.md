@@ -8,6 +8,11 @@
 
 ## Kép beszúrása mentett fájlból
 
+<figure class="tool-figure" markdown>
+![Kép beszúrása mentett fájlból Wordben](../../images/eszkoztar/word/13-kep-beszurasa-fajlbol.png){ loading=lazy }
+<figcaption>A Beszúrás → Képek paranccsal választhatsz a gépre mentett képfájlok közül.</figcaption>
+</figure>
+
 <div class="step-stack">
   <div class="step-card"><span class="step-no">1</span><div><strong>Kattints oda, ahová a képet szeretnéd!</strong></div></div>
   <div class="step-card"><span class="step-no">2</span><div><strong>Beszúrás → Képek</strong><span>Válaszd ki a gépre mentett képfájlt!</span></div></div>
