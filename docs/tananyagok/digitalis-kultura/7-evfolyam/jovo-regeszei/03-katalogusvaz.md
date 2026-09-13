@@ -22,6 +22,17 @@
   <div class="project-flow">WORD → MENTÉS → FŐCÍM → FORMÁZÁS → ELSŐ CÍMSOR → ELLENŐRZÉS</div>
 </div>
 
+## Ezt készíted el most
+
+<div style="padding:18px; border:1px solid #d8e4ea; border-radius:16px; background:#f8fbfc;">
+  <div style="padding:10px 14px; border-top:1px solid #222; border-bottom:1px solid #222; background:#d9efcf; text-align:center; font-size:1.35em; font-weight:700; color:#111;">
+    Jövő régészeti katalógus – Leletleírás
+  </div>
+  <div style="margin-top:18px; font-size:1.08em; font-weight:700;">Lelet neve:</div>
+</div>
+
+<div class="quick-note"><strong>Most még csak idáig jutsz el.</strong><span>A dokumentum többi része a következő mérföldkövekben készül el.</span></div>
+
 ## 1. Nyisd meg a Wordöt, és rögtön mentsd el a dokumentumot!
 
 <div class="step-stack">
@@ -52,6 +63,8 @@ Először csak a szöveget írd be, még ne formázd!
   <div class="step-card"><span class="step-no">2</span><div><strong>Ellenőrizd a szöveget!</strong><span>Csak akkor kezdd el formázni, ha a cím pontos.</span></div></div>
 </div>
 
+<div class="quick-note"><strong>Most így néz ki:</strong><span style="display:block; margin-top:8px; padding:10px 12px; background:#fff; border:1px dashed #b9cbd5;">Jövő régészeti katalógus – Leletleírás</span></div>
+
 ## 3. Formázd meg a főcímet lépésenként!
 
 A kész főcím legyen <strong>félkövér, nagyobb betűméretű, középre igazított, zöld hátterű, felül és alul szegélyezett</strong>.
@@ -73,6 +86,8 @@ A kész főcím legyen <strong>félkövér, nagyobb betűméretű, középre iga
   <a href="../../../../../eszkoztar/word/igazitas/" target="_blank" rel="noopener"><span class="related-icon">↔️</span><span class="related-text"><strong>Bekezdés igazítása</strong><small>Balra, középre vagy jobbra igazítás.</small><span class="tool-link">Segítség megnyitása →</span></span></a>
 </div>
 
+<div class="quick-note"><strong>Eddig így kell kinéznie:</strong><span style="display:block; margin-top:8px; padding:10px 12px; background:#fff; text-align:center; font-size:1.25em; font-weight:700;">Jövő régészeti katalógus – Leletleírás</span></div>
+
 <div class="step-stack">
   <div class="step-card"><span class="step-no">4</span><div><strong>Adj zöld háttérszínt a főcím bekezdésének!</strong><span>Mintázatot használj, ne betűszínt!</span></div></div>
 </div>
@@ -90,8 +105,9 @@ A kész főcím legyen <strong>félkövér, nagyobb betűméretű, középre iga
 </div>
 
 <div class="project-panel project-panel--green">
-  <h2>✅ Állj meg egy pillanatra!</h2>
-  <p>Hasonlítsd össze a főcímet a mintával! Ha valami eltér, most javítsd ki, mielőtt továbbmész.</p>
+  <h2>✅ Kész főcím – ehhez hasonlítsd!</h2>
+  <div style="margin-top:12px; padding:10px 14px; border-top:1px solid #222; border-bottom:1px solid #222; background:#d9efcf; text-align:center; font-size:1.35em; font-weight:700; color:#111;">Jövő régészeti katalógus – Leletleírás</div>
+  <p>Ha valami eltér, most javítsd ki, mielőtt továbbmész!</p>
 </div>
 
 ## 4. Készítsd el az első címsort!
@@ -113,6 +129,8 @@ A főcím alá írj egy új sorba:
   <a href="../../../../../eszkoztar/word/betumeret-felkover/" target="_blank" rel="noopener"><span class="related-icon">🔠</span><span class="related-text"><strong>Betűméret és betűstílus</strong><small>Ha a címsor méretét vagy kiemelését állítod.</small><span class="tool-link">Segítség megnyitása →</span></span></a>
   <a href="../../../../../eszkoztar/word/igazitas/" target="_blank" rel="noopener"><span class="related-icon">↔️</span><span class="related-text"><strong>Bekezdés igazítása</strong><small>Ha a minta alapján más igazításra van szükség.</small><span class="tool-link">Segítség megnyitása →</span></span></a>
 </div>
+
+<div class="quick-note"><strong>A mérföldkő végén ezt lásd:</strong><span style="display:block; margin-top:10px; padding:14px; background:#fff; border:1px solid #d8e4ea; border-radius:10px;"><span style="display:block; padding:10px 14px; border-top:1px solid #222; border-bottom:1px solid #222; background:#d9efcf; text-align:center; font-size:1.25em; font-weight:700; color:#111;">Jövő régészeti katalógus – Leletleírás</span><span style="display:block; margin-top:16px; font-weight:700;">Lelet neve:</span></span></div>
 
 ## 5. Mentsd el újra, és ellenőrizd!
 
