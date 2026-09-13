@@ -8,9 +8,9 @@
 
 ## Gyors megoldás
 
-<figure class="tool-figure">
-  <img src="../../../images/eszkoztar/word/05-szegely-menu.png" alt="A Szegély menü megnyitása Wordben" loading="lazy">
-  <figcaption>A Szegély gomb menüjéből választhatod ki, melyik oldalon jelenjen meg vonal.</figcaption>
+<figure class="tool-figure" markdown>
+![A Szegély menü megnyitása Wordben](../../images/eszkoztar/word/05-szegely-menu.png){ loading=lazy }
+<figcaption>A Szegély gomb menüjéből választhatod ki, melyik oldalon jelenjen meg vonal.</figcaption>
 </figure>
 
 <div class="step-stack">
@@ -24,9 +24,9 @@
   <p>A <strong>Szegély és mintázat…</strong> ablakban megadhatod a vonal stílusát, színét és vastagságát is.</p>
 </div>
 
-<figure class="tool-figure">
-  <img src="../../../images/eszkoztar/word/06-szegely-beallitas.png" alt="Szegély és mintázat részletes beállításai Wordben" loading="lazy">
-  <figcaption>A részletes ablakban a vonal stílusa, színe és vastagsága is módosítható.</figcaption>
+<figure class="tool-figure" markdown>
+![Szegély és mintázat részletes beállításai Wordben](../../images/eszkoztar/word/06-szegely-beallitas.png){ loading=lazy }
+<figcaption>A részletes ablakban a vonal stílusa, színe és vastagsága is módosítható.</figcaption>
 </figure>
 
 ## Szegély és szöveg közti távolság
