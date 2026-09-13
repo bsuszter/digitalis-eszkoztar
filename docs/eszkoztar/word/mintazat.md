@@ -14,7 +14,7 @@
 ## Gyors megoldás
 
 <figure class="tool-figure">
-  <img src="../../images/eszkoztar/word/07-mintazat.png" alt="Mintázat színválasztó a Word Bekezdés csoportjában" loading="lazy">
+  <img src="../../../images/eszkoztar/word/07-mintazat.png" alt="Mintázat színválasztó a Word Bekezdés csoportjában" loading="lazy">
   <figcaption>A mintázat színét a Kezdőlap → Bekezdés csoportban állíthatod be.</figcaption>
 </figure>
 
