@@ -20,4 +20,4 @@
   <a class="need-card" href="tablazat-letrehozasa/"><strong>▦ Táblázatot szeretnék beszúrni</strong><span>Sorok és oszlopok megadása a Beszúrás menüből.</span></a>
 </div>
 
-<div class="quick-note"><strong>Ez az eszköztár folyamatosan bővül.</strong><span>A meglévő Word- és táblázatos H5P-anyagokból fokozatosan ide kerülnek a képműveletek, az oldalbeállítás és a részletes táblázatkezelés is.</span></div>
+<div class="quick-note"><strong>Ez az eszköztár folyamatosan bővül.</strong><span>Ide kerülnek a gyakran használt Word-műveletek, a képek kezelése, az oldalbeállítás és a részletes táblázatkezelés is.</span></div>
