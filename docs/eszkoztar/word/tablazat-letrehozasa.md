@@ -6,11 +6,16 @@
   <p>A táblázat beszúrása a <strong>Beszúrás</strong> menüből indul.</p>
 </div>
 
-## 🎬 Nézd meg a műveletet!
-
-Figyeld meg, hogyan választja ki a sorok és oszlopok számát a beszúrás előtt!
-
-<video controls src="../../../images/eszkoztar/word/01-tablazat-letrehozasa.mp4" style="width:100%;border-radius:14px;background:#17232b;"></video>
+<div class="tool-video">
+  <div class="tool-video__head">
+    <span class="tool-video__icon">🎬</span>
+    <div class="tool-video__text">
+      <strong class="tool-video__title">Nézd meg a műveletet!</strong>
+      <span class="tool-video__hint"><strong>Mit figyelj?</strong> A beszúrás előtt válaszd ki a sorok és oszlopok számát!</span>
+    </div>
+  </div>
+  <video controls preload="metadata" src="../../images/eszkoztar/word/01-tablazat-letrehozasa.mp4"></video>
+</div>
 
 <div class="step-stack">
   <div class="step-card"><span class="step-no">1</span><div><strong>Helyezd a kurzort oda, ahol a táblázatot szeretnéd!</strong></div></div>
