@@ -8,6 +8,11 @@
 
 ## Első mentés
 
+<figure class="tool-figure">
+  <img src="../../images/eszkoztar/word/01-mentes.png" alt="A Word mentési felülete" loading="lazy">
+  <figcaption>Az első mentésnél válaszd ki a helyet és adj kifejező fájlnevet.</figcaption>
+</figure>
+
 <div class="step-stack">
   <div class="step-card"><span class="step-no">1</span><div><strong>Válassz megfelelő mappát!</strong><span>Olyan helyre ments, ahol később is biztosan megtalálod a munkádat.</span></div></div>
   <div class="step-card"><span class="step-no">2</span><div><strong>Adj kifejező fájlnevet!</strong><span>A névből derüljön ki, mi van a dokumentumban. Ne maradjon „Dokumentum1”.</span></div></div>
