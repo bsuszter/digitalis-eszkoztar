@@ -8,6 +8,11 @@
 
 ## Gyors megoldás
 
+<figure class="tool-figure">
+  <img src="../../images/eszkoztar/word/05-szegely-menu.png" alt="A Szegély menü megnyitása Wordben" loading="lazy">
+  <figcaption>A Szegély gomb menüjéből választhatod ki, melyik oldalon jelenjen meg vonal.</figcaption>
+</figure>
+
 <div class="step-stack">
   <div class="step-card"><span class="step-no">1</span><div><strong>Kattints a formázandó bekezdésbe!</strong></div></div>
   <div class="step-card"><span class="step-no">2</span><div><strong>Kezdőlap → Bekezdés → Szegély</strong><span>Nyisd le a szegély gomb melletti menüt!</span></div></div>
@@ -18,6 +23,11 @@
   <h2>🔧 Ha pontosabb beállítás kell</h2>
   <p>A <strong>Szegély és mintázat…</strong> ablakban megadhatod a vonal stílusát, színét és vastagságát is.</p>
 </div>
+
+<figure class="tool-figure">
+  <img src="../../images/eszkoztar/word/06-szegely-beallitas.png" alt="Szegély és mintázat részletes beállításai Wordben" loading="lazy">
+  <figcaption>A részletes ablakban a vonal stílusa, színe és vastagsága is módosítható.</figcaption>
+</figure>
 
 ## Szegély és szöveg közti távolság
 
