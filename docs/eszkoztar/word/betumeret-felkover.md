@@ -12,14 +12,14 @@
 </div>
 
 <figure class="tool-figure">
-  <img src="../../images/eszkoztar/word/02-betumeret-kijeloles.png" alt="Szöveg kijelölése Wordben" loading="lazy">
+  <img src="../../../images/eszkoztar/word/02-betumeret-kijeloles.png" alt="Szöveg kijelölése Wordben" loading="lazy">
   <figcaption>Formázás előtt jelöld ki pontosan azt a szövegrészt, amelyet módosítani szeretnél.</figcaption>
 </figure>
 
 ## Betűméret módosítása
 
 <figure class="tool-figure">
-  <img src="../../images/eszkoztar/word/03-betumeret.png" alt="Betűméret beállítása a Word Kezdőlap szalagján" loading="lazy">
+  <img src="../../../images/eszkoztar/word/03-betumeret.png" alt="Betűméret beállítása a Word Kezdőlap szalagján" loading="lazy">
   <figcaption>A betűméretet a Kezdőlap → Betűtípus csoportban állíthatod be.</figcaption>
 </figure>
 
@@ -32,7 +32,7 @@
 ## Félkövér, dőlt, aláhúzott
 
 <figure class="tool-figure">
-  <img src="../../images/eszkoztar/word/04-betustilus.png" alt="Betűstílus gombok a Wordben" loading="lazy">
+  <img src="../../../images/eszkoztar/word/04-betustilus.png" alt="Betűstílus gombok a Wordben" loading="lazy">
   <figcaption>Ugyanebben a csoportban találod a félkövér, dőlt és aláhúzott formázást is.</figcaption>
 </figure>
 
