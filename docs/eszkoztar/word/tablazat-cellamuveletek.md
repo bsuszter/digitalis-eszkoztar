@@ -6,6 +6,10 @@
   <p>Sorokat és oszlopokat később is hozzáadhatsz, a cellákat pedig kisebb részekre oszthatod.</p>
 </div>
 
+## 🎬 Rövid bemutató
+
+<video controls src="../../../images/eszkoztar/word/02-cellamuveletek.mp4" style="width:100%;border-radius:14px;background:#17232b;"></video>
+
 ## Sor vagy oszlop hozzáadása
 
 <div class="step-stack">
