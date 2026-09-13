@@ -8,10 +8,8 @@
 
 ## Tájolás
 
-<figure class="tool-figure">
-
-![Tájolás beállítása a Wordben](../../../images/eszkoztar/word/09-oldal-tajolas.png)
-
+<figure class="tool-figure" markdown>
+![Tájolás beállítása a Wordben](../../images/eszkoztar/word/09-oldal-tajolas.png){ loading=lazy }
 <figcaption>Az Elrendezés → Tájolás menüben választhatsz álló vagy fekvő oldalt.</figcaption>
 </figure>
 
@@ -24,10 +22,8 @@
 
 ## Margók és oldalméret
 
-<figure class="tool-figure">
-
-![Oldalbeállítás a Wordben](../../../images/eszkoztar/word/10-oldalbeallitas.png)
-
+<figure class="tool-figure" markdown>
+![Oldalbeállítás a Wordben](../../images/eszkoztar/word/10-oldalbeallitas.png){ loading=lazy }
 <figcaption>A részletes oldalbeállításban a margókat, a tájolást és más oldaljellemzőket is pontosan megadhatod.</figcaption>
 </figure>
 
@@ -40,19 +36,15 @@
 
 A margókat a vonalzón is ellenőrizheted.
 
-<figure class="tool-figure">
-
-![Margók a vonalzón](../../../images/eszkoztar/word/11-margok-vonalzon.png)
-
+<figure class="tool-figure" markdown>
+![Margók a vonalzón](../../images/eszkoztar/word/11-margok-vonalzon.png){ loading=lazy }
 <figcaption>A vonalzó segít megkülönböztetni az oldal margóját és a bekezdés behúzását.</figcaption>
 </figure>
 
 Ha a vonalzó nem látszik, kapcsold be a <strong>Nézet → Vonalzó</strong> lehetőséggel.
 
-<figure class="tool-figure">
-
-![A vonalzó bekapcsolása](../../../images/eszkoztar/word/12-vonalzo-bekapcsolasa.png)
-
+<figure class="tool-figure" markdown>
+![A vonalzó bekapcsolása](../../images/eszkoztar/word/12-vonalzo-bekapcsolasa.png){ loading=lazy }
 <figcaption>A Nézet menüben kapcsolhatod be a Vonalzó megjelenítését.</figcaption>
 </figure>
 
