@@ -6,9 +6,16 @@
   <p>Sorokat és oszlopokat később is hozzáadhatsz, a cellákat pedig kisebb részekre oszthatod.</p>
 </div>
 
-## 🎬 Rövid bemutató
-
-<video controls src="../../../images/eszkoztar/word/02-cellamuveletek.mp4" style="width:100%;border-radius:14px;background:#17232b;"></video>
+<div class="tool-video">
+  <div class="tool-video__head">
+    <span class="tool-video__icon">🎬</span>
+    <div class="tool-video__text">
+      <strong class="tool-video__title">Nézd meg a műveletet!</strong>
+      <span class="tool-video__hint"><strong>Mit figyelj?</strong> Előbb jelöld ki a megfelelő táblázatrészt, utána válaszd ki a beszúrás vagy felosztás műveletét!</span>
+    </div>
+  </div>
+  <video controls preload="metadata" src="../../images/eszkoztar/word/02-cellamuveletek.mp4"></video>
+</div>
 
 ## Sor vagy oszlop hozzáadása
 
