@@ -6,6 +6,11 @@
   <p>Cellákat akkor érdemes egyesíteni, ha több cella helyett egy közös területre van szükséged, például egy széles címsorhoz.</p>
 </div>
 
+<figure class="tool-figure" markdown>
+![Cellák egyesítése Word-táblázatban](../../images/eszkoztar/word/16-cellak-egyesitese.png){ loading=lazy }
+<figcaption>Jelöld ki az egyesítendő cellákat, majd használd a Táblázatelrendezés → Cellák egyesítése parancsot.</figcaption>
+</figure>
+
 <div class="step-stack">
   <div class="step-card"><span class="step-no">1</span><div><strong>Jelöld ki az egymás melletti cellákat!</strong></div></div>
   <div class="step-card"><span class="step-no">2</span><div><strong>Nyisd meg a Táblázatelrendezés szalagot!</strong></div></div>
