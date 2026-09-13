@@ -136,6 +136,17 @@ nav:
               - Elágazás: eszkoztar/flowgorithm/elagazas.md
           - Ciklusok:
               - Végtelen ciklus: eszkoztar/flowgorithm/vegtelen-ciklus.md
+      - Word:
+          - Áttekintés: eszkoztar/word/index.md
+          - Dokumentumkezelés:
+              - Dokumentum mentése: eszkoztar/word/mentes.md
+          - Szöveg és bekezdés:
+              - Betűméret és betűstílus: eszkoztar/word/betumeret-felkover.md
+              - Bekezdés igazítása: eszkoztar/word/igazitas.md
+              - Mintázat – háttérszín: eszkoztar/word/mintazat.md
+              - Szegély a bekezdéshez: eszkoztar/word/szegely.md
+          - Táblázatok:
+              - Táblázat létrehozása: eszkoztar/word/tablazat-letrehozasa.md
       - Tinkercad:
           - Áttekintés: eszkoztar/tinkercad/index.md
           - Kezdés:
