@@ -8,6 +8,11 @@
 
 ## Pontos méret megadása
 
+<figure class="tool-figure" markdown>
+![Sormagasság beállítása Word-táblázatban](../../images/eszkoztar/word/17-sormagassag.png){ loading=lazy }
+<figcaption>A Táblázatelrendezés szalagon számszerűen is megadhatod a sormagasságot és az oszlopszélességet.</figcaption>
+</figure>
+
 <div class="step-stack">
   <div class="step-card"><span class="step-no">1</span><div><strong>Jelöld ki a módosítandó cellákat, sort vagy oszlopot!</strong></div></div>
   <div class="step-card"><span class="step-no">2</span><div><strong>Nyisd meg a Táblázatelrendezés szalagot!</strong></div></div>
