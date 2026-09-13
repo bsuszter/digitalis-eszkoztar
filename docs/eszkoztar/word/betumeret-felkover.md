@@ -11,7 +11,17 @@
   <p><strong>Jelöld ki az összes karaktert, amelyet formázni szeretnél!</strong> Ha nincs megfelelő kijelölés, könnyen csak a következőként begépelt szöveg formázása változik meg.</p>
 </div>
 
+<figure class="tool-figure">
+  <img src="../../images/eszkoztar/word/02-betumeret-kijeloles.png" alt="Szöveg kijelölése Wordben" loading="lazy">
+  <figcaption>Formázás előtt jelöld ki pontosan azt a szövegrészt, amelyet módosítani szeretnél.</figcaption>
+</figure>
+
 ## Betűméret módosítása
+
+<figure class="tool-figure">
+  <img src="../../images/eszkoztar/word/03-betumeret.png" alt="Betűméret beállítása a Word Kezdőlap szalagján" loading="lazy">
+  <figcaption>A betűméretet a Kezdőlap → Betűtípus csoportban állíthatod be.</figcaption>
+</figure>
 
 <div class="step-stack">
   <div class="step-card"><span class="step-no">1</span><div><strong>Jelöld ki a szöveget!</strong><span>Csak az a rész változzon meg, amelyet valóban formázni szeretnél.</span></div></div>
@@ -20,6 +30,11 @@
 </div>
 
 ## Félkövér, dőlt, aláhúzott
+
+<figure class="tool-figure">
+  <img src="../../images/eszkoztar/word/04-betustilus.png" alt="Betűstílus gombok a Wordben" loading="lazy">
+  <figcaption>Ugyanebben a csoportban találod a félkövér, dőlt és aláhúzott formázást is.</figcaption>
+</figure>
 
 <div class="mini-grid">
   <div class="mini-card"><span class="mini-icon">𝗕</span><strong>Félkövér</strong><span>Kiemeléshez és címekhez gyakori.</span></div>
