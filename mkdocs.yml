@@ -140,13 +140,23 @@ nav:
           - Áttekintés: eszkoztar/word/index.md
           - Dokumentumkezelés:
               - Dokumentum mentése: eszkoztar/word/mentes.md
+              - Oldalbeállítás: eszkoztar/word/oldalbeallitas.md
           - Szöveg és bekezdés:
               - Betűméret és betűstílus: eszkoztar/word/betumeret-felkover.md
               - Bekezdés igazítása: eszkoztar/word/igazitas.md
               - Mintázat – háttérszín: eszkoztar/word/mintazat.md
               - Szegély a bekezdéshez: eszkoztar/word/szegely.md
+          - Képek:
+              - Kép beszúrása: eszkoztar/word/kep-beszurasa.md
+              - Kép elrendezése: eszkoztar/word/kep-elrendezese.md
           - Táblázatok:
+              - Alapfogalmak – interaktív: eszkoztar/word/tablazat-alapfogalmak.md
               - Táblázat létrehozása: eszkoztar/word/tablazat-letrehozasa.md
+              - Szöveg formázása: eszkoztar/word/tablazat-formazas.md
+              - Cellaműveletek: eszkoztar/word/tablazat-cellamuveletek.md
+              - Méretezés: eszkoztar/word/tablazat-meretezes.md
+              - Szegélyek és vonalak: eszkoztar/word/tablazat-szegelyek.md
+              - Cellák egyesítése: eszkoztar/word/tablazat-egyesites.md
       - Tinkercad:
           - Áttekintés: eszkoztar/tinkercad/index.md
           - Kezdés:
