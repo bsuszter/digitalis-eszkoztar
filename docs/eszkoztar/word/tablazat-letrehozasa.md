@@ -14,7 +14,7 @@
       <span class="tool-video__hint"><strong>Mit figyelj?</strong> A beszúrás előtt válaszd ki a sorok és oszlopok számát!</span>
     </div>
   </div>
-  <video controls preload="metadata" src="../../images/eszkoztar/word/01-tablazat-letrehozasa.mp4"></video>
+  <video controls preload="metadata" src="../../../images/eszkoztar/word/01-tablazat-letrehozasa.mp4"></video>
 </div>
 
 <div class="step-stack">
