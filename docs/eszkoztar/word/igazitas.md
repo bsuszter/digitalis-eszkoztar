@@ -15,6 +15,11 @@
 
 A <strong>Kezdőlap</strong> szalag <strong>Bekezdés</strong> csoportjában közvetlenül elérhetők az igazítási gombok.
 
+<figure class="tool-figure">
+  <img src="../../images/eszkoztar/word/08-igazitas.png" alt="Bekezdés igazítási gombok a Word Kezdőlap szalagján" loading="lazy">
+  <figcaption>Az igazítási gombokat a Kezdőlap → Bekezdés csoportban találod.</figcaption>
+</figure>
+
 <div class="mini-grid">
   <div class="mini-card"><span class="mini-icon">⇤</span><strong>Balra igazítás</strong><span>A szöveg bal széle rendezett.</span></div>
   <div class="mini-card"><span class="mini-icon">↔</span><strong>Középre igazítás</strong><span>Címeknél gyakran használjuk.</span></div>
