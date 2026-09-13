@@ -9,7 +9,7 @@
 ## Első mentés
 
 <figure class="tool-figure">
-  <img src="../../images/eszkoztar/word/01-mentes.png" alt="A Word mentési felülete" loading="lazy">
+  <img src="../../../images/eszkoztar/word/01-mentes.png" alt="A Word mentési felülete" loading="lazy">
   <figcaption>Az első mentésnél válaszd ki a helyet és adj kifejező fájlnevet.</figcaption>
 </figure>
 
@@ -19,7 +19,7 @@
   <div class="step-card"><span class="step-no">3</span><div><strong>Ments a Word alapértelmezett formátumában!</strong><span>Ha a feladat nem kér mást, maradhat a Word dokumentumformátuma.</span></div></div>
 </div>
 
-<div class="quick-note"><strong>A H5P-anyag fő szabálya:</strong><span>„Munkánkat mentsük egy kifejező néven … Készíts egy mappát a gépeden, ahol biztosan meg fogod találni a munkádat!”</span></div>
+<div class="quick-note"><strong>Fontos</strong><span>Ments kifejező néven olyan mappába, ahol később is biztosan megtalálod a munkádat!</span></div>
 
 ## Későbbi mentés
 
