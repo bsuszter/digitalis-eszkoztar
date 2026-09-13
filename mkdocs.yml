@@ -52,6 +52,7 @@ extra_css:
   - stylesheets/link-cards.css
   - stylesheets/nav-highlight.css
   - stylesheets/image-lightbox.css
+  - stylesheets/video-cards.css
 
 extra_javascript:
   - javascripts/nav-accordion.js
