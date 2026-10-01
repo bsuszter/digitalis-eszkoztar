@@ -39,6 +39,7 @@ plugins:
         tinkercad/kollaboracio.md: eszkoztar/tinkercad/kollaboracio.md
         tinkercad/nyomtatas-elokeszites.md: eszkoztar/tinkercad/nyomtatas-elokeszites.md
         tinkercad/exportalas-stl.md: eszkoztar/tinkercad/exportalas-stl.md
+        tinkercad/exportalas-obj.md: eszkoztar/tinkercad/exportalas-obj.md
 
 markdown_extensions:
   - admonition
@@ -186,3 +187,4 @@ nav:
           - 3D nyomtatás:
               - 3D nyomtatásra előkészítés: eszkoztar/tinkercad/nyomtatas-elokeszites.md
               - Exportálás STL-be: eszkoztar/tinkercad/exportalas-stl.md
+              - Exportálás OBJ-be: eszkoztar/tinkercad/exportalas-obj.md
