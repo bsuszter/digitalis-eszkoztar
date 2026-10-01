@@ -190,6 +190,14 @@
     <span>A kész modell kimentése és átadása 3D nyomtatáshoz.</span>
     <span class="tool-link">Megnézem →</span>
   </a>
+
+  <a class="tool-card" href="exportalas-obj/">
+    <span class="tool-icon">📦</span>
+    <span class="tool-tag">KÉSZ</span>
+    <strong>Exportálás OBJ-be</strong>
+    <span>OBJ-export több színhez, elkülönülő részekhez és további feldolgozáshoz.</span>
+    <span class="tool-link">Megnézem →</span>
+  </a>
 </div>
 
 ## Mire keresel megoldást?
@@ -262,8 +270,13 @@
   </a>
   <a class="need-card" href="exportalas-stl/">
     <span>📤</span>
-    <strong>Át szeretném adni nyomtatásra</strong>
+    <strong>STL-ben szeretném átadni</strong>
     <small>Exportálás STL-be</small>
+  </a>
+  <a class="need-card" href="exportalas-obj/">
+    <span>📦</span>
+    <strong>OBJ-ben szeretném átadni</strong>
+    <small>Exportálás OBJ-be</small>
   </a>
 </div>
 
