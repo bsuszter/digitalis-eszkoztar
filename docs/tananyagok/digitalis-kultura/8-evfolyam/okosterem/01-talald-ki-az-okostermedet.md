@@ -26,18 +26,9 @@
   <p>Most még csak az ötletet tervezzük. A programozás és az építés később következik.</p>
 </div>
 
-## 💡 Milyen lehet egy okosterem?
-
-Ezek csak ötletek. Választhattok közülük, továbbfejleszthetitek őket, vagy kitalálhattok egészen mást.
-
-<div class="idea-grid">
-  <div class="idea-card">🌡️ <strong>Túl meleg van</strong><span>Elindul egy ventilátor vagy megváltozik egy jelzés.</span></div>
-  <div class="idea-card">👏 <strong>Taps hallatszik</strong><span>Felkapcsolódik vagy kialszik egy fény.</span></div>
-  <div class="idea-card">🔊 <strong>Túl nagy a zaj</strong><span>Figyelmeztető fény, mozgás vagy hangjelzés jelenik meg.</span></div>
-  <div class="idea-card">🚪 <strong>Valaki közeledik</strong><span>Egy ajtó, kar vagy más mozgó elem reagál.</span></div>
-  <div class="idea-card">🎚️ <strong>A felhasználó beállít valamit</strong><span>Változik például a fényerő, hangerő vagy motorsebesség.</span></div>
-  <div class="idea-card">✨ <strong>Saját ötlet</strong><span>Találjatok ki más problémát, amelyet egy okosterem megoldhat!</span></div>
-</div>
+<figure class="tool-figure tool-figure--wide">
+  <img src="../../../../images/okosterem/01-okosterem-otletek.png" alt="Hat ötlet egy okosterem működésére: hőmérséklet, taps, zaj, közeledés, beállítható érték és saját ötlet">
+</figure>
 
 ## 📝 Készítsétek el az első tervet!
 
@@ -74,10 +65,10 @@ Még nem kell tudnotok használni az összes Edubit-eszközt. Most csak azt gond
 
 ## 🧰 Kattintható Eszköztár-segítség
 
-Amikor egy leckében konkrét technikai segítségre van szükségetek, azt mindig külön, <strong>„ESZKÖZTÁR-SEgÍTSÉG”</strong> jelzésű kattintható elem mutatja. Így nem lehet összekeverni az egyszerű információs kártyákkal.
+Amikor egy leckében konkrét technikai segítségre van szükségetek, azt mindig külön, <strong>„ESZKÖZTÁR-SEGÍTSÉG”</strong> jelzésű kattintható elem mutatja. Így nem lehet összekeverni az egyszerű információs kártyákkal.
 
 <div class="tool-grid">
-  <a class="tool-card" href="../../../../../eszkoztar/">
+  <a class="tool-card" href="../../../../eszkoztar/" target="_blank" rel="noopener noreferrer">
     <span class="tool-icon">🧰</span>
     <span class="tool-tag">KATTINTHATÓ SEGÍTSÉG</span>
     <strong>Digitális eszköztár megnyitása</strong>
@@ -134,7 +125,7 @@ A jelölések csak ezen az oldalon látszanak, bezárás után nem mentődnek el
     <span class="related-icon">🧭</span>
     <span class="related-text"><strong>Projekt áttekintés</strong><small>Ha újra szeretnétek látni a hat mérföldkő teljes útvonalát.</small></span>
   </a>
-  <a href="../../../../../eszkoztar/flowgorithm/">
+  <a href="../../../../eszkoztar/flowgorithm/" target="_blank" rel="noopener noreferrer">
     <span class="related-icon">🧠</span>
     <span class="related-text"><strong>Következő technikai terület: Flowgorithm</strong><small>A következő mérföldkőben a működést algoritmussá alakítjuk. A leckében mindig a konkrét szükséges segítséghez kaptok majd linket.</small></span>
   </a>
