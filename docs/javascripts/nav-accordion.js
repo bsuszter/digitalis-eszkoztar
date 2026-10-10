@@ -33,6 +33,8 @@
   function markTopicItems() {
     const classByTitle = {
       'Flowgorithm': 'nav-topic--flowgorithm',
+      'micro:bit – MakeCode': 'nav-topic--microbit',
+      'Edubit': 'nav-topic--edubit',
       'Word': 'nav-topic--word',
       'Tinkercad': 'nav-topic--tinkercad',
       'Digitális kultúra': 'nav-topic--digitalis-kultura',
