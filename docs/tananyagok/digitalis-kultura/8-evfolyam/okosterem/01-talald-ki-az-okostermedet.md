@@ -68,7 +68,7 @@ Még nem kell tudnotok használni az összes Edubit-eszközt. Most csak azt gond
 Amikor egy leckében konkrét technikai segítségre van szükségetek, azt mindig külön, <strong>„ESZKÖZTÁR-SEGÍTSÉG”</strong> jelzésű kattintható elem mutatja. Így nem lehet összekeverni az egyszerű információs kártyákkal.
 
 <div class="tool-grid">
-  <a class="tool-card" href="../../../../eszkoztar/" target="_blank" rel="noopener noreferrer">
+  <a class="tool-card" href="https://bsuszter.github.io/digitalis-eszkoztar/eszkoztar/" target="_blank" rel="noopener noreferrer">
     <span class="tool-icon">🧰</span>
     <span class="tool-tag">KATTINTHATÓ SEGÍTSÉG</span>
     <strong>Digitális eszköztár megnyitása</strong>
@@ -125,7 +125,7 @@ A jelölések csak ezen az oldalon látszanak, bezárás után nem mentődnek el
     <span class="related-icon">🧭</span>
     <span class="related-text"><strong>Projekt áttekintés</strong><small>Ha újra szeretnétek látni a hat mérföldkő teljes útvonalát.</small></span>
   </a>
-  <a href="../../../../eszkoztar/flowgorithm/" target="_blank" rel="noopener noreferrer">
+  <a href="https://bsuszter.github.io/digitalis-eszkoztar/eszkoztar/flowgorithm/" target="_blank" rel="noopener noreferrer">
     <span class="related-icon">🧠</span>
     <span class="related-text"><strong>Következő technikai terület: Flowgorithm</strong><small>A következő mérföldkőben a működést algoritmussá alakítjuk. A leckében mindig a konkrét szükséges segítséghez kaptok majd linket.</small></span>
   </a>
