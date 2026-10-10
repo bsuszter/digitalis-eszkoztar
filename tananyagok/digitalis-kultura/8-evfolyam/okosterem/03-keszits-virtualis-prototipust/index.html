@@ -6791,6 +6791,16 @@
   </div>
 </div>
 
+<div class="project-panel project-panel--orange">
+  <h2>🧭 Hogyan modellezd a saját bemeneteteket?</h2>
+  <div class="idea-grid">
+    <div class="idea-card">🌡️ <strong>A micro:bit is tudja mérni?</strong><span>Használjátok a megfelelő szimulált micro:bit-szenzort, például a hőmérsékletet.</span></div>
+    <div class="idea-card">🔘 <strong>Esemény vagy kétállapotú jel?</strong><span>Használjátok például az A/B gombot, vagy egy 0/1 értékű változót.</span></div>
+    <div class="idea-card">🔢 <strong>Később Edubit-szenzor ad majd számot?</strong><span>Most használjatok változót, amelynek az értékét próbaként könnyen meg tudjátok változtatni.</span></div>
+  </div>
+  <p><strong>Most nem a valódi eszköz a lényeg.</strong> Olyan helyettesítő bemenet kell, amellyel minden tervezett állapotot könnyen ki tudtok próbálni.</p>
+</div>
+
 <h2 id="elso-kozos-proba-homerseklet-modellezese">🧪 Első közös próba – hőmérséklet modellezése</h2>
 <p>Először készítsetek egy egyszerű mintát. Legyen egy <strong>homerseklet</strong> nevű változó, és a program a bemenet értéke alapján jelezze, hogy <strong>hideg</strong>, <strong>megfelelő</strong> vagy <strong>meleg</strong> van.</p>
 <div class="question-stack">
@@ -6804,21 +6814,11 @@
 <h2 id="eszkoztar-segitseg-a-probahoz">🧰 Eszköztár-segítség a próbához</h2>
 <p>Ezek a kártyák <strong>kattintható segítségek</strong>, és új lapon nyílnak meg. Csak azt nézd meg, amelyikre szükséged van, majd térj vissza a saját programodhoz.</p>
 <div class="tool-grid">
-  <a class="tool-card" href="https://bsuszter.github.io/digitalis-eszkoztar/eszkoztar/microbit/uj-projekt/" target="_blank" rel="noopener noreferrer">
-    <span class="tool-icon">➕</span><span class="tool-tag">ESZKÖZTÁR-SEGÍTSÉG</span><strong>Új projekt</strong><span>MakeCode-projekt létrehozása és elnevezése.</span><span class="tool-link">Megnyitás ↗</span>
-  </a>
-  <a class="tool-card" href="https://bsuszter.github.io/digitalis-eszkoztar/eszkoztar/microbit/valtozok/" target="_blank" rel="noopener noreferrer">
-    <span class="tool-icon">📦</span><span class="tool-tag">ESZKÖZTÁR-SEGÍTSÉG</span><strong>Változók</strong><span>Változó létrehozása, értékadása és használata.</span><span class="tool-link">Megnyitás ↗</span>
-  </a>
-  <a class="tool-card" href="https://bsuszter.github.io/digitalis-eszkoztar/eszkoztar/microbit/szenzorok/" target="_blank" rel="noopener noreferrer">
-    <span class="tool-icon">🌡️</span><span class="tool-tag">ESZKÖZTÁR-SEGÍTSÉG</span><strong>Szenzorok lekérdezése</strong><span>Hőmérséklet, fényerő, gyorsulás és iránytű.</span><span class="tool-link">Megnyitás ↗</span>
-  </a>
-  <a class="tool-card" href="https://bsuszter.github.io/digitalis-eszkoztar/eszkoztar/microbit/elagazas/" target="_blank" rel="noopener noreferrer">
-    <span class="tool-icon">🔀</span><span class="tool-tag">ESZKÖZTÁR-SEGÍTSÉG</span><strong>Feltételek és elágazás</strong><span>Két vagy több állapot kezelése.</span><span class="tool-link">Megnyitás ↗</span>
-  </a>
-  <a class="tool-card" href="https://bsuszter.github.io/digitalis-eszkoztar/eszkoztar/microbit/kijelzo/" target="_blank" rel="noopener noreferrer">
-    <span class="tool-icon">🔲</span><span class="tool-tag">ESZKÖZTÁR-SEGÍTSÉG</span><strong>Kijelző és kiírás</strong><span>Ikon, LED-kép, szám vagy szöveg megjelenítése.</span><span class="tool-link">Megnyitás ↗</span>
-  </a>
+  <a class="tool-card" href="https://bsuszter.github.io/digitalis-eszkoztar/eszkoztar/microbit/uj-projekt/" target="_blank" rel="noopener noreferrer"><span class="tool-icon">➕</span><span class="tool-tag">ESZKÖZTÁR-SEGÍTSÉG</span><strong>Új projekt</strong><span>MakeCode-projekt létrehozása és elnevezése.</span><span class="tool-link">Megnyitás ↗</span></a>
+  <a class="tool-card" href="https://bsuszter.github.io/digitalis-eszkoztar/eszkoztar/microbit/valtozok/" target="_blank" rel="noopener noreferrer"><span class="tool-icon">📦</span><span class="tool-tag">ESZKÖZTÁR-SEGÍTSÉG</span><strong>Változók</strong><span>Változó létrehozása, értékadása és használata.</span><span class="tool-link">Megnyitás ↗</span></a>
+  <a class="tool-card" href="https://bsuszter.github.io/digitalis-eszkoztar/eszkoztar/microbit/szenzorok/" target="_blank" rel="noopener noreferrer"><span class="tool-icon">🌡️</span><span class="tool-tag">ESZKÖZTÁR-SEGÍTSÉG</span><strong>Szenzorok lekérdezése</strong><span>Hőmérséklet, fényerő, gyorsulás és iránytű.</span><span class="tool-link">Megnyitás ↗</span></a>
+  <a class="tool-card" href="https://bsuszter.github.io/digitalis-eszkoztar/eszkoztar/microbit/elagazas/" target="_blank" rel="noopener noreferrer"><span class="tool-icon">🔀</span><span class="tool-tag">ESZKÖZTÁR-SEGÍTSÉG</span><strong>Feltételek és elágazás</strong><span>Két vagy több állapot kezelése.</span><span class="tool-link">Megnyitás ↗</span></a>
+  <a class="tool-card" href="https://bsuszter.github.io/digitalis-eszkoztar/eszkoztar/microbit/kijelzo/" target="_blank" rel="noopener noreferrer"><span class="tool-icon">🔲</span><span class="tool-tag">ESZKÖZTÁR-SEGÍTSÉG</span><strong>Kijelző és kiírás</strong><span>Ikon, LED-kép, szám vagy szöveg megjelenítése.</span><span class="tool-link">Megnyitás ↗</span></a>
 </div>
 
 <div class="project-panel project-panel--orange">
@@ -6830,7 +6830,7 @@
 <p>Vegyétek elő a Flowgorithmban elkészített algoritmust, és ugyanazt a logikát építsétek meg MakeCode-ban.</p>
 <div class="question-stack">
   <div class="question-card"><strong>1. Azonosítsátok a bemenetet!</strong><span>Mi az az érték vagy esemény, amely alapján a rendszeretek dönt?</span></div>
-  <div class="question-card question-card--green"><strong>2. Modellezzétek a bemenetet!</strong><span>Használjatok olyan megoldást, amellyel a szimulátorban könnyen változtatható vagy kiváltható a bemenet.</span></div>
+  <div class="question-card question-card--green"><strong>2. Modellezzétek a bemenetet!</strong><span>Válasszatok a fenti három megoldás közül olyat, amellyel a szimulátorban könnyen ki tudjátok próbálni az összes tervezett állapotot.</span></div>
   <div class="question-card question-card--orange"><strong>3. Építsétek meg a döntési logikát!</strong><span>A MakeCode-program ugyanazokat az állapotokat kezelje, amelyeket a Flowgorithm-algoritmusban megterveztetek.</span></div>
   <div class="question-card question-card--purple"><strong>4. Legyen látható a reakció!</strong><span>Minden fontos állapothoz tartozzon olyan visszajelzés, amelyből egyértelműen látható, mit tenne a rendszer.</span></div>
   <div class="question-card question-card--gold"><strong>5. Teszteljétek minden állapotban!</strong><span>Ne csak egyszer futtassátok le: minden tervezett helyzetet próbáljatok ki.</span></div>
@@ -6868,12 +6868,8 @@
 </div>
 
 <div class="related-grid">
-  <a href="../02-tervezd-meg-a-mukodeset/">
-    <span class="related-icon">⬅️</span><span class="related-text"><strong>Előző: Tervezd meg a működését!</strong><small>A Flowgorithm-algoritmus.</small></span>
-  </a>
-  <a href="../">
-    <span class="related-icon">🧭</span><span class="related-text"><strong>Projekt áttekintés</strong><small>A teljes Okosterem útvonal.</small></span>
-  </a>
+  <a href="../02-tervezd-meg-a-mukodeset/"><span class="related-icon">⬅️</span><span class="related-text"><strong>Előző: Tervezd meg a működését!</strong><small>A Flowgorithm-algoritmus.</small></span></a>
+  <a href="../"><span class="related-icon">🧭</span><span class="related-text"><strong>Projekt áttekintés</strong><small>A teljes Okosterem útvonal.</small></span></a>
 </div>
 
 
