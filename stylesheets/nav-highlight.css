@@ -23,6 +23,28 @@
   font-weight: 800;
 }
 
+.md-sidebar--primary .nav-topic--microbit > .md-nav__link,
+.md-sidebar--primary .md-nav__item--nested:has(> nav a[href$="/eszkoztar/microbit/"]) > .md-nav__link {
+  margin-top: .45rem;
+  padding: .48rem .62rem;
+  border-left: 4px solid #4f8768;
+  border-radius: 9px;
+  background: #f3f9f5;
+  color: #3f7055;
+  font-weight: 800;
+}
+
+.md-sidebar--primary .nav-topic--edubit > .md-nav__link,
+.md-sidebar--primary .md-nav__item--nested:has(> nav a[href$="/eszkoztar/edubit/"]) > .md-nav__link {
+  margin-top: .45rem;
+  padding: .48rem .62rem;
+  border-left: 4px solid #d56c32;
+  border-radius: 9px;
+  background: #fff7ef;
+  color: #a95128;
+  font-weight: 800;
+}
+
 .md-sidebar--primary .nav-topic--kresz > .md-nav__link,
 .md-sidebar--primary .md-nav__item--nested:has(> nav a[href$="/eszkoztar/kresz-tanpalya/muszaki-szabvany/"]) > .md-nav__link {
   margin-top: .45rem;
