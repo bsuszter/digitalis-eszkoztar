@@ -30,11 +30,15 @@
   <div class="project-rule project-rule--green">Nem kell előre megtanulnotok minden eszközt. A szükséges segítséget akkor nyissátok meg, amikor valóban szükségetek van rá.</div>
 </div>
 
-## 🚀 Kezdés
+## 🚀 Mérföldkövek
 
 <div class="related-grid">
   <a href="01-talald-ki-az-okostermedet/">
     <span class="related-icon">💡</span>
     <span class="related-text"><strong>1. Találd ki az okostermedet!</strong><small>Induljatok a problémából, még ne programozzatok.</small></span>
+  </a>
+  <a href="02-tervezd-meg-a-mukodeset/">
+    <span class="related-icon">🧠</span>
+    <span class="related-text"><strong>2. Tervezd meg a működését!</strong><small>Alakítsátok a saját ötlet működését Flowgorithm-algoritmussá.</small></span>
   </a>
 </div>
