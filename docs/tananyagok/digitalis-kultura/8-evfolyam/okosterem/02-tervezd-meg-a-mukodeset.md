@@ -53,19 +53,19 @@ Készítsetek először egy nagyon egyszerű mintát. A program kérjen be egy h
 Ezek a kártyák <strong>kattintható segítségek</strong>. Mind új lapon nyílik meg; nézd meg csak azt, amelyikre szükséged van, majd térj vissza ehhez a leckéhez.
 
 <div class="tool-grid">
-  <a class="tool-card" href="../../../../eszkoztar/flowgorithm/inditas/" target="_blank" rel="noopener noreferrer">
+  <a class="tool-card" href="https://bsuszter.github.io/digitalis-eszkoztar/eszkoztar/flowgorithm/inditas/" target="_blank" rel="noopener noreferrer">
     <span class="tool-icon">🏁</span><span class="tool-tag">ESZKÖZTÁR-SEGÍTSÉG</span><strong>Flowgorithm indítása</strong><span>Ha nem találod a programot vagy nem tudod, hogyan kezdj új folyamatábrát.</span><span class="tool-link">Megnyitás ↗</span>
   </a>
-  <a class="tool-card" href="../../../../eszkoztar/flowgorithm/deklaralas/" target="_blank" rel="noopener noreferrer">
+  <a class="tool-card" href="https://bsuszter.github.io/digitalis-eszkoztar/eszkoztar/flowgorithm/deklaralas/" target="_blank" rel="noopener noreferrer">
     <span class="tool-icon">📦</span><span class="tool-tag">ESZKÖZTÁR-SEGÍTSÉG</span><strong>Változó létrehozása</strong><span>Deklarálás, változónév és adattípus beállítása.</span><span class="tool-link">Megnyitás ↗</span>
   </a>
-  <a class="tool-card" href="../../../../eszkoztar/flowgorithm/beolvasas/" target="_blank" rel="noopener noreferrer">
+  <a class="tool-card" href="https://bsuszter.github.io/digitalis-eszkoztar/eszkoztar/flowgorithm/beolvasas/" target="_blank" rel="noopener noreferrer">
     <span class="tool-icon">📥</span><span class="tool-tag">ESZKÖZTÁR-SEGÍTSÉG</span><strong>Adat beolvasása</strong><span>Input elem használata és a bekért érték eltárolása.</span><span class="tool-link">Megnyitás ↗</span>
   </a>
-  <a class="tool-card" href="../../../../eszkoztar/flowgorithm/elagazas/" target="_blank" rel="noopener noreferrer">
+  <a class="tool-card" href="https://bsuszter.github.io/digitalis-eszkoztar/eszkoztar/flowgorithm/elagazas/" target="_blank" rel="noopener noreferrer">
     <span class="tool-icon">🔀</span><span class="tool-tag">ESZKÖZTÁR-SEGÍTSÉG</span><strong>Elágazás</strong><span>If elem és feltétel készítése.</span><span class="tool-link">Megnyitás ↗</span>
   </a>
-  <a class="tool-card" href="../../../../eszkoztar/flowgorithm/szoveg-kiirasa/" target="_blank" rel="noopener noreferrer">
+  <a class="tool-card" href="https://bsuszter.github.io/digitalis-eszkoztar/eszkoztar/flowgorithm/szoveg-kiirasa/" target="_blank" rel="noopener noreferrer">
     <span class="tool-icon">📤</span><span class="tool-tag">ESZKÖZTÁR-SEGÍTSÉG</span><strong>Szöveg kiírása</strong><span>Output elem használata a reakció megjelenítéséhez.</span><span class="tool-link">Megnyitás ↗</span>
   </a>
 </div>
@@ -104,7 +104,7 @@ Egyelőre nem használunk valódi Edubit-érzékelőt. A szenzor értékét most
   <div class="project-rule project-rule--green">hideg / megfelelő / meleg</div>
   <p>Ilyenkor egy elágazás egyik ágába újabb elágazást is tehettek. Így egymás után több feltételt vizsgálhat a program.</p>
   <div class="tool-grid">
-    <a class="tool-card" href="../../../../eszkoztar/flowgorithm/elagazas/" target="_blank" rel="noopener noreferrer">
+    <a class="tool-card" href="https://bsuszter.github.io/digitalis-eszkoztar/eszkoztar/flowgorithm/elagazas/" target="_blank" rel="noopener noreferrer">
       <span class="tool-icon">🌿</span><span class="tool-tag">ESZKÖZTÁR-SEGÍTSÉG</span><strong>Elágazás újra</strong><span>Ha több állapotot kell kezelnetek, nézzétek meg újra az elágazás használatát.</span><span class="tool-link">Megnyitás ↗</span>
     </a>
   </div>
@@ -144,7 +144,7 @@ A jelölések csak ezen az oldalon látszanak, bezárás után nem mentődnek el
 </div>
 
 <div class="related-grid">
-  <a href="01-talald-ki-az-okostermedet/">
+  <a href="../01-talald-ki-az-okostermedet/">
     <span class="related-icon">⬅️</span><span class="related-text"><strong>Előző: Találd ki az okostermedet!</strong><small>Ha újra meg szeretnétek nézni az első tervet.</small></span>
   </a>
   <a href="../">
