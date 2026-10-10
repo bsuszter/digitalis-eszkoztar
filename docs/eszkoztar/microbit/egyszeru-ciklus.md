@@ -2,7 +2,7 @@
 
 A **Ciklusok** kategóriában az **ismétlés … alkalommal** blokk ugyanazt a blokkcsoportot meghatározott számú alkalommal futtatja le.
 
-<figure class="tool-figure tool-figure--wide"><img src="../../images/microbit/09-egyszeru-ciklus.webp" alt="Egyszerű számlálós ciklus használata MakeCode-ban"></figure>
+<figure class="tool-figure tool-figure--wide"><img src="../../../images/microbit/09-egyszeru-ciklus.webp" alt="Egyszerű számlálós ciklus használata MakeCode-ban"></figure>
 
 A H5P példájában egy szívből álló LED-kép négyszer jelenik meg egymás után.
 
