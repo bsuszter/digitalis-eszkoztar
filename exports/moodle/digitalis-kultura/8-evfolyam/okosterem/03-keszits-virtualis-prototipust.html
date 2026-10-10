@@ -1,0 +1,127 @@
+<div style="max-width:1050px;margin:0 auto;font-family:Arial,Helvetica,sans-serif;color:#263746;line-height:1.55;">
+  <section style="padding:29px 27px;border:1px solid #c9d9e8;border-radius:24px;background:radial-gradient(circle at 8% 8%,rgba(55,111,147,.18),transparent 210px),radial-gradient(circle at 94% 10%,rgba(79,135,104,.14),transparent 230px),linear-gradient(135deg,#eef7fb,#f3f9f5 58%,#fff8eb);">
+    <div style="display:inline-block;padding:7px 14px;border-radius:999px;background:#376f93;color:#fff;font-size:13px;font-weight:bold;letter-spacing:.07em;">OKOSTEREM · 3. MÉRFÖLDKŐ</div>
+    <div style="display:flex;align-items:center;gap:20px;flex-wrap:wrap;margin-top:20px;">
+      <div style="display:grid;place-items:center;width:94px;height:94px;flex:0 0 94px;border-radius:27px;background:linear-gradient(135deg,#376f93,#4f8768);color:#fff;font-size:45px;box-shadow:0 12px 26px rgba(49,95,120,.18);">📟</div>
+      <div style="flex:1;min-width:260px;">
+        <h1 style="margin:0;color:#285a77;font-size:clamp(30px,5vw,43px);line-height:1.12;">Készíts virtuális prototípust!</h1>
+        <p style="margin:9px 0 0;color:#667781;font-size:18px;">A Flowgorithmban már megterveztétek a működést. Most ugyanezt a logikát valósítjátok meg micro:biten, a MakeCode szimulátorában.</p>
+      </div>
+    </div>
+    <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(145px,1fr));gap:10px;margin-top:22px;">
+      <div style="padding:10px 12px;border:1px solid #c5d8e4;border-radius:13px;background:#fff;text-align:center;font-weight:bold;">🧭 3 / 6 mérföldkő</div>
+      <div style="padding:10px 12px;border:1px solid #d8cce4;border-radius:13px;background:#fff;text-align:center;font-weight:bold;">👥 Páros munka</div>
+      <div style="padding:10px 12px;border:1px solid #ebc998;border-radius:13px;background:#fffaf1;text-align:center;font-weight:bold;">⭐ 8 pont</div>
+      <div style="padding:10px 12px;border:1px solid #c9dbc9;border-radius:13px;background:#fff;text-align:center;font-weight:bold;">⏱️ kb. 2 tanóra</div>
+    </div>
+  </section>
+
+  <section style="margin-top:18px;padding:22px;border-radius:18px;background:#315f78;color:#fff;">
+    <h2 style="margin:0;color:#fff;">🎯 Ugyanaz a logika, új környezetben</h2>
+    <p style="margin:8px 0 0;font-size:18px;">A Flowgorithmban már megterveztétek, <strong>milyen adat érkezik, milyen feltétel alapján dönt a rendszer, és mi történik az egyes helyzetekben.</strong></p>
+    <div style="margin-top:16px;padding:14px 16px;border-radius:13px;background:rgba(255,255,255,.13);text-align:center;font-size:18px;font-weight:bold;">📥 BEMENET → 🔀 FELTÉTEL → ⚙️ REAKCIÓ → 🧪 TESZT</div>
+    <p style="margin:14px 0 0;">Most ezt a működést blokkprogramozással építitek meg a MakeCode felületén.</p>
+  </section>
+
+  <section style="margin-top:18px;padding:22px;border:1px solid #d8cce4;border-radius:20px;background:#faf7fc;">
+    <h2 style="margin:0;color:#604d80;">🎛️ Miért jó a szimulátor?</h2>
+    <p style="font-size:17px;">Egy valódi érzékelő értéke nem mindig változik olyan gyorsan, hogy kényelmesen ki tudjuk próbálni vele a program minden állapotát. A szimulátorban viszont <strong>azonnal tudjuk változtatni a bemenetet</strong>, ezért gyorsabban ellenőrizhetjük a működést.</p>
+    <div style="padding:15px 16px;border-radius:13px;background:#fff;border-left:6px solid #735c9a;"><strong>Példa: hőmérséklet</strong><p style="margin:7px 0 0;">Állíts be 17 °C-ot, 22 °C-ot és 28 °C-ot, és figyeld meg, helyesen reagál-e a program.</p></div>
+  </section>
+
+  <section style="margin-top:18px;padding:22px;border:1px solid #c9dbc9;border-radius:20px;background:#f3f9f5;">
+    <h2 style="margin:0;color:#426f57;">🌱 A hőmérséklet csak egy példa</h2>
+    <p style="font-size:17px;">Nem kell mindenkinek hőmérséklettel dolgoznia. A saját okostermetekben azt a bemenetet modellezzétek, amelyre a saját ötleteteknek szüksége van.</p>
+    <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:10px;margin-top:14px;">
+      <div style="padding:14px;border-radius:13px;background:#fff;">🌡️ <strong>Hőmérséklet</strong><br>a szimulátorban változtatható érték</div>
+      <div style="padding:14px;border-radius:13px;background:#fff;">🎤 <strong>Hangerő</strong><br>változóval vagy szimulált értékkel modellezhető</div>
+      <div style="padding:14px;border-radius:13px;background:#fff;">🎚️ <strong>Potméter</strong><br>változó értékkel helyettesíthető</div>
+      <div style="padding:14px;border-radius:13px;background:#fff;">🔘 <strong>Gombnyomás</strong><br>A/B gombbal kipróbálható</div>
+      <div style="padding:14px;border-radius:13px;background:#fff;">👀 <strong>Közelség / IR</strong><br>szimulált értékkel vagy állapottal modellezhető</div>
+      <div style="padding:14px;border-radius:13px;background:#fff;border:2px dashed #4f8768;">✨ <strong>Saját bemenet</strong><br>válasszatok olyan modellt, amely jól helyettesíti a későbbi érzékelőt</div>
+    </div>
+  </section>
+
+  <section style="margin-top:18px;padding:22px;border:1px solid #c9d9e8;border-radius:20px;background:#f4f9fb;">
+    <h2 style="margin:0;color:#315f78;">🧪 Első közös próba – hőmérséklet modellezése</h2>
+    <p style="font-size:17px;">Készítsetek egy egyszerű mintát. Legyen egy <strong>homerseklet</strong> nevű változó, és a program a bemenet értéke alapján jelezze, hogy <strong>hideg</strong>, <strong>megfelelő</strong> vagy <strong>meleg</strong> van.</p>
+    <div style="display:grid;gap:10px;margin-top:14px;">
+      <div style="padding:14px 16px;border-radius:13px;background:#fff;border-left:6px solid #376f93;"><strong>1. Nyiss új MakeCode-projektet!</strong><br>Készíts új micro:bit projektet.</div>
+      <div style="padding:14px 16px;border-radius:13px;background:#fff;border-left:6px solid #4f8768;"><strong>2. Hozd létre a homerseklet változót!</strong><br>Ebben tároljuk az aktuális értéket.</div>
+      <div style="padding:14px 16px;border-radius:13px;background:#fff;border-left:6px solid #d56c32;"><strong>3. Adj tesztelhető bemenetet!</strong><br>Használj olyan értéket, amelyet a szimulátorban gyorsan tudsz változtatni.</div>
+      <div style="padding:14px 16px;border-radius:13px;background:#fff;border-left:6px solid #735c9a;"><strong>4. Készíts elágazást!</strong><br>Különböztesd meg a hideg, megfelelő és meleg állapotot.</div>
+      <div style="padding:14px 16px;border-radius:13px;background:#fff;border-left:6px solid #a97920;"><strong>5. Adj látható reakciót!</strong><br>Az állapotokhoz tartozzon eltérő ikon, LED-kép, szám vagy rövid szöveg.</div>
+    </div>
+  </section>
+
+  <section style="margin-top:18px;padding:22px;border:1px solid #dfcc9e;border-radius:20px;background:#fff9ed;">
+    <h2 style="margin:0;color:#825f1d;">🧰 Eszköztár-segítség a próbához</h2>
+    <p style="font-size:17px;">Csak azt a segítséget nyissátok meg, amelyikre szükségetek van. Minden link új lapon nyílik meg.</p>
+    <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:10px;margin-top:13px;">
+      <a href="https://bsuszter.github.io/digitalis-eszkoztar/eszkoztar/microbit/uj-projekt/" target="_blank" rel="noopener" style="display:block;padding:14px;border-radius:13px;background:#fff;border:1px solid #dfcc9e;color:#315f78;text-decoration:none;font-weight:bold;">➕ Új projekt ↗</a>
+      <a href="https://bsuszter.github.io/digitalis-eszkoztar/eszkoztar/microbit/valtozok/" target="_blank" rel="noopener" style="display:block;padding:14px;border-radius:13px;background:#fff;border:1px solid #dfcc9e;color:#315f78;text-decoration:none;font-weight:bold;">📦 Változók ↗</a>
+      <a href="https://bsuszter.github.io/digitalis-eszkoztar/eszkoztar/microbit/szenzorok/" target="_blank" rel="noopener" style="display:block;padding:14px;border-radius:13px;background:#fff;border:1px solid #dfcc9e;color:#315f78;text-decoration:none;font-weight:bold;">🌡️ Szenzorok lekérdezése ↗</a>
+      <a href="https://bsuszter.github.io/digitalis-eszkoztar/eszkoztar/microbit/elagazas/" target="_blank" rel="noopener" style="display:block;padding:14px;border-radius:13px;background:#fff;border:1px solid #dfcc9e;color:#315f78;text-decoration:none;font-weight:bold;">🔀 Feltételek és elágazás ↗</a>
+      <a href="https://bsuszter.github.io/digitalis-eszkoztar/eszkoztar/microbit/kijelzo/" target="_blank" rel="noopener" style="display:block;padding:14px;border-radius:13px;background:#fff;border:1px solid #dfcc9e;color:#315f78;text-decoration:none;font-weight:bold;">🔲 Kijelző és kiírás ↗</a>
+    </div>
+    <div style="margin-top:13px;padding:11px 13px;border-radius:11px;background:#fff;border-left:5px solid #a97920;"><strong>Fontos!</strong> Az Eszköztár segítség, nem külön feladatsor. Nézzétek meg a szükséges műveletet, majd térjetek vissza a saját programotokhoz.</div>
+  </section>
+
+  <section style="margin-top:18px;padding:22px;border:1px solid #edcaa6;border-radius:20px;background:#fff7ef;">
+    <h2 style="margin:0;color:#a95128;">🚀 Most jön a saját okostermetek!</h2>
+    <p style="font-size:17px;">Vegyétek elő a Flowgorithmban elkészített algoritmust, és ugyanazt a logikát építsétek meg MakeCode-ban.</p>
+    <div style="display:grid;gap:11px;margin-top:16px;">
+      <div style="padding:16px;border-radius:14px;background:#fff;border-left:6px solid #376f93;"><strong>1. Azonosítsátok a bemenetet!</strong><p style="margin:6px 0 0;">Mi az az érték vagy esemény, amely alapján a rendszeretek dönt?</p></div>
+      <div style="padding:16px;border-radius:14px;background:#fff;border-left:6px solid #4f8768;"><strong>2. Modellezzétek a bemenetet!</strong><p style="margin:6px 0 0;">Használjatok olyan megoldást, amellyel a szimulátorban könnyen változtatható vagy kiváltható a bemenet.</p></div>
+      <div style="padding:16px;border-radius:14px;background:#fff;border-left:6px solid #d56c32;"><strong>3. Építsétek meg a döntési logikát!</strong><p style="margin:6px 0 0;">A MakeCode-program ugyanazokat az állapotokat kezelje, amelyeket a Flowgorithm-algoritmusban megterveztetek.</p></div>
+      <div style="padding:16px;border-radius:14px;background:#fff;border-left:6px solid #735c9a;"><strong>4. Legyen látható a reakció!</strong><p style="margin:6px 0 0;">Minden fontos állapothoz tartozzon olyan visszajelzés, amelyből egyértelműen látható, mit tenne a rendszer.</p></div>
+      <div style="padding:16px;border-radius:14px;background:#fff;border-left:6px solid #a97920;"><strong>5. Teszteljétek minden állapotban!</strong><p style="margin:6px 0 0;">Ne csak egyszer futtassátok le: minden tervezett helyzetet próbáljatok ki.</p></div>
+    </div>
+  </section>
+
+  <section style="margin-top:18px;padding:22px;border:1px solid #c9dbc9;border-radius:20px;background:#f3f9f5;">
+    <h2 style="margin:0;color:#426f57;">🧪 Teszteld határértékekkel is!</h2>
+    <p>Ne csak egy „normál” értéket próbáljatok ki. Nézzétek meg, mi történik kis és nagy értéknél, pontosan a határértéknél, illetve közvetlenül alatta és fölötte.</p>
+  </section>
+
+  <section style="margin-top:18px;padding:22px;border:1px solid #c9dbc9;border-radius:20px;background:#f3f9f5;">
+    <h2 style="margin:0;color:#426f57;">✅ Beadás előtti ellenőrzés</h2>
+    <p>A jelölések csak ezen az oldalon látszanak, bezárás után nem mentődnek el.</p>
+    <div style="display:grid;gap:8px;margin-top:13px;">
+      <label style="display:flex;gap:10px;padding:11px 13px;border-radius:10px;background:#fff;"><input type="checkbox"> A program a saját Flowgorithm-algoritmusunkhoz kapcsolódik.</label>
+      <label style="display:flex;gap:10px;padding:11px 13px;border-radius:10px;background:#fff;"><input type="checkbox"> Van olyan bemenetünk, amely alapján a program dönt.</label>
+      <label style="display:flex;gap:10px;padding:11px 13px;border-radius:10px;background:#fff;"><input type="checkbox"> A bemenetet a szimulátorban ki tudjuk próbálni.</label>
+      <label style="display:flex;gap:10px;padding:11px 13px;border-radius:10px;background:#fff;"><input type="checkbox"> A program legalább két különböző állapotot kezel.</label>
+      <label style="display:flex;gap:10px;padding:11px 13px;border-radius:10px;background:#fff;"><input type="checkbox"> Minden fontos állapothoz tartozik látható reakció.</label>
+      <label style="display:flex;gap:10px;padding:11px 13px;border-radius:10px;background:#fff;"><input type="checkbox"> Minden tervezett helyzetet kipróbáltunk.</label>
+      <label style="display:flex;gap:10px;padding:11px 13px;border-radius:10px;background:#fff;"><input type="checkbox"> Határértékhez közeli értékkel is teszteltünk.</label>
+      <label style="display:flex;gap:10px;padding:11px 13px;border-radius:10px;background:#fff;"><input type="checkbox"> Letöltöttük a .hex fájlt.</label>
+    </div>
+  </section>
+
+  <section style="margin-top:18px;padding:22px;border:1px solid #ebc998;border-radius:20px;background:#fffaf1;">
+    <h2 style="margin:0;color:#936426;">⭐ Mit értékelünk? – 8 pont</h2>
+    <div style="display:grid;gap:9px;margin-top:14px;">
+      <div style="padding:12px 14px;border-radius:11px;background:#fff;">⭐ <strong>1 pont</strong> – A program kapcsolódik a Flowgorithmban megtervezett rendszerhez.</div>
+      <div style="padding:12px 14px;border-radius:11px;background:#fff;">⭐ <strong>1 pont</strong> – A saját projekthez megfelelő bemenetet modelleztetek.</div>
+      <div style="padding:12px 14px;border-radius:11px;background:#fff;">⭐⭐ <strong>2 pont</strong> – A döntési logika helyesen működik.</div>
+      <div style="padding:12px 14px;border-radius:11px;background:#fff;">⭐ <strong>1 pont</strong> – Legalább két különböző állapotot kezel a program.</div>
+      <div style="padding:12px 14px;border-radius:11px;background:#fff;">⭐ <strong>1 pont</strong> – Minden fontos állapothoz érthető reakció tartozik.</div>
+      <div style="padding:12px 14px;border-radius:11px;background:#fff;">⭐ <strong>1 pont</strong> – Többféle bemenettel, köztük határértékhez közeli értékkel is teszteltétek.</div>
+      <div style="padding:12px 14px;border-radius:11px;background:#fff;">⭐ <strong>1 pont</strong> – A blokkprogram áttekinthető, követhető.</div>
+    </div>
+  </section>
+
+  <section style="margin-top:18px;padding:22px;border-radius:19px;background:linear-gradient(135deg,#315f78,#376f93);color:#fff;">
+    <h2 style="margin:0;color:#fff;">📤 Adjátok be a virtuális prototípust!</h2>
+    <p style="margin:8px 0 0;">Töltsétek le a MakeCode projekt <strong>.hex</strong> fájlját, majd töltsétek fel a beadási felületre!</p>
+    <p style="margin-bottom:0;">👥 A program közös munka; ha a beadási felület egyéni beadást kér, mindketten ugyanazt a közösen elkészített fájlt adjátok be.</p>
+  </section>
+
+  <section style="margin-top:18px;padding:22px;border:1px solid #d8cce4;border-radius:19px;background:linear-gradient(135deg,#faf7fc,#f4f9fb);">
+    <div style="display:flex;align-items:center;gap:14px;flex-wrap:wrap;">
+      <div style="font-size:38px;">🧰</div>
+      <div style="flex:1;min-width:230px;"><h2 style="margin:0;color:#604d80;">Következő: Válaszd ki és tanuld meg az eszközöket!</h2><p style="margin:5px 0 0;">A program logikája már működik. A következő mérföldkőn azt nézzük meg, mely Edubit-eszközökre lesz szükségetek a valódi megvalósításhoz.</p></div>
+    </div>
+  </section>
+</div>
