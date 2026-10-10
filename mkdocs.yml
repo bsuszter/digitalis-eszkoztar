@@ -116,6 +116,7 @@ nav:
                   - 1. Találd ki az okostermedet!: tananyagok/digitalis-kultura/8-evfolyam/okosterem/01-talald-ki-az-okostermedet.md
                   - 2. Tervezd meg a működését!: tananyagok/digitalis-kultura/8-evfolyam/okosterem/02-tervezd-meg-a-mukodeset.md
                   - 3. Készíts virtuális prototípust!: tananyagok/digitalis-kultura/8-evfolyam/okosterem/03-keszits-virtualis-prototipust.md
+                  - 4. Válaszd ki és próbáld ki!: tananyagok/digitalis-kultura/8-evfolyam/okosterem/04-valaszd-ki-es-probald-ki.md
       - Nyelvtan:
           - Áttekintés: tananyagok/nyelvtan/index.md
           - 5. évfolyam: tananyagok/nyelvtan/5-evfolyam/index.md
@@ -163,6 +164,24 @@ nav:
           - Függvények:
               - Függvény paraméter nélkül: eszkoztar/microbit/fuggveny.md
               - Függvény paraméterrel: eszkoztar/microbit/fuggveny-param.md
+      - Edubit:
+          - Áttekintés: eszkoztar/edubit/index.md
+          - Gyorsfelfedező: eszkoztar/edubit/gyorsfelfedezo.md
+          - Kezdés:
+              - Edubit telepítése: eszkoztar/edubit/telepites.md
+              - Csatlakozás és letöltés: eszkoztar/edubit/csatlakozas-letoltes.md
+          - Jelzés:
+              - Közlekedési LED-ek: eszkoztar/edubit/kozlekedesi-ledek.md
+              - RGB LED-ek: eszkoztar/edubit/rgb-led.md
+              - Music Bit: eszkoztar/edubit/music-bit.md
+          - Bemenetek és érzékelők:
+              - Potméter: eszkoztar/edubit/potmeter.md
+              - Nyomógombok: eszkoztar/edubit/nyomogombok.md
+              - Sound Bit: eszkoztar/edubit/sound-bit.md
+              - IR Bit: eszkoztar/edubit/ir-bit.md
+          - Mozgatás:
+              - Szervómotor: eszkoztar/edubit/szervomotor.md
+              - DC motor: eszkoztar/edubit/dc-motor.md
       - Word:
           - Áttekintés: eszkoztar/word/index.md
           - Dokumentumkezelés:
