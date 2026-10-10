@@ -6786,10 +6786,15 @@
 <h2 id="hogyan-erdemes-epiteni">🔧 Hogyan érdemes építeni?</h2>
 <p>Ne próbáljátok egyetlen lépésben elkészíteni az egész rendszert. Haladjatok fokozatosan!</p>
 <div class="question-stack">
-  <div class="question-card"><strong>1. Induljatok a már működő programból!</strong><span>Használjátok fel a virtuális prototípus logikáját.</span></div>
-  <div class="question-card question-card--green"><strong>2. Először a bemenetet kapcsoljátok be!</strong><span>Ellenőrizzétek, hogy a program valóban megkapja-e a szükséges adatot vagy eseményt.</span></div>
-  <div class="question-card question-card--gold"><strong>3. Ezután adjátok hozzá a reakciót!</strong><span>Kapcsoljátok hozzá a LED-et, hangot, motort, szervót vagy más választott kimenetet.</span></div>
+  <div class="question-card"><strong>1. Induljatok a már működő programból!</strong><span>Használjátok fel a virtuális prototípus döntési logikáját.</span></div>
+  <div class="question-card question-card--green"><strong>2. Cseréljétek le a próbabemenetet a valódi Edubit-bemenetre!</strong><span>A virtuális prototípusban használt változó, micro:bit-gomb vagy más helyettesítő megoldás helyére kerüljön a kiválasztott Edubit-eszköz valódi értéke vagy eseménye. Ellenőrizzétek, hogy a program tényleg megkapja-e.</span></div>
+  <div class="question-card question-card--gold"><strong>3. Cseréljétek le a próbareakciót a valódi kimenetre!</strong><span>Az ikon, szöveg vagy más próbakimenet helyett most a választott LED, hang, motor, szervó vagy más Edubit-eszköz reagáljon.</span></div>
   <div class="question-card question-card--orange"><strong>4. Minden új lépés után próbáljátok ki!</strong><span>Ha valami elromlik, így könnyebb megtalálni, melyik változtatás okozta.</span></div>
+</div>
+
+<div class="project-panel project-panel--purple">
+  <h2>🔄 Mi marad a virtuális prototípusból?</h2>
+  <p>A <strong>döntési logika marad</strong>: ugyanazokat a helyzeteket és feltételeket kell kezelnetek. Most csak a korábbi helyettesítő bemenetet és próbareakciót kötitek össze a valódi Edubit-eszközökkel.</p>
 </div>
 
 <h2 id="ha-valamelyik-edubit-eszkoznel-elakadtok">🧰 Ha valamelyik Edubit-eszköznél elakadtok</h2>
@@ -6828,14 +6833,14 @@
 <h2 id="beadas-elotti-ellenorzes">✅ Beadás előtti ellenőrzés</h2>
 <div class="check-panel">
   <label><input type="checkbox"><span>A program a saját okosterem-tervünkhöz kapcsolódik.</span></label>
-  <label><input type="checkbox"><span>A rendszer valamilyen bemenetet vagy eseményt érzékel.</span></label>
-  <label><input type="checkbox"><span>A program a bemenet alapján dönt.</span></label>
+  <label><input type="checkbox"><span>A virtuális próbabemenetet valódi Edubit-bemenetre cseréltük.</span></label>
+  <label><input type="checkbox"><span>A program a valódi bemenet alapján dönt.</span></label>
+  <label><input type="checkbox"><span>A próbareakció helyett a kiválasztott valódi kimenet működik.</span></label>
   <label><input type="checkbox"><span>A rendszer legalább két különböző helyzetre megfelelően reagál.</span></label>
   <label><input type="checkbox"><span>A kiválasztott Edubit-eszközök együtt működnek.</span></label>
   <label><input type="checkbox"><span>Minden új rész hozzáadása után kipróbáltuk a rendszert.</span></label>
   <label><input type="checkbox"><span>Az észlelt hibákat megpróbáltuk kijavítani.</span></label>
   <label><input type="checkbox"><span>Elmentettük a működő .hex fájlt.</span></label>
-  <label><input type="checkbox"><span>Készítettünk egy fényképet az összeállított rendszerről.</span></label>
 </div>
 
 <div class="project-panel project-panel--gold">
@@ -6854,7 +6859,8 @@
 
 <div class="project-submit">
   <h2>📤 Mit adjatok be?</h2>
-  <p>A működő rendszerhez tartozó <strong>.hex fájlt</strong> és egy <strong>fényképet az összeállított Edubit-rendszerről</strong>.</p>
+  <p>A működő rendszerhez tartozó <strong>.hex fájlt</strong>.</p>
+  <p>👥 A program közös munka; ha a beadási felület egyéni beadást kér, mindketten ugyanazt a közösen elkészített fájlt adjátok be.</p>
   <p>Ha később javítotok a rendszeren, a javított változatot ugyanebben a feladatban adjátok be újra.</p>
 </div>
 
