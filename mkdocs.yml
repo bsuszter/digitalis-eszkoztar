@@ -115,6 +115,7 @@ nav:
                   - Projekt áttekintés: tananyagok/digitalis-kultura/8-evfolyam/okosterem/index.md
                   - 1. Találd ki az okostermedet!: tananyagok/digitalis-kultura/8-evfolyam/okosterem/01-talald-ki-az-okostermedet.md
                   - 2. Tervezd meg a működését!: tananyagok/digitalis-kultura/8-evfolyam/okosterem/02-tervezd-meg-a-mukodeset.md
+                  - 3. Készíts virtuális prototípust!: tananyagok/digitalis-kultura/8-evfolyam/okosterem/03-keszits-virtualis-prototipust.md
       - Nyelvtan:
           - Áttekintés: tananyagok/nyelvtan/index.md
           - 5. évfolyam: tananyagok/nyelvtan/5-evfolyam/index.md
@@ -144,6 +145,24 @@ nav:
               - Elágazás: eszkoztar/flowgorithm/elagazas.md
           - Ciklusok:
               - Végtelen ciklus: eszkoztar/flowgorithm/vegtelen-ciklus.md
+      - micro:bit – MakeCode:
+          - Áttekintés: eszkoztar/microbit/index.md
+          - Kezdés:
+              - Új projekt: eszkoztar/microbit/uj-projekt.md
+              - Csatlakozás és letöltés: eszkoztar/microbit/csatlakozas-letoltes.md
+          - Programozási alapok:
+              - Eseménykezelés: eszkoztar/microbit/esemenykezeles.md
+              - Kijelző és kiírás: eszkoztar/microbit/kijelzo.md
+              - Változók: eszkoztar/microbit/valtozok.md
+              - Matematikai műveletek: eszkoztar/microbit/matek.md
+              - Szenzorok lekérdezése: eszkoztar/microbit/szenzorok.md
+              - Feltételek és elágazás: eszkoztar/microbit/elagazas.md
+          - Ciklusok:
+              - Egyszerű számlálós ciklus: eszkoztar/microbit/egyszeru-ciklus.md
+              - Indexelt számlálós ciklus: eszkoztar/microbit/indexelt-ciklus.md
+          - Függvények:
+              - Függvény paraméter nélkül: eszkoztar/microbit/fuggveny.md
+              - Függvény paraméterrel: eszkoztar/microbit/fuggveny-param.md
       - Word:
           - Áttekintés: eszkoztar/word/index.md
           - Dokumentumkezelés:
