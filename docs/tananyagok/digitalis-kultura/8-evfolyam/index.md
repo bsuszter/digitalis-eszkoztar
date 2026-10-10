@@ -7,4 +7,11 @@
     <span>Ötlettől a működő, kipróbált 3D nyomtatható tárgyig.</span>
     <span class="tool-link">Megnyitás →</span>
   </a>
+
+  <a class="tool-card" href="okosterem/">
+    <span class="tool-icon">🏫</span>
+    <strong>Okosterem projekt</strong>
+    <span>Problémából működő intelligens rendszer: algoritmus, micro:bit, Edubit, építés és tesztelés.</span>
+    <span class="tool-link">Megnyitás →</span>
+  </a>
 </div>
