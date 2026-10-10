@@ -4,7 +4,7 @@ A függvény kisebb alprogram: egy jól elkülöníthető részfeladatot végez 
 
 A **Haladó → Függvények** résznél készíthetsz új függvényt.
 
-<figure class="tool-figure tool-figure--wide"><img src="../../images/microbit/11-fuggveny.webp" alt="Paraméter nélküli függvény létrehozása és meghívása MakeCode-ban"></figure>
+<figure class="tool-figure tool-figure--wide"><img src="../../../images/microbit/11-fuggveny.webp" alt="Paraméter nélküli függvény létrehozása és meghívása MakeCode-ban"></figure>
 
 A H5P példájában a `szamlalo` függvény végzi el a kijelzéshez kapcsolódó műveletet, a főprogram pedig csak meghívja.
 
