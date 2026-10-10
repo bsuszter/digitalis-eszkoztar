@@ -39,6 +39,14 @@
     <span class="tool-link">Eszköztár megnyitása →</span>
   </a>
 
+  <a class="tool-card" href="edubit/">
+    <span class="tool-icon">🧰</span>
+    <span class="tool-tag">FIZIKAI PROTOTÍPUS</span>
+    <strong>Edubit</strong>
+    <span>Gyorsfelfedező, telepítés, LED-ek, potméter, gombok, motorok, Sound Bit, Music Bit és IR Bit.</span>
+    <span class="tool-link">Eszköztár megnyitása →</span>
+  </a>
+
   <a class="tool-card" href="tinkercad/">
     <span class="tool-icon">🧱</span>
     <span class="tool-tag">3D TERVEZÉS</span>
