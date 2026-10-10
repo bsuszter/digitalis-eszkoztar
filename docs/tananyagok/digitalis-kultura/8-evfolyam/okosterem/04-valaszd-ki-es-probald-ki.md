@@ -129,5 +129,6 @@ Most még <strong>nem kell összeépítenetek a teljes okostermi rendszert</stro
 
 <div class="related-grid">
   <a href="../03-keszits-virtualis-prototipust/"><span class="related-icon">⬅️</span><span class="related-text"><strong>Előző: Készíts virtuális prototípust!</strong><small>A működő MakeCode-program.</small></span></a>
+  <a href="../05-epitsd-meg/"><span class="related-icon">🛠️</span><span class="related-text"><strong>Következő: Építsd meg!</strong><small>Kapcsoljátok össze a programot és az eszközöket működő rendszerré.</small></span></a>
   <a href="../"><span class="related-icon">🧭</span><span class="related-text"><strong>Projekt áttekintés</strong><small>A teljes Okosterem útvonal.</small></span></a>
 </div>
