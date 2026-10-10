@@ -27,11 +27,16 @@
   <section style="margin-top:18px;padding:22px;border:1px solid #c9d9e8;border-radius:20px;background:#f4f9fb;">
     <h2 style="margin:0;color:#315f78;">🔧 Hogyan érdemes építeni?</h2>
     <div style="display:grid;gap:11px;margin-top:16px;">
-      <div style="padding:16px;border-radius:14px;background:#fff;border-left:6px solid #376f93;"><strong>1. Induljatok a már működő programból!</strong><br>Használjátok fel a virtuális prototípus logikáját.</div>
-      <div style="padding:16px;border-radius:14px;background:#fff;border-left:6px solid #4f8768;"><strong>2. Először a bemenetet kapcsoljátok be!</strong><br>Ellenőrizzétek, hogy a program valóban megkapja-e a szükséges adatot vagy eseményt.</div>
-      <div style="padding:16px;border-radius:14px;background:#fff;border-left:6px solid #a97920;"><strong>3. Ezután adjátok hozzá a reakciót!</strong><br>Kapcsoljátok hozzá a LED-et, hangot, motort, szervót vagy más választott kimenetet.</div>
+      <div style="padding:16px;border-radius:14px;background:#fff;border-left:6px solid #376f93;"><strong>1. Induljatok a már működő programból!</strong><br>Használjátok fel a virtuális prototípus döntési logikáját.</div>
+      <div style="padding:16px;border-radius:14px;background:#fff;border-left:6px solid #4f8768;"><strong>2. Cseréljétek le a próbabemenetet a valódi Edubit-bemenetre!</strong><br>A változó, micro:bit-gomb vagy más helyettesítő megoldás helyére kerüljön a kiválasztott Edubit-eszköz valódi értéke vagy eseménye.</div>
+      <div style="padding:16px;border-radius:14px;background:#fff;border-left:6px solid #a97920;"><strong>3. Cseréljétek le a próbareakciót a valódi kimenetre!</strong><br>Az ikon, szöveg vagy más próbakimenet helyett most a választott LED, hang, motor, szervó vagy más Edubit-eszköz reagáljon.</div>
       <div style="padding:16px;border-radius:14px;background:#fff;border-left:6px solid #d56c32;"><strong>4. Minden új lépés után próbáljátok ki!</strong><br>Ha valami elromlik, így könnyebb megtalálni, melyik változtatás okozta.</div>
     </div>
+  </section>
+
+  <section style="margin-top:18px;padding:22px;border:1px solid #d8cce4;border-radius:20px;background:#faf7fc;">
+    <h2 style="margin:0;color:#604d80;">🔄 Mi marad a virtuális prototípusból?</h2>
+    <p>A <strong>döntési logika marad</strong>: ugyanazokat a helyzeteket és feltételeket kell kezelnetek. Most csak a korábbi helyettesítő bemenetet és próbareakciót kötitek össze a valódi Edubit-eszközökkel.</p>
   </section>
 
   <div style="margin-top:18px;padding:14px 16px;border:1px solid #dfcc9e;border-radius:13px;background:#fff9ed;">
@@ -59,13 +64,15 @@
   <section style="margin-top:18px;padding:22px;border:1px solid #c9dbc9;border-radius:20px;background:#f3f9f5;">
     <h2 style="margin:0;color:#426f57;">✅ Beadás előtti ellenőrzés</h2>
     <ul>
-      <li>A rendszer érzékel valamilyen bemenetet vagy eseményt.</li>
-      <li>A program a bemenet alapján dönt.</li>
+      <li>A program a saját okosterem-tervetekhez kapcsolódik.</li>
+      <li>A virtuális próbabemenetet valódi Edubit-bemenetre cseréltétek.</li>
+      <li>A program a valódi bemenet alapján dönt.</li>
+      <li>A próbareakció helyett a kiválasztott valódi kimenet működik.</li>
       <li>Legalább két különböző helyzetre megfelelően reagál.</li>
       <li>A kiválasztott Edubit-eszközök együtt működnek.</li>
       <li>Minden új rész után kipróbáltátok a rendszert.</li>
       <li>Az észlelt hibákat megpróbáltátok kijavítani.</li>
-      <li>Elmentettétek a működő .hex fájlt és készítettetek fényképet.</li>
+      <li>Elmentettétek a működő .hex fájlt.</li>
     </ul>
   </section>
 
@@ -77,7 +84,8 @@
 
   <section style="margin-top:18px;padding:22px;border-radius:19px;background:linear-gradient(135deg,#315f78,#376f93);color:#fff;">
     <h2 style="margin:0;color:#fff;">📤 Mit adjatok be?</h2>
-    <p>A működő rendszerhez tartozó <strong>.hex fájlt</strong> és egy <strong>fényképet az összeállított Edubit-rendszerről</strong>.</p>
+    <p>A működő rendszerhez tartozó <strong>.hex fájlt</strong>.</p>
+    <p>👥 A program közös munka; ha a beadási felület egyéni beadást kér, mindketten ugyanazt a közösen elkészített fájlt adjátok be.</p>
     <p>Ha később javítotok rajta, a javított változatot ugyanebben a feladatban adjátok be újra.</p>
   </section>
 </div>
