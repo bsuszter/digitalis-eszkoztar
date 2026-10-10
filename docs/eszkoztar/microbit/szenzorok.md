@@ -2,7 +2,7 @@
 
 A **Bemenet** kategóriában olyan blokkok vannak, amelyek a micro:bit érzékelőinek aktuális értékét adják vissza.
 
-<figure class="tool-figure tool-figure--wide"><img src="../../images/microbit/07-szenzorok.webp" alt="Gyorsulás-, fényerő-, iránytű- és hőmérséklet-lekérdező blokkok"></figure>
+<figure class="tool-figure tool-figure--wide"><img src="../../../images/microbit/07-szenzorok.webp" alt="Gyorsulás-, fényerő-, iránytű- és hőmérséklet-lekérdező blokkok"></figure>
 
 A H5P-anyagban szereplő fő lekérdezések:
 
