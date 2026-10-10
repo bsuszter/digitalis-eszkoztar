@@ -31,6 +31,14 @@
     <span class="tool-link">Eszköztár megnyitása →</span>
   </a>
 
+  <a class="tool-card" href="microbit/">
+    <span class="tool-icon">📟</span>
+    <span class="tool-tag">BLOKKPROGRAMOZÁS</span>
+    <strong>micro:bit · MakeCode</strong>
+    <span>Új projekt, események, kijelző, változók, szenzorok, elágazások, ciklusok és függvények.</span>
+    <span class="tool-link">Eszköztár megnyitása →</span>
+  </a>
+
   <a class="tool-card" href="tinkercad/">
     <span class="tool-icon">🧱</span>
     <span class="tool-tag">3D TERVEZÉS</span>

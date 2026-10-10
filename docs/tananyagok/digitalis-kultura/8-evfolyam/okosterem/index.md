@@ -41,4 +41,8 @@
     <span class="related-icon">🧠</span>
     <span class="related-text"><strong>2. Tervezd meg a működését!</strong><small>Alakítsátok a saját ötlet működését Flowgorithm-algoritmussá.</small></span>
   </a>
+  <a href="03-keszits-virtualis-prototipust/">
+    <span class="related-icon">📟</span>
+    <span class="related-text"><strong>3. Készíts virtuális prototípust!</strong><small>Valósítsátok meg ugyanazt a logikát MakeCode-ban, és teszteljétek a micro:bit szimulátorával.</small></span>
+  </a>
 </div>
