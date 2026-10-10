@@ -8,7 +8,7 @@ Az **Alapok** kategóriában többféle módon adhatsz látható visszajelzést 
 - szöveg kiírása;
 - a kijelző törlése.
 
-<figure class="tool-figure tool-figure--wide"><img src="../../images/microbit/04-kijelzo.webp" alt="Kijelzőre íráshoz használható MakeCode blokkok"></figure>
+<figure class="tool-figure tool-figure--wide"><img src="../../../images/microbit/04-kijelzo.webp" alt="Kijelzőre íráshoz használható MakeCode blokkok"></figure>
 
 !!! tip
     Teszteléskor különböző állapotokhoz használj jól megkülönböztethető ikonokat vagy rövid szöveget.
