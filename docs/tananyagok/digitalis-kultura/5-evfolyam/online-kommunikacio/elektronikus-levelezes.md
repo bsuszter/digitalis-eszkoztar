@@ -17,7 +17,7 @@ Az eredeti Moodle-oldal Genially-bemutatója itt is megtekinthető.
 
 Válassz élethelyzetet, nézd meg a hozzá tartozó képet, és állíts össze világos, udvarias levelet!
 
-[✉️ E-mail-küldetés indítása](../../../../../assets/online-kommunikacio/email-kuldetes/index.html){ .md-button .md-button--primary }
+[✉️ E-mail-küldetés indítása](../../../../assets/online-kommunikacio/email-kuldetes/index.html){ .md-button .md-button--primary }
 
 !!! info "Böngészős változat"
     Az alkalmazás Moodle nélkül működik, és nem küld értékelést az iskolai rendszerbe. A Genially bemutatóhoz internetkapcsolat szükséges.
