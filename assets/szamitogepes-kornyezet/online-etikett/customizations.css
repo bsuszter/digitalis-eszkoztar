@@ -1,0 +1,22 @@
+.intro-illustration {
+  width: min(620px, 100%);
+  margin: 20px auto 22px;
+  overflow: hidden;
+  border: 1px solid var(--line);
+  border-radius: 20px;
+  background: #f7f8ff;
+  box-shadow: 0 12px 28px rgba(23, 57, 90, .10);
+}
+
+.intro-illustration img {
+  display: block;
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+
+@media (max-width: 700px) {
+  .intro-illustration {
+    width: 100%;
+  }
+}

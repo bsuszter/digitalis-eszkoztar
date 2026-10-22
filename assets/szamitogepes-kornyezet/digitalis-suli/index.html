@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Digitális suli</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="theme.css">
+</head>
+<body>
+  <main class="app-shell">
+    <header class="hero">
+      <span class="eyebrow">DIGITÁLIS ISKOLAI ALAPOK</span>
+      <h1>🧭 Digitális suli</h1>
+      <p>Ismerd meg a gépedet, a telefonodat és az iskolai alkalmazásokat, majd juss el a belépéstől a feladat beadásáig!</p>
+      <div class="meta-row">
+        <span>⏱️ 20–25 perc</span>
+        <span>👤 Önálló munka</span>
+        <span>⭐ 12 pont</span>
+      </div>
+    </header>
+
+    <div class="learning-bar">
+      <nav class="progress" aria-label="Tanulási útvonal">
+        <button class="step is-active" data-step="0"><b>1</b><span>Indulás</span></button>
+        <button class="step" data-step="1"><b>2</b><span>Mi működteti?</span></button>
+        <button class="step" data-step="2"><b>3</b><span>Melyik alkalmazás?</span></button>
+        <button class="step" data-step="3"><b>4</b><span>Hol van a fájl?</span></button>
+        <button class="step" data-step="4"><b>5</b><span>Teams-útvonal</span></button>
+        <button class="step" data-step="5"><b>6</b><span>Iránytű</span></button>
+      </nav>
+      <aside class="score-tracker">
+        <span>Pontjaid</span>
+        <strong><span id="liveScore">0</span>/12</strong>
+        <div class="score-meter"><span id="scoreFill"></span></div>
+      </aside>
+    </div>
+
+    <section id="screen" class="screen" aria-live="polite"></section>
+  </main>
+
+  <script src="data.js"></script>
+  <script src="app.js"></script>
+  <script src="scoring-fix.js"></script>
+  <script src="scorm.js"></script>
+  <script src="scorm-bridge.js"></script>
+</body>
+</html>

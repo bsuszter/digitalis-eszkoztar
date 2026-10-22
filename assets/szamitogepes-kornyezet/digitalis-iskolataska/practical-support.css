@@ -1,0 +1,181 @@
+.practical-card {
+  background: linear-gradient(135deg, #fffaf0, #f6fbff);
+}
+
+.practical-heading {
+  display: grid;
+  grid-template-columns: 1fr 290px;
+  gap: 18px;
+  align-items: start;
+}
+
+.practical-kicker {
+  display: inline-block;
+  margin-bottom: 8px;
+  color: #9a641c;
+  font-size: 12px;
+  font-weight: 900;
+  letter-spacing: .07em;
+}
+
+.practical-heading h2 { margin: 0 0 8px; }
+.practical-heading p { margin: 0; color: var(--muted); line-height: 1.55; }
+
+.practical-goal {
+  padding: 14px 16px;
+  border: 1px solid #cfe2e8;
+  border-radius: 15px;
+  background: #fff;
+  line-height: 1.5;
+}
+
+.drive-note {
+  display: grid;
+  grid-template-columns: 44px 1fr;
+  gap: 12px;
+  align-items: start;
+  margin-top: 18px;
+  padding: 14px 16px;
+  border: 1px solid #e8ca82;
+  border-radius: 16px;
+  background: #fff7dc;
+}
+.drive-note > span { font-size: 28px; }
+.drive-note strong { display: block; margin-bottom: 3px; }
+.drive-note p { margin: 0; color: #69552b; line-height: 1.5; }
+
+.mouse-legend {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 12px;
+}
+.mouse-legend > span {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 11px;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  background: #fff;
+  color: var(--muted);
+  font-size: 13px;
+  font-weight: 700;
+}
+.mouse {
+  display: grid;
+  place-items: center;
+  width: 25px;
+  height: 29px;
+  border: 2px solid #60788c;
+  border-radius: 13px 13px 10px 10px;
+  background: linear-gradient(90deg, #edf3f7 50%, #fff 50%);
+  color: #17395a;
+  font-size: 10px;
+}
+.mouse.right { background: linear-gradient(90deg, #fff 50%, #f7ead0 50%); }
+
+.practical-steps {
+  display: grid;
+  gap: 14px;
+  margin-top: 20px;
+}
+.practical-step {
+  padding: 16px 18px;
+  border: 1px solid var(--line);
+  border-left-width: 6px;
+  border-radius: 18px;
+  background: #fff;
+  box-shadow: 0 7px 18px rgba(23, 57, 90, .06);
+}
+.practical-step:nth-child(1) { border-left-color: #3478c7; }
+.practical-step:nth-child(2) { border-left-color: #28a9b8; }
+.practical-step:nth-child(3) { border-left-color: #f2b84b; }
+.practical-step:nth-child(4) { border-left-color: #8b67bc; }
+.practical-step:nth-child(5) { border-left-color: #53a36c; }
+
+.practical-step-main {
+  display: grid;
+  grid-template-columns: 48px 1fr;
+  gap: 13px;
+  align-items: start;
+}
+.practical-step-icon {
+  display: grid;
+  place-items: center;
+  width: 46px;
+  height: 46px;
+  border-radius: 14px;
+  background: var(--blue-soft);
+  font-size: 25px;
+}
+.practical-step h3 { margin: 1px 0 5px; font-size: 18px; }
+.practical-step p { margin: 0; color: var(--muted); line-height: 1.55; }
+
+.practical-step details {
+  margin: 12px 0 0 61px;
+  padding: 11px 13px;
+  border: 1px solid #d9e5eb;
+  border-radius: 13px;
+  background: #f5f8fb;
+}
+.practical-step details[open] { background: #fff; }
+.practical-step summary {
+  cursor: pointer;
+  color: #315f78;
+  font-weight: 800;
+}
+.practical-step details p { margin-top: 10px; }
+
+.practical-shot {
+  margin: 13px 0 2px;
+  overflow: hidden;
+  border: 1px solid #ccdce5;
+  border-radius: 13px;
+  background: #fff;
+  box-shadow: 0 7px 18px rgba(23, 57, 90, .08);
+}
+.practical-shot img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.practical-finish {
+  display: grid;
+  gap: 10px;
+  margin-top: 18px;
+  padding: 16px 18px 18px;
+  border: 1px solid #bcd9c1;
+  border-radius: 15px;
+  background: #eaf8ee;
+  color: #2f744d;
+}
+.practical-finish legend {
+  padding: 0 8px;
+  font-weight: 900;
+  color: #2f744d;
+}
+.practical-finish label {
+  display: grid;
+  grid-template-columns: 22px 1fr;
+  gap: 9px;
+  align-items: start;
+  cursor: pointer;
+  line-height: 1.45;
+}
+.practical-finish input {
+  width: 18px;
+  height: 18px;
+  margin: 2px 0 0;
+  accent-color: #489664;
+}
+.practical-finish label:has(input:checked) span {
+  text-decoration: line-through;
+  opacity: .72;
+}
+
+@media (max-width: 720px) {
+  .practical-heading { grid-template-columns: 1fr; }
+  .practical-step details { margin-left: 0; }
+}
