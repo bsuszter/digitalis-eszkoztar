@@ -11,6 +11,10 @@
     <span class="related-icon">💻</span>
     <span class="related-text"><strong>Számítógépes környezet</strong><small>Teremrend, online etikett, digitális iskolatáska és digitális suli – interaktív feladatokkal.</small><span class="tool-link">Témakör megnyitása →</span></span>
   </a>
+  <a href="bemutatokeszites/">
+    <span class="related-icon">🎞️</span>
+    <span class="related-text"><strong>Bemutatókészítés</strong><small>Saját bemutató a kedvencedről, rajzolás alakzatokkal és mozgás a diákon.</small><span class="tool-link">Témakör megnyitása →</span></span>
+  </a>
   <a href="3d-avatar/">
     <span class="related-icon">🎲</span>
     <span class="related-text"><strong>Saját játékfigura – saját avatar</strong><small>Belépő 3D tervezési projekt Tinkercadben: saját, valóban használható társasjáték-figura megtervezése.</small><span class="tool-link">Projekt megnyitása →</span></span>
