@@ -15,6 +15,9 @@
 
 ## 1. Próbáld ki az animációt!
 
+[🧰 Segítség: animációk és áttűnések](../../../../eszkoztar/powerpoint/animaciok-attunesek.md){ target="_blank" rel="noopener" }
+
+
 Szúrj be egy alakzatot. Jelöld ki, majd az **Animációk** menüben válassz egyszerű megjelenési effektust. Indítsd el a diavetítést, és figyeld meg, mikor jelenik meg az elem.
 
 Nézd meg az indítás lehetőségeit: **kattintásra**, **az előzővel együtt**, **az előző után**. A menüpontok neve és kínálata eltérhet a PowerPoint verziójától.

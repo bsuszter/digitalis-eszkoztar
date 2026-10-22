@@ -11,6 +11,9 @@ A **Beszúrás → Alakzatok** segítségével egyszerű formákból összetett 
 
 ## 1. Próbáld ki az alapokat!
 
+[🧰 Segítség: alakzatok, igazítás, csoportosítás](../../../../eszkoztar/powerpoint/alakzatok.md){ target="_blank" rel="noopener" }
+
+
 1. Szúrj be egy téglalapot, egy kört és egy háromszöget.
 2. Adj nekik különböző **kitöltőszínt** és **körvonalat**.
 3. Készíts másolatot egy alakzatról (`Ctrl+C`, majd `Ctrl+V`), és változtasd meg a méretét.

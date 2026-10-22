@@ -55,6 +55,14 @@
     <span class="tool-link">Eszköztár megnyitása →</span>
   </a>
 
+  <a class="tool-card" href="powerpoint/">
+    <span class="tool-icon">📊</span>
+    <span class="tool-tag">BEMUTATÓKÉSZÍTÉS</span>
+    <strong>PowerPoint</strong>
+    <span>Diák, szöveg, képek, alakzatok, áttűnések, animációk és mentés – gyors segítségek.</span>
+    <span class="tool-link">Eszköztár megnyitása →</span>
+  </a>
+
   <a class="tool-card" href="word/">
     <span class="tool-icon">📝</span>
     <span class="tool-tag">SZÖVEGSZERKESZTÉS</span>

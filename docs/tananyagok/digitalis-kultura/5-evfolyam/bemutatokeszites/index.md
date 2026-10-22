@@ -38,6 +38,12 @@
 !!! tip "Hogyan dolgozz?"
     A PowerPoint asztali változatával készült a régi tananyag, de a feladatok nagy része a **PowerPoint webes változatában** is elvégezhető. Egyes menüpontok neve vagy helye eltérhet.
 
+## 🧰 Ha elakadsz, nyisd meg az eszköztárat!
+
+[📊 PowerPoint – műveleti segédlet](https://bsuszter.github.io/digitalis-eszkoztar/eszkoztar/powerpoint/){ .md-button target="_blank" rel="noopener" }
+
+A konkrét feladatokban az egyes lépések mellől is elérheted a megfelelő segítséget. A hivatkozások **új lapon** nyílnak meg, hogy a feladatod közben se veszítsd el, hol tartottál.
+
 ## Moodle-ba is beilleszthető változat
 
 [📖 Teljes, önálló HTML-tananyag megnyitása](../../../../assets/bemutatokeszites/index.html){ .md-button .md-button--primary }

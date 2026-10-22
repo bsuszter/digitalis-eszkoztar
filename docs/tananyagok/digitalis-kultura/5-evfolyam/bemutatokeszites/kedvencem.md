@@ -30,6 +30,9 @@ Bármit választhatsz, ami valóban érdekel: egy állatot, sportot, játékot, 
 
 ## 2. Hozd létre a diákat!
 
+[🧰 Segítség: új bemutató és új dia](../../../../eszkoztar/powerpoint/kezdes.md){ target="_blank" rel="noopener" }
+
+
 Nyisd meg a **PowerPointot** (asztali vagy webes változat), és készíts új, üres bemutatót vagy válassz egy egyszerű témát.
 
 - Az első diára írd be a **főcímet** és – ha szeretnéd – az **alcímet**.
@@ -41,11 +44,17 @@ Nyisd meg a **PowerPointot** (asztali vagy webes változat), és készíts új, 
 
 ## 3. Formázd a szöveget!
 
+[🧰 Segítség: szövegformázás](../../../../eszkoztar/powerpoint/szoveg.md){ target="_blank" rel="noopener" }
+
+
 Emeld ki a lényeges szavakat, állíts be jól olvasható betűméretet, és ügyelj a színek kontrasztjára. **Ne használj túl sokféle betűtípust és színt!**
 
 Próbáld ki: ha a diát a terem hátsó részéből is el tudnád olvasni, jó úton jársz.
 
 ## 4. Szúrj be képet!
+
+[🧰 Segítség: képek beszúrása](../../../../eszkoztar/powerpoint/kepek.md){ target="_blank" rel="noopener" }
+
 
 A **Beszúrás → Képek** segítségével adj hozzá a témádhoz illő illusztrációt. A kép méretezésekor a sarkait húzd, hogy ne torzuljon. Használhatsz saját fényképet vagy megfelelő felhasználási feltételekkel közzétett képet.
 
@@ -56,6 +65,9 @@ A **Beszúrás → Képek** segítségével adj hozzá a témádhoz illő illusz
 
 ## 5. Adj hozzá mozgást – mértékkel!
 
+[🧰 Segítség: animációk és áttűnések](../../../../eszkoztar/powerpoint/animaciok-attunesek.md){ target="_blank" rel="noopener" }
+
+
 - **Animáció:** a dián **egy elem** (például cím vagy kép) jelenik meg, mozog vagy tűnik el.
 - **Áttűnés:** a **két dia közötti váltás** látványa.
 
@@ -65,6 +77,9 @@ Válassz egy szöveget vagy képet, és próbáld ki az **Animációk** menüt. 
     Ha minden elem ugrál és forog, a közönség a tartalom helyett a mozgást figyeli. Az animáció segítse a megértést!
 
 ## 6. Háttér, mentés, próba
+
+[🧰 Segítség: háttér beállítása](../../../../eszkoztar/powerpoint/hatter.md){ target="_blank" rel="noopener" } · [🧰 Segítség: mentés és diavetítés](../../../../eszkoztar/powerpoint/mentes-bemutatas.md){ target="_blank" rel="noopener" }
+
 
 Állíts be egységes, a szövegtől jól elkülönülő hátteret. Nézd meg az összes diát diavetítésként, és javítsd az esetleges hibákat.
 
