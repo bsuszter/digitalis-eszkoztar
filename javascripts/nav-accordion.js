@@ -35,6 +35,7 @@
       'Flowgorithm': 'nav-topic--flowgorithm',
       'micro:bit – MakeCode': 'nav-topic--microbit',
       'Edubit': 'nav-topic--edubit',
+      'PowerPoint': 'nav-topic--powerpoint',
       'Word': 'nav-topic--word',
       'Tinkercad': 'nav-topic--tinkercad',
       'Digitális kultúra': 'nav-topic--digitalis-kultura',
