@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 980 350" role="img" aria-label="Alakzat beszúrása, kijelölése, formázása"><defs><style>text{font-family:Arial,Helvetica,sans-serif;fill:#263746}.heading{font-size:22px;font-weight:700}.note{font-size:16px;fill:#5a6f7c}.small{font-size:14px;fill:#315f78}.pill{font-size:14px;font-weight:700;fill:#fff}.num{font-size:18px;font-weight:700;fill:#fff}</style><filter id="sh"><feDropShadow dx="0" dy="3" stdDeviation="5" flood-color="#315f78" flood-opacity=".12"/></filter></defs><rect width="980" height="350" rx="24" fill="#f4f9fb"/>
+<rect x="24" y="28" width="455" height="294" rx="17" fill="#fff" stroke="#d1e2e9" stroke-width="2" filter="url(#sh)"/><rect x="501" y="28" width="455" height="294" rx="17" fill="#fff" stroke="#d1e2e9" stroke-width="2" filter="url(#sh)"/>
+<text x="49" y="66" class="heading">1. Beszúrás → Alakzatok</text>
+<rect x="49" y="93" width="405" height="54" rx="10" fill="#eaf4f7"/><rect x="61" y="101" width="110" height="37" rx="9" fill="#315f78"/><text x="79" y="125" class="pill">Beszúrás</text>
+<rect x="181" y="101" width="116" height="37" rx="9" fill="#d5e8ee"/><text x="192" y="125" class="small">◇ Alakzatok ▾</text>
+<rect x="49" y="162" width="405" height="136" rx="12" fill="#f7fafb" stroke="#dde9ee"/>
+<rect x="77" y="188" width="75" height="50" rx="6" fill="#80c7bf" stroke="#23877c" stroke-width="3"/>
+<circle cx="251" cy="214" r="29" fill="#f7d38c" stroke="#b78b34" stroke-width="3"/>
+<polygon points="357,183 322,242 392,242" fill="#d5bee8" stroke="#8664a5" stroke-width="3"/>
+<text x="77" y="278" class="note">Válassz alakzatot, majd rajzold meg!</text>
+<text x="526" y="66" class="heading">2. Kijelölés és formázás</text>
+<rect x="550" y="95" width="357" height="190" rx="15" fill="#fbf7fc" stroke="#eee2f2"/>
+<rect x="636" y="137" width="184" height="102" rx="12" fill="#80c7bf" stroke="#23877c" stroke-width="4"/>
+<rect x="627" y="128" width="202" height="120" fill="none" stroke="#376f93" stroke-width="2" stroke-dasharray="7 5"/>
+<rect x="622" y="123" width="10" height="10" fill="#fff" stroke="#376f93" stroke-width="2"/><rect x="723" y="123" width="10" height="10" fill="#fff" stroke="#376f93" stroke-width="2"/><rect x="824" y="123" width="10" height="10" fill="#fff" stroke="#376f93" stroke-width="2"/><rect x="622" y="183" width="10" height="10" fill="#fff" stroke="#376f93" stroke-width="2"/><rect x="824" y="183" width="10" height="10" fill="#fff" stroke="#376f93" stroke-width="2"/><rect x="622" y="243" width="10" height="10" fill="#fff" stroke="#376f93" stroke-width="2"/><rect x="723" y="243" width="10" height="10" fill="#fff" stroke="#376f93" stroke-width="2"/><rect x="824" y="243" width="10" height="10" fill="#fff" stroke="#376f93" stroke-width="2"/>
+<circle cx="728" cy="106" r="9" fill="#fff" stroke="#376f93" stroke-width="3"/><path d="M728 116v12" stroke="#376f93" stroke-width="2"/>
+<text x="526" y="309" class="note">Kitöltés • Körvonal • Méret • Forgatás</text>
+</svg>

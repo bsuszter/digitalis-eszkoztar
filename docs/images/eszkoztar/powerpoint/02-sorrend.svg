@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 980 350" role="img" aria-label="Alakzatok egymás elé és mögé rendezése"><defs><style>text{font-family:Arial,Helvetica,sans-serif;fill:#263746}.heading{font-size:22px;font-weight:700}.note{font-size:16px;fill:#5a6f7c}.small{font-size:14px;fill:#315f78}.pill{font-size:14px;font-weight:700;fill:#fff}.num{font-size:18px;font-weight:700;fill:#fff}</style><filter id="sh"><feDropShadow dx="0" dy="3" stdDeviation="5" flood-color="#315f78" flood-opacity=".12"/></filter></defs><rect width="980" height="350" rx="24" fill="#f4f9fb"/>
+<rect x="24" y="28" width="455" height="294" rx="17" fill="#fff" stroke="#d1e2e9" stroke-width="2" filter="url(#sh)"/><rect x="501" y="28" width="455" height="294" rx="17" fill="#fff" stroke="#d1e2e9" stroke-width="2" filter="url(#sh)"/>
+<text x="49" y="66" class="heading">Hátraküldés előtt</text><text x="526" y="66" class="heading">Hátraküldés után</text>
+<rect x="90" y="102" width="320" height="170" rx="12" fill="#f5fafc" stroke="#dde8ef"/>
+<circle cx="230" cy="182" r="76" fill="#f6ca86" stroke="#b88a42" stroke-width="4"/>
+<rect x="221" y="131" width="147" height="112" rx="10" fill="#7eadd5" stroke="#417ba6" stroke-width="4"/>
+<rect x="566" y="102" width="320" height="170" rx="12" fill="#f5fafc" stroke="#dde8ef"/>
+<rect x="697" y="131" width="147" height="112" rx="10" fill="#7eadd5" stroke="#417ba6" stroke-width="4"/>
+<circle cx="706" cy="182" r="76" fill="#f6ca86" stroke="#b88a42" stroke-width="4"/>
+<text x="49" y="299" class="note">A kék téglalap eltakarja a kört.</text><text x="526" y="299" class="note">A kör került előrébb a rétegek között.</text>
+<path d="M478 172h22" stroke="#315f78" stroke-width="3"/><path d="M494 166l8 6-8 6" fill="none" stroke="#315f78" stroke-width="3"/>
+</svg>
