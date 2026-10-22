@@ -1,0 +1,48 @@
+/* Three-column desktop layout with independent, persistent sidebar controls. */
+.eszkoz-layout-toolbar {
+  display: flex;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+  gap: .5rem;
+  margin: .25rem 0 .9rem;
+}
+.eszkoz-layout-toggle {
+  display: inline-flex;
+  align-items: center;
+  gap: .42rem;
+  border: 1px solid var(--eszkoz-border, #d6e2ea);
+  border-radius: 999px;
+  background: var(--md-default-bg-color, #fff);
+  color: var(--md-default-fg-color, #263746);
+  padding: .32rem .65rem;
+  font: inherit;
+  font-size: .68rem;
+  cursor: pointer;
+  line-height: 1.4;
+}
+.eszkoz-layout-toggle:hover,
+.eszkoz-layout-toggle:focus-visible {
+  border-color: var(--eszkoz-blue, #376f93);
+  background: var(--eszkoz-bg, #f4f9fb);
+}
+.eszkoz-layout-toggle:focus-visible {
+  outline: 2px solid var(--eszkoz-blue, #376f93);
+  outline-offset: 2px;
+}
+.eszkoz-layout-toggle[aria-pressed="false"] {
+  background: var(--eszkoz-bg, #f4f9fb);
+  border-color: var(--eszkoz-blue, #376f93);
+}
+.eszkoz-layout-toggle__icon {
+  font-size: .85rem;
+  line-height: 1;
+}
+@media screen and (min-width: 76.25em) {
+  .eszkoz-hide-left .md-sidebar--primary { display: none; }
+  .eszkoz-hide-right .md-sidebar--secondary { display: none; }
+  .eszkoz-hide-left .md-content { margin-left: 0; }
+  .eszkoz-hide-right .md-content { margin-right: 0; }
+}
+@media screen and (max-width: 76.24em) {
+  .eszkoz-layout-toolbar { display: none; }
+}

@@ -54,10 +54,12 @@ extra_css:
   - stylesheets/nav-highlight.css
   - stylesheets/image-lightbox.css
   - stylesheets/video-cards.css
+  - stylesheets/layout-toggles.css
 
 extra_javascript:
   - javascripts/nav-accordion.js
   - javascripts/image-lightbox.js
+  - javascripts/layout-toggles.js
 
 nav:
   - Kezdőlap: index.md
