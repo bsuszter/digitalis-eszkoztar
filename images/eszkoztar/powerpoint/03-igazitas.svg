@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 980 350" role="img" aria-label="Alakzatok rendezése, igazítása, elosztása"><defs><style>text{font-family:Arial,Helvetica,sans-serif;fill:#263746}.heading{font-size:22px;font-weight:700}.note{font-size:16px;fill:#5a6f7c}.small{font-size:14px;fill:#315f78}.pill{font-size:14px;font-weight:700;fill:#fff}.num{font-size:18px;font-weight:700;fill:#fff}</style><filter id="sh"><feDropShadow dx="0" dy="3" stdDeviation="5" flood-color="#315f78" flood-opacity=".12"/></filter></defs><rect width="980" height="350" rx="24" fill="#f4f9fb"/>
+<rect x="24" y="28" width="455" height="294" rx="17" fill="#fff" stroke="#d1e2e9" stroke-width="2" filter="url(#sh)"/><rect x="501" y="28" width="455" height="294" rx="17" fill="#fff" stroke="#d1e2e9" stroke-width="2" filter="url(#sh)"/>
+<text x="49" y="66" class="heading">Igazítás előtt</text><text x="526" y="66" class="heading">Igazítás után</text>
+<rect x="74" y="103" width="350" height="173" rx="12" fill="#fafcfd" stroke="#d8e5ec"/>
+<rect x="102" y="119" width="76" height="65" rx="8" fill="#80c7bf" stroke="#23877c" stroke-width="3"/>
+<rect x="198" y="175" width="76" height="65" rx="8" fill="#80c7bf" stroke="#23877c" stroke-width="3"/>
+<rect x="318" y="135" width="76" height="65" rx="8" fill="#80c7bf" stroke="#23877c" stroke-width="3"/>
+<rect x="551" y="103" width="350" height="173" rx="12" fill="#fafcfd" stroke="#d8e5ec"/>
+<path d="M575 141h302" stroke="#a97920" stroke-width="2" stroke-dasharray="8 7"/>
+<path d="M575 208h302" stroke="#a97920" stroke-width="2" stroke-dasharray="8 7"/>
+<rect x="594" y="142" width="76" height="65" rx="8" fill="#80c7bf" stroke="#23877c" stroke-width="3"/>
+<rect x="688" y="142" width="76" height="65" rx="8" fill="#80c7bf" stroke="#23877c" stroke-width="3"/>
+<rect x="782" y="142" width="76" height="65" rx="8" fill="#80c7bf" stroke="#23877c" stroke-width="3"/>
+<text x="49" y="299" class="note">Az alakzatok különböző magasságban vannak.</text>
+<text x="526" y="299" class="note">Azonos felső él és egyenletes távolság.</text>
+</svg>
