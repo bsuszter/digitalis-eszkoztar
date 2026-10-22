@@ -12,14 +12,14 @@
 ## A fejezet két témaköre
 
 <div class="tool-grid">
-  <a class="tool-card" href="internetes-biztonsag.md">
+  <a class="tool-card" href="internetes-biztonsag/">
     <span class="tool-icon">🔒</span>
     <span class="tool-tag">1. TÉMAKÖR</span>
     <strong>Internetes biztonság</strong>
     <span>Online Biztonsági Központ és Digitális nyomozás – két interaktív küldetés.</span>
     <span class="tool-link">Feladatok megnyitása →</span>
   </a>
-  <a class="tool-card" href="elektronikus-levelezes.md">
+  <a class="tool-card" href="elektronikus-levelezes/">
     <span class="tool-icon">✉️</span>
     <span class="tool-tag">2. TÉMAKÖR</span>
     <strong>Elektronikus levelezés</strong>
