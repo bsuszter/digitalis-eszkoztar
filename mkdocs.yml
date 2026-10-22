@@ -205,13 +205,16 @@ nav:
               - DC motor: eszkoztar/edubit/dc-motor.md
       - PowerPoint:
           - Áttekintés: eszkoztar/powerpoint/index.md
-          - Új bemutató és új dia: eszkoztar/powerpoint/kezdes.md
-          - Szöveg formázása: eszkoztar/powerpoint/szoveg.md
-          - Képek beszúrása: eszkoztar/powerpoint/kepek.md
-          - Háttér és megjelenés: eszkoztar/powerpoint/hatter.md
-          - Alakzatok és csoportosítás: eszkoztar/powerpoint/alakzatok.md
-          - Animációk és áttűnések: eszkoztar/powerpoint/animaciok-attunesek.md
-          - Mentés és diavetítés: eszkoztar/powerpoint/mentes-bemutatas.md
+          - Kezdés:
+              - Új bemutató és új dia: eszkoztar/powerpoint/kezdes.md
+          - Tartalom és megjelenés:
+              - Szöveg formázása: eszkoztar/powerpoint/szoveg.md
+              - Képek beszúrása: eszkoztar/powerpoint/kepek.md
+              - Háttér és megjelenés: eszkoztar/powerpoint/hatter.md
+              - Alakzatok és csoportosítás: eszkoztar/powerpoint/alakzatok.md
+          - Mozgás és bemutatás:
+              - Animációk és áttűnések: eszkoztar/powerpoint/animaciok-attunesek.md
+              - Mentés és diavetítés: eszkoztar/powerpoint/mentes-bemutatas.md
       - Word:
           - Áttekintés: eszkoztar/word/index.md
           - Dokumentumkezelés:

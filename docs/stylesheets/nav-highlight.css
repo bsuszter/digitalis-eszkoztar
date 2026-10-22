@@ -56,6 +56,17 @@
   font-weight: 800;
 }
 
+.md-sidebar--primary .nav-topic--powerpoint > .md-nav__link,
+.md-sidebar--primary .md-nav__item--nested:has(> nav a[href$="/eszkoztar/powerpoint/"]) > .md-nav__link {
+  margin-top: .45rem;
+  padding: .48rem .62rem;
+  border-left: 4px solid #19818d;
+  border-radius: 9px;
+  background: #eff9f9;
+  color: #14646d;
+  font-weight: 800;
+}
+
 .md-sidebar--primary .nav-topic--word > .md-nav__link,
 .md-sidebar--primary .md-nav__item--nested:has(> nav a[href$="/eszkoztar/word/"]) > .md-nav__link {
   margin-top: .45rem;
