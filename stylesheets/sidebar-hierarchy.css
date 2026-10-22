@@ -1,0 +1,91 @@
+/* Bal oldali menü: a hierarchia felismerhető azonos oszlopszélességen is. */
+.md-sidebar--primary .md-nav__link {
+  border-radius: 8px;
+  line-height: 1.35;
+  transition: background-color .15s ease, color .15s ease;
+}
+.md-sidebar--primary .md-nav__link:hover {
+  background-color: rgba(55, 111, 147, .075);
+}
+.md-sidebar--primary .md-nav__link:focus-visible {
+  outline: 2px solid var(--eszkoz-blue, #376f93);
+  outline-offset: 2px;
+}
+
+/* Évfolyamok (a Digitális kultúra alatt): vizuális fejezetcímek. */
+.md-sidebar--primary .md-nav[data-md-level="2"] > .md-nav__list > .md-nav__item--nested > .md-nav__link {
+  margin: .62rem 0 .16rem;
+  padding: .45rem .58rem;
+  border: 1px solid #d9e5ed;
+  border-left: 4px solid #739bb4;
+  border-radius: 9px;
+  background: #f1f6fa;
+  color: #2e5871;
+  font-weight: 800;
+  font-size: .75rem;
+}
+.md-sidebar--primary .md-nav[data-md-level="2"] > .md-nav__list > .md-nav__item--active > .md-nav__link {
+  border-left-color: #376f93;
+  background: #e6f1f7;
+}
+
+/* Témakörök: finom, de egyértelmű alsóbb hierarchiaszint. */
+.md-sidebar--primary .md-nav[data-md-level="3"] > .md-nav__list > .md-nav__item--nested > .md-nav__link {
+  margin-top: .46rem;
+  padding: .38rem .48rem;
+  border-radius: 7px;
+  border-left: 3px solid #b4cbd9;
+  background: #f6f9fb;
+  color: #3e6176;
+  font-weight: 750;
+}
+.md-sidebar--primary .md-nav[data-md-level="3"] > .md-nav__list > .md-nav__item--active > .md-nav__link {
+  border-left-color: #376f93;
+}
+
+/* Altémák: kisebb léptékű alcím, ne olvadjon össze a leckékkel. */
+.md-sidebar--primary .md-nav[data-md-level="4"] > .md-nav__list > .md-nav__item--nested > .md-nav__link {
+  margin-top: .36rem;
+  padding: .32rem .4rem;
+  border-left: 2px solid #ccd9e3;
+  border-radius: 5px;
+  color: #455f71;
+  font-weight: 700;
+}
+.md-sidebar--primary .md-nav[data-md-level="4"] > .md-nav__list > .md-nav__item--active > .md-nav__link {
+  border-left-color: #6394b1;
+  background: #f5f9fb;
+}
+
+/* Leckék: látható függőleges vezérvonal és határozott aktív állapot. */
+.md-sidebar--primary .md-nav[data-md-level="5"] > .md-nav__list {
+  margin-top: .12rem;
+  padding-left: .18rem;
+  border-left: 1px solid #dbe6ed;
+}
+.md-sidebar--primary .md-nav[data-md-level="5"] > .md-nav__list > .md-nav__item > .md-nav__link {
+  margin: .08rem 0;
+  padding: .29rem .4rem;
+  font-size: .72rem;
+}
+.md-sidebar--primary .md-nav[data-md-level="5"] > .md-nav__list > .md-nav__item--active > .md-nav__link,
+.md-sidebar--primary .md-nav[data-md-level="5"] > .md-nav__list > .md-nav__item > .md-nav__link--active {
+  border-left: 3px solid #376f93;
+  border-radius: 7px;
+  background: #e8f2f8;
+  color: #244f6b;
+  font-weight: 800;
+}
+
+/* A nyitott ág gyerekei között maradjon követhető a vonalvezetés. */
+.md-sidebar--primary .md-nav[data-md-level="3"] > .md-nav__list,
+.md-sidebar--primary .md-nav[data-md-level="4"] > .md-nav__list {
+  border-left: 1px solid #e3ebf0;
+}
+
+/* A szűk mobilmenüben se nyomjuk össze a hosszú címeket. */
+@media screen and (max-width: 76.24em) {
+  .md-sidebar--primary .md-nav[data-md-level="2"] > .md-nav__list > .md-nav__item--nested > .md-nav__link {
+    margin-top: .4rem;
+  }
+}
