@@ -1,0 +1,19 @@
+.first-attempt-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: 14px;
+  padding: 10px 14px;
+  border: 1px solid #f0c95a;
+  border-radius: 999px;
+  background: #ffdf72;
+  color: #17395a;
+  font-weight: 900;
+  box-shadow: 0 5px 12px rgba(183, 137, 12, .12);
+}
+
+.first-attempt-badge::before {
+  content: '★';
+  color: #d6a613;
+  font-size: 1.15em;
+}

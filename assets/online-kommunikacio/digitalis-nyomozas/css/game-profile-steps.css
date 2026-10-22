@@ -1,0 +1,309 @@
+/* =========================================================
+   V0.5.0 – LÉPÉSENKÉNTI JÁTÉKPROFIL FELADAT
+   ========================================================= */
+
+.profile-stage {
+  display: grid;
+  gap: 18px;
+  margin-bottom: 22px;
+  padding: 18px;
+  background: rgba(255, 255, 255, 0.78);
+  border: 1px solid rgba(29, 48, 68, 0.14);
+  border-radius: 18px;
+  box-shadow: 0 14px 32px rgba(35, 49, 63, 0.08);
+}
+
+.profile-stage--complete {
+  border-color: rgba(45, 167, 96, 0.38);
+  box-shadow: 0 14px 34px rgba(45, 167, 96, 0.1);
+}
+
+.profile-stage--locked {
+  grid-template-columns: auto minmax(0, 1fr);
+  align-items: center;
+  min-height: 126px;
+  color: #64717d;
+  background: rgba(231, 234, 238, 0.76);
+  border-style: dashed;
+}
+
+.profile-stage--locked h2,
+.profile-stage--locked p {
+  margin: 0;
+}
+
+.profile-stage--locked h2 {
+  margin: 5px 0 7px;
+  color: #53606c;
+}
+
+.profile-stage__lock {
+  display: grid;
+  place-items: center;
+  width: 54px;
+  height: 54px;
+  background: rgba(81, 95, 109, 0.09);
+  border-radius: 16px;
+  font-size: 1.55rem;
+}
+
+.profile-stage__header {
+  display: grid;
+  grid-template-columns: auto minmax(0, 1fr);
+  gap: 14px;
+  align-items: start;
+}
+
+.profile-stage__header h2,
+.profile-stage__header p {
+  margin: 0;
+}
+
+.profile-stage__header p {
+  margin-top: 5px;
+  color: #586673;
+  line-height: 1.5;
+}
+
+.profile-stage__heading-line {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.profile-step-status {
+  flex: 0 0 auto;
+  padding: 5px 9px;
+  color: #596775;
+  background: #edf0f3;
+  border-radius: 999px;
+  font-size: 0.76rem;
+  font-weight: 900;
+}
+
+.profile-step-status--complete {
+  color: #176f3a;
+  background: #dff4e7;
+}
+
+.profile-category-legend {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 10px;
+}
+
+.profile-category-legend__item {
+  display: grid;
+  gap: 4px;
+  min-height: 84px;
+  padding: 13px;
+  border: 1px solid;
+  border-radius: 13px;
+}
+
+.profile-category-legend__item small {
+  line-height: 1.35;
+}
+
+.profile-category-legend__item--strong {
+  color: #176f3a;
+  background: #effaf3;
+  border-color: #7bc795;
+}
+
+.profile-category-legend__item--weak {
+  color: #93600a;
+  background: #fff8e9;
+  border-color: #e4bc69;
+}
+
+.profile-category-legend__item--none {
+  color: #a32d35;
+  background: #fff1f2;
+  border-color: #e49aa0;
+}
+
+.profile-clue-row {
+  position: relative;
+  overflow: hidden;
+}
+
+.profile-clue-row--correct {
+  background: #f1fbf5;
+  border-color: #67bd84;
+  box-shadow: 0 9px 22px rgba(45, 167, 96, 0.1);
+}
+
+.profile-clue-row--incorrect {
+  background: #fff4f4;
+  border-color: #db747b;
+  box-shadow: 0 9px 22px rgba(186, 59, 69, 0.1);
+}
+
+.profile-inline-feedback {
+  display: flex;
+  gap: 8px;
+  align-items: flex-start;
+  margin-top: 10px !important;
+  padding-top: 10px;
+  border-top: 1px solid rgba(46, 63, 79, 0.1);
+  font-size: 0.86rem !important;
+  font-weight: 700;
+}
+
+.profile-clue-row--correct .profile-inline-feedback {
+  color: #176f3a;
+}
+
+.profile-clue-row--incorrect .profile-inline-feedback {
+  color: #a32d35;
+}
+
+.profile-choice-grid--three {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.profile-choice--decision {
+  display: grid;
+  grid-template-columns: auto minmax(0, 1fr);
+  min-height: 122px;
+  align-content: center;
+}
+
+.profile-choice__icon {
+  font-size: 1.7rem;
+}
+
+.profile-choice__body {
+  display: grid;
+  gap: 6px;
+}
+
+.profile-choice__body small {
+  color: #64717d;
+  line-height: 1.4;
+}
+
+.profile-choice--correct {
+  background: #effaf3;
+  border-color: #67bd84;
+  box-shadow: 0 9px 22px rgba(45, 167, 96, 0.1);
+}
+
+.profile-choice--incorrect {
+  background: #fff4f4;
+  border-color: #db747b;
+  box-shadow: 0 9px 22px rgba(186, 59, 69, 0.1);
+}
+
+.profile-stage__footer {
+  display: flex;
+  gap: 14px;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 4px;
+}
+
+.profile-stage__progress {
+  margin: 0;
+  color: #63717e;
+  font-size: 0.9rem;
+  font-weight: 800;
+}
+
+.profile-stage-message {
+  flex: 1 1 auto;
+  padding: 14px 16px;
+  border: 1px solid;
+  border-radius: 13px;
+}
+
+.profile-stage-message strong,
+.profile-stage-message p {
+  margin: 0;
+}
+
+.profile-stage-message p {
+  margin-top: 5px;
+  line-height: 1.45;
+}
+
+.profile-stage-message--success {
+  color: #176f3a;
+  background: #effaf3;
+  border-color: #7bc795;
+}
+
+.profile-stage-message--warning {
+  color: #8c4309;
+  background: #fff6e7;
+  border-color: #e1ad58;
+}
+
+.profile-case-complete {
+  display: grid;
+  grid-template-columns: auto minmax(0, 1fr) auto;
+  gap: 14px;
+  align-items: center;
+  width: 100%;
+  padding: 16px;
+  color: #176f3a;
+  background: linear-gradient(135deg, #effaf3, #e6f7ec);
+  border: 1px solid #70bf8b;
+  border-radius: 15px;
+}
+
+.profile-case-complete__icon {
+  font-size: 1.9rem;
+}
+
+.profile-case-complete strong,
+.profile-case-complete p {
+  margin: 0;
+}
+
+.profile-case-complete p {
+  margin-top: 4px;
+  line-height: 1.4;
+}
+
+.game-profile-card__privacy-note {
+  margin: 18px 0 4px;
+  color: var(--color-muted);
+  font-size: 0.82rem;
+  text-align: center;
+}
+
+.game-profile-workspace .button:disabled {
+  cursor: not-allowed;
+  filter: grayscale(0.35);
+  opacity: 0.48;
+}
+
+@media (max-width: 1100px) {
+  .profile-category-legend,
+  .profile-choice-grid--three {
+    grid-template-columns: 1fr;
+  }
+
+  .profile-choice--decision {
+    min-height: auto;
+  }
+}
+
+@media (max-width: 620px) {
+  .profile-stage {
+    padding: 14px;
+  }
+
+  .profile-stage__heading-line,
+  .profile-stage__footer {
+    align-items: stretch;
+    flex-direction: column;
+  }
+
+  .profile-case-complete {
+    grid-template-columns: 1fr;
+  }
+}

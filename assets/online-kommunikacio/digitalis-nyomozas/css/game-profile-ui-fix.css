@@ -1,0 +1,77 @@
+/* V0.5.1 – következtetési kártyák igazítása és egyértelmű kategóriaszínek */
+
+.profile-choice--decision {
+  grid-template-columns: auto auto minmax(0, 1fr);
+  gap: 12px;
+  align-items: center;
+  align-content: center;
+}
+
+.profile-choice--decision > input[type="radio"] {
+  align-self: center;
+  margin: 0;
+}
+
+.profile-choice--decision .profile-choice__icon {
+  display: grid;
+  place-items: center;
+  width: 34px;
+  min-width: 34px;
+  height: 34px;
+  line-height: 1;
+}
+
+.profile-choice--decision .profile-choice__body {
+  align-self: center;
+  min-width: 0;
+}
+
+.profile-choice--decision .profile-choice__body strong,
+.profile-choice--decision .profile-choice__body small {
+  display: block;
+}
+
+/* A helyes besorolás nem automatikusan zöld: semleges kék sikerjelzést kap. */
+.profile-clue-row--correct {
+  background: #f1f8fb;
+  border-color: #5da9c2;
+  box-shadow: 0 9px 22px rgba(37, 126, 157, 0.12);
+}
+
+.profile-clue-row--correct .profile-inline-feedback {
+  color: #245f75;
+}
+
+/* A kategória jelentését külön szín mutatja. */
+.profile-clue-row--correct[data-selected-category="strong"] .profile-inline-feedback {
+  color: #176f3a;
+}
+
+.profile-clue-row--correct[data-selected-category="weak"] .profile-inline-feedback {
+  color: #93600a;
+}
+
+.profile-clue-row--correct[data-selected-category="none"] .profile-inline-feedback {
+  color: #7a4650;
+}
+
+.profile-clue-row--incorrect {
+  background: #fff4f4;
+  border-color: #db747b;
+}
+
+@media (max-width: 1100px) {
+  .profile-choice--decision {
+    grid-template-columns: auto auto minmax(0, 1fr);
+  }
+}
+
+@media (max-width: 620px) {
+  .profile-choice--decision {
+    grid-template-columns: auto minmax(0, 1fr);
+  }
+
+  .profile-choice--decision .profile-choice__icon {
+    display: none;
+  }
+}
