@@ -1,0 +1,223 @@
+/* =========================================================
+   DIGITÁLIS NYOMOZÓIRODA – JÁTÉKPROFIL FINOMÍTÁS
+   Görgetés, azonos avatar és látványtervhez közelítő részletek
+   ========================================================= */
+
+.game-profile-overlay {
+  overflow: hidden;
+}
+
+.game-profile-case {
+  display: flex;
+  flex-direction: column;
+  height: calc(100vh - 36px);
+  max-height: 920px;
+  overflow: hidden;
+  background:
+    radial-gradient(circle at 15% 10%, rgba(80, 62, 170, 0.16), transparent 32%),
+    linear-gradient(180deg, #071521, #04101a);
+}
+
+.game-profile-case__header {
+  position: relative;
+  z-index: 3;
+  flex: 0 0 auto;
+  background: rgba(5, 19, 31, 0.96);
+  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.2);
+}
+
+.game-profile-case__layout {
+  flex: 1 1 auto;
+  min-height: 0;
+  max-height: none;
+  overflow: hidden;
+}
+
+.game-profile-card,
+.game-profile-workspace {
+  min-height: 0;
+  overflow-y: auto;
+  overscroll-behavior: contain;
+  scrollbar-width: thin;
+  scrollbar-color: rgba(111, 218, 232, 0.62) rgba(255, 255, 255, 0.06);
+}
+
+.game-profile-card::-webkit-scrollbar,
+.game-profile-workspace::-webkit-scrollbar {
+  width: 10px;
+}
+
+.game-profile-card::-webkit-scrollbar-track,
+.game-profile-workspace::-webkit-scrollbar-track {
+  background: rgba(255, 255, 255, 0.05);
+}
+
+.game-profile-card::-webkit-scrollbar-thumb,
+.game-profile-workspace::-webkit-scrollbar-thumb {
+  background: rgba(111, 218, 232, 0.58);
+  border: 2px solid transparent;
+  border-radius: 999px;
+  background-clip: padding-box;
+}
+
+.game-profile-card {
+  background:
+    radial-gradient(circle at 20% 8%, rgba(110, 75, 220, 0.2), transparent 28%),
+    linear-gradient(180deg, #090d1c, #06101a 72%);
+}
+
+.game-profile-card__topbar {
+  position: sticky;
+  z-index: 2;
+  top: 0;
+  padding: 14px 16px;
+  background:
+    linear-gradient(135deg, rgba(102, 61, 196, 0.34), rgba(49, 35, 104, 0.28));
+  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(12px);
+}
+
+.game-profile-card__hero {
+  background:
+    linear-gradient(135deg, rgba(255, 255, 255, 0.055), rgba(104, 68, 190, 0.08));
+  border-color: rgba(172, 126, 255, 0.42);
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.05),
+    0 18px 36px rgba(0, 0, 0, 0.18);
+}
+
+/*
+ * Ugyanazt a profilképet mutatjuk, amely az első ügy
+ * közösségi bejegyzésének bal felső részén látható.
+ * A teljes képet CSS-sel vágjuk ki, így nem kell külön
+ * képfájlt létrehozni.
+ */
+.game-profile-avatar {
+  overflow: hidden;
+  background-image: url("../assets/images/pic01.png");
+  background-repeat: no-repeat;
+  background-size: 610% auto;
+  background-position: 4.1% 3.6%;
+  box-shadow:
+    0 0 0 5px rgba(130, 88, 238, 0.12),
+    0 14px 28px rgba(0, 0, 0, 0.32);
+  font-size: 0;
+}
+
+.game-profile-card__grid article {
+  position: relative;
+  overflow: hidden;
+  background:
+    linear-gradient(145deg, rgba(255, 255, 255, 0.05), rgba(92, 56, 165, 0.04));
+  border-color: rgba(156, 102, 255, 0.3);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.035);
+  transition:
+    transform 160ms ease,
+    border-color 160ms ease,
+    background-color 160ms ease;
+}
+
+.game-profile-card__grid article::after {
+  position: absolute;
+  inset: auto -28px -34px auto;
+  width: 78px;
+  height: 78px;
+  content: "";
+  background: rgba(124, 78, 219, 0.09);
+  border-radius: 50%;
+}
+
+.game-profile-card__grid article:hover {
+  z-index: 1;
+  background: rgba(124, 78, 219, 0.095);
+  border-color: rgba(183, 145, 255, 0.56);
+  transform: translateY(-2px);
+}
+
+.game-profile-workspace {
+  background:
+    linear-gradient(rgba(255, 255, 255, 0.74), rgba(255, 255, 255, 0.74)),
+    repeating-linear-gradient(
+      0deg,
+      transparent,
+      transparent 31px,
+      rgba(25, 42, 61, 0.035) 32px
+    ),
+    #f2f0eb;
+}
+
+.profile-task-block {
+  padding: 12px 14px;
+  background: rgba(255, 255, 255, 0.58);
+  border: 1px solid rgba(33, 51, 72, 0.1);
+  border-radius: 14px;
+  box-shadow: 0 10px 24px rgba(30, 43, 55, 0.06);
+}
+
+.profile-task-block__number {
+  box-shadow: 0 7px 16px rgba(23, 27, 70, 0.24);
+}
+
+.profile-clue-row,
+.profile-choice {
+  border-color: #d3d8df;
+  box-shadow: 0 8px 20px rgba(39, 52, 65, 0.055);
+  transition:
+    border-color 150ms ease,
+    box-shadow 150ms ease,
+    transform 150ms ease;
+}
+
+.profile-clue-row:hover,
+.profile-choice:hover {
+  border-color: #9caec0;
+  box-shadow: 0 11px 24px rgba(39, 52, 65, 0.09);
+  transform: translateY(-1px);
+}
+
+.profile-clue-row select {
+  background: linear-gradient(180deg, #ffffff, #f0f2f5);
+  border-color: #abb6c2;
+  cursor: pointer;
+}
+
+.profile-clue-row select:focus-visible,
+.profile-choice:focus-within {
+  outline: 3px solid rgba(38, 171, 195, 0.24);
+  outline-offset: 2px;
+}
+
+.game-profile-actions {
+  position: sticky;
+  z-index: 2;
+  bottom: -20px;
+  padding: 16px 0 20px;
+  background: linear-gradient(to top, #f2f0eb 65%, rgba(242, 240, 235, 0));
+}
+
+@media (max-width: 980px) {
+  .game-profile-case {
+    height: calc(100vh - 36px);
+  }
+
+  .game-profile-case__layout {
+    display: block;
+    overflow-y: auto;
+  }
+
+  .game-profile-card,
+  .game-profile-workspace {
+    overflow: visible;
+  }
+}
+
+@media (max-width: 620px) {
+  .game-profile-case {
+    height: calc(100vh - 16px);
+  }
+
+  .game-profile-avatar {
+    background-size: 610% auto;
+    background-position: 4.1% 3.6%;
+  }
+}

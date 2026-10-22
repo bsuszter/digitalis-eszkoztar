@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Online Biztonsági Központ – videókkal támogatott, interaktív tananyag.">
+  <title>Online Biztonsági Központ</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="score-feedback.css">
+  <style>
+    .decision__marker { border-radius: 7px; }
+    .restart-button { width: 100%; margin-top: 15px; padding: 10px 12px; border: 1px solid #c7dce3; border-radius: 12px; background: #f7fbfc; color: #476577; font-weight: 800; cursor: pointer; }
+    .restart-button:hover { border-color: #d65b5b; background: #fff0f0; color: #a33f3f; }
+    .case-timeline { grid-template-columns: repeat(var(--station-count, 8), minmax(0, 1fr)); }
+    @media (max-width: 1050px) { .case-timeline { grid-template-columns: repeat(4, minmax(0, 1fr)); } }
+    @media (max-width: 620px) { .case-timeline { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+  </style>
+  <style>.restart-button{display:none!important}</style>
+</head>
+<body>
+  <main class="app-shell">
+    <aside class="sidebar" aria-label="Ügyek">
+      <div class="brand">
+        <div class="brand__shield" aria-hidden="true">🔒</div>
+        <div>
+          <p class="eyebrow">Digitális küldetés</p>
+          <h1>Online Biztonsági Központ</h1>
+          <p>Tanulj. Ismerd fel. Dönts jól!</p>
+        </div>
+      </div>
+      <nav id="case-nav" class="case-nav"></nav>
+      <section class="sidebar-card">
+        <strong>Haladás</strong>
+        <div class="sidebar-progress"><span id="overall-progress"></span></div>
+        <p id="overall-label">0 / 4 ügy teljesítve</p>
+        <button id="restart-local" class="restart-button" type="button">↻ Újrakezdés ezen az eszközön</button>
+      </section>
+    </aside>
+    <section class="workspace">
+      <header class="topbar">
+        <div>
+          <p class="eyebrow" id="case-eyebrow">1. ügy</p>
+          <h2 id="case-title">Ki van a másik oldalon?</h2>
+        </div>
+        <div class="status-group">
+          <span class="status-chip" id="step-chip">1 / 8 állomás</span>
+          <span class="status-chip status-chip--score" id="score-chip">⭐ 0 / 46 pont</span>
+        </div>
+      </header>
+      <nav id="case-timeline" class="case-timeline" aria-label="Az ügy állomásai"></nav>
+      <section id="stage" class="stage" aria-live="polite"></section>
+    </section>
+  </main>
+  <script src="scorm-api.js"></script>
+  <script src="scorm-loader.js"></script>
+  <script src="data.js"></script>
+  <script src="content-fixes.js"></script>
+  <script src="truth-case.js"></script>
+  <script src="app.js"></script>
+  <script src="score-feedback.js"></script>
+  <script>window.__SafetyNativeMutationObserver = window.MutationObserver; window.MutationObserver = class { observe() {} disconnect() {} };</script>
+  <script src="truth-app.js"></script>
+  <script>
+    window.MutationObserver = window.__SafetyNativeMutationObserver;
+    delete window.__SafetyNativeMutationObserver;
+    try {
+      const saved = JSON.parse(localStorage.getItem('online-biztonsagi-kozpont:v7') || '{}');
+      if (saved.currentCase === 'truth') setTimeout(() => document.querySelector('[data-case="truth"]')?.click(), 0);
+    } catch {}
+  </script>
+  <script src="scorm-progress.js"></script>
+</body>
+</html>

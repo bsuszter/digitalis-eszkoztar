@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Játékos e-mail-írási szimuláció tanulóknak.">
+  <title>E-mail-küldetés</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/v0.1.1-polish.css">
+  <link rel="stylesheet" href="css/v0.1.4-letter-parts-accordion.css">
+</head>
+<body>
+  <div class="app-shell">
+    <header class="app-header">
+      <a class="brand" href="#" id="home-link" aria-label="Vissza a küldetésekhez">
+        <span class="brand__icon" aria-hidden="true">✉</span>
+        <span>
+          <strong>E-mail-küldetés</strong>
+          <small>Írj világos, udvarias és biztonságos levelet!</small>
+        </span>
+      </a>
+      <div class="mission-status" id="mission-status">Küldetésválasztás</div>
+    </header>
+
+    <main id="app" tabindex="-1"></main>
+  </div>
+
+  <dialog class="image-dialog" id="image-dialog" aria-labelledby="image-dialog-title">
+    <div class="image-dialog__content">
+      <div class="image-dialog__bar">
+        <strong id="image-dialog-title">Küldetés képe</strong>
+        <button class="image-dialog__close" id="image-dialog-close" type="button" aria-label="Nagyított kép bezárása">×</button>
+      </div>
+      <div class="image-dialog__stage">
+        <img id="image-dialog-image" src="" alt="">
+      </div>
+    </div>
+  </dialog>
+
+  <template id="mission-selection-template">
+    <section class="screen mission-screen" aria-labelledby="mission-title">
+      <div class="screen-heading">
+        <p class="eyebrow">Válassz feladatot!</p>
+        <h1 id="mission-title">Melyik ügyben írsz levelet?</h1>
+        <p>Figyeld meg a képet, derítsd ki, mi a probléma, majd fogalmazz hozzá megfelelő e-mailt!</p>
+      </div>
+      <div class="mission-grid" id="mission-grid"></div>
+      <aside class="safety-note">
+        <span aria-hidden="true">🛡️</span>
+        <div>
+          <strong>Gyakorolj biztonságosan!</strong>
+          <p>Ebben a feladatban használj kitalált nevet, és ne írj valódi címet, telefonszámot vagy más személyes adatot!</p>
+        </div>
+      </aside>
+    </section>
+  </template>
+
+  <template id="composer-template">
+    <section class="screen composer-screen" aria-labelledby="composer-title">
+      <button class="text-button" id="back-to-missions" type="button">← Válassz másik küldetést!</button>
+
+      <div class="composer-heading">
+        <div>
+          <p class="eyebrow" id="mission-number"></p>
+          <h1 id="composer-title"></h1>
+          <p id="mission-instruction"></p>
+        </div>
+        <span class="mission-badge" id="mission-badge"></span>
+      </div>
+
+      <div class="workspace-grid">
+        <aside class="mission-panel">
+          <button class="visual-frame" id="mission-visual" type="button" aria-describedby="image-zoom-help"></button>
+          <p class="image-zoom-help" id="image-zoom-help">Kattints a képre a nagyításhoz!</p>
+          <div class="observation-card">
+            <h2>Figyeld meg!</h2>
+            <ul id="observation-list"></ul>
+          </div>
+        </aside>
+
+        <section class="email-window" aria-label="Új e-mail írása">
+          <div class="email-window__bar">
+            <span aria-hidden="true">● ● ●</span>
+            <strong>Új üzenet</strong>
+          </div>
+
+          <div class="email-field email-field--recipient">
+            <label for="recipient">Címzett</label>
+            <div class="recipient-input-row">
+              <input id="recipient" type="email" autocomplete="off" spellcheck="false" aria-describedby="at-help-panel">
+              <button class="at-help-button" id="at-help-button" type="button" aria-expanded="false" aria-controls="at-help-panel">Hogyan írok @ jelet?</button>
+            </div>
+            <div class="at-help-panel" id="at-help-panel" hidden>
+              <strong>@ jel magyar billentyűzeten:</strong>
+              <kbd>AltGr</kbd> + <kbd>V</kbd>
+              <span>A jobb oldali Alt billentyűt tartsd lenyomva, és közben nyomd meg a V betűt!</span>
+            </div>
+          </div>
+
+          <div class="email-field">
+            <label for="subject">Tárgy</label>
+            <input id="subject" type="text" maxlength="90" placeholder="Írd le röviden, miről szól a leveled!">
+          </div>
+
+          <div class="email-field email-field--message">
+            <label for="message">Üzenet</label>
+            <textarea id="message" rows="13" maxlength="1600" placeholder="Megszólítás…&#10;&#10;A levél szövege…&#10;&#10;Elköszönés és aláírás…"></textarea>
+            <span class="character-count" id="character-count">0 / 1600</span>
+          </div>
+
+          <div class="privacy-reminder">
+            <span aria-hidden="true">🔒</span>
+            <p>Csak olyan adatot írj le, amely valóban szükséges a levél céljához!</p>
+          </div>
+        </section>
+
+        <aside class="guide-panel">
+          <section class="guide-card letter-parts-card letter-parts-card--accordion">
+            <h2>A levél 3 része</h2>
+            <div class="letter-parts letter-parts--accordion">
+              <details class="letter-part-detail letter-part-detail--greeting">
+                <summary class="letter-part letter-part--greeting">
+                  <span class="letter-part__number">1</span>
+                  <span class="letter-part__summary-text">
+                    <strong>Megszólítás</strong>
+                    <small>Kezdd udvarias megszólítással!</small>
+                  </span>
+                  <span class="letter-part__toggle" aria-hidden="true">⌄</span>
+                </summary>
+                <div class="letter-part__content">
+                  <div class="example-group">
+                    <strong>Barát vagy osztálytárs</strong>
+                    <p class="example-line">Szia, Bence!</p>
+                    <p class="example-line">Kedves Luca!</p>
+                  </div>
+                  <div class="example-group">
+                    <strong>Ismert tanár vagy felnőtt</strong>
+                    <p class="example-line">Kedves Attila bácsi!</p>
+                    <p class="example-line">Kedves Emese néni!</p>
+                  </div>
+                  <div class="example-group">
+                    <strong>Ismeretlen felnőtt vagy szervező</strong>
+                    <p class="example-line">Tisztelt Szervező!</p>
+                    <p class="example-line">Tisztelt Hölgyem/Uram!</p>
+                  </div>
+                  <p class="help-rule"><strong>Jegyezd meg!</strong> Olyan megszólítást válassz, amelyet személyesen is használnál!</p>
+                </div>
+              </details>
+
+              <details class="letter-part-detail letter-part-detail--body">
+                <summary class="letter-part letter-part--body">
+                  <span class="letter-part__number">2</span>
+                  <span class="letter-part__summary-text">
+                    <strong>A levél szövege</strong>
+                    <small>Írd le, miért írsz, és mit szeretnél megtudni!</small>
+                  </span>
+                  <span class="letter-part__toggle" aria-hidden="true">⌄</span>
+                </summary>
+                <div class="letter-part__content netiquette-list">
+                  <article>
+                    <strong>Tegezés vagy magázás?</strong>
+                    <p>Barátot és osztálytársat tegezhetsz. Tanárnál vagy ismeretlen felnőttnél azt a formát használd, amelyet személyesen is használnál!</p>
+                  </article>
+                  <article>
+                    <strong>Használhatok emojit?</strong>
+                    <p>Baráti levélben egy-egy emoji beleférhet. Tanárnak vagy ismeretlen felnőttnek csak akkor írj emojit, ha biztosan illik a helyzethez!</p>
+                  </article>
+                  <article>
+                    <strong>MIÉRT NE ÍRJAK ÍGY?</strong>
+                    <p>A csupa nagybetűs szöveg az interneten kiabálásnak hat. Ne írj így teljes mondatokat!</p>
+                  </article>
+                  <article>
+                    <strong>Legyek rövid vagy részletes?</strong>
+                    <p>Fogalmazz tömören, de minden fontos információt írj le! Használj teljes és érthető mondatokat!</p>
+                  </article>
+                  <article>
+                    <strong>Miért fontos a hangnem?</strong>
+                    <p>Írásban nem hallatszik a hangod, ezért különösen fontos az udvarias és egyértelmű megfogalmazás.</p>
+                  </article>
+                </div>
+              </details>
+
+              <details class="letter-part-detail letter-part-detail--closing">
+                <summary class="letter-part letter-part--closing">
+                  <span class="letter-part__number">3</span>
+                  <span class="letter-part__summary-text">
+                    <strong>Elköszönés és aláírás</strong>
+                    <small>Köszönj el, és írj alá egy kitalált névvel!</small>
+                  </span>
+                  <span class="letter-part__toggle" aria-hidden="true">⌄</span>
+                </summary>
+                <div class="letter-part__content">
+                  <div class="example-group">
+                    <strong>Baráti levélben</strong>
+                    <p class="example-line">Szia!</p>
+                    <p class="example-line">Üdv:</p>
+                  </div>
+                  <div class="example-group">
+                    <strong>Udvarias levélben</strong>
+                    <p class="example-line">Üdvözlettel:</p>
+                    <p class="example-line">Köszönettel:</p>
+                  </div>
+                  <div class="example-group">
+                    <strong>Hivatalosabb levélben</strong>
+                    <p class="example-line">Tisztelettel:</p>
+                  </div>
+                  <p class="help-rule"><strong>Jegyezd meg!</strong> Az elköszönés után írd oda a nevedet is! Ebben a feladatban kitalált nevet használj!</p>
+                </div>
+              </details>
+            </div>
+          </section>
+
+          <section class="guide-card guide-card--criteria">
+            <h2>Ellenőrizd írás közben!</h2>
+            <ul class="criteria-list" id="criteria-list"></ul>
+          </section>
+
+          <section class="guide-card">
+            <h2>Segítő kérdések</h2>
+            <ul id="prompt-list"></ul>
+          </section>
+
+          <button class="primary-button" id="review-letter" type="button">Nézd át a leveledet! →</button>
+          <p class="button-help">Az alkalmazás a levél szerkezetét ellenőrzi, a tartalmát nem osztályozza.</p>
+        </aside>
+      </div>
+    </section>
+  </template>
+
+  <template id="preview-template">
+    <section class="screen preview-screen" aria-labelledby="preview-title">
+      <div class="screen-heading">
+        <p class="eyebrow">Küldés előtti ellenőrzés</p>
+        <h1 id="preview-title">Elkészült a leveled előnézete</h1>
+        <p>Olvasd át úgy, mintha most kaptad volna meg!</p>
+      </div>
+
+      <div class="preview-layout">
+        <article class="sent-email" aria-label="A megírt levél előnézete">
+          <header>
+            <div class="sent-email__avatar" aria-hidden="true">✉</div>
+            <div>
+              <strong id="preview-subject"></strong>
+              <p>Címzett: <span id="preview-recipient"></span></p>
+            </div>
+          </header>
+          <div class="sent-email__body" id="preview-message"></div>
+        </article>
+
+        <aside class="final-check">
+          <h2>Ellenőrizd magad!</h2>
+          <label><input type="checkbox"> A címzett e-mail-címe pontos és megfelelő formájú.</label>
+          <label><input type="checkbox"> A tárgyból kiderül, miről szól a levél.</label>
+          <label><input type="checkbox"> A megszólítás illik a címzetthez.</label>
+          <label><input type="checkbox"> A levél szövegében minden fontosat leírtam vagy megkérdeztem.</label>
+          <label><input type="checkbox"> Van elköszönés és kitalált névvel írt aláírás.</label>
+          <label><input type="checkbox"> Udvariasan és érthetően fogalmaztam.</label>
+          <label><input type="checkbox"> Nem adtam meg felesleges személyes adatot.</label>
+        </aside>
+      </div>
+
+      <div class="preview-actions">
+        <button class="secondary-button" id="edit-letter" type="button">← Javítsd tovább a leveledet!</button>
+        <button class="primary-button" id="copy-letter" type="button">Levél másolása</button>
+      </div>
+      <p class="copy-feedback" id="copy-feedback" aria-live="polite"></p>
+    </section>
+  </template>
+
+  <script type="module" src="js/app.js"></script>
+</body>
+</html>

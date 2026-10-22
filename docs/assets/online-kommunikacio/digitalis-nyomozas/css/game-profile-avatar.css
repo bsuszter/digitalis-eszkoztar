@@ -1,0 +1,8 @@
+/* Külön PixelBeni-avatar a játékprofilhoz. */
+.game-profile-avatar {
+  background-image: url("../ChatGPT Image 2026. júl. 15. 14_18_31.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-size: 0;
+}

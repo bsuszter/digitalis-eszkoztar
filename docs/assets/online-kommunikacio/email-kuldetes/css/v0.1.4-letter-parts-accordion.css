@@ -1,0 +1,144 @@
+.letter-parts--accordion {
+  display: grid;
+  gap: 0;
+}
+
+.letter-part-detail {
+  margin: 0;
+  border: 0;
+}
+
+.letter-part-detail + .letter-part-detail {
+  border-top: 1px solid rgba(23, 51, 74, 0.08);
+}
+
+.letter-part-detail > summary {
+  list-style: none;
+}
+
+.letter-part-detail > summary::-webkit-details-marker {
+  display: none;
+}
+
+.letter-part-detail .letter-part {
+  grid-template-columns: 42px minmax(0, 1fr) 28px;
+  width: 100%;
+  cursor: pointer;
+  user-select: none;
+}
+
+.letter-part-detail .letter-part:hover {
+  filter: brightness(0.985);
+}
+
+.letter-part-detail .letter-part:focus-visible {
+  outline: 3px solid rgba(245, 154, 74, 0.55);
+  outline-offset: -3px;
+}
+
+.letter-part__summary-text {
+  min-width: 0;
+}
+
+.letter-part__summary-text strong,
+.letter-part__summary-text small {
+  display: block;
+}
+
+.letter-part__toggle {
+  display: grid;
+  place-items: center;
+  width: 26px;
+  height: 26px;
+  color: rgba(23, 51, 74, 0.65);
+  font-size: 1.15rem;
+  font-weight: 900;
+  transition: transform 160ms ease;
+}
+
+.letter-part-detail[open] .letter-part__toggle {
+  transform: rotate(180deg);
+}
+
+.letter-part__content {
+  display: grid;
+  gap: 12px;
+  padding: 14px 16px 17px 68px;
+  color: #445663;
+  background: #fff;
+  border-top: 1px dashed rgba(23, 51, 74, 0.14);
+  line-height: 1.45;
+}
+
+.letter-part-detail--greeting .letter-part__content {
+  background: linear-gradient(180deg, #f8fdf9, #ffffff);
+}
+
+.letter-part-detail--body .letter-part__content {
+  background: linear-gradient(180deg, #f7fbff, #ffffff);
+}
+
+.letter-part-detail--closing .letter-part__content {
+  background: linear-gradient(180deg, #fbf8ff, #ffffff);
+}
+
+.letter-part__content .example-group {
+  padding: 10px 12px;
+  background: rgba(255, 255, 255, 0.9);
+  border: 1px solid rgba(23, 51, 74, 0.1);
+  border-radius: 11px;
+}
+
+.letter-part__content .example-group > strong {
+  display: block;
+  margin-bottom: 6px;
+  color: var(--ink);
+  font-size: 0.86rem;
+}
+
+.letter-part__content .example-line {
+  margin: 4px 0;
+  color: var(--teal-dark);
+  font-weight: 800;
+}
+
+.letter-part__content .help-rule {
+  margin: 0;
+  padding: 10px 12px;
+  color: #5c4a0b;
+  background: #fff8d9;
+  border-radius: 11px;
+  font-size: 0.84rem;
+}
+
+.letter-part__content.netiquette-list {
+  gap: 10px;
+}
+
+.letter-part__content.netiquette-list article {
+  padding: 10px 12px;
+  background: rgba(255, 255, 255, 0.92);
+  border: 1px solid rgba(23, 51, 74, 0.1);
+  border-radius: 11px;
+}
+
+.letter-part__content.netiquette-list article strong {
+  display: block;
+  margin-bottom: 4px;
+  color: var(--ink);
+}
+
+.letter-part__content.netiquette-list article p {
+  margin: 0;
+  font-size: 0.84rem;
+}
+
+@media (max-width: 620px) {
+  .letter-part-detail .letter-part {
+    grid-template-columns: 38px minmax(0, 1fr) 24px;
+  }
+
+  .letter-part__content {
+    padding: 13px 13px 15px;
+  }
+}

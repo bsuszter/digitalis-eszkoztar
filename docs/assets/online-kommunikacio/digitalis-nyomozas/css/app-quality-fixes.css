@@ -1,0 +1,144 @@
+/* =========================================================
+   DIGITÁLIS NYOMOZÓIRODA – stabil minőségi javítások
+   ========================================================= */
+
+/* Ellenőrzés után ne maradjon kék kitöltött állapot. */
+.profile-clue-row--correct.is-answered,
+.profile-clue-row--incorrect.is-answered,
+.final-classification.is-correct.is-answered,
+.final-classification.is-incorrect.is-answered {
+  box-shadow: inherit;
+}
+
+.profile-clue-row--correct.is-answered::after,
+.profile-clue-row--incorrect.is-answered::after,
+.final-classification.is-correct.is-answered::after,
+.final-classification.is-incorrect.is-answered::after {
+  content: none !important;
+}
+
+/* Világos felületen a másodlagos gombok legyenek jól olvashatók. */
+.detective-certificate .button--secondary,
+.final-report .button--secondary,
+.game-profile-case .game-profile-actions .button--secondary,
+.final-case .final-actions .button--secondary,
+.public-comment-case .public-comment-actions .button--secondary {
+  color: #163149 !important;
+  background: #ffffff !important;
+  border: 1px solid rgba(22, 49, 73, 0.32) !important;
+  box-shadow: 0 3px 10px rgba(22, 49, 73, 0.08);
+}
+
+.detective-certificate .button--secondary:hover,
+.final-report .button--secondary:hover,
+.game-profile-case .game-profile-actions .button--secondary:hover,
+.final-case .final-actions .button--secondary:hover,
+.public-comment-case .public-comment-actions .button--secondary:hover {
+  background: #eef8fa !important;
+  border-color: #16899a !important;
+}
+
+.final-report__certificate-button {
+  color: #0d5c49 !important;
+  background: #ffffff !important;
+  border: 1px solid rgba(22, 137, 154, 0.42) !important;
+}
+
+.final-header-certificate {
+  margin-left: auto;
+  min-height: 42px;
+  padding: 0 16px;
+  color: #163149 !important;
+  background: #ffffff !important;
+  border: 1px solid rgba(22, 49, 73, 0.32) !important;
+  white-space: nowrap;
+}
+
+/* Feltöltött eligazítási illusztráció. */
+.briefing-illustration--image {
+  grid-template-columns: minmax(320px, 1.15fr) minmax(260px, 0.85fr);
+}
+
+.briefing-artwork {
+  overflow: hidden;
+  border: 1px solid rgba(69, 215, 232, 0.28);
+  border-radius: 18px;
+  background: #071827;
+  box-shadow: 0 18px 34px rgba(0, 0, 0, 0.28);
+}
+
+.briefing-artwork img {
+  display: block;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+}
+
+/* Több hely a képernyőn megjelenő oklevél logója és címe között. */
+.detective-certificate__seal {
+  margin-bottom: 42px !important;
+}
+
+.detective-certificate h1 {
+  margin-top: 0 !important;
+  line-height: 1.08;
+}
+
+.detective-certificate__actions {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 12px;
+}
+
+.detective-certificate__actions .button {
+  min-width: 170px;
+}
+
+/* Moodle és más alacsony beágyazott nézetek: a hotspot-visszajelzés
+   mindig a látható terület tetején maradjon, ne a hosszú oldal alján. */
+@media (max-width: 1100px), (max-height: 820px) {
+  .clue-feedback-toast {
+    top: 12px;
+    right: 12px;
+    bottom: auto;
+    left: 12px;
+    width: auto;
+    max-width: 560px;
+    max-height: calc(100vh - 24px);
+    margin: 0 auto;
+    overflow-y: auto;
+    transform: translateY(-18px);
+  }
+
+  .clue-feedback-toast--visible {
+    transform: translateY(0);
+  }
+
+  .clue-feedback-toast__content {
+    padding: 14px 16px;
+  }
+
+  .clue-feedback-toast__content p {
+    line-height: 1.4;
+  }
+}
+
+@media (max-width: 850px) {
+  .briefing-illustration--image {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 760px) {
+  .final-case__header {
+    flex-wrap: wrap;
+  }
+
+  .final-header-certificate {
+    order: 3;
+    width: 100%;
+    margin-left: 0;
+  }
+}

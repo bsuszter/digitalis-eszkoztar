@@ -1,0 +1,62 @@
+/* =========================================================
+   DIGITÁLIS NYOMOZÓIRODA – előre rögzített vegyes válaszsorrend
+   Nincs futás közbeni DOM-rendezés, ezért nincs villogás.
+   ========================================================= */
+
+/* 2. ügy – a hat profilnyom vegyes sorrendben.
+   Helyes kategóriák: erős, gyenge, semmi, erős, gyenge, erős. */
+.profile-clue-row:has(select[data-clue-id="avatar"]) { order: 1; }
+.profile-clue-row:has(select[data-clue-id="city-age"]) { order: 2; }
+.profile-clue-row:has(select[data-clue-id="generic-quote"]) { order: 3; }
+.profile-clue-row:has(select[data-clue-id="username"]) { order: 4; }
+.profile-clue-row:has(select[data-clue-id="zokni-fan"]) { order: 5; }
+.profile-clue-row:has(select[data-clue-id="basketball"]) { order: 6; }
+
+/* 2. ügy – következtetés: hibás, helyes, hibás. */
+.profile-choice-grid--three > label:has(input[name="profile-conclusion"][value="insufficient"]) { order: 1; }
+.profile-choice-grid--three > label:has(input[name="profile-conclusion"][value="likely"]) { order: 2; }
+.profile-choice-grid--three > label:has(input[name="profile-conclusion"][value="certain"]) { order: 3; }
+
+/* 2. ügy – biztonsági döntés: hibás, helyes, hibás. */
+.profile-choice-grid > label:has(input[name="profile-safety"][value="emoji"]) { order: 1; }
+.profile-choice-grid > label:has(input[name="profile-safety"][value="private"]) { order: 2; }
+.profile-choice-grid > label:has(input[name="profile-safety"][value="level"]) { order: 3; }
+
+/* 3. ügy – következtetések: helyes és hibás állítások váltakozva. */
+.public-comment-choice-grid > label:has(input[data-inference-id="training-days"]) { order: 1; }
+.public-comment-choice-grid > label:has(input[data-inference-id="exact-home"]) { order: 2; }
+.public-comment-choice-grid > label:has(input[data-inference-id="arrival-time"]) { order: 3; }
+.public-comment-choice-grid > label:has(input[data-inference-id="full-name"]) { order: 4; }
+.public-comment-choice-grid > label:has(input[data-inference-id="bus-route"]) { order: 5; }
+.public-comment-choice-grid > label:has(input[data-inference-id="always-alone"]) { order: 6; }
+.public-comment-choice-grid > label:has(input[data-inference-id="alone-likely"]) { order: 7; }
+
+/* 3. ügy – a helyes mondat mindhárom csoportban más helyen van. */
+.public-comment-rewrite-groups fieldset:nth-of-type(1) > label:has(input[value="opening-time"]) { order: 1; }
+.public-comment-rewrite-groups fieldset:nth-of-type(1) > label:has(input[value="opening-safe"]) { order: 2; }
+.public-comment-rewrite-groups fieldset:nth-of-type(1) > label:has(input[value="opening-place"]) { order: 3; }
+
+.public-comment-rewrite-groups fieldset:nth-of-type(2) > label:has(input[value="details-future"]) { order: 1; }
+.public-comment-rewrite-groups fieldset:nth-of-type(2) > label:has(input[value="details-bus"]) { order: 2; }
+.public-comment-rewrite-groups fieldset:nth-of-type(2) > label:has(input[value="details-safe"]) { order: 3; }
+
+.public-comment-rewrite-groups fieldset:nth-of-type(3) > label:has(input[value="closing-safe"]) { order: 1; }
+.public-comment-rewrite-groups fieldset:nth-of-type(3) > label:has(input[value="closing-alone"]) { order: 2; }
+.public-comment-rewrite-groups fieldset:nth-of-type(3) > label:has(input[value="closing-contact"]) { order: 3; }
+
+/* Finálé – kockázati párok: helyes és hibás lehetőségek vegyesen. */
+.final-choice-grid > label:has(input[data-final-risk-id="school-street"]) { order: 1; }
+.final-choice-grid > label:has(input[data-final-risk-id="emoji-level"]) { order: 2; }
+.final-choice-grid > label:has(input[data-final-risk-id="days-time"]) { order: 3; }
+.final-choice-grid > label:has(input[data-final-risk-id="quote-color"]) { order: 4; }
+.final-choice-grid > label:has(input[data-final-risk-id="stop-bus"]) { order: 5; }
+.final-choice-grid > label:has(input[data-final-risk-id="username-avatar"]) { order: 6; }
+
+/* Finálé – védelmi terv: a két hatástalan lépés a helyesek közé kerül. */
+.final-choice-grid > label:has(input[data-final-protection-id="private"]) { order: 1; }
+.final-choice-grid > label:has(input[data-final-protection-id="delete-emoji"]) { order: 2; }
+.final-choice-grid > label:has(input[data-final-protection-id="different-name"]) { order: 3; }
+.final-choice-grid > label:has(input[data-final-protection-id="no-routine"]) { order: 4; }
+.final-choice-grid > label:has(input[data-final-protection-id="hide-level"]) { order: 5; }
+.final-choice-grid > label:has(input[data-final-protection-id="closed-group"]) { order: 6; }
+.final-choice-grid > label:has(input[data-final-protection-id="check-photo"]) { order: 7; }
