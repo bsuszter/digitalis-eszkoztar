@@ -7,13 +7,9 @@
 </div>
 
 <div class="related-grid">
-  <a href="teremrend/">
-    <span class="related-icon">🧭</span>
-    <span class="related-text"><strong>Teremrend – Géptermi iránytű</strong><small>Biztonságos géptermi munka, szabályok és interaktív küldetés.</small><span class="tool-link">Tananyag megnyitása →</span></span>
-  </a>
-  <a href="tanulasi-kornyezet/">
-    <span class="related-icon">🧰</span>
-    <span class="related-text"><strong>Tanulási környezet</strong><small>Fájlkezelő, saját mappa, tantárgyi almappák és azok az alapok, amelyek minden későbbi digitális munkához kellenek.</small><span class="tool-link">Tananyag megnyitása →</span></span>
+  <a href="szamitogepes-kornyezet/">
+    <span class="related-icon">💻</span>
+    <span class="related-text"><strong>Számítógépes környezet</strong><small>Teremrend, online etikett, digitális iskolatáska és digitális suli – interaktív feladatokkal.</small><span class="tool-link">Témakör megnyitása →</span></span>
   </a>
   <a href="3d-avatar/">
     <span class="related-icon">🎲</span>

@@ -10,6 +10,14 @@
 </div>
 
 <div class="related-grid">
+  <a href="digitalis-iskolataska-interaktiv/">
+    <span class="related-icon">🗂️</span>
+    <span class="related-text"><strong>Digitális iskolatáska – interaktív</strong><small>Fájlok és mappák gyakorlása – 16 pontos küldetés.</small><span class="tool-link">Megnyitás →</span></span>
+  </a>
+  <a href="digitalis-suli/">
+    <span class="related-icon">🧭</span>
+    <span class="related-text"><strong>Digitális suli</strong><small>Digitális eszközök, iskolai alkalmazások és feladatbeadás.</small><span class="tool-link">Megnyitás →</span></span>
+  </a>
   <a href="digitalis-iskolataska/">
     <span class="related-icon">🎒</span>
     <span class="related-text"><strong>Digitális iskolatáska</strong><small>Hozd létre a saját mappádat és benne a tantárgyi almappákat a Fájlkezelőben!</small><span class="tool-link">Feladat megnyitása →</span></span>

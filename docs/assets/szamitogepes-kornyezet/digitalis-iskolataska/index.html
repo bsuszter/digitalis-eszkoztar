@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Digitális iskolatáska</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="illustrations.css">
+  <link rel="stylesheet" href="practical-support.css">
+  <link rel="stylesheet" href="theme.css">
+  <link rel="stylesheet" href="folder-tree.css">
+</head>
+<body>
+  <main class="app-shell">
+    <header class="hero">
+      <div class="eyebrow">RENDEZD EL A DIGITÁLIS HOLMIDAT!</div>
+      <h1>🎒 Digitális iskolatáska</h1>
+      <p>Tanuld meg úgy rendezni a fájljaidat és mappáidat, hogy később is gyorsan megtaláld őket!</p>
+      <div class="meta-row">
+        <span>⏱️ 20–25 perc</span>
+        <span>👤 Önálló munka</span>
+        <span>⭐ 16 pont</span>
+      </div>
+    </header>
+
+    <div class="learning-bar">
+      <nav class="progress" aria-label="A tanulási útvonal">
+        <button class="step is-active" data-step="0"><b>1</b><span>Indulás</span></button>
+        <button class="step" data-step="1"><b>2</b><span>Mi micsoda?</span></button>
+        <button class="step" data-step="2"><b>3</b><span>Rakj rendet!</span></button>
+        <button class="step" data-step="3"><b>4</b><span>Útvonalak</span></button>
+        <button class="step" data-step="4"><b>5</b><span>Építs!</span></button>
+        <button class="step" data-step="5"><b>6</b><span>Iránytű</span></button>
+      </nav>
+      <aside class="score-tracker" aria-live="polite">
+        <span>Pontjaid</span>
+        <strong><span id="liveScore">0</span>/16</strong>
+        <div class="score-meter"><span id="scoreFill"></span></div>
+      </aside>
+    </div>
+
+    <section id="screen" class="screen" aria-live="polite"></section>
+  </main>
+
+  <script src="data.js"></script>
+  <script src="app.js"></script>
+  <script src="practical-support.js"></script>
+  <script src="scorm.js"></script>
+  <script src="scorm-bridge.js"></script>
+</body>
+</html>
