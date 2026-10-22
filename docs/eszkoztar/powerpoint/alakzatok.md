@@ -5,7 +5,7 @@
 <div class="article-meta"><span>🧩 4 alapművelet</span><span>🖱️ Kipróbálható lépések</span><span>💻 Windowsos PowerPoint</span></div>
 
 !!! info "Hogyan olvasd ezt az útmutatót?"
-    Először a **menütérképen** keresd meg, hová kell kattintani. Utána a nagyobb ábra megmutatja, mi történik a dián. A menütérképek **egyszerűsített szemléltető rajzok, nem képernyőfotók**; az ikonok elhelyezkedése a telepített PowerPoint változatától és az ablak szélességétől kissé eltérhet. Ha nem látod az **Alakzatformátum** fület, előbb kattints egy alakzatra!
+    Először a **menütérképen** keresd meg, hová kell kattintani. Utána a nagyobb ábra megmutatja, mi történik a dián. A menütérképek **egyszerűsített szemléltető rajzok, nem képernyőfotók**; az ikonok elhelyezkedése a telepített PowerPoint változatától és az ablak szélességétől kissé eltérhet. Ha nem látod az **Alakzat formátuma** fület, előbb kattints egy alakzatra!
 
 ## 1. Alakzat beszúrása és formázása
 
@@ -24,7 +24,7 @@
 
 ## 2. Előrehozás és hátraküldés – melyik látszik felül?
 
-<figure class="tool-figure tool-figure--wide"><a href="../../../images/eszkoztar/powerpoint/menu-02-sorrend.svg" target="_blank" rel="noopener"><img src="../../../images/eszkoztar/powerpoint/menu-02-sorrend.svg" alt="PowerPoint Alakzatformátum fül és Előrehozás, Hátraküldés gombok"></a><figcaption>Előbb jelöld ki a formát! Utána: <strong>Alakzatformátum → Előrehozás / Hátraküldés</strong>.</figcaption></figure>
+<figure class="tool-figure tool-figure--wide"><a href="../../../images/eszkoztar/powerpoint/menu-02-sorrend.svg" target="_blank" rel="noopener"><img src="../../../images/eszkoztar/powerpoint/menu-02-sorrend.svg" alt="PowerPoint Alakzat formátuma fül és Előrehozás, Hátraküldés gombok"></a><figcaption>Előbb jelöld ki a formát! Utána: <strong>Alakzat formátuma → Előrehozás / Hátraküldés</strong>.</figcaption></figure>
 
 Két alakzat takarhatja egymást. Ilyenkor a **rétegsorrend** határozza meg, melyik jelenik meg elöl. Jelöld ki az alakzatot, és keresd az **Előrehozás / Hátraküldés** parancsot!
 
@@ -32,24 +32,31 @@ Két alakzat takarhatja egymást. Ilyenkor a **rétegsorrend** határozza meg, m
 
 ## 3. Igazítás és egyenletes elosztás
 
-<figure class="tool-figure tool-figure--wide"><a href="../../../images/eszkoztar/powerpoint/menu-03-igazitas.svg" target="_blank" rel="noopener"><img src="../../../images/eszkoztar/powerpoint/menu-03-igazitas.svg" alt="PowerPoint Alakzatformátum fül és Igazítás gomb"></a><figcaption>Előbb több alakzatot jelölj ki! Utána: <strong>Alakzatformátum → Igazítás</strong>.</figcaption></figure>
+<figure class="tool-figure tool-figure--wide"><a href="../../../images/eszkoztar/powerpoint/menu-03-igazitas.svg" target="_blank" rel="noopener"><img src="../../../images/eszkoztar/powerpoint/menu-03-igazitas.svg" alt="PowerPoint Alakzat formátuma fül és Igazítás gomb"></a><figcaption>Előbb legalább két alakzatot jelölj ki! Utána: <strong>Alakzat formátuma → Igazítás</strong>. Az almenüben válaszd ki azt is, mihez igazítasz.</figcaption></figure>
 
 Ha több alakzatot használsz, könnyű ferdén, különböző távolságra elhelyezni őket.
 
 1. Jelöld ki az összeigazítandó alakzatokat (**Ctrl + kattintás** egymás után).
-2. Nyisd meg az **Alakzatformátum → Igazítás** menüt.
-3. Válassz például **Felülre igazítás** vagy **Vízszintes elosztás** műveletet. Az elérhető opciók a program verziójától és a kijelöléstől függhetnek.
+2. Nyisd meg az **Alakzat formátuma → Igazítás** menüt.
+3. Ha az alakzatokat **egymáshoz** akarod rendezni, előbb válaszd a **Kijelölt objektumok igazítása** lehetőséget.
+4. Ezután válassz például **Felülre igazítás** vagy **Vízszintes elosztás** műveletet.
+
+!!! warning "Nagyon fontos: mihez igazítunk?"
+    - **Igazítás diához:** a kijelölt alakzatot vagy alakzatokat a **teljes dia** széléhez, közepéhez igazítja.
+    - **Kijelölt objektumok igazítása:** a több kijelölt alakzatot **egymáshoz** igazítja.
+    
+    Az általad készített rajz részeit általában **egymáshoz** kell igazítanod. Ha ez a lehetőség szürke, először jelölj ki legalább **két alakzatot**!
 
 <figure class="tool-figure tool-figure--wide"><a href="../../../images/eszkoztar/powerpoint/03-igazitas.svg" target="_blank" rel="noopener"><img src="../../../images/eszkoztar/powerpoint/03-igazitas.svg" alt="Három rendezetlen téglalap és a pontosan egy vonalba igazított, egyenletesen elosztott változat"></a><figcaption>Az igazítás azonos vonalba rendezi, az elosztás egyenletes távolságra helyezi az alakzatokat.</figcaption></figure>
 
 ## 4. Csoportosítás – sok részből egyetlen rajz
 
-<figure class="tool-figure tool-figure--wide"><a href="../../../images/eszkoztar/powerpoint/menu-04-csoport.svg" target="_blank" rel="noopener"><img src="../../../images/eszkoztar/powerpoint/menu-04-csoport.svg" alt="PowerPoint Alakzatformátum fül és Csoportosítás gomb"></a><figcaption>Előbb több alakzatot jelölj ki! Utána: <strong>Alakzatformátum → Csoportosítás</strong>.</figcaption></figure>
+<figure class="tool-figure tool-figure--wide"><a href="../../../images/eszkoztar/powerpoint/menu-04-csoport.svg" target="_blank" rel="noopener"><img src="../../../images/eszkoztar/powerpoint/menu-04-csoport.svg" alt="PowerPoint Alakzat formátuma fül és Csoportosítás gomb"></a><figcaption>Előbb több alakzatot jelölj ki! Utána: <strong>Alakzat formátuma → Csoportosítás</strong>.</figcaption></figure>
 
 Ha például egy házat három-négy alakzatból építesz, külön-külön mozgatva könnyen széteshet.
 
 1. Jelöld ki az összetartozó alakzatokat (**Ctrl + kattintás**).
-2. Válaszd az **Alakzatformátum → Csoportosítás** parancsot (a jobb gombos menüben is megtalálhatod).
+2. Válaszd az **Alakzat formátuma → Csoportosítás** parancsot (a jobb gombos menüben is megtalálhatod).
 3. Mozgasd meg a rajzot: minden része együtt mozdul.
 
 <figure class="tool-figure tool-figure--wide"><a href="../../../images/eszkoztar/powerpoint/04-csoport.svg" target="_blank" rel="noopener"><img src="../../../images/eszkoztar/powerpoint/04-csoport.svg" alt="Különálló házalakzatok és egyetlen közös kijelölési keretben lévő csoport"></a><figcaption>A közös kijelölési keret jelzi, hogy a részeket együtt kezelheted.</figcaption></figure>
