@@ -63,6 +63,7 @@
     <span class="tool-link">Eszköztár megnyitása →</span>
   </a>
 
+  <a class="tool-card" href="mini-animacios-studio/"><span class="tool-icon">🎞️</span><span class="tool-tag">KÉPKOCKÁS ANIMÁCIÓ</span><strong>Mini Animációs Stúdió</strong><span>Felület, képkockák, szereplők, lejátszás, JSON-projekt és GIF – képes segítségekkel.</span><span class="tool-link">Eszköztár megnyitása →</span></a>
   <a class="tool-card" href="word/">
     <span class="tool-icon">📝</span>
     <span class="tool-tag">SZÖVEGSZERKESZTÉS</span>

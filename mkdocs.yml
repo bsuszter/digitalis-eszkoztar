@@ -89,6 +89,14 @@ nav:
                   - 1. A kedvencem: tananyagok/digitalis-kultura/5-evfolyam/bemutatokeszites/kedvencem.md
                   - 2. Rajzok a bemutatóban: tananyagok/digitalis-kultura/5-evfolyam/bemutatokeszites/rajzok.md
                   - 3. Animációk: tananyagok/digitalis-kultura/5-evfolyam/bemutatokeszites/animaciok.md
+              - Animáció – Mini Animációs Stúdió:
+                  - Áttekintés: tananyagok/digitalis-kultura/5-evfolyam/animacio/index.md
+                  - 1. Fedezd fel!: tananyagok/digitalis-kultura/5-evfolyam/animacio/01-fedezd-fel.md
+                  - 2. Próbáld ki!: tananyagok/digitalis-kultura/5-evfolyam/animacio/02-probald-ki.md
+                  - 3. Tervezd meg!: tananyagok/digitalis-kultura/5-evfolyam/animacio/03-tervezd-meg.md
+                  - 4. Készítsd el!: tananyagok/digitalis-kultura/5-evfolyam/animacio/04-keszitsd-el.md
+                  - 5. Ellenőrizd!: tananyagok/digitalis-kultura/5-evfolyam/animacio/05-ellenorizd.md
+                  - 6. Add be!: tananyagok/digitalis-kultura/5-evfolyam/animacio/06-add-be.md
               - 3D tervezés – Saját játékfigura:
                   - Projekt áttekintés: tananyagok/digitalis-kultura/5-evfolyam/3d-avatar/index.md
                   - 1. Találd ki az avatarodat!: tananyagok/digitalis-kultura/5-evfolyam/3d-avatar/01-talald-ki-az-avatarod.md
@@ -215,6 +223,12 @@ nav:
           - Mozgás és bemutatás:
               - Animációk és áttűnések: eszkoztar/powerpoint/animaciok-attunesek.md
               - Mentés és diavetítés: eszkoztar/powerpoint/mentes-bemutatas.md
+      - Mini Animációs Stúdió:
+          - Áttekintés: eszkoztar/mini-animacios-studio/index.md
+          - Felület és kezdés: eszkoztar/mini-animacios-studio/kezeles.md
+          - Képkockák és duplikálás: eszkoztar/mini-animacios-studio/kepkockak.md
+          - Szereplők és rajzolás: eszkoztar/mini-animacios-studio/elemek-rajz.md
+          - Lejátszás és mentés: eszkoztar/mini-animacios-studio/lejatszas-mentes.md
       - Word:
           - Áttekintés: eszkoztar/word/index.md
           - Dokumentumkezelés:
