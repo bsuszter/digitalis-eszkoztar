@@ -47,7 +47,7 @@ Ha máshol szeretnél szöveget elhelyezni, készíts külön szövegdobozt!
 
 Ez a két művelet nagyon hasonlónak látszik, de más történik!
 
-<figure class="tool-figure tool-figure--wide"><a href="../../../images/eszkoztar/powerpoint/03-kijeloles-es-mozgatas.svg" target="_blank" rel="noopener"><img src="../../../images/eszkoztar/powerpoint/03-kijeloles-es-mozgatas.svg" alt="Bal oldalt szövegkijelölés, jobb oldalt a szövegdoboz keretének kijelölése"></a><figcaption>Ha a **betűket** jelölöd ki, formázhatod a szöveget. Ha a **doboz szélét** fogod meg, az egész szövegdobozt mozgathatod.</figcaption></figure>
+<figure class="tool-figure tool-figure--wide"><a href="../../../images/eszkoztar/powerpoint/03-kijeloles-es-mozgatas.svg" target="_blank" rel="noopener"><img src="../../../images/eszkoztar/powerpoint/03-kijeloles-es-mozgatas.svg" alt="Bal oldalt szövegkijelölés, jobb oldalt a szövegdoboz keretének kijelölése"></a><figcaption>Ha a <strong>betűket</strong> jelölöd ki, formázhatod a szöveget. Ha a <strong>doboz szélét</strong> fogod meg, az egész szövegdobozt mozgathatod.</figcaption></figure>
 
 - **A szöveg formázásához:** kattints a dobozba, majd húzással jelöld ki a betűket.
 - **A szövegdoboz áthelyezéséhez:** kattints a doboz keretére, és annál fogva húzd új helyre.
