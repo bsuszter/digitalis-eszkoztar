@@ -13,6 +13,7 @@
 <a href="kezeles/"><span class="related-icon">🖥️</span><span class="related-text"><strong>Felület és kezdés</strong><small>Hol találod a legfontosabb gombokat?</small><span class="tool-link">Megnézem →</span></span></a>
 <a href="kepkockak/"><span class="related-icon">🎞️</span><span class="related-text"><strong>Képkockák készítése</strong><small>Új képkocka vagy duplikálás? A mozgás titka.</small><span class="tool-link">Megnézem →</span></span></a>
 <a href="elemek-rajz/"><span class="related-icon">✏️</span><span class="related-text"><strong>Szereplők, háttér, rajz</strong><small>Hogyan épül fel egy jelenet?</small><span class="tool-link">Megnézem →</span></span></a>
+<a href="feliratok/"><span class="related-icon">💬</span><span class="related-text"><strong>Felirat készítése</strong><small>Szövegdoboz: felső és alsó feliratsáv használata.</small><span class="tool-link">Megnézem →</span></span></a>
 <a href="lejatszas-mentes/"><span class="related-icon">💾</span><span class="related-text"><strong>Lejátszás és mentés</strong><small>Sebesség, projektfájl (JSON), kész GIF.</small><span class="tool-link">Megnézem →</span></span></a>
 </div>
 

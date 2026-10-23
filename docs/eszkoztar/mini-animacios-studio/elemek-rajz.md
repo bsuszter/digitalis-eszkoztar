@@ -22,22 +22,9 @@
 3. A másolaton változtass a szereplő **helyzetén**, szükség esetén a **méretén** vagy **irányán**!
 4. A vízszintes **tükrözés** segíthet, ha a figura a másik irányba fordul.
 
-## 💬 Feliratok – Szövegdoboz
+## 💬 Feliratok
 
-A **Szövegdoboz** legördülő menüben ezt a négy lehetőséget találod:
-
-| Beállítás | Mit látsz? |
-| --- | --- |
-| **Nincs** | Nem jelenik meg feliratsáv. |
-| **Felső sáv** | Felirat a kép fölött. |
-| **Alsó sáv** | Felirat a kép alatt. |
-| **Mindkettő** | Felül és alul is lehet szöveg. |
-
-1. Válaszd ki, melyik sávot szeretnéd használni!
-2. Írj **rövid, könnyen olvasható szöveget** a megfelelő mezőbe!
-3. Játszd le az animációt, és ellenőrizd, hogy a nézőnek van-e ideje elolvasni!
-
-A felirat lehet cím, szereplői megszólalás vagy zárómondat. **A történetet elsősorban a képek és a mozgás meséljék el!**
+A feliratok készítéséhez külön, lépésenkénti segítséget találsz: [**💬 Felirat készítése – Szövegdoboz**](../feliratok/).
 
 !!! tip "Saját kép vagy háttér feltöltése"
     A program kép- és háttérfeltöltésével a gépen tárolt fájlt is használhatod. A képek látványosabbá tehetik a történetet, de a szereplők mozgását így is képkockánként kell megalkotnod. Csak olyan képet tölts fel, amelyet jogszerűen használhatsz, és amelyen nincs olyan személyes adat, amelyet nem szeretnél megosztani.

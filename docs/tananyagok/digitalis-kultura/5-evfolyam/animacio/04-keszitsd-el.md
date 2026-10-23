@@ -14,7 +14,7 @@ Készítsd el a két szereplő **váratlan találkozását** úgy, hogy a néző
 4. **Felirat:** a **Szövegdoboz** menüben válaszd ki, hogy felül, alul vagy mindkét sávban legyen rövid szöveg. Legalább egy felirat segítsen a történet elmesélésében, de ne helyettesítse a mozgást!
 5. **Lezárás:** a végén legyen világos, mi történt a szereplőkkel!
 
-[🧰 Elemek, háttér és rajzolás](https://bsuszter.github.io/digitalis-eszkoztar/eszkoztar/mini-animacios-studio/elemek-rajz/){ target="_blank" rel="noopener" } · [🧰 Duplikálás és képkockák](https://bsuszter.github.io/digitalis-eszkoztar/eszkoztar/mini-animacios-studio/kepkockak/){ target="_blank" rel="noopener" }
+[💬 **Felirat készítése – Szövegdoboz**](https://bsuszter.github.io/digitalis-eszkoztar/eszkoztar/mini-animacios-studio/feliratok/) · [🧰 Elemek, háttér és rajzolás](https://bsuszter.github.io/digitalis-eszkoztar/eszkoztar/mini-animacios-studio/elemek-rajz/){ target="_blank" rel="noopener" } · [🧰 Duplikálás és képkockák](https://bsuszter.github.io/digitalis-eszkoztar/eszkoztar/mini-animacios-studio/kepkockak/){ target="_blank" rel="noopener" }
 
 !!! tip "Ha párban dolgoztok"
     Az egyikőtök **Animátor**, a másik **Rendező**. A történet közepe táján **álljatok meg, és cseréljetek szerepet!** Így nem csak egyikőtök fogja használni az alkalmazást.
