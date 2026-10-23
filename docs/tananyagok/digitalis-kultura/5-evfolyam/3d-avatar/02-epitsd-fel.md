@@ -157,7 +157,7 @@ A teljes figurát együtt mérd meg: férjen el **30 × 30 mm-es** játékmezőn
     <span class="related-icon">⬅️</span>
     <span class="related-text"><strong>Előző: Találd ki az avatarodat!</strong><small>Ha újra meg szeretnéd nézni a vázlat és a méretkorlátok feladatát.</small></span>
   </a>
-  <a href="../04-keszitsd-elo-es-probald-ki/">
+  <a href="../03-keszitsd-elo-stl-be/">
     <span class="related-icon">➡️</span>
     <span class="related-text"><strong>Következő: Készítsd elő STL-be!</strong><small>A végleges modellt nyomtatásra előkészíted és STL-be exportálod.</small></span>
   </a>
