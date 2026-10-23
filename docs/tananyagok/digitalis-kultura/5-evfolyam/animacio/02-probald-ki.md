@@ -17,7 +17,7 @@ Készíts **legalább 6 képkockás** animációt, amelyben egy labda, léggömb
 5. Játszd le! Próbáld ki **kétféle sebességgel**, és javíts legalább egy dolgot!
 6. **Kísérletezz a Szövegdoboz menüvel:** próbáld ki a *Felső sáv*, az *Alsó sáv* és a *Mindkettő* beállítást! A próbafeladathoz elég egy rövid szó vagy mondat.
 
-[💬 Felirat készítése – Szövegdoboz](https://bsuszter.github.io/digitalis-eszkoztar/eszkoztar/mini-animacios-studio/feliratok/) · [🧰 Saját képek és hátterek](https://bsuszter.github.io/digitalis-eszkoztar/eszkoztar/mini-animacios-studio/elemek-rajz/){ target="_blank" rel="noopener" } · [🧰 Képkocka és duplikálás](https://bsuszter.github.io/digitalis-eszkoztar/eszkoztar/mini-animacios-studio/kepkockak/){ target="_blank" rel="noopener" } · [🧰 Lejátszás és sebesség](https://bsuszter.github.io/digitalis-eszkoztar/eszkoztar/mini-animacios-studio/lejatszas-mentes/){ target="_blank" rel="noopener" }
+[💬 Felirat készítése – Szövegdoboz](https://bsuszter.github.io/digitalis-eszkoztar/eszkoztar/mini-animacios-studio/feliratok/){ target="_blank" rel="noopener" } · [🧰 Saját képek és hátterek](https://bsuszter.github.io/digitalis-eszkoztar/eszkoztar/mini-animacios-studio/elemek-rajz/){ target="_blank" rel="noopener" } · [🧰 Képkocka és duplikálás](https://bsuszter.github.io/digitalis-eszkoztar/eszkoztar/mini-animacios-studio/kepkockak/){ target="_blank" rel="noopener" } · [🧰 Lejátszás és sebesség](https://bsuszter.github.io/digitalis-eszkoztar/eszkoztar/mini-animacios-studio/lejatszas-mentes/){ target="_blank" rel="noopener" }
 
 !!! warning "Fontos különbség"
     A **Képkocka** üres képet kezd; a **Duplikálás** az előző képet másolja, ezért mozgás készítésénél többnyire ezt használd.
