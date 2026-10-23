@@ -2,13 +2,13 @@
   <div>
     <span class="project-kicker">3D TERVEZÉS · 1. MÉRFÖLDKŐ</span>
     <h2>💡 Találd ki az avatarodat!</h2>
-    <p>Most még nem a Tinkercadben dolgozol. Először találd ki, milyen játékfigura képviseljen téged, és készíts róla egyszerű tervet!</p>
+    <p>Találd ki, milyen játékfigura képviseljen téged, és készíts róla Paint-rajzot és rövid leírást!</p>
   </div>
   <div class="project-hero__icon">💡</div>
 </div>
 
 <div class="project-meta">
-  <span>🧭 1 / 4 mérföldkő</span>
+  <span>🧭 1 / 3 mérföldkő</span>
   <span>👤 Egyéni munka</span>
   <span>⭐ 10 pont</span>
   <span>⏱️ kb. 1 tanóra</span>
@@ -57,9 +57,9 @@ Nem kell emberalakot készítened, és nem kell hasonlítania rád. Gondolj ink�
   </a>
 </div>
 
-## ✏️ Készíts egyszerű vázlatot!
+## ✏️ Készíts tervrajzot Paintben!
 
-A rajzod nem művészeti feladat. Az a cél, hogy később tudd, mit szeretnél felépíteni Tinkercadben.
+A rajzod nem művészeti feladat. A **Paintben** készíts egyszerű ábrát, amelyből később látod, mit szeretnél felépíteni Tinkercadben. Gondold át, milyen egyszerű geometriai formákból állhat össze a figurád!
 
 <div class="project-panel project-panel--green">
   <h2>A vázlatodon legyen látható:</h2>
@@ -72,7 +72,7 @@ A rajzod nem művészeti feladat. Az a cél, hogy később tudd, mit szeretnél 
       <li>legalább egy olyan részlet, amitől ez a figura a te avatarod lesz.</li>
     </ul>
   </div>
-  <div class="project-banner project-banner--green">📷 Kézzel rajzolhatsz. A beadáshoz elég egy jól látható fotó a vázlatról.</div>
+  <div class="project-banner project-banner--green">💻 A tervrajzot Paintben készítsd el. Nyilakkal és rövid feliratokkal megmutathatod az egyes részeket.</div>
 </div>
 
 ## 🔎 Mielőtt beadod, nézd meg még egyszer!
@@ -101,7 +101,7 @@ A rajzod nem művészeti feladat. Az a cél, hogy később tudd, mit szeretnél 
 <div class="project-submit">
   <h2>📤 Mit adj be?</h2>
   <ul>
-    <li>egy fotót vagy képet a vázlatodról;</li>
+    <li>a <strong>Paintben készített tervrajzodat</strong>;</li>
     <li>1–2 mondatot arról, hogy <strong>mitől ez a te avatarod</strong>.</li>
   </ul>
   <p>A következő mérföldkőben ebből a tervből kezded el felépíteni a 3D modellt.</p>

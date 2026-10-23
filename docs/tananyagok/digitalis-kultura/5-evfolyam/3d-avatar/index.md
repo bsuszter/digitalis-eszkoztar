@@ -12,7 +12,7 @@
 <div class="project-highlight project-highlight--blue">
   <h2>🎯 Ez nem dísztárgy, hanem játékfigura</h2>
   <p>A figurádnak valódi feladata lesz: társasjáték közben ezt használhatod majd saját bábuként. Ezért a megjelenés mellett a <strong>méretre, stabilitásra és használhatóságra</strong> is figyelned kell.</p>
-  <div class="project-flow">ÖTLET → VÁZLAT → 3D MODELL → ELLENŐRZÉS → JÁTÉKFIGURA</div>
+  <div class="project-flow">ÖTLET → PAINT-TERV → 3D MODELL → STL</div>
 </div>
 
 ## Mitől lesz igazán a tiéd?
@@ -35,10 +35,9 @@ Az avatarod nem feltétlenül hasonlít rád. Képviselhet például:
 ## A projekt útvonala
 
 <div class="idea-grid">
-  <div class="idea-card">💡 <strong>1. Találd ki az avatarodat!</strong><span>Ötlet, funkció és egyszerű vázlat.</span></div>
-  <div class="idea-card">🧱 <strong>2. Építsd fel Tinkercadben!</strong><span>Alakzatokból készítsd el a saját figurádat.</span></div>
-  <div class="idea-card">📐 <strong>3. Tedd játékra késszé!</strong><span>Ellenőrizd a méretet, stabilitást és használhatóságot.</span></div>
-  <div class="idea-card">🖨️ <strong>4. Készítsd elő és próbáld ki!</strong><span>Készítsd elő nyomtatásra, majd nézd meg, hogyan működik valódi játékfiguraként.</span></div>
+  <div class="idea-card">💡 <strong>1. Tervezd meg az avatarodat!</strong><span>Rövid leírás és Paint-rajz · 10 pont.</span></div>
+  <div class="idea-card">🧱 <strong>2. Építsd fel Tinkercadben!</strong><span>Képernyőkép és rövid leírás · 40 pont.</span></div>
+  <div class="idea-card">🖨️ <strong>3. Készítsd elő STL-be!</strong><span>Végleges nyomtatható modell és STL-export · 20 pont.</span></div>
 </div>
 
 ## Hol kapsz segítséget a Tinkercadhez?

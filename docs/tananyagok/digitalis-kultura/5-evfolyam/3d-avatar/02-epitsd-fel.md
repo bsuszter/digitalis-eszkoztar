@@ -10,15 +10,15 @@
 </div>
 
 <div class="project-meta">
-  <span>🧭 2 / 4 mérföldkő</span>
+  <span>🧭 2 / 3 mérföldkő</span>
   <span>👤 Egyéni munka</span>
-  <span>⭐ 30 pont</span>
+  <span>⭐ 40 pont</span>
   <span>⏱️ kb. 2–3 tanóra</span>
 </div>
 
 <div class="project-highlight project-highlight--blue">
-  <h2>🎯 A cél most nem a tökéletesség</h2>
-  <p>A mérföldkő végére legyen egy <strong>saját felépítésű, felismerhető és tovább javítható 3D modelled</strong>. Nem baj, ha még változtatni kell rajta: a következő lépésben külön ellenőrizzük majd, hogy valóban jó játékfigura lett-e.</p>
+  <h2>🎯 Készítsd el az első 3D modelledet!</h2>
+  <p>A mérföldkő végére legyen egy <strong>saját felépítésű, felismerhető és tovább javítható 3D modelled</strong>. A méretet, a részek kapcsolatát és a várható stabilitást már alkotás közben figyeld, a visszajelzés alapján pedig továbbfejlesztheted.</p>
   <div class="project-flow">VÁZLAT → ALAPFORMA → RÉSZLETEK → ÖSSZEILLESZTÉS → ELSŐ KÉSZ MODELL</div>
 </div>
 
@@ -118,35 +118,38 @@ Nem kell még végleges nyomtatási ellenőrzést végezned, de már most kerül
   <span>Lehet különleges, vicces vagy látványos az avatarod, de olyan formát tervezz, amelyből valódi tárgy is készülhet!</span>
 </div>
 
-## 5. Állj meg egy első kész változatnál!
+## 5. Ellenőrizd a használhatóságot, majd állj meg egy első kész változatnál!
 
-Ezen a ponton még nem kell tökéletesnek lennie. Akkor vagy kész ezzel a mérföldkővel, ha már van egy teljes, saját felépítésű figurád, amelyet a következő lépésben érdemes pontosan ellenőrizni és javítani.
+A teljes figurát együtt mérd meg: férjen el **30 × 30 mm-es** játékmezőn, és legyen legfeljebb **50 mm magas**. Nézd meg több oldalról: összeérnek a részek, van stabil alja, és könnyen megfogható játék közben? A kapott visszajelzések alapján javíthatod a modellt, mielőtt STL-be exportálod.
 
 <div class="check-panel">
   <label><input type="checkbox"><span>A Tinkercad-tervem felismerhető néven van elmentve.</span></label>
   <label><input type="checkbox"><span>A figura fő formáját én építettem fel, nem kész figurát használtam.</span></label>
   <label><input type="checkbox"><span>A fő részek valóban kapcsolódnak egymáshoz.</span></label>
   <label><input type="checkbox"><span>Több nézetből is megnéztem a modellt.</span></label>
-  <label><input type="checkbox"><span>Figyeltem arra, hogy a terv később kinyomtatható legyen.</span></label>
+  <label><input type="checkbox"><span>A méretet is ellenőriztem: legfeljebb 30 × 30 mm-es alapterület és 50 mm-es magasság.</span></label>
+  <label><input type="checkbox"><span>A figura várhatóan stabil, egy kézzel megfogható, és később kinyomtatható.</span></label>
   <label><input type="checkbox"><span>Van egy teljes első változatom, amelyet a következő mérföldkőben ellenőrizni és javítani tudok.</span></label>
 </div>
 
 <div class="project-panel project-panel--gold">
-  <h2>⭐ Mit értékelünk? – 30 pont</h2>
+  <h2>⭐ Mit értékelünk? – 40 pont</h2>
   <div class="score-stack">
     <div>⭐ <strong>8 pont</strong> – A figura fő formája saját építésű, és felismerhetően követi a tervet.</div>
     <div>⭐ <strong>8 pont</strong> – A modell részei megfelelően vannak elhelyezve és egymáshoz kapcsolva.</div>
     <div>⭐ <strong>6 pont</strong> – A szükséges Tinkercad-műveleteket megfelelően használtad.</div>
     <div>⭐ <strong>4 pont</strong> – A tervet felismerhető néven mentetted, és az órák között folytatható állapotban hagytad.</div>
     <div>⭐ <strong>4 pont</strong> – Elkészült egy teljes első változat, amely további ellenőrzésre alkalmas.</div>
+    <div>⭐ <strong>5 pont</strong> – A modell méretei igazodnak a 30 × 30 mm-es mezőhöz és az 50 mm-es magasságkorláthoz.</div>
+    <div>⭐ <strong>5 pont</strong> – A kialakítás alapján a figura várhatóan stabil és játék közben jól megfogható.</div>
   </div>
   <div class="project-banner project-banner--gold">📌 Nem azt pontozzuk, hogy hány eszközt használtál vagy mennyire bonyolult a figurád. Egy egyszerű, pontosan felépített modell teljes értékű lehet.</div>
 </div>
 
 <div class="project-submit">
   <h2>📤 Mit adj be?</h2>
-  <p>A beadási felületre tölts fel <strong>egy képernyőképet</strong> a Tinkercadben elkészült első teljes változatról!</p>
-  <p>A Tinkercad-tervet ne töröld és ne készíts újat helyette: a következő mérföldkőben <strong>ugyanezt a modellt</strong> fogod ellenőrizni és javítani.</p>
+  <p>Tölts fel <strong>egy képernyőképet</strong> a Tinkercadben elkészült első teljes változatról, és írj mellé <strong>2–3 mondatos leírást</strong> arról, milyen részekből építetted fel a figurát, és hogyan lesz használható játékbábuként!</p>
+  <p>A Tinkercad-tervet ne töröld és ne készíts újat helyette: a visszajelzések után <strong>ugyanezt a modellt</strong> fejleszted tovább, majd exportálod STL-be.</p>
 </div>
 
 <div class="related-grid">
@@ -154,8 +157,8 @@ Ezen a ponton még nem kell tökéletesnek lennie. Akkor vagy kész ezzel a mér
     <span class="related-icon">⬅️</span>
     <span class="related-text"><strong>Előző: Találd ki az avatarodat!</strong><small>Ha újra meg szeretnéd nézni a vázlat és a méretkorlátok feladatát.</small></span>
   </a>
-  <a href="../03-tedd-jatekra-kessze/">
+  <a href="../04-keszitsd-elo-es-probald-ki/">
     <span class="related-icon">➡️</span>
-    <span class="related-text"><strong>Következő: Tedd játékra késszé!</strong><small>A következő lépésben a méretet, megállást és használhatóságot ellenőrizzük.</small></span>
+    <span class="related-text"><strong>Következő: Készítsd elő STL-be!</strong><small>A végleges modellt nyomtatásra előkészíted és STL-be exportálod.</small></span>
   </a>
 </div>
