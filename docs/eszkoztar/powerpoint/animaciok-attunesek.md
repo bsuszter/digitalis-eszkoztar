@@ -6,21 +6,21 @@
 
 ## 1. Animáció vagy áttűnés?
 
-<figure class="tool-figure tool-figure--wide"><a href="../../../images/eszkoztar/powerpoint/kulonbseg-mozgo.svg" target="_blank" rel="noopener"><img src="../../../images/eszkoztar/powerpoint/kulonbseg-mozgo.svg" alt="Mozgó szemléltetés: bal oldalon egy alakzat jelenik meg a dián, jobb oldalon az egész dia vált"></a><figcaption>A szemléltető ábra újra és újra lejátszódik, ha a böngésződ támogatja az SVG-animációt. Nem PowerPoint-képernyőfelvétel.</figcaption></figure>
+<figure class="tool-figure tool-figure--wide"><a href="../../../images/eszkoztar/powerpoint/kulonbseg-mozgo.svg" target="_blank" rel="noopener"><img src="../../../images/eszkoztar/powerpoint/kulonbseg-mozgo.svg" alt="Mozgó szemléltetés: tájkép úszik be a változatlan diára, majd egy másik példában a teljes dia oldalról betolódik"></a><figcaption>A bal oldalon egy tájkép úszik be a diára; a jobb oldalon az egész következő dia betolódik. A mozgás ismétlődik, ha a böngésződ támogatja az SVG-animációt. Nem PowerPoint-képernyőfelvétel.</figcaption></figure>
 
 | Animáció | Áttűnés |
 | --- | --- |
 | **Egy képpel, szöveggel vagy alakzattal** történik valami **ugyanazon a dián**. | **Az egész dia** jelenik meg vagy tűnik el, amikor **diát váltasz**. |
-| Példa: egy kép fokozatosan megjelenik. | Példa: a következő dia elhalványulva érkezik. |
+| Példa: egy tájkép oldalról beúszik. | Példa: a következő dia oldalról betolódik, és leváltja az előzőt. |
 | Menü: **Animációk** | Menü: **Áttűnések** |
 
 ## 2. Animáció hozzáadása
 
-<figure class="tool-figure tool-figure--wide"><a href="../../../images/eszkoztar/powerpoint/menu-animacio.svg" target="_blank" rel="noopener"><img src="../../../images/eszkoztar/powerpoint/menu-animacio.svg" alt="PowerPoint Animációk menü és néhány animációs effektus"></a><figcaption>Előbb a dián jelöld ki azt az elemet, amelyet mozgatni szeretnél! Utána kattints az <strong>Animációk</strong> fülre.</figcaption></figure>
+<figure class="tool-figure tool-figure--wide"><a href="../../../images/eszkoztar/powerpoint/menu-animacio.svg" target="_blank" rel="noopener"><img src="../../../images/eszkoztar/powerpoint/menu-animacio.svg" alt="PowerPoint Animációk menü sematikus csillagikonokkal, a Beúszás kiemelésével"></a><figcaption>Előbb a dián jelöld ki azt az elemet, amelyet mozgatni szeretnél! Utána kattints az <strong>Animációk</strong> fülre.</figcaption></figure>
 
 <div class="step-stack">
 <div class="step-card"><span class="step-no">1</span><div><strong>Jelöld ki az elemet!</strong><span>Kattints például egy képre, szövegdobozra vagy alakzatra.</span></div></div>
-<div class="step-card"><span class="step-no">2</span><div><strong>Animációk → effektus kiválasztása</strong><span>Kezdésként próbáld a Megjelenés vagy Elhalványulás típusú effektusokat.</span></div></div>
+<div class="step-card"><span class="step-no">2</span><div><strong>Animációk → effektus kiválasztása</strong><span>Kezdésként próbáld a **Beúszás** effektust: a kép oldalról érkezik a diára.</span></div></div>
 <div class="step-card"><span class="step-no">3</span><div><strong>Nézd meg az eredményt!</strong><span>Használd az Előnézet lehetőséget, majd próbáld ki a Diavetítés nézetben is.</span></div></div>
 </div>
 
@@ -48,7 +48,7 @@ Nem mindegy, hogy a kép magától megjelenik-e, vagy csak egy kattintás után!
 
 1. A bal oldali diasoron kattints a módosítani kívánt diára.
 2. Nyisd meg az **Áttűnések** fület.
-3. Válassz egy visszafogott effektust, például **Elhalványulás**.
+3. Próbáld ki a **Tolás** áttűnést: az új dia oldalról érkezik.
 4. Az **Időtartam** mezővel szabályozhatod, milyen gyorsan történjen a váltás.
 5. Próbáld ki a diavetítést! Ha az összes diára szeretnéd ugyanazt az áttűnést, keresd a **Mindegyikre alkalmaz** parancsot.
 
@@ -61,7 +61,7 @@ Nem mindegy, hogy a kép magától megjelenik-e, vagy csak egy kattintás után!
 - Egy rövid, egyszerű áttűnés gyakran jobb választás, mint sok különböző látványos effektus.
 - A **Mozgásvonal** egy másik animációtípus: az elem megadott útvonalon mozoghat a dián.
 
-<div class="section-lead"><strong>🎯 Próbáld ki!</strong><span>Készíts két diát! Az elsőn jelenjen meg egy alakzat kattintásra. A második diára állíts be Elhalványulás áttűnést. Diavetítés közben figyeld meg, melyik esetben egy elem, és melyik esetben a teljes dia változik!</span></div>
+<div class="section-lead"><strong>🎯 Próbáld ki!</strong><span>Készíts két diát! Az elsőn jelenjen meg egy alakzat kattintásra. A második diára állíts be Tolás áttűnést. Diavetítés közben figyeld meg, melyik esetben egy elem, és melyik esetben a teljes dia változik!</span></div>
 
 <div class="check-panel">
 <strong>✅ Ellenőrizd magad!</strong>
