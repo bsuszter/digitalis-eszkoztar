@@ -36,6 +36,7 @@
       'micro:bit – MakeCode': 'nav-topic--microbit',
       'Edubit': 'nav-topic--edubit',
       'PowerPoint': 'nav-topic--powerpoint',
+      'Mini Animációs Stúdió': 'nav-topic--mini-animacios-studio',
       'Word': 'nav-topic--word',
       'Tinkercad': 'nav-topic--tinkercad',
       'Digitális kultúra': 'nav-topic--digitalis-kultura',

@@ -67,6 +67,24 @@
   font-weight: 800;
 }
 
+/* Mini Animációs Stúdió: külön, lila-rózsaszín témacím az eszköztárban. */
+.md-sidebar--primary .nav-topic--mini-animacios-studio > .md-nav__link,
+.md-sidebar--primary .md-nav__item--nested:has(> nav a[href$="/eszkoztar/mini-animacios-studio/"]) > .md-nav__link {
+  margin-top: .45rem;
+  padding: .48rem .62rem;
+  border-left: 4px solid #8959a8;
+  border-radius: 9px;
+  background: linear-gradient(110deg, #f6f0fb, #fff5f9);
+  color: #624279;
+  font-weight: 800;
+}
+
+.md-sidebar--primary .nav-topic--mini-animacios-studio > .md-nav__link:hover,
+.md-sidebar--primary .nav-topic--mini-animacios-studio > .md-nav__link--active {
+  background: #eee0f6;
+  color: #513269;
+}
+
 .md-sidebar--primary .nav-topic--word > .md-nav__link,
 .md-sidebar--primary .md-nav__item--nested:has(> nav a[href$="/eszkoztar/word/"]) > .md-nav__link {
   margin-top: .45rem;
