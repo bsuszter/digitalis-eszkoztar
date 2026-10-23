@@ -8,10 +8,11 @@ Készítsd el a két szereplő **váratlan találkozását** úgy, hogy a néző
 
 [🎬 Nyisd meg a Mini Animációs Stúdiót!](https://interaktivfeladat.hu/jatek/animacio/){ .md-button .md-button--primary target="_blank" rel="noopener" }
 
-1. **Indulás:** válassz hátteret, helyezd el a két szereplőt, állítsd be a kezdőhelyzetet!
+1. **Indulás:** válassz kész hátteret **vagy tölts fel saját háttérképet**! Helyezd el a két szereplőt (akár importált saját képet is használhatsz), és állítsd be a kezdőhelyzetet!
 2. **Közeledés:** duplikálj képkockákat, a másolatokon csak apró mozdulatokat végezz!
 3. **Fordulat:** történjen valami meglepő, de követhető! Lehet irányváltás, méretváltozás, tükrözés vagy saját rajz.
-4. **Lezárás:** a végén legyen világos, mi történt a szereplőkkel!
+4. **Felirat:** a **Szövegdoboz** menüben válaszd ki, hogy felül, alul vagy mindkét sávban legyen rövid szöveg. Legalább egy felirat segítsen a történet elmesélésében, de ne helyettesítse a mozgást!
+5. **Lezárás:** a végén legyen világos, mi történt a szereplőkkel!
 
 [🧰 Elemek, háttér és rajzolás](https://bsuszter.github.io/digitalis-eszkoztar/eszkoztar/mini-animacios-studio/elemek-rajz/){ target="_blank" rel="noopener" } · [🧰 Duplikálás és képkockák](https://bsuszter.github.io/digitalis-eszkoztar/eszkoztar/mini-animacios-studio/kepkockak/){ target="_blank" rel="noopener" }
 
@@ -23,6 +24,7 @@ Készítsd el a két szereplő **váratlan találkozását** úgy, hogy a néző
 - [ ] Van legalább 10 képkocka, két szereplővel.
 - [ ] A mozgás fokozatos, a fordulat és befejezés érthető.
 - [ ] Használtam legalább egy tudatos irányváltást, tükrözést vagy méretváltozást.
+- [ ] Beillesztettem legalább egy rövid, jól elhelyezett feliratot.
 - [ ] Párban mindketten szerkesztettünk.
 
 ---

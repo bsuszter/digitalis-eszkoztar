@@ -15,6 +15,8 @@ Mutasd meg valakinek **magyarázat nélkül**. Kérdezd meg:
 - Kik találkoztak?
 - Mi volt a váratlan esemény?
 - Érthető volt a befejezés?
+- A feliratot el lehetett olvasni? Segítette a történetet?
+- Ha saját képet vagy hátteret használtál: jól felismerhetők rajta a szereplők?
 - Hol ugrott túl nagyot a kép?
 
 ## 3. Javíts!
@@ -27,7 +29,7 @@ Legalább **egy dolgot módosíts tudatosan** a visszajelzés vagy a lejátszás
 ## ✅ Készen vagy, ha…
 
 - [ ] Két sebességet kipróbáltam.
-- [ ] A néző megértette a történetet.
+- [ ] A néző megértette a történetet és el tudta olvasni a feliratot.
 - [ ] Legalább egy dolgot javítottam.
 
 ---

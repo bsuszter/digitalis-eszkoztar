@@ -8,9 +8,10 @@
 
 ![A kezelőfelület területei](../../images/eszkoztar/mini-animacios-studio/felulet.svg)
 
-## Háromféle építőelem
+## Négyféle építőelem
 
 - **Kész figurák és tárgyak:** a gyűjteményből választva helyezhetsz a jelenetbe szereplőket, állatokat, tárgyakat.
+- **Saját importált kép vagy háttér:** a számítógépedről választott képpel egyedivé teheted a szereplőket vagy a jelenet helyszínét.
 - **Háttér:** segít megmutatni, hol játszódik a történet. A következő képkockán lehet ugyanaz, vagy egy új jelenet részeként eltérő.
 - **Rajzolás:** ecsettel saját részleteket tehetsz a vászonra; a **radírral** törölhetsz a rajzból.
 
@@ -21,11 +22,24 @@
 3. A másolaton változtass a szereplő **helyzetén**, szükség esetén a **méretén** vagy **irányán**!
 4. A vízszintes **tükrözés** segíthet, ha a figura a másik irányba fordul.
 
-## Feliratok
+## 💬 Feliratok – Szövegdoboz
 
-Az alkalmazás felső és alsó feliratot is tud használni. Rövid szöveg a legjobb: a nézőnek maradjon ideje elolvasni.
+A **Szövegdoboz** legördülő menüben ezt a négy lehetőséget találod:
 
-!!! tip "Kép feltöltése"
-    Saját képet és háttérképet is használhatsz. Csak olyan képet tölts fel, amelyet jogszerűen használhatsz, és amelyen nincs más személyes adata.
+| Beállítás | Mit látsz? |
+| --- | --- |
+| **Nincs** | Nem jelenik meg feliratsáv. |
+| **Felső sáv** | Felirat a kép fölött. |
+| **Alsó sáv** | Felirat a kép alatt. |
+| **Mindkettő** | Felül és alul is lehet szöveg. |
+
+1. Válaszd ki, melyik sávot szeretnéd használni!
+2. Írj **rövid, könnyen olvasható szöveget** a megfelelő mezőbe!
+3. Játszd le az animációt, és ellenőrizd, hogy a nézőnek van-e ideje elolvasni!
+
+A felirat lehet cím, szereplői megszólalás vagy zárómondat. **A történetet elsősorban a képek és a mozgás meséljék el!**
+
+!!! tip "Saját kép vagy háttér feltöltése"
+    A program kép- és háttérfeltöltésével a gépen tárolt fájlt is használhatod. A képek látványosabbá tehetik a történetet, de a szereplők mozgását így is képkockánként kell megalkotnod. Csak olyan képet tölts fel, amelyet jogszerűen használhatsz, és amelyen nincs olyan személyes adat, amelyet nem szeretnél megosztani.
 
 [→ Lejátszás és mentés](../lejatszas-mentes/)

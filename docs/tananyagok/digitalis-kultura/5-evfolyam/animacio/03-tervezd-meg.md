@@ -20,21 +20,23 @@ Azonosak a szakmai elvárások és az elérhető pontszámok.
 | Kérdés | Tervem / tervünk |
 | --- | --- |
 | Kik a két szereplő? | … |
-| Hol játszódik? | … |
+| Hol játszódik? Kész vagy saját háttérképet szeretnék? | … |
 | Hogyan közelednek egymáshoz? | … |
 | Mi a váratlan fordulat? | … |
 | Hogyan zárul a történet? | … |
+| Milyen rövid felirat segítené a történetet, és melyik sávban jelenjen meg? | … |
 
 Rajzold le vázlatosan az **első**, a **találkozási** és az **utolsó** képkockát!
 
 !!! info "A majdani film keretei"
-    Legalább **10 képkocka**, **2 szereplő**, követhető mozgás, váratlan de érthető fordulat és lezárás. Legfeljebb **2 rövid szöveg** kerülhet bele.
+    Legalább **10 képkocka**, **2 szereplő**, követhető mozgás, váratlan de érthető fordulat és lezárás. Legyen benne **legalább 1 rövid, tudatosan elhelyezett felirat**. Saját kép vagy háttér használható, de nem kötelező: a képkockák közötti mozgás továbbra is a legfontosabb.
 
 ## ✅ Készen vagy, ha…
 
 - [ ] Döntöttem az egyéni vagy páros munkáról.
 - [ ] Két szereplővel megterveztem a történetet.
 - [ ] Megvan három kulcsképkockám.
+- [ ] Kitaláltam, hol és mire használok rövid feliratot.
 - [ ] Páros munka esetén megállapodtunk a szerepekben és a szerepcserében.
 
 ---
