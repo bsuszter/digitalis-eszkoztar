@@ -27,6 +27,9 @@ jobs:
       - name: Install dependencies
         run: pip install -r requirements.txt
 
+      - name: Check Moodle HTML exports
+        run: python scripts/check_moodle_exports.py
+
       - name: Build site
         run: mkdocs build --strict
 
