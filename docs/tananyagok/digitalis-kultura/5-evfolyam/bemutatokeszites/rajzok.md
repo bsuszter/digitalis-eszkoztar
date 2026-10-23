@@ -37,6 +37,13 @@ Készíts egyetlen bemutatót, **külön diákon** a következő rajzokkal:
 !!! tip "A régi feladatsor lényege"
     Az eredeti leckében is négy kötelező alakzatos feladat szerepelt. Itt új, önmagukban is elkészíthető példákat adunk; az eredeti képminták helyett a szerkesztési műveletek gyakorlása a cél.
 
+
+### Így nézhet ki a négy kész dia
+
+[![Négy lehetséges alakzatos rajz: robotarc, házikó, ablak és jelvény](../../../../images/tananyagok/bemutatokeszites/alakzatos-mintak.svg)](../../../../images/tananyagok/bemutatokeszites/alakzatos-mintak.svg){ target="_blank" rel="noopener" }
+
+*A képre kattintva nagyobb méretben is megnézheted. Ezek **ötletadó minták**, nem kell pontosan lemásolnod őket.* A **robotarc** részei külön alakzatokból álljanak; a **házikón** legyen tető, ajtó és ablak; az **ablak** négy keretelemét illeszd egymáshoz pontosan; a **jelvényen** saját feliratod legyen. **Minden rajzot a PowerPoint alakzataiból készíts, ne képként illeszd be a mintát!**
+
 ## 💡 Pixelgrafika vagy vektorgrafika?
 
 A fényképek többnyire **képpontokból** (pixelekből) épülnek fel. A PowerPoint saját alakzatai viszont **vektoros elemek**: általában nagyításkor is élesek maradnak.
