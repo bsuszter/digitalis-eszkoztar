@@ -4,7 +4,7 @@
 
 ## 🎯 A feladat
 
-Készíts **legalább 6 képkockás** animációt, amelyben egy labda, léggömb vagy más tárgy **elmozdul**, majd egyszer **irányt változtat vagy megáll**.
+**Küldetés:** készíts rövid animációt, amelyben **egy szereplő** a kép egyik oldaláról a másikra halad! Válassz hozzá **egy hátteret**, és készíts **legalább 6 képkockát**!
 
 [![Képkockánként mozgó labda](../../../../images/tananyagok/animacio/labda-kepkockak.svg)](../../../../images/tananyagok/animacio/labda-kepkockak.svg){ target="_blank" rel="noopener" }
 
@@ -40,7 +40,7 @@ Haladj sorban! A képek a Mini Animációs Stúdió eredeti kezelőfelületét m
 
 ??? example "5. Ismételd meg!"
 
-    Duplikáld újra a képkockát, és mozdítsd tovább a szereplőt! Legyen **legalább 6 képkockád**. Próbáld ki azt is, hogy a szereplő megáll vagy visszafordul.
+    Duplikáld újra a képkockát, és mozdítsd tovább a szereplőt! Legyen **legalább 6 képkockád**.
 
     [![Az egymás után következő képkockák](../../../../assets/animacio/eredeti/05-ismetelt-duplikalas.png)](../../../../assets/animacio/eredeti/05-ismetelt-duplikalas.png){: target="_blank" rel="noopener noreferrer" }
 
@@ -49,6 +49,12 @@ Haladj sorban! A képek a Mini Animációs Stúdió eredeti kezelőfelületét m
     Indítsd el az animációt! Nézd meg **kétféle sebességgel**! Ha ugrál a mozgás, módosítsd az elmozdításokat, és játszd le újra!
 
     [![Lejátszás és a sebesség beállítása](../../../../assets/animacio/eredeti/06-lejatszas-sebesseg.png)](../../../../assets/animacio/eredeti/06-lejatszas-sebesseg.png){: target="_blank" rel="noopener noreferrer" }
+
+<div style="padding:22px;margin:22px 0;border:1px solid #ddd3ee;border-radius:22px;background:#fbf8ff"><h2 style="margin:0 0 12px;color:#70449f;font-size:23px">👀 Ilyen legyen a mozgás!</h2><div style="display:grid;grid-template-columns:repeat(6,minmax(0,1fr));gap:7px;padding:12px;border-radius:16px;background:#fff;border:1px solid #ddd3ee"><div style="height:100px;position:relative;border-radius:15px;background:linear-gradient(#e0f3f4 0 70%,#d9edcb 70% 100%)"><span style="position:absolute;width:32px;height:32px;border-radius:50%;background:#7744a5;bottom:20px;left:7%;"></span></div><div style="height:100px;position:relative;border-radius:15px;background:linear-gradient(#e0f3f4 0 70%,#d9edcb 70% 100%)"><span style="position:absolute;width:32px;height:32px;border-radius:50%;background:#7744a5;bottom:20px;left:20%;"></span></div><div style="height:100px;position:relative;border-radius:15px;background:linear-gradient(#e0f3f4 0 70%,#d9edcb 70% 100%)"><span style="position:absolute;width:32px;height:32px;border-radius:50%;background:#7744a5;bottom:20px;left:33%;"></span></div><div style="height:100px;position:relative;border-radius:15px;background:linear-gradient(#e0f3f4 0 70%,#d9edcb 70% 100%)"><span style="position:absolute;width:32px;height:32px;border-radius:50%;background:#7744a5;bottom:20px;left:46%;"></span></div><div style="height:100px;position:relative;border-radius:15px;background:linear-gradient(#e0f3f4 0 70%,#d9edcb 70% 100%)"><span style="position:absolute;width:32px;height:32px;border-radius:50%;background:#7744a5;bottom:20px;left:59%;"></span></div><div style="height:100px;position:relative;border-radius:15px;background:linear-gradient(#e0f3f4 0 70%,#d9edcb 70% 100%)"><span style="position:absolute;width:32px;height:32px;border-radius:50%;background:#7744a5;bottom:20px;left:72%;"></span></div></div><p style="margin:12px 0 0;color:#60768a;text-align:center">A szereplő minden új képkockán csak egy kicsivel kerül távolabb.</p></div>
+
+<div style="padding:22px;margin:22px 0;border:1px solid #f0d9a9;border-radius:22px;background:#fff9ef"><h2 style="margin:0 0 9px;color:#ad6800;font-size:23px">🔬 Kísérletezz!</h2><p style="margin:0 0 12px">Próbáld ki ugyanazt az animációt többféleképpen!</p><div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(185px,1fr));gap:12px"><div style="padding:15px;border:1px solid #f0d9a9;border-radius:16px;background:white"><strong style="color:#a76000">🐢 Lassítsd le!</strong><p style="margin:9px 0 0">Mit tapasztalsz, ha lassabbra állítod a lejátszást?</p></div><div style="padding:15px;border:1px solid #f0d9a9;border-radius:16px;background:white"><strong style="color:#a76000">🚀 Gyorsítsd fel!</strong><p style="margin:9px 0 0">Mennyiben változik a mozgás, ha gyorsabban játszod le?</p></div><div style="padding:15px;border:1px solid #f0d9a9;border-radius:16px;background:white"><strong style="color:#a76000">🦘 Készíts nagy ugrást!</strong><p style="margin:9px 0 0">Mozdítsd el egyszer túl nagy távolságra! Mit látsz?</p></div></div></div>
+
+<div style="padding:20px;margin:22px 0;border:1px solid #bfe1c9;border-radius:22px;background:#eef9f0"><h2 style="margin:0 0 6px;color:#287747;font-size:23px">⭐ Mini kihívás</h2><p style="margin:0">Ha elkészültél, folytasd az animációt úgy, hogy a szereplő <strong>megforduljon és visszafelé induljon</strong>!</p></div>
 
 !!! tip "💬 Kísérletezz a feliratokkal is!"
     A Szövegdoboz menüben próbáld ki a **Felső sáv**, **Alsó sáv** és **Mindkettő** lehetőséget! Elég egy rövid szó vagy mondat.
@@ -61,9 +67,9 @@ Haladj sorban! A képek a Mini Animációs Stúdió eredeti kezelőfelületét m
 ## ✅ Készen vagy, ha…
 
 - [ ] Van legalább 6 képkockám.
-- [ ] A tárgy fokozatosan mozdul el, és van megállás vagy irányváltás.
-- [ ] Két sebességet kipróbáltam, és javítottam egy hibát.
-- [ ] Kipróbáltam a felirat helyének beállítását.
+- [ ] Ugyanaz a szereplő látható minden képkockán.
+- [ ] A szereplőt fokozatosan mozdítottam el.
+- [ ] Lejátszottam és ellenőriztem az animációt.
 
 ---
 
