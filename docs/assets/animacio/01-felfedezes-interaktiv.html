@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="hu">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Animáció – mozgás és önellenőrzés</title>
+<style>
+*{box-sizing:border-box}body{font:16px/1.55 Arial,Helvetica,sans-serif;color:#17395a;margin:0;background:#fff}
+.wrap{max-width:1030px;margin:auto;padding:12px}.panel{border:1px solid #ddd3ee;border-radius:20px;background:#fbf8ff;padding:18px;margin-bottom:16px}
+h2{margin:0 0 10px;font-size:22px;color:#70449f}p{margin:8px 0}.speed{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:11px}
+.card{background:#fff;border:1px solid #ddd3ee;border-radius:15px;padding:13px;min-width:0}
+.track{position:relative;height:65px;background:linear-gradient(#e5f8fc 0 75%,#dcefcf 75%);border-radius:10px;overflow:hidden;margin-top:10px}
+.ball{width:29px;height:29px;border-radius:50%;position:absolute;bottom:11px;left:4%;background:#118a8e;box-shadow:inset -4px -4px #08666f44;animation:roll var(--speed) linear infinite alternate}
+@keyframes roll{from{left:4%}to{left:calc(96% - 29px)}}
+small{display:block;color:#60768a;margin-top:7px}
+fieldset{border:0;padding:0;margin:0}legend{font-weight:bold;font-size:18px;margin-bottom:12px}.answers{display:grid;gap:8px}
+button{font:inherit;cursor:pointer}.answer{padding:11px 13px;border-radius:12px;background:#fff;border:2px solid #cfe2e8;color:#17395a;text-align:left}
+.answer:hover,.answer:focus-visible{border-color:#118a8e;background:#effbfa}
+#feedback{margin-top:12px;padding:12px 14px;border-radius:12px;background:#e4f6f4;color:#08666f;min-height:46px}
+#next{display:none;margin-top:12px;padding:10px 16px;border:0;border-radius:11px;background:#70449f;color:#fff;font-weight:bold}
+#progress{font-size:14px;color:#60768a;margin-bottom:8px}
+@media(max-width:590px){.speed{grid-template-columns:1fr}.panel{padding:14px}.track{height:54px}}
+@media(prefers-reduced-motion:reduce){.ball{animation:none;left:43%}}
+</style></head>
+<body><main class="wrap">
+<section class="panel" aria-label="Ugyanaz a mozgás három sebességgel">
+<h2>👀 Nézzük meg! – Milyen gyorsan mozog?</h2>
+<p>Mindhárom labda ugyanazt az utat járja be. Figyeld meg, hogy a képek gyorsabb váltása hogyan befolyásolja a mozgás érzetét!</p>
+<div class="speed">
+<div class="card"><strong>🐢 Lassú</strong><div class="track"><div class="ball" style="--speed:3.2s"></div></div><small>A változások ritkábban követik egymást.</small></div>
+<div class="card"><strong>🏃 Közepes</strong><div class="track"><div class="ball" style="--speed:1.6s"></div></div><small>A mozgás gyorsabbnak látszik.</small></div>
+<div class="card"><strong>🚀 Gyors</strong><div class="track"><div class="ball" style="--speed:.7s"></div></div><small>Ugyanaz az út sokkal rövidebb idő alatt történik meg.</small></div>
+</div><small>Ez egy egyszerű szemléltetés. A képkockák váltásának hatását a saját animációdban is megfigyelheted.</small>
+</section>
+<section class="panel" aria-label="Négy önellenőrző kérdés"><h2>💬 Gondolkodj!</h2>
+<p>Válassz választ! Ha nem sikerül, kapsz egy segítséget, és újra próbálkozhatsz. Pontszámot nem számolunk.</p>
+<div id="progress" aria-live="polite"></div><fieldset><legend id="question"></legend><div id="answers" class="answers"></div></fieldset>
+<div id="feedback" role="status" aria-live="polite">Válassz egy lehetőséget!</div><button id="next" type="button">Következő kérdés →</button>
+</section>
+</main>
+<script>
+const questions=[
+{q:"Mit jelent az animációban a képkocka?",a:["A lejátszás sebessége.","Egyetlen állókép a mozgást alkotó képsorban.","A szereplő neve."],correct:1,hint:"Gondolj arra, mit látnál, ha megállítanád az animációt egyetlen pillanatban!",ok:"Így van! A képkocka egy állókép; a sok egymás után megjelenő kép hozza létre a mozgás érzetét."},
+{q:"Mi történik, ha a labda minden képkockán ugyanott marad?",a:["Mozdulatlannak látszik.","Egyre gyorsabban mozog.","Eltűnik a képről."],correct:0,hint:"Ha semmi sem változik a képek között, mi mutatná a labda mozgását?",ok:"Pontosan! Azonos képkockákból nem érzékelünk elmozdulást."},
+{q:"Melyik elmozdulásból lesz általában egyenletesebb mozgás?",a:["Minden képen hatalmas ugrás.","A képek között kicsi, fokozatos változás.","Minden képen más háttér."],correct:1,hint:"Figyeld meg a képkockasort: a labda helyzete mekkorát változik két szomszédos képen?",ok:"Ügyes! A fokozatosan változó képkockákból folyamatosabbnak látszó mozgás születik."},
+{q:"Mit látsz, ha ugyanazt a képsort gyorsabban játsszuk le?",a:["Lassabb lesz a mozgás.","A labda helye nem változhat.","Gyorsabbnak tűnik a mozgás."],correct:2,hint:"A labdának ugyanannyi idő alatt több vagy kevesebb képkockán kell áthaladnia?",ok:"Igen! Ha a képkockák gyorsabban váltják egymást, a mozgás is gyorsabbnak látszik."}
+];
+let i=0,done=false;const q=document.getElementById("question"),a=document.getElementById("answers"),f=document.getElementById("feedback"),n=document.getElementById("next"),p=document.getElementById("progress");
+function render(){done=false;p.textContent=(i+1)+" / "+questions.length+" kérdés";q.textContent=questions[i].q;a.innerHTML="";questions[i].a.forEach((label,k)=>{const b=document.createElement("button");b.type="button";b.className="answer";b.textContent=String.fromCharCode(65+k)+") "+label;b.addEventListener("click",()=>choose(k));a.append(b)});f.textContent="Válassz egy lehetőséget!";f.style.background="#e4f6f4";n.style.display="none";}
+function choose(k){if(done)return;const item=questions[i];if(k===item.correct){done=true;f.textContent="✅ "+item.ok;f.style.background="#e6f7e7";a.querySelectorAll("button").forEach(b=>b.disabled=true);n.textContent=i===questions.length-1?"Újra megpróbálom ↻":"Következő kérdés →";n.style.display="inline-block";}else{f.textContent="💡 "+item.hint+" Próbáld újra!";f.style.background="#fff4dc";}}
+n.addEventListener("click",()=>{i=(i+1)%questions.length;render()});render();
+</script></body></html>
