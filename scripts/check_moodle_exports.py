@@ -30,7 +30,7 @@ def expected_moodle_html(source_html: str, folder: str, filename: str) -> str:
         count=1,
         flags=re.DOTALL,
     )
-    if bottom_links != 1 or overview_button != 1:
+    if bottom_links != (0 if filename == "index.html" else 1) or overview_button != 1:
         raise ValueError(f"Nem található a webes navigáció: {folder}/{filename}")
 
     if filename == "index.html":
@@ -61,6 +61,8 @@ def main() -> int:
         source_dir = SOURCE_ROOT / folder
         export_dir = EXPORT_ROOT / folder
         for source in sorted(source_dir.glob("*.html")):
+            if folder == "animacio" and source.name.endswith("-interaktiv.html"):
+                continue  # Shared interactive widget, embedded via iframe in both versions.
             copy = export_dir / source.name
             checked += 1
             if not copy.is_file():
