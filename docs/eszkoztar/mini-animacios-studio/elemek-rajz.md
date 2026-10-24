@@ -3,7 +3,7 @@
 [🎨 Mini Animációs Stúdió megnyitása ↗](https://interaktivfeladat.hu/jatek/animacio/){: target="_blank" rel="noopener noreferrer" }
 
 !!! info "Így használd a segítséget"
-    Nézd meg az ábrát és a műveletet, majd térj vissza a saját animációdhoz! Az ábrák a kezelőfelület **sematikus rajzai**, nem képernyőképek.
+    A sematikus ábrák a működést magyarázzák, az eredeti képernyőképek a valódi gombokat és műveleteket mutatják. A képekre kattintva külön lapon, nagyobb méretben is megnézheted őket.
 
 
 ![A kezelőfelület területei](../../images/eszkoztar/mini-animacios-studio/felulet.svg)
@@ -14,6 +14,16 @@
 - **Saját importált kép vagy háttér:** a számítógépedről választott képpel egyedivé teheted a szereplőket vagy a jelenet helyszínét.
 - **Háttér:** segít megmutatni, hol játszódik a történet. A következő képkockán lehet ugyanaz, vagy egy új jelenet részeként eltérő.
 - **Rajzolás:** ecsettel saját részleteket tehetsz a vászonra; a **radírral** törölhetsz a rajzból.
+
+## A képernyőképeken is megmutatjuk
+
+**Háttér választása:** az elemtárból kiválasztott háttér a jelenet helyszínét adja.
+
+[![Háttér kiválasztása és elhelyezése az animációs programban](../../assets/animacio/eredeti/01-hatter-valasztasa.png)](../../assets/animacio/eredeti/01-hatter-valasztasa.png){: target="_blank" rel="noopener noreferrer" }
+
+**Szereplő elhelyezése:** egy kész figura az elemtárból a vászonra kerül. Te természetesen más szereplőt is választhatsz.
+
+[![Figura kiválasztása az elemtárból és elhelyezése a vásznon](../../assets/animacio/eredeti/02-szereplo-elhelyezese.png)](../../assets/animacio/eredeti/02-szereplo-elhelyezese.png){: target="_blank" rel="noopener noreferrer" }
 
 ## Egy szereplő megmozdítása
 

@@ -3,12 +3,16 @@
 [🎨 Mini Animációs Stúdió megnyitása ↗](https://interaktivfeladat.hu/jatek/animacio/){: target="_blank" rel="noopener noreferrer" }
 
 !!! info "Így használd a segítséget"
-    Nézd meg az ábrát és a műveletet, majd térj vissza a saját animációdhoz! Az ábrák a kezelőfelület **sematikus rajzai**, nem képernyőképek.
+    A sematikus ábrák a működést magyarázzák, az eredeti képernyőképek a valódi gombokat és műveleteket mutatják. A képekre kattintva külön lapon, nagyobb méretben is megnézheted őket.
 
 
 ## ▶ Nézd meg a készülő animációt!
 
 A **▶ Lejátszás** megmutatja egymás után a képkockákat. A **sebesség** csúszkával változtathatsz azon, mennyi ideig látszik egy képkocka.
+
+[![A Lejátszás gomb és a Sebesség csúszka az eredeti felületen](../../assets/animacio/eredeti/06-lejatszas-sebesseg.png)](../../assets/animacio/eredeti/06-lejatszas-sebesseg.png){: target="_blank" rel="noopener noreferrer" }
+
+A képen a **▶ Lejátszás** gomb és a **Sebesség** csúszka látszik. Érdemes több beállítást is kipróbálnod ugyanazzal az animációval.
 
 !!! tip "Milliszekundum"
     Ha a csúszka ezredmásodpercben (**ms**) mutatja az időt, **kisebb értéknél gyorsabb**, nagyobb értéknél lassabb lesz a mozgás.

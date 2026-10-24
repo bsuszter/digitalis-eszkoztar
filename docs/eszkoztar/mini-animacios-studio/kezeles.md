@@ -3,9 +3,15 @@
 [🎨 Mini Animációs Stúdió megnyitása ↗](https://interaktivfeladat.hu/jatek/animacio/){: target="_blank" rel="noopener noreferrer" }
 
 !!! info "Így használd a segítséget"
-    Nézd meg az ábrát és a műveletet, majd térj vissza a saját animációdhoz! Az ábrák a kezelőfelület **sematikus rajzai**, nem képernyőképek.
+    A sematikus ábrák a működést magyarázzák, az eredeti képernyőképek a valódi gombokat és műveleteket mutatják. A képekre kattintva külön lapon, nagyobb méretben is megnézheted őket.
 
 ![Az alkalmazás sematikus felülete](../../images/eszkoztar/mini-animacios-studio/felulet.svg)
+
+## A valódi kezelőfelület
+
+[![A Mini Animációs Stúdió kezelőfelülete: elemtár, vászon, képkockák és eszköztár](../../assets/animacio/eredeti/01-hatter-valasztasa.png)](../../assets/animacio/eredeti/01-hatter-valasztasa.png){: target="_blank" rel="noopener noreferrer" }
+
+A képernyőképen megkeresheted a bal oldali **elemtárat**, a középső **vásznat**, valamint a képkockák és a lejátszás kezelőszerveit. A példa egy háttér kiválasztását mutatja.
 
 ## Merre indulj?
 
