@@ -73,4 +73,4 @@ Haladj sorban! A képek a Mini Animációs Stúdió eredeti kezelőfelületét m
 
 ---
 
-[← Előző](../01-fedezd-fel/){ .md-button } [Következő →](../03-tervezd-meg/){ .md-button .md-button--primary } [🏠 Áttekintés](../){ .md-button }
+[← Előző](../01-fedezd-fel/){ .md-button target="_blank" rel="noopener noreferrer" } [Következő →](../03-tervezd-meg/){ .md-button .md-button--primary target="_blank" rel="noopener noreferrer" } [🏠 Áttekintés](../){ .md-button target="_blank" rel="noopener noreferrer" }

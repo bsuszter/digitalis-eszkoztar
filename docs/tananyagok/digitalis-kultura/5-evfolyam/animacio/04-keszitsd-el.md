@@ -42,4 +42,4 @@ A **jó, egyszerű megoldás is lehet teljes értékű**: a történet érthető
 
 ---
 
-[← Előző: 3. Alkotóprojekt](../03-tervezd-meg/){ .md-button } [🏠 Áttekintés](../){ .md-button }
+[← Előző: 3. Alkotóprojekt](../03-tervezd-meg/){ .md-button target="_blank" rel="noopener noreferrer" } [🏠 Áttekintés](../){ .md-button target="_blank" rel="noopener noreferrer" }

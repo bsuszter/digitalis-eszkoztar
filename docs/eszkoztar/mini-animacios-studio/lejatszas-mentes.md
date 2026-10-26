@@ -34,4 +34,4 @@ A képen a **▶ Lejátszás** gomb és a **Sebesség** csúszka látszik. Érde
 !!! warning "Fontos"
     Az alkalmazás a böngészőben automatikusan is megőrizhet munkát, de ez nem helyettesíti a **letöltött JSON**-fájlt. Másik gépen vagy törölt böngészőadatok mellett a helyi mentés nem biztos, hogy elérhető.
 
-[← Eszköztár áttekintése](../)
+[← Eszköztár áttekintése](../){ target="_blank" rel="noopener noreferrer" }

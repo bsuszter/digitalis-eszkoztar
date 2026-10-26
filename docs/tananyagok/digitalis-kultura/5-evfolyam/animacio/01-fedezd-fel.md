@@ -45,4 +45,4 @@ A következő leckében már a **Mini Animációs Stúdióban** próbálhatod ki
 
 ---
 
-[**Következő: 2. Próbáld ki! →**](../02-probald-ki/){ .md-button .md-button--primary } [🏠 Áttekintés](../){ .md-button }
+[**Következő: 2. Próbáld ki! →**](../02-probald-ki/){ .md-button .md-button--primary target="_blank" rel="noopener noreferrer" } [🏠 Áttekintés](../){ .md-button target="_blank" rel="noopener noreferrer" }

@@ -34,9 +34,9 @@
 
 ## 💬 Feliratok
 
-A feliratok készítéséhez külön, lépésenkénti segítséget találsz: [**💬 Felirat készítése – Szövegdoboz**](../feliratok/).
+A feliratok készítéséhez külön, lépésenkénti segítséget találsz: [**💬 Felirat készítése – Szövegdoboz**](../feliratok/){ target="_blank" rel="noopener noreferrer" }.
 
 !!! tip "Saját kép vagy háttér feltöltése"
     A program kép- és háttérfeltöltésével a gépen tárolt fájlt is használhatod. A képek látványosabbá tehetik a történetet, de a szereplők mozgását így is képkockánként kell megalkotnod. Csak olyan képet tölts fel, amelyet jogszerűen használhatsz, és amelyen nincs olyan személyes adat, amelyet nem szeretnél megosztani.
 
-[→ Lejátszás és mentés](../lejatszas-mentes/)
+[→ Lejátszás és mentés](../lejatszas-mentes/){ target="_blank" rel="noopener noreferrer" }

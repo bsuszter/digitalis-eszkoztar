@@ -27,4 +27,4 @@ A **Szövegdoboz** legördülő menüben négy lehetőség van:
 !!! tip "Mire figyelj?"
     A felirat legyen **rövid és könnyen olvasható**. A történetet ne csak a szavak meséljék el: a szereplők **mozogjanak is**!
 
-[← Szereplők, hátterek és rajzolás](../elemek-rajz/) · [→ Lejátszás és mentés](../lejatszas-mentes/)
+[← Szereplők, hátterek és rajzolás](../elemek-rajz/){ target="_blank" rel="noopener noreferrer" } · [→ Lejátszás és mentés](../lejatszas-mentes/){ target="_blank" rel="noopener noreferrer" }

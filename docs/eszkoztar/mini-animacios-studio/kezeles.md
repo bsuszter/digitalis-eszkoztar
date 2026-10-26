@@ -24,4 +24,4 @@ A képernyőképen megkeresheted a bal oldali **elemtárat**, a középső **vá
 !!! tip "Előbb próbálj ki mindent!"
     Kezdetben készíts rövid, néhány képkockás próbát. A projektfeladatot később, külön küldetésben indítjuk.
 
-[→ Képkockák és duplikálás](../kepkockak/)
+[→ Képkockák és duplikálás](../kepkockak/){ target="_blank" rel="noopener noreferrer" }

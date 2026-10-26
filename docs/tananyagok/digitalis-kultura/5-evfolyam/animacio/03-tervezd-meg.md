@@ -68,4 +68,4 @@ A visszajelzésekből ötleteket meríthetsz az animációd továbbfejlesztésé
 
 ---
 
-[← Előző](../02-probald-ki/){ .md-button } [Következő: 4. Mentsd és add be! →](../04-keszitsd-el/){ .md-button .md-button--primary } [🏠 Áttekintés](../){ .md-button }
+[← Előző](../02-probald-ki/){ .md-button target="_blank" rel="noopener noreferrer" } [Következő: 4. Mentsd és add be! →](../04-keszitsd-el/){ .md-button .md-button--primary target="_blank" rel="noopener noreferrer" } [🏠 Áttekintés](../){ .md-button target="_blank" rel="noopener noreferrer" }

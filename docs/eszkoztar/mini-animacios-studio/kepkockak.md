@@ -36,4 +36,4 @@ A képen a kijelölt szereplőt kissé arrébb húzzák. Minden újabb képkock�
 !!! warning "Gyakori hiba"
     Ha minden új képkockán más-más helyről indítod a szereplőt, a mozgás ugrálni fog. Duplikálj, és egyszerre csak egy kisebb változtatást végezz!
 
-[→ Szereplők és rajzolás](../elemek-rajz/)
+[→ Szereplők és rajzolás](../elemek-rajz/){ target="_blank" rel="noopener noreferrer" }
