@@ -24,6 +24,8 @@ plugins:
       lang: hu
   - redirects:
       redirect_maps:
+        tananyagok/digitalis-kultura/5-evfolyam/animacio/05-ellenorizd.md: tananyagok/digitalis-kultura/5-evfolyam/animacio/03-tervezd-meg.md
+        tananyagok/digitalis-kultura/5-evfolyam/animacio/06-add-be.md: tananyagok/digitalis-kultura/5-evfolyam/animacio/04-keszitsd-el.md
         tinkercad/index.md: eszkoztar/tinkercad/index.md
         tinkercad/navigacio.md: eszkoztar/tinkercad/navigacio.md
         tinkercad/alakzatok-munkasik.md: eszkoztar/tinkercad/alakzatok-munkasik.md
@@ -93,10 +95,8 @@ nav:
                   - Áttekintés: tananyagok/digitalis-kultura/5-evfolyam/animacio/index.md
                   - 1. Fedezd fel!: tananyagok/digitalis-kultura/5-evfolyam/animacio/01-fedezd-fel.md
                   - 2. Próbáld ki!: tananyagok/digitalis-kultura/5-evfolyam/animacio/02-probald-ki.md
-                  - 3. Tervezd meg!: tananyagok/digitalis-kultura/5-evfolyam/animacio/03-tervezd-meg.md
-                  - 4. Készítsd el!: tananyagok/digitalis-kultura/5-evfolyam/animacio/04-keszitsd-el.md
-                  - 5. Ellenőrizd!: tananyagok/digitalis-kultura/5-evfolyam/animacio/05-ellenorizd.md
-                  - 6. Add be!: tananyagok/digitalis-kultura/5-evfolyam/animacio/06-add-be.md
+                  - 3. Váratlan találkozás – alkotóprojekt: tananyagok/digitalis-kultura/5-evfolyam/animacio/03-tervezd-meg.md
+                  - 4. Mentsd és add be!: tananyagok/digitalis-kultura/5-evfolyam/animacio/04-keszitsd-el.md
               - 3D tervezés – Saját játékfigura:
                   - Projekt áttekintés: tananyagok/digitalis-kultura/5-evfolyam/3d-avatar/index.md
                   - 1. Találd ki az avatarodat!: tananyagok/digitalis-kultura/5-evfolyam/3d-avatar/01-talald-ki-az-avatarod.md
