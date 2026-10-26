@@ -1,6 +1,6 @@
 # 🎾 Próbáld ki! – Mozduljon meg!
 
-<div class="article-intro"><strong>ANIMÁCIÓ · 2. ÁLLOMÁS / 6</strong><br>Irányított, egyéni feladat. Itt még mindenki saját maga próbálja ki a programot.</div>
+<div class="article-intro"><strong>ANIMÁCIÓ · 2. LECKE / 4</strong><br>Irányított, egyéni feladat. Itt még mindenki saját maga próbálja ki a programot.</div>
 
 ## 🎯 A feladat
 

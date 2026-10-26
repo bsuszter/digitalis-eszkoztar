@@ -1,6 +1,6 @@
 # 🔎 Fedezd fel! – Mi az animáció?
 
-<div class="project-hero"><div><span class="project-kicker">ANIMÁCIÓ · 1. ÁLLOMÁS / 6</span><h2>Hogyan lesz az állóképből mozgás?</h2><p>Figyeld meg, hogyan kel életre egy képsor! A lecke során a képkockák és a sebesség szerepét fedezed fel.</p></div><div class="project-hero__icon">🎞️</div></div>
+<div class="project-hero"><div><span class="project-kicker">ANIMÁCIÓ · 1. LECKE / 4</span><h2>Hogyan lesz az állóképből mozgás?</h2><p>Figyeld meg, hogyan kel életre egy képsor! A lecke során a képkockák és a sebesség szerepét fedezed fel.</p></div><div class="project-hero__icon">🎞️</div></div>
 
 <div class="project-meta"><span>⏱️ Kb. 10–15 perc</span><span>👥 Közös felfedezés</span><span>🎯 Az animáció elve</span></div>
 
