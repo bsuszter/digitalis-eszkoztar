@@ -75,6 +75,12 @@ Ha a jelzőlámpa-tartót választod, egy valódi elektronikai elem köré terve
   <p><a href="tabla-keszlet-indulo-feladat/" target="_blank" rel="noopener"><strong>Az induló feladat megnyitása →</strong></a></p>
 </div>
 
+<div class="project-panel project-panel--green">
+  <h2>📍 Következő lépés: talp és oszlop Tinkercadben</h2>
+  <p>Vezetett, rövid gyakorlati lecke két hengerből. <strong>1. próbamodell:</strong> 26 mm-es, 4 mm magas talp és 5 mm-es, 50 mm magas oszlop. A méreteket nyomtatással ellenőrizzük.</p>
+  <p><a href="talp-es-oszlop-tinkercad/" target="_blank" rel="noopener"><strong>A talp és oszlop leckéjének megnyitása →</strong></a></p>
+</div>
+
 ## A projekt útvonala
 
 <div class="idea-grid">
