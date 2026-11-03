@@ -67,6 +67,14 @@ Ha a jelzőlámpa-tartót választod, egy valódi elektronikai elem köré terve
   <span>A 6–8 cm-es kisautók adják a pálya alapléptékét. A táblák és az EduBit-jelzőlámpák szándékosan hangsúlyosabbak lehetnek, hogy tanórai használat közben jól láthatók és könnyen kezelhetők legyenek.</span>
 </div>
 
+## 🟢 Kezdd itt: az első közös KRESZ-táblakészlet!
+
+<div class="project-panel project-panel--green">
+  <h2>🚸 Rövid, lépésenkénti tanulói feladat</h2>
+  <p>Először mindenki egy közlekedési táblát tervez. A közös készletben a táblafejek cserélhetők, a táblák szabadon áthelyezhetők. <strong>Most még csak választani és vázlatot készíteni kell – Tinkercad nélkül.</strong></p>
+  <p><a href="tabla-keszlet-indulo-feladat/" target="_blank" rel="noopener"><strong>Az induló feladat megnyitása →</strong></a></p>
+</div>
+
 ## A projekt útvonala
 
 <div class="idea-grid">
