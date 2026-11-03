@@ -37,7 +37,7 @@ Válassz egyet: <strong>STOP · Elsőbbségadás kötelező · Gyalogátkelőhel
 ## 3. Készíts műszaki vázlatot!
 
 <div class="step-stack">
-  <div class="step-card"><span class="step-no">1</span><div><strong>Rajzold le a választott táblafej formáját!</strong><span>Paintben vagy papíron dolgozhatsz; most még ne modellezz.</span></div></div>
+  <div class="step-card"><span class="step-no">1</span><div><strong>Rajzold le a választott táblafej formáját!</strong><span>Paintben vagy PowerPointban dolgozz; most még ne modellezz.</span></div></div>
   <div class="step-card"><span class="step-no">2</span><div><strong>Rajzold mellé az oszlopot és a talpat!</strong><span>Mutasd meg, melyik rész lesz cserélhető.</span></div></div>
   <div class="step-card"><span class="step-no">3</span><div><strong>Jelöld az illeszkedést és az 58 mm-t!</strong><span>Nyíllal mutasd, hogyan kerül a táblafej az oszlopra. A többi mérethez írhatod: „próbaméret”.</span></div></div>
 </div>
@@ -65,7 +65,7 @@ Válassz egyet: <strong>STOP · Elsőbbségadás kötelező · Gyalogátkelőhel
 <div class="project-submit">
   <h2>📤 Mit adj be?</h2>
   <ul>
-    <li><strong>1 képet</strong> a műszaki vázlatodról;</li>
+    <li><strong>1 képernyőképet</strong> a Paintben vagy PowerPointban készített műszaki vázlatodról;</li>
     <li><strong>1–2 mondatot</strong>: melyik táblát választottad, és hol használnánk a játékban?</li>
   </ul>
   <p>Ezután a következő leckében elkészítjük az első 3D modellt.</p>
