@@ -69,11 +69,13 @@ Ha a jelzőlámpa-tartót választod, egy valódi elektronikai elem köré terve
 
 <div class="project-panel project-panel--green">
   <h2>📍 Kezdd itt: készítsd el a talpat és az oszlopot!</h2>
-  <p>Az első önálló Tinkercad-lecke két hengerből. Külön vázlat nem kell: 26 mm-es, 4 mm magas talpat és 5 mm-es, 50 mm magas oszlopot készítesz.</p>
+  <p>Az első önálló Tinkercad-lecke két hengerből. Külön vázlat nem kell: 26 mm átmérőjű, 4 mm magas talpat és 5 mm átmérőjű, 51 mm hosszú oszlopot készítesz. Az oszlop 1 mm-rel a talpba nyúlik.</p>
   <p><a href="talp-es-oszlop-tinkercad/" target="_blank" rel="noopener"><strong>A talp és oszlop leckéjének megnyitása →</strong></a></p>
 </div>
 
-## A projekt útvonala
+## A korábbi részletes projektútvonal
+
+Az alábbi öt mérföldkő a projekt korábbi, összetettebb változata. Az új tanulási útvonal a fenti gyakorlati Tinkercad-leckével kezdődik.
 
 <div class="idea-grid">
   <a class="idea-card" href="01-valassz-elemet-es-keszits-tervet/"><strong>💡 1. Válassz elemet és készíts műszaki tervet!</strong><span>Döntsd el, mit készítesz, mire szolgál, hogyan kapcsolódik a tanpályához és mely méretek lesznek fontosak.</span></a>
