@@ -67,17 +67,9 @@ Ha a jelzőlámpa-tartót választod, egy valódi elektronikai elem köré terve
   <span>A 6–8 cm-es kisautók adják a pálya alapléptékét. A táblák és az EduBit-jelzőlámpák szándékosan hangsúlyosabbak lehetnek, hogy tanórai használat közben jól láthatók és könnyen kezelhetők legyenek.</span>
 </div>
 
-## 🟢 Kezdd itt: az első közös KRESZ-táblakészlet!
-
 <div class="project-panel project-panel--green">
-  <h2>🚸 Rövid, lépésenkénti tanulói feladat</h2>
-  <p>Először mindenki egy közlekedési táblát tervez. A közös készletben a táblafejek cserélhetők, a táblák szabadon áthelyezhetők. <strong>Most még csak választani és vázlatot készíteni kell – Tinkercad nélkül.</strong></p>
-  <p><a href="tabla-keszlet-indulo-feladat/" target="_blank" rel="noopener"><strong>Az induló feladat megnyitása →</strong></a></p>
-</div>
-
-<div class="project-panel project-panel--green">
-  <h2>📍 Következő lépés: talp és oszlop Tinkercadben</h2>
-  <p>Vezetett, rövid gyakorlati lecke két hengerből. <strong>1. próbamodell:</strong> 26 mm-es, 4 mm magas talp és 5 mm-es, 50 mm magas oszlop. A méreteket nyomtatással ellenőrizzük.</p>
+  <h2>📍 Kezdd itt: készítsd el a talpat és az oszlopot!</h2>
+  <p>Az első önálló Tinkercad-lecke két hengerből. Külön vázlat nem kell: 26 mm-es, 4 mm magas talpat és 5 mm-es, 50 mm magas oszlopot készítesz.</p>
   <p><a href="talp-es-oszlop-tinkercad/" target="_blank" rel="noopener"><strong>A talp és oszlop leckéjének megnyitása →</strong></a></p>
 </div>
 
