@@ -2,33 +2,33 @@
 
 <div class="project-hero">
   <div>
-    <span class="project-kicker">7. ÉVFOLYAM · TINKERCAD · VEZETETT ALAPFELADAT</span>
+    <span class="project-kicker">7. ÉVFOLYAM · KRESZ-TANPÁLYA · 1. MÉRFÖLDKŐ</span>
     <h2>Két hengerből egy stabil, szabadon áthelyezhető tartót készítesz.</h2>
     <p>Ez lesz a közös KRESZ-játék tábláinak alapja. Később a táblafejeket cserélhetjük rajta.</p>
   </div>
   <div class="project-hero__icon">📍</div>
 </div>
 
-<div class="project-meta"><span>🧱 Első 3D modell</span><span>👤 Önálló munka</span><span>⏱️ kb. 20–30 perc</span><span>🖼️ Képernyőképes beadás</span></div>
+<div class="project-meta"><span>🧭 1. mérföldkő</span><span>👤 Önálló munka</span><span>⭐ 15 pont</span><span>🖼️ Képernyőképes beadás</span></div>
 
 <div class="project-highlight project-highlight--blue">
   <h2>🎯 A mai feladat</h2>
-  <p><strong>Készíts egy lapos, kör alakú talpat, és építs rá középre egy hengeres oszlopot!</strong> A kettő egyetlen 3D modell lesz.</p>
+  <p><strong>Készíts egy lapos, kör alakú talpat, és építs rá középre egy hengeres oszlopot!</strong> A kettő egyetlen 3D modell lesz. <strong>Nem kell külön vázlatot készítened Paintben vagy PowerPointban: rögtön a Tinkercadben dolgozol.</strong></p>
   <div class="project-flow">TALP → OSZLOP → KÖZÉPRE IGAZÍTÁS → EGYESÍTÉS → ELLENŐRZÉS</div>
 </div>
 
 ## 📏 Ezeket a méreteket használd!
 
 <div class="project-panel project-panel--green">
-  <h2>1. próbamodell – holnapi nyomtatáshoz</h2>
+  <h2>A közös modell méretei</h2>
   <div class="mini-grid">
     <div class="mini-card"><span class="mini-icon">⚪</span><strong>Talp</strong><span>Átmérő: <strong>26 mm</strong><br>Magasság: <strong>4 mm</strong></span></div>
     <div class="mini-card"><span class="mini-icon">📍</span><strong>Oszlop</strong><span>Átmérő: <strong>5 mm</strong><br>Magasság a talp tetejétől: <strong>50 mm</strong></span></div>
   </div>
-  <p><strong>Teljes magasság: 54 mm.</strong> Ez még nem a kész közlekedési tábla magassága. A végleges táblafej középpontja továbbra is a pálya fölött <strong>58 mm-re</strong> kerül; ehhez később igazítjuk a cserélhető fejet.</p>
+  <p><strong>Teljes magasság: 54 mm.</strong> A táblafejet később készítjük el. A kész táblán a táblafej középpontja <strong>58 mm</strong> magasan lesz.</p>
 </div>
 
-<div class="quick-note"><strong>Fontos: ezek próbaméretek!</strong><span>A készlet közös méreteit a tanár a próbanyomtatás után véglegesíti. Ne változtass a megadott számokon, mert csak így tudjuk összehasonlítani a modelleket.</span></div>
+<div class="quick-note"><strong>Miért kell pontosan dolgozni?</strong><span>Mindenki ugyanazokat a méreteket használja, hogy a később elkészülő táblafejek bármelyik tartóra illeszkedjenek.</span></div>
 
 ## 1. Készítsd el a talpat!
 
@@ -68,11 +68,17 @@
     <li><strong>Egy képernyőképet</strong> a Tinkercadben elkészült modelledről (úgy fordítsd, hogy a talp és az oszlop is látszódjon).</li>
     <li><strong>Egy mondatot:</strong> miért fontos, hogy minden táblához ugyanolyan tartót használjunk?</li>
   </ul>
-  <p>A munkát ne exportáld még: a következő feladatban folytatjuk a táblafejjel.</p>
+  <p>A Tinkercad automatikusan menti a tervedet. A következő leckében a cserélhető táblafejjel folytatjuk.</p>
 </div>
 
+
 <div class="project-panel project-panel--gold">
-  <h2>🖨️ Tanári próba – Bambu P1S</h2>
-  <p>Nyomtasd a modellt <strong>állítva, talppal lefelé</strong>, PLA-ból. A talp nagy tapadási felületet ad, ezért az oszlophoz várhatóan nem kell támasz. Elsőként normál PLA-profillal és <strong>0,20 mm rétegmagassággal</strong> próbáld; a Bambu Studio előnézetében ellenőrizd, hogy az oszlop végig szilárdan kapcsolódik a talphoz.</p>
-  <p><strong>Mit figyelj?</strong> A talp stabilan áll-e, az oszlop egyenes-e, és mennyire törékeny kézbevételkor? A táblafej illeszkedését külön próbával fogjuk ellenőrizni.</p>
+  <h2>⭐ Értékelés – 15 pont</h2>
+  <div class="score-stack">
+    <div><strong>4 pont</strong> – A talp pontos méretei.</div>
+    <div><strong>4 pont</strong> – Az oszlop pontos méretei és magassága.</div>
+    <div><strong>3 pont</strong> – Középre igazítás és egyesítés.</div>
+    <div><strong>2 pont</strong> – Az ellenőrzési szempontok teljesítése.</div>
+    <div><strong>2 pont</strong> – Áttekinthető képernyőkép és rövid magyarázat.</div>
+  </div>
 </div>
