@@ -15,6 +15,11 @@
   <a href="../" target="_blank" rel="noopener"><span class="related-icon">🚦</span><span class="related-text"><strong>Nézd meg: milyen KRESZ-játék készül?</strong><small>A közös tanpálya célja, elemei és a teljes projekt.</small><span class="tool-link">A projekt bemutatása →</span></span></a>
 </div>
 
+<figure class="tool-figure" style="max-width:390px;margin:18px auto;text-align:center">
+  <img src="https://bsuszter.github.io/digitalis-eszkoztar/images/kresz-tanpalya/talp-es-oszlop-tinkercad.png" alt="Tinkercadben elkészített kör alakú talp és középen álló hengeres oszlop" style="display:block;width:100%;height:auto;max-height:330px;object-fit:contain;border-radius:14px">
+  <figcaption><strong>Ezt fogod elkészíteni!</strong> Egy kör alakú talpat és a közepéből kiemelkedő oszlopot, egyetlen modellként.</figcaption>
+</figure>
+
 <div class="project-highlight project-highlight--blue">
   <h2>🎯 A feladatod</h2>
   <p><strong>Készíts egy lapos, kör alakú talpat, és építs rá középre egy hengeres oszlopot!</strong> Ez egyetlen 3D modell lesz, amelyre később cserélhető közlekedési táblafejek kerülnek.</p>
