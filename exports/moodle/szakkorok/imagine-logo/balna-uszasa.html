@@ -1,0 +1,59 @@
+<div style="max-width:920px;margin:0 auto;font:16px/1.6 Arial,Helvetica,sans-serif;color:#263746">
+<div style="padding:24px;border-radius:18px;background:linear-gradient(135deg,#ddf3ff,#edf9f7);border:1px solid #b8dbea">
+<div style="font-size:12px;font-weight:700;letter-spacing:.06em;color:#376b86">SZAKKÖR · IMAGINE LOGO · 1. LECKE</div>
+<h2 style="margin:8px 0;color:#215873">🐋 A bálna úszása</h2>
+<p style="margin:0">Programozd úgy a beépített bálna alakot, hogy a kép bal felső részéről induljon, úszás közben növekedjen, majd jobbra kiússzon a képből!</p>
+</div>
+<p style="padding:12px;background:#315f78;color:white;text-align:center;border-radius:10px;font-weight:bold">KEZDŐÁLLAPOT → ÚSZÁS ÉS NÖVEKEDÉS → KIÚSZÁS → INDÍTÁS</p>
+<div style="padding:14px;border:1px solid #80b3cd;border-radius:12px;background:#eff8fc"><strong>📥 Letölthető, többképkockás búváralak</strong><p><a href="https://bsuszter.github.io/digitalis-eszkoztar/downloads/imagine-logo/buvar-alakja.lgf" download="buvar-alakja.lgf" style="color:#215873;font-weight:bold">Búvár alakjának letöltése (.lgf) →</a></p><p style="margin-bottom:0">Az eredeti animáció alakfájlja. Az Imagine <strong>Alak</strong> lapján töltsd be. Ha ezt használod, a teknőc neve legyen <code>búvár</code>, és a lentebb szereplő <code>bálna'</code> hívásokat cseréld <code>búvár'</code>-ra.</p></div>
+<h3 style="color:#215873">1. Készíts egy bálna nevű teknőcöt!</h3>
+<ol><li>Nyisd meg az Imagine Logo-projektedet.</li><li>Helyezz el egy teknőcöt, és nevezd el <strong>bálna</strong> névre.</li><li>Az <strong>Alak</strong> lapon válaszd ki a beépített bálnaalakot.</li><li>Az <strong>Eljárások</strong> lapon készíts egy <strong>kezdőállapot</strong> nevű eljárást.</li></ol>
+<pre style="white-space:pre-wrap;background:#172f41;color:#f2fcff;padding:16px;border-radius:12px;overflow-x:auto"><code>eljárás kezdőállapot
+  látható! 0
+  alakméret! 0.5
+  tollatfel
+  poz! [-239 179]
+  irány! 150
+vége</code></pre>
+<p style="padding:13px;border-left:5px solid #4d91ad;background:#eff7fb;border-radius:8px"><strong>Mit csinál?</strong> A bálna egyelőre láthatatlan, félméretű, és a lap bal felső részére kerül. A felemelt toll miatt mozgás közben nem rajzol vonalat. A pozíciót a lapod méretéhez igazíthatod.</p>
+<h3 style="color:#215873">2. Készítsd el az úszik eljárást!</h3>
+<p>A <strong>bálna</strong> saját eljárásaihoz add hozzá ezt a programot:</p>
+<pre style="white-space:pre-wrap;background:#172f41;color:#f2fcff;padding:16px;border-radius:12px;overflow-x:auto"><code>eljárás úszik
+  látható! 1
+  ismétlés 80 [
+    előre 2
+    várj 50
+    képkocka! képkocka+1
+    alakméret! alakméret+0.01
+  ]
+  irány! 90
+  ismétlés 100 [
+    előre 3
+    várj 50
+    képkocka! képkocka+1
+  ]
+  látható! 0
+vége</code></pre>
+<div style="display:flex;flex-wrap:wrap;gap:10px">
+<div style="flex:1 1 190px;background:#f1f8fb;padding:12px;border-radius:12px"><strong>1. Megjelenik</strong><p><code>látható! 1</code> láthatóvá teszi.</p></div>
+<div style="flex:1 1 190px;background:#f1f8fb;padding:12px;border-radius:12px"><strong>2. Úszik és növekszik</strong><p>80-szor előrehalad, vár, és 0,01-del nő. Mérete 0,5-ről 1,3-ra változik.</p></div>
+<div style="flex:1 1 190px;background:#f1f8fb;padding:12px;border-radius:12px"><strong>3. Jobbra fordul</strong><p><code>irány! 90</code> után újabb 100 lépéses ismétlés következik.</p></div>
+<div style="flex:1 1 190px;background:#f1f8fb;padding:12px;border-radius:12px"><strong>4. Eltűnik</strong><p><code>látható! 0</code> elrejti a végén.</p></div>
+</div>
+<p style="padding:13px;border-left:5px solid #c78b20;background:#fff7e8;border-radius:8px"><strong>Fontos a bálna alakjánál:</strong> a <code>képkocka! képkocka+1</code> csak többképkockás alak esetén váltogatja az alak képeit. Ha a kiválasztott bálna egyképkockás, hagyd ki ezt a sort mindkét ismétlésből. A mozgás és a növekedés ettől még megmarad.</p>
+<h3 style="color:#215873">3. Egyetlen eljárással indítsd!</h3>
+<p>A <strong>főablak</strong> saját <strong>Eljárások</strong> lapján készíts egy <strong>tenger</strong> nevű eljárást:</p>
+<pre style="white-space:pre-wrap;background:#172f41;color:#f2fcff;padding:16px;border-radius:12px;overflow-x:auto"><code>eljárás tenger
+  bálna'kezdőállapot
+  bálna'úszik
+vége</code></pre>
+<p>A parancssorba írd be: <code>tenger</code>. A program minden alkalommal az alaphelyzettel kezd.</p>
+<p style="padding:13px;border-left:5px solid #c78b20;background:#fff7e8;border-radius:8px"><strong>Automatikus indítás:</strong> a <code>tenger</code> eljárás önmagában még nem indul el a projekt megnyitásakor. Ehhez külön Imagine-eseménybeállítás szükséges. Ennek pontos helyét ellenőriznünk kell; addig parancssorból próbáld ki.</p>
+<h3 style="color:#215873">✅ Ellenőrzés</h3>
+<div style="padding:14px;border:1px solid #c8dce6;border-radius:12px"><p>☐ A bálna bal felül, félméretben indul.</p><p>☐ Mozgás közben fokozatosan növekszik.</p><p>☐ Jobbra úszik, majd eltűnik.</p><p>☐ A <code>tenger</code> ismételt meghívására elölről kezd.</p></div>
+<h3 style="color:#215873">🧠 Gondolkodj!</h3>
+<ol><li>Melyik utasítás teszi láthatóvá a bálnát?</li><li>Miért az ismétlésen belül van az <code>alakméret!</code>?</li><li>Mi változna, ha az <code>előre 3</code> helyett <code>előre 6</code> szerepelne?</li></ol>
+<p style="padding:14px;border-radius:12px;background:#eaf7ee"><strong>⭐ Önálló próba:</strong> változtasd meg a növekedést <code>0.01</code>-ről <code>0.005</code>-re! Figyeld meg az eredményt, majd mentsd el a projektet.</p>
+<p style="font-size:14px;color:#536d7b">Következő bővítés: megjelenő és eltűnő buborékok a bálna mögött.</p>
+<p><a href="https://bsuszter.github.io/digitalis-eszkoztar/tananyagok/szakkorok/imagine-logo/balna-uszasa/" target="_blank" rel="noopener" style="color:#215873;font-weight:bold">📘 A lecke megnyitása a Digitális eszköztárban →</a></p>
+</div>

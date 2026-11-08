@@ -159,7 +159,11 @@ nav:
           - 6. évfolyam: tananyagok/irodalom/6-evfolyam/index.md
           - 7. évfolyam: tananyagok/irodalom/7-evfolyam/index.md
           - 8. évfolyam: tananyagok/irodalom/8-evfolyam/index.md
-      - Szakkörök: tananyagok/szakkorok/index.md
+      - Szakkörök:
+          - Áttekintés: tananyagok/szakkorok/index.md
+          - Imagine Logo – tengeri animáció:
+              - Áttekintés: tananyagok/szakkorok/imagine-logo/index.md
+              - 1. A bálna úszása: tananyagok/szakkorok/imagine-logo/balna-uszasa.md
   - Digitális eszköztár:
       - Áttekintés: eszkoztar/index.md
       - KRESZ-tanpálya:
