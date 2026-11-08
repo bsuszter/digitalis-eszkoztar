@@ -691,4 +691,6 @@
 }
 .md-typeset .highlight:has(pre.imagine-code) .md-clipboard,
 .md-typeset .highlight:has(pre.imagine-code) .md-code__button,
-.md-typeset pre.imagine-code .md-clipboard { display: none !important; }
+.md-typeset pre.imagine-code .md-clipboard,
+.md-typeset pre.imagine-code .md-code__nav,
+.md-typeset pre.imagine-code .md-code__button { display: none !important; }
