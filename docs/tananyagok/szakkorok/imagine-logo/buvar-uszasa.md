@@ -4,7 +4,7 @@
 
 <div class="project-flow" style="padding:12px;background:#315f78;color:white;border-radius:10px;text-align:center;margin:14px 0">KEZDŐÁLLAPOT → MOZGÁS → KÉPKOCKÁK → NÖVEKEDÉS → KIÚSZÁS → KÍSÉRLETEZÉS</div>
 
-<div class="project-highlight project-highlight--blue" style="padding:14px;border-left:5px solid #357a9e;background:#f0f8fc;border-radius:10px"><strong>Így dolgozz!</strong><p>A kódot <strong>te gépeld be</strong> az Imagine-be. Minden lépés után próbáld ki! Az új sorokat a már meglévő eljárásodba illeszd. A teljes program csak az oldal végén nyitható meg ellenőrzéshez.</p></div>
+<div class="imagine-note" style="padding:14px;border-left:5px solid #357a9e;background:#f0f8fc;color:#263746;border-radius:10px"><strong>Így dolgozz!</strong><p>A kódot <strong>te gépeld be</strong> az Imagine-be. Minden lépés után próbáld ki! Az új sorokat a már meglévő eljárásodba illeszd. A teljes program csak az oldal végén nyitható meg ellenőrzéshez.</p></div>
 
 ## 1. Készítsd elő a búvárt!
 
@@ -12,7 +12,7 @@
 2. <a href="https://bsuszter.github.io/digitalis-eszkoztar/downloads/imagine-logo/buvar-alakja.lgf" download="buvar-alakja.lgf"><strong>Töltsd le a többképkockás búváralakot (.lgf)</strong></a>, majd a teknőc **Alak** lapján töltsd be.
 3. A búvár **Eljárások** lapján készíts egy **kezdőállapot** nevű eljárást, és gépeld be:
 
-<pre style="white-space:pre-wrap;background:#182f42;color:#f4fbff;padding:16px;border-radius:12px"><code>eljárás kezdőállapot
+<pre class="imagine-code" style="white-space:pre-wrap;background:#182f42;color:#f4fbff;padding:16px;border-radius:12px;user-select:none;-webkit-user-select:none"><code>eljárás kezdőállapot
   látható! 0
   alakméret! 0.5
   tollatfel
@@ -28,7 +28,7 @@ vége</code></pre>
 
 A búvár **Eljárások** lapján készíts egy második, **úszik** nevű eljárást. Egyelőre csak ez legyen benne:
 
-<pre style="white-space:pre-wrap;background:#182f42;color:#f4fbff;padding:16px;border-radius:12px"><code>eljárás úszik
+<pre class="imagine-code" style="white-space:pre-wrap;background:#182f42;color:#f4fbff;padding:16px;border-radius:12px;user-select:none;-webkit-user-select:none"><code>eljárás úszik
   látható! 1
   ismétlés 10 [
     előre 2
@@ -44,7 +44,7 @@ vége</code></pre>
 
 Az `úszik` eljárás ismétlésén **belül**, a `várj 50` sor alá írj egy új sort:
 
-<pre style="white-space:pre-wrap;background:#182f42;color:#f4fbff;padding:16px;border-radius:12px"><code>képkocka! képkocka+1</code></pre>
+<pre class="imagine-code" style="white-space:pre-wrap;background:#182f42;color:#f4fbff;padding:16px;border-radius:12px;user-select:none;-webkit-user-select:none"><code>képkocka! képkocka+1</code></pre>
 
 **Próba:** indítsd újra a két eljárást. Most a búvár végtagjait is figyeld!
 
@@ -54,7 +54,7 @@ Az `úszik` eljárás ismétlésén **belül**, a `várj 50` sor alá írj egy �
 
 Ugyanebbe az ismétlésbe, a `képkocka!` sor **alá** írd:
 
-<pre style="white-space:pre-wrap;background:#182f42;color:#f4fbff;padding:16px;border-radius:12px"><code>alakméret! alakméret+0.01</code></pre>
+<pre class="imagine-code" style="white-space:pre-wrap;background:#182f42;color:#f4fbff;padding:16px;border-radius:12px;user-select:none;-webkit-user-select:none"><code>alakméret! alakméret+0.01</code></pre>
 
 **Próba:** indítsd újra! A búvár 0,5-szeres méretből indul, majd 80 alkalommal 0,01-del nő: így a végére **1,3-szoros** méretű lesz.
 
@@ -64,7 +64,7 @@ Ugyanebbe az ismétlésbe, a `képkocka!` sor **alá** írd:
 
 Az első ismétlést lezáró `]` jel **után**, de a `vége` **elé** írd:
 
-<pre style="white-space:pre-wrap;background:#182f42;color:#f4fbff;padding:16px;border-radius:12px"><code>irány! 90
+<pre class="imagine-code" style="white-space:pre-wrap;background:#182f42;color:#f4fbff;padding:16px;border-radius:12px;user-select:none;-webkit-user-select:none"><code>irány! 90
 ismétlés 100 [
   előre 3
   várj 50
@@ -78,7 +78,7 @@ látható! 0</code></pre>
 
 A **főablak → Eljárások** részben készíts egy **tenger** nevű eljárást:
 
-<pre style="white-space:pre-wrap;background:#182f42;color:#f4fbff;padding:16px;border-radius:12px"><code>eljárás tenger
+<pre class="imagine-code" style="white-space:pre-wrap;background:#182f42;color:#f4fbff;padding:16px;border-radius:12px;user-select:none;-webkit-user-select:none"><code>eljárás tenger
   búvár'kezdőállapot
   búvár'úszik
 vége</code></pre>
@@ -99,7 +99,7 @@ Minden feladatban **csak a megadott számot módosítsd**, majd indítsd újra a
 | Kisebben induljon | A kezdőállapotban `alakméret! 0.5` → `alakméret! 0.3` | Már az első pillanatban kisebb. |
 | Más irányba induljon | A kezdőállapotban változtasd az `irány! 150` számát | Merre halad az első szakaszban? |
 
-<div class="project-highlight project-highlight--blue" style="padding:14px;border-left:5px solid #357a9e;background:#f0f8fc;border-radius:10px"><strong>⭐ Önálló kihívás</strong><p>Válassz <strong>két módosítást</strong>! Mindkettő előtt fogalmazz meg egy jóslatot, majd próbáld ki. A neked legjobban tetsző változatot mentsd el.</p></div>
+<div class="imagine-note" style="padding:14px;border-left:5px solid #357a9e;background:#f0f8fc;color:#263746;border-radius:10px"><strong>⭐ Önálló kihívás</strong><p>Válassz <strong>két módosítást</strong>! Mindkettő előtt fogalmazz meg egy jóslatot, majd próbáld ki. A neked legjobban tetsző változatot mentsd el.</p></div>
 
 ## ✅ Ellenőrzés
 
@@ -110,7 +110,7 @@ Minden feladatban **csak a megadott számot módosítsd**, majd indítsd újra a
 - [ ] A `tenger` parancs újraindítja az animációt.
 
 <details><summary><strong>🔎 A teljes úszik eljárás ellenőrzéshez</strong> – csak akkor nyisd le, ha már megpróbáltad!</summary>
-<pre style="white-space:pre-wrap;background:#182f42;color:#f4fbff;padding:16px;border-radius:12px"><code>eljárás úszik
+<pre class="imagine-code" style="white-space:pre-wrap;background:#182f42;color:#f4fbff;padding:16px;border-radius:12px;user-select:none;-webkit-user-select:none"><code>eljárás úszik
   látható! 1
   ismétlés 80 [
     előre 2

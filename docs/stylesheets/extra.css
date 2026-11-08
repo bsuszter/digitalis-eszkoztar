@@ -674,3 +674,21 @@
   .project-hero { flex-direction: column-reverse; }
   .project-meta { grid-template-columns: 1fr 1fr; }
 }
+
+/* Imagine Logo: readable code samples intended for manual typing. */
+.md-typeset .imagine-note,
+.md-typeset .imagine-note p,
+.md-typeset .imagine-note strong { color: #263746; }
+
+.md-typeset pre.imagine-code,
+.md-typeset pre.imagine-code > code,
+.md-typeset .highlight pre.imagine-code > code {
+  background: #182f42 !important;
+  color: #f4fbff !important;
+  border-radius: 12px;
+  user-select: none;
+  -webkit-user-select: none;
+}
+.md-typeset .highlight:has(pre.imagine-code) .md-clipboard,
+.md-typeset .highlight:has(pre.imagine-code) .md-code__button,
+.md-typeset pre.imagine-code .md-clipboard { display: none !important; }
