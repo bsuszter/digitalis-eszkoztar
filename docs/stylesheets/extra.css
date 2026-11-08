@@ -697,9 +697,17 @@
 
 .md-typeset div.imagine-code {
   font-family: Consolas, "Courier New", monospace;
-  font-size: .9rem;
-  line-height: 1.5;
+  font-size: 1.02rem;
+  line-height: 1.7;
   overflow-x: auto;
+  margin: 1.25rem 0 1.6rem;
+  padding: 1.15rem 1.3rem !important;
   -webkit-user-select: none;
   user-select: none;
+}
+
+.md-typeset .imagine-note {
+  margin: 1.6rem 0;
+  padding: 1.15rem 1.3rem !important;
+  line-height: 1.7;
 }

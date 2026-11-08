@@ -1,4 +1,5 @@
-<h1 id="a-búvár-úszása-lépésről-lépésre">🤿 A búvár úszása – lépésről
+<div style="max-width:960px;margin:0 auto;padding:8px 14px 36px;font-family:Arial,Helvetica,sans-serif;font-size:18px;line-height:1.75;color:#263746">
+<h1 style="font-size:2rem;line-height:1.25;color:#245a75;margin:18px 0 26px" id="a-búvár-úszása-lépésről-lépésre">🤿 A búvár úszása – lépésről
 lépésre</h1>
 <div class="project-hero"
 style="padding:18px;border-radius:16px;background:#eaf5fb;border:1px solid #bcd9e8">
@@ -7,7 +8,7 @@ style="padding:18px;border-radius:16px;background:#eaf5fb;border:1px solid #bcd9
 <h2>
 Keltsd életre a búvárt!
 </h2>
-<p>
+<p style="margin:14px 0 20px">
 A búvár a bal felső részről indul, úszás közben növekszik, majd jobbra
 kiúszik a képből. A programot kis lépésekben építed fel.
 </p>
@@ -23,54 +24,55 @@ KEZDŐÁLLAPOT → MOZGÁS → KÉPKOCKÁK → NÖVEKEDÉS → KIÚSZÁS → KÍ
 <div class="imagine-note"
 style="padding:14px;border-left:5px solid #357a9e;background:#f0f8fc;color:#263746;border-radius:10px">
 <strong>Így dolgozz!</strong>
-<p>
+<p style="margin:14px 0 20px">
 A kódot <strong>te gépeld be</strong> az Imagine-be. Minden lépés után
 próbáld ki! Az új sorokat a már meglévő eljárásodba illeszd. A teljes
 program csak az oldal végén nyitható meg ellenőrzéshez.
 </p>
 </div>
-<h2 id="készítsd-elő-a-búvárt">1. Készítsd elő a búvárt!</h2>
+<h2 style="font-size:1.6rem;line-height:1.35;color:#245a75;margin:40px 0 20px;padding:14px 18px;background:#eaf5fa;border-left:6px solid #3a82a5;border-radius:12px" id="készítsd-elő-a-búvárt">1. Készítsd elő a búvárt!</h2>
 <ol type="1">
-<li>Hozz létre egy teknőcöt, és nevezd el <strong>búvár</strong>
+<li style="margin:8px 0;padding-left:4px">Hozz létre egy teknőcöt, és nevezd el <strong>búvár</strong>
 névre.</li>
-<li><a href="https://bsuszter.github.io/digitalis-eszkoztar/downloads/imagine-logo/buvar-alakja.lgf" download="buvar-alakja.lgf"><strong>Töltsd
+<li style="margin:8px 0;padding-left:4px"><a href="https://bsuszter.github.io/digitalis-eszkoztar/downloads/imagine-logo/buvar-alakja.lgf" download="buvar-alakja.lgf"><strong>Töltsd
 le a többképkockás búváralakot (.lgf)</strong></a>, majd a teknőc
 <strong>Alak</strong> lapján töltsd be.</li>
-<li>A búvár <strong>Eljárások</strong> lapján készíts egy
+<li style="margin:8px 0;padding-left:4px">A búvár <strong>Eljárások</strong> lapján készíts egy
 <strong>kezdőállapot</strong> nevű eljárást, és gépeld be:</li>
 </ol>
-<div class="imagine-code"
-style="font-family:Consolas,monospace;line-height:1.5;white-space:pre-wrap;background:#182f42;color:#f4fbff;padding:16px;border-radius:12px;user-select:none;-webkit-user-select:none">
-<span>eljárás kezdőállapot látható! 0 alakméret! 0.5 tollatfel poz!
-[-239 179] irány! 150 vége</span>
-</div>
-<p><strong>Mit jelent?</strong> A búvár egyelőre láthatatlan
+<pre class="imagine-code" style="font-size:19px;line-height:1.7;margin:22px 0 26px;overflow-x:auto;box-shadow:0 3px 12px rgba(24,47,66,.12);font-family:Consolas,monospace;white-space:pre-wrap;background:#182f42;color:#f4fbff;padding:16px;border-radius:12px;user-select:none;-webkit-user-select:none"><code style="background:transparent;color:inherit;user-select:none;-webkit-user-select:none">eljárás kezdőállapot
+  látható! 0
+  alakméret! 0.5
+  tollatfel
+  poz! [-239 179]
+  irány! 150
+vége</code></pre>
+<p style="background:#edf6fb;border-left:5px solid #5e9abb;padding:13px 17px;border-radius:10px;margin:20px 0"><strong>💡 Mit jelent?</strong> A búvár egyelőre láthatatlan
 (<code>látható! 0</code>), félméretű (<code>alakméret! 0.5</code>),
 felemelt tollal a bal felső részre kerül. A <code>poz!</code>
 koordinátáját szükség esetén igazítsd a lapod méretéhez.</p>
-<p><strong>Próba:</strong> írd a parancssorba:
+<p style="background:#ecf8f1;border-left:5px solid #45946f;padding:13px 17px;border-radius:10px;margin:20px 0"><strong>🧪 Próbáld ki!</strong> írd a parancssorba:
 <code>búvár'kezdőállapot</code>. A búvár eltűnik – ez most helyes, mert
 még csak előkészítettük.</p>
-<h2 id="induljon-el">2. Induljon el!</h2>
-<p>A búvár <strong>Eljárások</strong> lapján készíts egy második,
+<h2 style="font-size:1.6rem;line-height:1.35;color:#245a75;margin:40px 0 20px;padding:14px 18px;background:#eaf5fa;border-left:6px solid #3a82a5;border-radius:12px" id="induljon-el">2. Induljon el!</h2>
+<p style="margin:14px 0 20px">A búvár <strong>Eljárások</strong> lapján készíts egy második,
 <strong>úszik</strong> nevű eljárást. Egyelőre csak ez legyen benne:</p>
-<div class="imagine-code"
-style="font-family:Consolas,monospace;line-height:1.5;white-space:pre-wrap;background:#182f42;color:#f4fbff;padding:16px;border-radius:12px;user-select:none;-webkit-user-select:none">
-<span>eljárás úszik látható! 1 ismétlés 10 [ előre 2 várj 50 ]
-vége</span>
-</div>
-<p><strong>Próba:</strong> előbb <code>búvár'kezdőállapot</code>, majd
+<pre class="imagine-code" style="font-size:19px;line-height:1.7;margin:22px 0 26px;overflow-x:auto;box-shadow:0 3px 12px rgba(24,47,66,.12);font-family:Consolas,monospace;white-space:pre-wrap;background:#182f42;color:#f4fbff;padding:16px;border-radius:12px;user-select:none;-webkit-user-select:none"><code style="background:transparent;color:inherit;user-select:none;-webkit-user-select:none">eljárás úszik
+  látható! 1
+  ismétlés 10 [
+    előre 2
+    várj 50
+  ]
+vége</code></pre>
+<p style="background:#ecf8f1;border-left:5px solid #45946f;padding:13px 17px;border-radius:10px;margin:20px 0"><strong>🧪 Próbáld ki!</strong> előbb <code>búvár'kezdőállapot</code>, majd
 <code>búvár'úszik</code>. A búvár megjelenik és elmozdul.</p>
-<p><strong>Változtass:</strong> az <code>ismétlés 10</code> helyett írj
+<p style="background:#fff7e8;border-left:5px solid #cb942c;padding:13px 17px;border-radius:10px;margin:20px 0"><strong>🔧 Változtass!</strong> az <code>ismétlés 10</code> helyett írj
 <code>ismétlés 80</code>-at. Ismételd meg a próbát. Mi változott?</p>
-<h2 id="mozogjon-az-alakja-is">3. Mozogjon az alakja is!</h2>
-<p>Az <code>úszik</code> eljárás ismétlésén <strong>belül</strong>, a
+<h2 style="font-size:1.6rem;line-height:1.35;color:#245a75;margin:40px 0 20px;padding:14px 18px;background:#eaf5fa;border-left:6px solid #3a82a5;border-radius:12px" id="mozogjon-az-alakja-is">3. Mozogjon az alakja is!</h2>
+<p style="margin:14px 0 20px">Az <code>úszik</code> eljárás ismétlésén <strong>belül</strong>, a
 <code>várj 50</code> sor alá írj egy új sort:</p>
-<div class="imagine-code"
-style="font-family:Consolas,monospace;line-height:1.5;white-space:pre-wrap;background:#182f42;color:#f4fbff;padding:16px;border-radius:12px;user-select:none;-webkit-user-select:none">
-<span>képkocka! képkocka+1</span>
-</div>
-<p><strong>Próba:</strong> indítsd újra a két eljárást. Most a búvár
+<pre class="imagine-code" style="font-size:19px;line-height:1.7;margin:22px 0 26px;overflow-x:auto;box-shadow:0 3px 12px rgba(24,47,66,.12);font-family:Consolas,monospace;white-space:pre-wrap;background:#182f42;color:#f4fbff;padding:16px;border-radius:12px;user-select:none;-webkit-user-select:none"><code style="background:transparent;color:inherit;user-select:none;-webkit-user-select:none">képkocka! képkocka+1</code></pre>
+<p style="background:#ecf8f1;border-left:5px solid #45946f;padding:13px 17px;border-radius:10px;margin:20px 0"><strong>🧪 Próbáld ki!</strong> indítsd újra a két eljárást. Most a búvár
 végtagjait is figyeld!</p>
 <div class="quick-note">
 <strong>Két különböző változás</strong><span>Az <code>előre 2</code> a
@@ -78,52 +80,51 @@ búvár helyét változtatja meg. A <code>képkocka! képkocka+1</code> a
 letöltött alak következő képkockájára vált. Ettől az úszómozdulat is
 látható.</span>
 </div>
-<h2 id="úszás-közben-növekedjen">4. Úszás közben növekedjen!</h2>
-<p>Ugyanebbe az ismétlésbe, a <code>képkocka!</code> sor
+<h2 style="font-size:1.6rem;line-height:1.35;color:#245a75;margin:40px 0 20px;padding:14px 18px;background:#eaf5fa;border-left:6px solid #3a82a5;border-radius:12px" id="úszás-közben-növekedjen">4. Úszás közben növekedjen!</h2>
+<p style="margin:14px 0 20px">Ugyanebbe az ismétlésbe, a <code>képkocka!</code> sor
 <strong>alá</strong> írd:</p>
-<div class="imagine-code"
-style="font-family:Consolas,monospace;line-height:1.5;white-space:pre-wrap;background:#182f42;color:#f4fbff;padding:16px;border-radius:12px;user-select:none;-webkit-user-select:none">
-<span>alakméret! alakméret+0.01</span>
-</div>
-<p><strong>Próba:</strong> indítsd újra! A búvár 0,5-szeres méretből
+<pre class="imagine-code" style="font-size:19px;line-height:1.7;margin:22px 0 26px;overflow-x:auto;box-shadow:0 3px 12px rgba(24,47,66,.12);font-family:Consolas,monospace;white-space:pre-wrap;background:#182f42;color:#f4fbff;padding:16px;border-radius:12px;user-select:none;-webkit-user-select:none"><code style="background:transparent;color:inherit;user-select:none;-webkit-user-select:none">alakméret! alakméret+0.01</code></pre>
+<p style="background:#ecf8f1;border-left:5px solid #45946f;padding:13px 17px;border-radius:10px;margin:20px 0"><strong>🧪 Próbáld ki!</strong> indítsd újra! A búvár 0,5-szeres méretből
 indul, majd 80 alkalommal 0,01-del nő: így a végére
 <strong>1,3-szoros</strong> méretű lesz.</p>
-<p><strong>Gondolkodj:</strong> miért az ismétlés <em>belsejében</em>
+<p style="background:#fff7e8;border-left:5px solid #cb942c;padding:13px 17px;border-radius:10px;margin:20px 0"><strong>💭 Gondolkodj!</strong> miért az ismétlés <em>belsejében</em>
 változtatjuk a méretet? Mi történne, ha ezt a sort az ismétlés után
 írnánk?</p>
-<h2 id="ússzon-ki-jobbra">5. Ússzon ki jobbra!</h2>
-<p>Az első ismétlést lezáró <code>]</code> jel <strong>után</strong>, de
+<h2 style="font-size:1.6rem;line-height:1.35;color:#245a75;margin:40px 0 20px;padding:14px 18px;background:#eaf5fa;border-left:6px solid #3a82a5;border-radius:12px" id="ússzon-ki-jobbra">5. Ússzon ki jobbra!</h2>
+<p style="margin:14px 0 20px">Az első ismétlést lezáró <code>]</code> jel <strong>után</strong>, de
 a <code>vége</code> <strong>elé</strong> írd:</p>
-<div class="imagine-code"
-style="font-family:Consolas,monospace;line-height:1.5;white-space:pre-wrap;background:#182f42;color:#f4fbff;padding:16px;border-radius:12px;user-select:none;-webkit-user-select:none">
-<span>irány! 90 ismétlés 100 [ előre 3 várj 50 képkocka! képkocka+1]
-látható! 0</span>
-</div>
-<p><strong>Próba:</strong> az első szakaszban növekszik a búvár, a
+<pre class="imagine-code" style="font-size:19px;line-height:1.7;margin:22px 0 26px;overflow-x:auto;box-shadow:0 3px 12px rgba(24,47,66,.12);font-family:Consolas,monospace;white-space:pre-wrap;background:#182f42;color:#f4fbff;padding:16px;border-radius:12px;user-select:none;-webkit-user-select:none"><code style="background:transparent;color:inherit;user-select:none;-webkit-user-select:none">irány! 90
+ismétlés 100 [
+  előre 3
+  várj 50
+  képkocka! képkocka+1
+]
+látható! 0</code></pre>
+<p style="background:#ecf8f1;border-left:5px solid #45946f;padding:13px 17px;border-radius:10px;margin:20px 0"><strong>🧪 Próbáld ki!</strong> az első szakaszban növekszik a búvár, a
 másodikban jobbra halad tovább, majd eltűnik. Figyeld meg: a második
 ismétlésben már <strong>nem növeljük a méretét</strong>.</p>
-<h2 id="indíts-mindent-egyetlen-paranccsal">6. Indíts mindent egyetlen
+<h2 style="font-size:1.6rem;line-height:1.35;color:#245a75;margin:40px 0 20px;padding:14px 18px;background:#eaf5fa;border-left:6px solid #3a82a5;border-radius:12px" id="indíts-mindent-egyetlen-paranccsal">6. Indíts mindent egyetlen
 paranccsal!</h2>
-<p>A <strong>főablak → Eljárások</strong> részben készíts egy
+<p style="margin:14px 0 20px">A <strong>főablak → Eljárások</strong> részben készíts egy
 <strong>tenger</strong> nevű eljárást:</p>
-<div class="imagine-code"
-style="font-family:Consolas,monospace;line-height:1.5;white-space:pre-wrap;background:#182f42;color:#f4fbff;padding:16px;border-radius:12px;user-select:none;-webkit-user-select:none">
-<span>eljárás tenger búvár’kezdőállapot búvár’úszik vége</span>
-</div>
-<p>A parancssorban most már elegendő ezt beírni: <code>tenger</code>.
+<pre class="imagine-code" style="font-size:19px;line-height:1.7;margin:22px 0 26px;overflow-x:auto;box-shadow:0 3px 12px rgba(24,47,66,.12);font-family:Consolas,monospace;white-space:pre-wrap;background:#182f42;color:#f4fbff;padding:16px;border-radius:12px;user-select:none;-webkit-user-select:none"><code style="background:transparent;color:inherit;user-select:none;-webkit-user-select:none">eljárás tenger
+  búvár'kezdőállapot
+  búvár'úszik
+vége</code></pre>
+<p style="margin:14px 0 20px">A parancssorban most már elegendő ezt beírni: <code>tenger</code>.
 Próbáld ki kétszer egymás után! Mindig ugyanonnan indul?</p>
 <blockquote>
-<p><strong>Fontos – automatikus indítás:</strong> a <code>tenger</code>
+<p style="margin:14px 0 20px"><strong>Fontos – automatikus indítás:</strong> a <code>tenger</code>
 eljárás önmagában nem indítja el a programot a projekt megnyitásakor.
 Ehhez külön Imagine-eseménybeállítás szükséges. Egyelőre a
 <code>tenger</code> paranccsal indítsd.</p>
 </blockquote>
-<h2 id="kísérletezz-mit-kell-módosítanod">🎛️ Kísérletezz – mit kell
+<h2 style="font-size:1.6rem;line-height:1.35;color:#245a75;margin:40px 0 20px;padding:14px 18px;background:#eaf5fa;border-left:6px solid #3a82a5;border-radius:12px" id="kísérletezz-mit-kell-módosítanod">🎛️ Kísérletezz – mit kell
 módosítanod?</h2>
-<p>Minden feladatban <strong>csak a megadott számot módosítsd</strong>,
+<p style="margin:14px 0 20px">Minden feladatban <strong>csak a megadott számot módosítsd</strong>,
 majd indítsd újra a <code>tenger</code> eljárást! Előbb tippeld meg, mi
 történik, utána ellenőrizd.</p>
-<table>
+<table style="border-collapse:collapse;width:100%;font-size:17px;line-height:1.65;margin:24px 0">
 <colgroup>
 <col style="width: 33%" />
 <col style="width: 33%" />
@@ -131,62 +132,62 @@ történik, utána ellenőrizd.</p>
 </colgroup>
 <thead>
 <tr class="header">
-<th>Ezt szeretnéd</th>
-<th>Ezt írd át</th>
-<th>Mit figyelj meg?</th>
+<th style="text-align:left;background:#eaf5fa;padding:14px;border-bottom:2px solid #a7cedf">Ezt szeretnéd</th>
+<th style="text-align:left;background:#eaf5fa;padding:14px;border-bottom:2px solid #a7cedf">Ezt írd át</th>
+<th style="text-align:left;background:#eaf5fa;padding:14px;border-bottom:2px solid #a7cedf">Mit figyelj meg?</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td>Lassabban ússzon</td>
-<td>Mindkét ismétlésben <code>várj 50</code> →
+<td style="padding:14px;border-bottom:1px solid #dce9ef;vertical-align:top">Lassabban ússzon</td>
+<td style="padding:14px;border-bottom:1px solid #dce9ef;vertical-align:top">Mindkét ismétlésben <code>várj 50</code> →
 <code>várj 100</code></td>
-<td>Hosszabb ideig tart az úszás.</td>
+<td style="padding:14px;border-bottom:1px solid #dce9ef;vertical-align:top">Hosszabb ideig tart az úszás.</td>
 </tr>
 <tr class="even">
-<td>Gyorsabban haladjon jobbra</td>
-<td>A második ismétlésben <code>előre 3</code> →
+<td style="padding:14px;border-bottom:1px solid #dce9ef;vertical-align:top">Gyorsabban haladjon jobbra</td>
+<td style="padding:14px;border-bottom:1px solid #dce9ef;vertical-align:top">A második ismétlésben <code>előre 3</code> →
 <code>előre 6</code></td>
-<td>Nagyobb távolságot tesz meg egy lépésben.</td>
+<td style="padding:14px;border-bottom:1px solid #dce9ef;vertical-align:top">Nagyobb távolságot tesz meg egy lépésben.</td>
 </tr>
 <tr class="odd">
-<td>Kevésbé növekedjen</td>
-<td><code>alakméret+0.01</code> → <code>alakméret+0.005</code></td>
-<td>80 lépés után 0,9-szeres lesz.</td>
+<td style="padding:14px;border-bottom:1px solid #dce9ef;vertical-align:top">Kevésbé növekedjen</td>
+<td style="padding:14px;border-bottom:1px solid #dce9ef;vertical-align:top"><code>alakméret+0.01</code> → <code>alakméret+0.005</code></td>
+<td style="padding:14px;border-bottom:1px solid #dce9ef;vertical-align:top">80 lépés után 0,9-szeres lesz.</td>
 </tr>
 <tr class="even">
-<td>Kisebben induljon</td>
-<td>A kezdőállapotban <code>alakméret! 0.5</code> →
+<td style="padding:14px;border-bottom:1px solid #dce9ef;vertical-align:top">Kisebben induljon</td>
+<td style="padding:14px;border-bottom:1px solid #dce9ef;vertical-align:top">A kezdőállapotban <code>alakméret! 0.5</code> →
 <code>alakméret! 0.3</code></td>
-<td>Már az első pillanatban kisebb.</td>
+<td style="padding:14px;border-bottom:1px solid #dce9ef;vertical-align:top">Már az első pillanatban kisebb.</td>
 </tr>
 <tr class="odd">
-<td>Más irányba induljon</td>
-<td>A kezdőállapotban változtasd az <code>irány! 150</code> számát</td>
-<td>Merre halad az első szakaszban?</td>
+<td style="padding:14px;border-bottom:1px solid #dce9ef;vertical-align:top">Más irányba induljon</td>
+<td style="padding:14px;border-bottom:1px solid #dce9ef;vertical-align:top">A kezdőállapotban változtasd az <code>irány! 150</code> számát</td>
+<td style="padding:14px;border-bottom:1px solid #dce9ef;vertical-align:top">Merre halad az első szakaszban?</td>
 </tr>
 </tbody>
 </table>
 <div class="imagine-note"
 style="padding:14px;border-left:5px solid #357a9e;background:#f0f8fc;color:#263746;border-radius:10px">
 <strong>⭐ Önálló kihívás</strong>
-<p>
+<p style="margin:14px 0 20px">
 Válassz <strong>két módosítást</strong>! Mindkettő előtt fogalmazz meg
 egy jóslatot, majd próbáld ki. A neked legjobban tetsző változatot
 mentsd el.
 </p>
 </div>
-<h2 id="ellenőrzés">✅ Ellenőrzés</h2>
+<h2 style="font-size:1.6rem;line-height:1.35;color:#245a75;margin:40px 0 20px;padding:14px 18px;background:#eaf5fa;border-left:6px solid #3a82a5;border-radius:12px" id="ellenőrzés">✅ Ellenőrzés</h2>
 <ul class="task-list">
-<li><label><input type="checkbox" />A búvár a bal felső részen,
+<li style="margin:8px 0;padding-left:4px"><label><input type="checkbox" />A búvár a bal felső részen,
 félméretben indul.</label></li>
-<li><label><input type="checkbox" />Úszás közben váltakoznak a
+<li style="margin:8px 0;padding-left:4px"><label><input type="checkbox" />Úszás közben váltakoznak a
 képkockái.</label></li>
-<li><label><input type="checkbox" />Az első szakaszban fokozatosan
+<li style="margin:8px 0;padding-left:4px"><label><input type="checkbox" />Az első szakaszban fokozatosan
 növekszik.</label></li>
-<li><label><input type="checkbox" />A második szakaszban jobbra úszik,
+<li style="margin:8px 0;padding-left:4px"><label><input type="checkbox" />A második szakaszban jobbra úszik,
 majd eltűnik.</label></li>
-<li><label><input type="checkbox" />A <code>tenger</code> parancs
+<li style="margin:8px 0;padding-left:4px"><label><input type="checkbox" />A <code>tenger</code> parancs
 újraindítja az animációt.</label></li>
 </ul>
 <details>
@@ -194,14 +195,26 @@ majd eltűnik.</label></li>
 <strong>🔎 A teljes úszik eljárás ellenőrzéshez</strong> – csak akkor
 nyisd le, ha már megpróbáltad!
 </summary>
-<div class="imagine-code"
-style="font-family:Consolas,monospace;line-height:1.5;white-space:pre-wrap;background:#182f42;color:#f4fbff;padding:16px;border-radius:12px;user-select:none;-webkit-user-select:none">
-<span>eljárás úszik látható! 1 ismétlés 80 [ előre 2 várj 50 képkocka!
-képkocka+1 alakméret! alakméret+0.01 ] irány! 90 ismétlés 100 [ előre 3
-várj 50 képkocka! képkocka+1 ] látható! 0 vége</span>
-</div>
+<pre class="imagine-code" style="font-size:19px;line-height:1.7;margin:22px 0 26px;overflow-x:auto;box-shadow:0 3px 12px rgba(24,47,66,.12);font-family:Consolas,monospace;white-space:pre-wrap;background:#182f42;color:#f4fbff;padding:16px;border-radius:12px;user-select:none;-webkit-user-select:none"><code style="background:transparent;color:inherit;user-select:none;-webkit-user-select:none">eljárás úszik
+  látható! 1
+  ismétlés 80 [
+    előre 2
+    várj 50
+    képkocka! képkocka+1
+    alakméret! alakméret+0.01
+  ]
+  irány! 90
+  ismétlés 100 [
+    előre 3
+    várj 50
+    képkocka! képkocka+1
+  ]
+  látható! 0
+vége</code></pre>
 </details>
 <blockquote>
-<p>Későbbi bővítés: buborékok megjelenése és eltűnése a búvár
+<p style="margin:14px 0 20px">Későbbi bővítés: buborékok megjelenése és eltűnése a búvár
 mögött.</p>
 </blockquote>
+
+</div>
