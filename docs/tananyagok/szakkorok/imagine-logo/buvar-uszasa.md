@@ -2,6 +2,14 @@
 
 <div class="project-hero" style="padding:18px;border-radius:16px;background:#eaf5fb;border:1px solid #bcd9e8"><div><span class="project-kicker">SZAKKÖR · IMAGINE LOGO · ANIMÁCIÓ</span><h2>Keltsd életre a búvárt!</h2><p>A búvár a bal felső részről indul, úszás közben növekszik, majd jobbra kiúszik a képből. A programot kis lépésekben építed fel.</p></div><div class="project-hero__icon">🤿</div></div>
 
+<figure style="max-width:700px;margin:24px auto;text-align:center">
+  <video controls playsinline preload="metadata" poster="https://bsuszter.github.io/digitalis-eszkoztar/videos/imagine-logo/tenger-animacio-boritokep.jpg" style="display:block;width:100%;height:auto;border-radius:14px;border:1px solid #bed7e5" aria-label="A tengeri animációt bemutató rövid videó">
+    <source src="https://bsuszter.github.io/digitalis-eszkoztar/videos/imagine-logo/tenger-animacio.mp4" type="video/mp4">
+    <a href="https://bsuszter.github.io/digitalis-eszkoztar/videos/imagine-logo/tenger-animacio.mp4">Nézd meg a mintavideót!</a>
+  </video>
+  <figcaption style="font-size:16px;line-height:1.6;color:#436578;margin-top:10px"><strong>🎬 Ezt fogod elkészíteni!</strong> Figyeld meg, hogyan úszik és növekszik a búvár, majd hogyan tűnik el! A háttérrel és a buborékokkal most még nem foglalkozunk.</figcaption>
+</figure>
+
 <div class="project-flow" style="padding:12px;background:#315f78;color:white;border-radius:10px;text-align:center;margin:14px 0">KEZDŐÁLLAPOT → MOZGÁS → KÉPKOCKÁK → NÖVEKEDÉS → KIÚSZÁS → KÍSÉRLETEZÉS</div>
 
 <div class="imagine-note" style="padding:14px;border-left:5px solid #357a9e;background:#f0f8fc;color:#263746;border-radius:10px"><strong>Így dolgozz!</strong><p>A kódot <strong>te gépeld be</strong> az Imagine-be. Minden lépés után próbáld ki! Az új sorokat a már meglévő eljárásodba illeszd. A teljes program csak az oldal végén nyitható meg ellenőrzéshez.</p></div>
