@@ -694,3 +694,12 @@
 .md-typeset pre.imagine-code .md-clipboard,
 .md-typeset pre.imagine-code .md-code__nav,
 .md-typeset pre.imagine-code .md-code__button { display: none !important; }
+
+.md-typeset div.imagine-code {
+  font-family: Consolas, "Courier New", monospace;
+  font-size: .9rem;
+  line-height: 1.5;
+  overflow-x: auto;
+  -webkit-user-select: none;
+  user-select: none;
+}
