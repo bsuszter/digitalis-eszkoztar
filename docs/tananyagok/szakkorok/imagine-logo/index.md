@@ -1,10 +1,11 @@
-# 🤿 Imagine Logo – tengeri animáció
+# 🎬 Imagine Logo – animációk
 
 <div class="project-hero"><div><span class="project-kicker">SZAKKÖR · IMAGINE LOGO · ANIMÁCIÓ</span><h2>Keltsd életre a búvárt!</h2><p>A búvár a kép bal felső részéről indul. Úszás közben egyre nagyobb lesz, majd jobbra elhagyja a képet. Ezt Imagine Logo-eljárásokkal fogod megoldani.</p></div><div class="project-hero__icon">🤿</div></div>
 
 ## A leckék
 
 1. [**A búvár úszása**](buvar-uszasa.md) – kezdőállapot, ismétlés, mozgás, növekedés, eltűnés és az indító eljárás.
+2. [**Mese – Mentsük meg a hercegnőt!**](mese-animacio.md) – három szereplő animációja, képkockaváltás, növekedés és ismételt támadás.
 
 ## 📥 Letölthető Imagine-alak
 
