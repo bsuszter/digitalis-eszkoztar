@@ -79,6 +79,12 @@ Ha a jelzőlámpa-tartót választod, egy valódi elektronikai elem köré terve
   <p><a href="cserelheto-tablafej-tinkercad/" target="_blank" rel="noopener"><strong>A táblafej leckéjének megnyitása →</strong></a></p>
 </div>
 
+<div class="project-panel project-panel--green">
+  <h2>✒️ 4. lecke: készítsd el az első matricád Inkscape-ben!</h2>
+  <p>Az első vektorgrafikus jelzésünket két alakzatból rajzoljuk: <strong>22 mm-es piros kör + 12 × 4 mm-es fehér sáv</strong>. Új program, közös beállítások, pontos méretek, majd egy szerkeszthető SVG beadása.</p>
+  <p><a href="inkscape-elso-jelzes/"><strong>Első Inkscape-lecke megnyitása →</strong></a></p>
+</div>
+
 ## A korábbi részletes projektútvonal
 
 Az alábbi öt mérföldkő a projekt korábbi, összetettebb változata. Az új tanulási útvonal a fenti gyakorlati Tinkercad-leckével kezdődik.
