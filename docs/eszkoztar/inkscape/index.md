@@ -1,0 +1,10 @@
+# ✒️ Inkscape – vektorgrafikus szerkesztés
+<div class="toolkit-hero"><div class="toolkit-hero__content"><span class="toolkit-eyebrow">VEKTORGRAFIKA · DIGITÁLIS ESZKÖZTÁR</span><h2>Segítség akkor, amikor szükséged van rá</h2><p>Ez nem önállóan végigírandó tananyag. Válaszd ki, miben akadtál el, nézd meg a műveletet, majd térj vissza a saját rajzodhoz!</p><div class="toolkit-flow"><span>🎯 Feladat</span><b>→</b><span>🧰 Segítség</span><b>→</b><span>✒️ Saját SVG</span></div></div><div class="toolkit-hero__icon">✒️</div></div>
+<div class="related-grid"><a href="https://inkscape.org/" target="_blank" rel="noopener"><span class="related-icon">🌐</span><span class="related-text"><strong>Inkscape hivatalos oldala</strong><small>A vektorgrafikus szerkesztő program oldala.</small><span class="tool-link">Segítség megnyitása →</span></span></a></div>
+## Kezdés
+<div class="tool-grid tool-grid--featured">
+<a class="tool-card" href="kezdes-felulet/"><span class="tool-icon">🧭</span><span class="tool-tag">KEZDŐ</span><strong>Új dokumentum és egységes felület</strong><span>A4, milliméter, kijelölés, nagyítás és kezelőelemek.</span><span class="tool-link">Megnézem →</span></a>
+<a class="tool-card" href="alakzatok-szinek/"><span class="tool-icon">🔴</span><span class="tool-tag">KEZDŐ</span><strong>Alakzatok, színek és igazítás</strong><span>Kör, téglalap, kitöltés, körvonal, pontos méret és középre rendezés.</span><span class="tool-link">Megnézem →</span></a>
+<a class="tool-card" href="mentes-svg/"><span class="tool-icon">💾</span><span class="tool-tag">KEZDŐ</span><strong>SVG mentése és beadása</strong><span>Mi a szerkeszthető SVG? Hová és milyen néven mentsd?</span><span class="tool-link">Megnézem →</span></a>
+</div>
+<div class="quick-note"><strong>Miért SVG?</strong><span>A körök és téglalapok külön szerkeszthető alakzatok maradnak. A rajz átméretezhető anélkül, hogy a vonalak pixelesednének.</span></div>
