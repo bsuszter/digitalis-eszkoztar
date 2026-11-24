@@ -55,6 +55,14 @@
     <span class="tool-link">Eszköztár megnyitása →</span>
   </a>
 
+  <a class="tool-card" href="inkscape/">
+    <span class="tool-icon">✒️</span>
+    <span class="tool-tag">VEKTORGRAFIKA</span>
+    <strong>Inkscape</strong>
+    <span>Alakzatok, pontos méretek, igazítás és szerkeszthető SVG-k.</span>
+    <span class="tool-link">Eszköztár megnyitása →</span>
+  </a>
+
   <a class="tool-card" href="powerpoint/">
     <span class="tool-icon">📊</span>
     <span class="tool-tag">BEMUTATÓKÉSZÍTÉS</span>
