@@ -9,10 +9,7 @@
 
 <div class="project-meta"><span>👤 Önálló munka</span><span>🧊 Tinkercad</span><span>⭐ 15 pont</span><span>🖼️ 1 képernyőkép</span></div>
 
-<div class="related-grid">
-<a href="../" target="_blank" rel="noopener"><span class="related-icon">🛣️</span><span class="related-text"><strong>A közös KRESZ-játék</strong><small>Nézd meg, mi készül!</small><span class="tool-link">Projekt megnyitása →</span></span></a>
-<a href="https://bsuszter.github.io/digitalis-eszkoztar/eszkoztar/kresz-tanpalya/muszaki-szabvany/" target="_blank" rel="noopener"><span class="related-icon">📏</span><span class="related-text"><strong>Közös műszaki szabvány</strong><small>A figurák kötelező méretei.</small><span class="tool-link">Tudástár →</span></span></a>
-</div>
+
 
 <div class="project-highlight project-highlight--blue">
 <h2>🎯 A feladatod</h2>
@@ -22,10 +19,12 @@
 
 ## Válassz egy műhelymegbízást!
 
+A képek **minták**, nem kész Tinkercad-modellek: a saját elemedet te építed fel.
+
 <div class="idea-grid">
-<div class="idea-card">🔶 <strong>A · Forgalomterelő bója</strong><span>Egyszerűbb választás. Készíts egy stabil, mozgatható bóját: <strong>12 × 12 × 2 mm-es talp</strong> és rajta kb. <strong>18 mm magas</strong>, felfelé keskenyedő kúp. Legyen egyetlen egyesített modell.</span></div>
-<div class="idea-card">🚧 <strong>B · Útlezáró korlát</strong><span>Önálló kihívás. Két stabil láb és köztük keresztirányú akadály. Az egész legyen kb. <strong>35 mm széles, 18–22 mm magas</strong>. A részek érjenek egymásba, és csoportosítsd őket egyetlen modellé.</span></div>
-<div class="idea-card">🚶 <strong>C · Gyalogosfigura</strong><span>Alkotói feladat. <strong>Felnőtt: 35 mm, gyerek: 30 mm</strong> magas figura <em>talp nélkül</em>. A stabilizáló talp legfeljebb <strong>12 mm széles, 2 mm vastag</strong>. A figura legyen felismerhető és önállóan megálló.</span></div>
+<div class="idea-card"><img src="https://bsuszter.github.io/digitalis-eszkoztar/images/kresz-tanpalya/kiegeszito-boja.svg" alt="Bója négyzetes talpon, jelzett méretekkel" loading="lazy" style="width:100%;height:auto;display:block;border-radius:12px;margin:0 0 12px"><strong>A · Forgalomterelő bója</strong><span><em>Egyszerűbb feladat</em><br>12 × 12 × 2 mm-es talp, rajta kb. 18 mm magas kúp. A fehér csík választható díszítés; a talp és a kúp legyen egy test.</span></div>
+<div class="idea-card"><img src="https://bsuszter.github.io/digitalis-eszkoztar/images/kresz-tanpalya/kiegeszito-korlat.svg" alt="Piros-fehér útlezáró korlát méretjelöléssel" loading="lazy" style="width:100%;height:auto;display:block;border-radius:12px;margin:0 0 12px"><strong>B · Útlezáró korlát</strong><span><em>Önálló kihívás</em><br>Két stabil láb között egy akadály. Kb. 35 mm széles és 18–22 mm magas. Az elemek kissé nyúljanak egymásba, majd csoportosítsd őket.</span></div>
+<div class="idea-card"><img src="https://bsuszter.github.io/digitalis-eszkoztar/images/kresz-tanpalya/kiegeszito-gyalogos.svg" alt="Kis gyalogos játékfigura kerek talpon, jelzett méretekkel" loading="lazy" style="width:100%;height:auto;display:block;border-radius:12px;margin:0 0 12px"><strong>C · Gyalogosfigura</strong><span><em>Alkotói feladat</em><br>Felnőtt: 35 mm, gyerek: 30 mm magas (talp nélkül). Stabilizáló talp: legfeljebb 12 mm széles, 2 mm vastag. Legyen felismerhető és megálló.</span></div>
 </div>
 
 <div class="quick-note"><strong>Fontos</strong><span>A bója és a korlát méretei ehhez a feladathoz adott tervezési célok; a gyalogos méretei a közös műszaki szabványból származnak. Minden modell legyen nyomtatható, ne tartalmazzon nagyon vékony, könnyen letörő részeket.</span></div>
