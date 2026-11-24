@@ -80,6 +80,12 @@ Ha a jelzőlámpa-tartót választod, egy valódi elektronikai elem köré terve
 </div>
 
 <div class="project-panel project-panel--green">
+  <h2>🚧 Választható Tinkercad-feladat: KRESZ-kiegészítő műhely</h2>
+  <p>Elkészültél a közlekedési táblával? Válassz egy új, mozgatható elemet a közös dobozos játékhoz: <strong>forgalomterelő bóját, útlezáró korlátot vagy gyalogost</strong>! Önálló modellezés, tudástári segítség és <strong>egyetlen képernyőképes beadás</strong> – STL nélkül.</p>
+  <p><a href="kresz-kiegeszito-muhely/"><strong>A kiegészítő műhely megnyitása →</strong></a></p>
+</div>
+
+<div class="project-panel project-panel--green">
   <h2>✒️ 4. lecke: készítsd el az első matricád Inkscape-ben!</h2>
   <p>Az első vektorgrafikus jelzésünket két alakzatból rajzoljuk: <strong>22 mm-es piros kör + 12 × 4 mm-es fehér sáv</strong>. Új program, közös beállítások, pontos méretek, majd egy szerkeszthető SVG beadása.</p>
   <p><a href="inkscape-elso-jelzes/"><strong>Első Inkscape-lecke megnyitása →</strong></a></p>
